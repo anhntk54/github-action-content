@@ -23,6 +23,5 @@ jobs:
           accountId: 'b367414b5bc07c5e6e07c61d633ee0af'
           projectName: 'demo-calculator'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
-          branch: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.number) || github.ref_name }}
-          directory: './build'
+          branch: main
           wranglerVersion: '3'
