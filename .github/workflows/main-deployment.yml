@@ -13,8 +13,6 @@ jobs:
     name: Build and Deploy
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - name: Deploy to Cloudflare Pages
         id: cloudflare_deployment
         uses: cloudflare/pages-action@v1
