@@ -19,7 +19,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "data:update-network-info": "node ./scripts/updateDataNetworkInfo.js"
+  },
+  "devDependencies": {
+    "@polkadot/api": "^10.9.1"
   },
   "eslintConfig": {
     "extends": [
