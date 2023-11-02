@@ -19,7 +19,7 @@ jobs:
           apiToken: qPCIv1BC76bNcuSZqjfeAX0Rmlr3aVdWKoDY9gpG
           accountId: 'b367414b5bc07c5e6e07c61d633ee0af'
           projectName: 'demo-calculator'
-          gitHubToken: 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
+          gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
           branch: 'main'
           directory: '../build'
           wranglerVersion: '3'
