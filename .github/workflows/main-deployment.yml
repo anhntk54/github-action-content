@@ -21,5 +21,5 @@ jobs:
           projectName: 'demo-calculator'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
           branch: 'main'
-          directory: './build'
+          directory: '../build'
           wranglerVersion: '3'
