@@ -16,7 +16,7 @@ jobs:
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: 'Ds8b00YrNZ_wCUj-RELht_hPZazCsnWHTq-oSdN1'
+          apiToken:  ${{ secrets.GH_AUTOMATION_TOKEN }}
           accountId: 'b367414b5bc07c5e6e07c61d633ee0af'
           projectName: 'demo-calculator'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
