@@ -23,5 +23,5 @@ jobs:
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
           branch: 'main'
           workingDirectory: './'
-          directory: './build'
+          directory: '../build'
           wranglerVersion: '3'
