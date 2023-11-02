@@ -13,6 +13,12 @@ jobs:
     name: Build and Deploy
     steps:
       - uses: actions/checkout@v3
+      - name: Set up Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
