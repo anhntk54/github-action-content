@@ -17,9 +17,9 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: qPCIv1BC76bNcuSZqjfeAX0Rmlr3aVdWKoDY9gpG
-          accountId: 'b367414b5bc07c5e6e07c61d633ee0af1'
+          accountId: 'b367414b5bc07c5e6e07c61d633ee0af'
           projectName: 'demo-calculator'
-          gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
+          gitHubToken: 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
           branch: 'main'
           directory: '../build'
           wranglerVersion: '3'
