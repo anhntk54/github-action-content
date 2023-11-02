@@ -21,6 +21,7 @@ jobs:
         with:
           apiToken: 'tVMhN3GZ0rRmAPFdn06G1pZp3q8EeZUMB16eXvGF'
           accountId: 'b367414b5bc07c5e6e07c61d633ee0af'
+          projectName: 'sw-github-action'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
           branch: 'main'
           workingDirectory: './'
