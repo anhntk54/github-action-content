@@ -14,7 +14,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Deploy to Cloudflare Pages
-        id: cloudflare_deployment
         uses: cloudflare/pages-action@v1
         with:
           apiToken: 'Ds8b00YrNZ_wCUj-RELht_hPZazCsnWHTq-oSdN1'
