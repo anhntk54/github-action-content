@@ -17,6 +17,16 @@ jobs:
         uses: actions/setup-node@v3
       - name: Install dependencies
         run: npm install
+      - name: Update data
+        run: |
+          npm install --no-save | grep -v 'YN0013'
+          npm run data:update-network-info
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Scheduler
+          author_email: scheduler@github.io
+          message: 'Update data'
       - name: Build
         run: npm run build
       - name: Deploy to Cloudflare Pages
