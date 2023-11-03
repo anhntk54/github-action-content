@@ -16,7 +16,7 @@
   "scripts": {
     "start": "PORT=3003 react-scripts start",
     "copy": "cp -r data build/",
-    "build": "PUBLIC_URL=/ react-scripts build && npm run copy",
+    "build": "PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
