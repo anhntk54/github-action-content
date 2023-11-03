@@ -20,12 +20,6 @@ jobs:
       - name: Update data
         run: |
           npm run data:update-network-info
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: Scheduler
-          author_email: scheduler@github.io
-          message: 'Update data'
       - name: Build
         run: npm run build
       - name: Deploy to Cloudflare Pages
@@ -38,3 +32,10 @@ jobs:
           branch: 'main'
           directory: './build'
           wranglerVersion: '3'
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Scheduler
+          author_email: scheduler@github.io
+          message: 'Update data'
