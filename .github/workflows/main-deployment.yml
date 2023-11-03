@@ -21,7 +21,7 @@ jobs:
         run: |
           npm run data:update-network-info
       - name: Build
-        run: npm run build ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: npm run build ${{ secrets.CLOUDFLARE_API_TOKEN }} ${{ secrets.GH_AUTOMATION_TOKEN }}
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
