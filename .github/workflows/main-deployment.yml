@@ -19,7 +19,7 @@ jobs:
         run: npm install
       - name: Update data
         run: |
-          npm run data:update-network-info
+          npm run data:update-network-info ${{ secrets.GH_AUTOMATION_TOKEN }} dev_anhnt
       - name: Build
         run: npm run build ${{ secrets.CLOUDFLARE_API_TOKEN }} ${{ secrets.GH_AUTOMATION_TOKEN }}
       - name: Deploy to Cloudflare Pages
