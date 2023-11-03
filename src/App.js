@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import a from './data/netWorkInfo.json';
 
 function App() {
   return (
@@ -9,7 +10,15 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        co vao day nua lp
+        {Object.entries(a).map(([key, value]) => {
+            return (
+                <div>
+                <p>{key}</p>
+                <p>{value.usd}</p>
+                <p>{value.total_size_network}</p>
+                </div>
+            )
+        })}
         <a
           className="App-link"
           href="https://reactjs.org"
