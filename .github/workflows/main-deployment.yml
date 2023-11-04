@@ -18,14 +18,14 @@ jobs:
       - uses: actions/checkout@v3
       - name: Build Preview
         run: |
-          yarn install --immutable | grep -v 'YN0013'
+          npm install --no-save | grep -v 'YN0013'
           npm run data:update-network-info
           CI=false yarn build
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: qPCIv1BC76bNcuSZqjfeAX0Rmlr3aVdWKoDY9gpG
-          accountId: b367414b5bc07c5e6e07c61d633ee0af
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'demo-calculator'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
           branch: 'main'
