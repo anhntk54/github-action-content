@@ -16,15 +16,15 @@
     "usd": 0.01
   },
   "sora-staging": {
-    "total_size_network": "7831574",
+    "total_size_network": "7831952",
     "usd": 0.01
   },
   "tangle": {
-    "total_size_network": "1292630",
+    "total_size_network": "1292957",
     "usd": 0.01
   },
   "ternoa": {
-    "total_size_network": "7753576",
+    "total_size_network": "7753960",
     "usd": 0.01
   }
 }
