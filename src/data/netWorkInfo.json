@@ -12,19 +12,19 @@
     "usd": 0.01
   },
   "gemini-3g": {
-    "total_size_network": "580428416608000",
+    "total_size_network": "609292064736000",
     "usd": 0.01
   },
   "sora-staging": {
-    "total_size_network": "7831952",
+    "total_size_network": "7832618",
     "usd": 0.01
   },
   "tangle": {
-    "total_size_network": "1292957",
+    "total_size_network": "1293529",
     "usd": 0.01
   },
   "ternoa": {
-    "total_size_network": "7753960",
+    "total_size_network": "7754630",
     "usd": 0.01
   }
 }
