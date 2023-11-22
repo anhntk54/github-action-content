@@ -1,14 +1,13 @@
-const {ApiPromise, WsProvider} = require('@polkadot/api');
 const fs = require('fs/promises');
 const pkgJson = require('../package.json');
 
 async function main() {
-    const {version, oldVersion} = pkgJson;
-    if (version === oldVersion) {
-        pkgJson.buildNumber = parseInt(pkgJson.buildNumber) + 1;
+    const {version, buildNumber} = pkgJson;
+    const textVersion = version.replaceAll('.', '')
+    if (buildNumber.startsWith(textVersion)) {
+        pkgJson.buildNumber = parseInt(buildNumber) + 1;
     }else {
-        pkgJson.buildNumber = 1;
-        pkgJson.oldVersion = version;
+        pkgJson.buildNumber = `${textVersion}001`;
     }
     console.log('a')
     await fs.writeFile('package.json', JSON.stringify(pkgJson, null, 2));
