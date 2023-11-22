@@ -3,8 +3,13 @@ const fs = require('fs/promises');
 const pkgJson = require('../package.json');
 
 async function main() {
-    pkgJson.buildNumber = parseInt(pkgJson.buildNumber) + 1;
-    console.log(pkgJson)
+    const {version, oldVersion} = pkgJson;
+    if (version === oldVersion) {
+        pkgJson.buildNumber = parseInt(pkgJson.buildNumber) + 1;
+    }else {
+        pkgJson.buildNumber = 1;
+        pkgJson.oldVersion = version;
+    }
     await fs.writeFile('package.json', JSON.stringify(pkgJson, null, 2));
     console.log(`You are update build number to ${pkgJson.buildNumber} `)
 }
