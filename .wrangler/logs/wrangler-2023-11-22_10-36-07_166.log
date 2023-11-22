@@ -1,0 +1,369 @@
+
+--- 2023-11-22T10:36:07.338Z debug
+🐛 Writing logs to ".wrangler/logs/wrangler-2023-11-22_10-36-07_166.log"
+---
+
+--- 2023-11-22T10:36:07.338Z warn
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1m`wrangler pages publish` is deprecated and will be removed in the next major version.[0m
+
+  Please use `wrangler pages deploy` instead, which accepts exactly the same arguments.
+
+
+---
+
+--- 2023-11-22T10:36:07.346Z debug
+Saving to cache: {"account":{"id":"b367414b5bc07c5e6e07c61d633ee0af","name":""}}
+---
+
+--- 2023-11-22T10:36:07.377Z warn
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mWarning: Your working directory is a git repo and has uncommitted changes[0m
+
+  To silence this warning, pass in --commit-dirty=true
+
+
+---
+
+--- 2023-11-22T10:36:07.378Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/b367414b5bc07c5e6e07c61d633ee0af/pages/projects/demo-calculator
+---
+
+--- 2023-11-22T10:36:07.379Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.379Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.379Z debug
+-- END CF API REQUEST
+---
+
+--- 2023-11-22T10:36:07.593Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2023-11-22T10:36:07.593Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.593Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.593Z debug
+-- END CF API RESPONSE
+---
+
+--- 2023-11-22T10:36:07.604Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/accounts/b367414b5bc07c5e6e07c61d633ee0af/pages/projects/demo-calculator/upload-token
+---
+
+--- 2023-11-22T10:36:07.604Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.604Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.604Z debug
+-- END CF API REQUEST
+---
+
+--- 2023-11-22T10:36:07.731Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2023-11-22T10:36:07.731Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.731Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.731Z debug
+-- END CF API RESPONSE
+---
+
+--- 2023-11-22T10:36:07.731Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/pages/assets/check-missing
+---
+
+--- 2023-11-22T10:36:07.731Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.731Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.731Z debug
+-- END CF API REQUEST
+---
+
+--- 2023-11-22T10:36:07.936Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2023-11-22T10:36:07.936Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.936Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.936Z debug
+-- END CF API RESPONSE
+---
+
+--- 2023-11-22T10:36:07.937Z log
+Uploading... (10/14)
+---
+
+--- 2023-11-22T10:36:07.939Z debug
+POST /pages/assets/upload
+---
+
+--- 2023-11-22T10:36:07.939Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/pages/assets/upload
+---
+
+--- 2023-11-22T10:36:07.939Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.939Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.939Z debug
+-- END CF API REQUEST
+---
+
+--- 2023-11-22T10:36:07.940Z debug
+POST /pages/assets/upload
+---
+
+--- 2023-11-22T10:36:07.941Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/pages/assets/upload
+---
+
+--- 2023-11-22T10:36:07.941Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.941Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.941Z debug
+-- END CF API REQUEST
+---
+
+--- 2023-11-22T10:36:07.946Z debug
+POST /pages/assets/upload
+---
+
+--- 2023-11-22T10:36:07.948Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/pages/assets/upload
+---
+
+--- 2023-11-22T10:36:07.948Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.949Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:07.949Z debug
+-- END CF API REQUEST
+---
+
+--- 2023-11-22T10:36:08.434Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2023-11-22T10:36:08.434Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:08.434Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:08.434Z debug
+-- END CF API RESPONSE
+---
+
+--- 2023-11-22T10:36:08.434Z debug
+result: null
+---
+
+--- 2023-11-22T10:36:08.434Z log
+Uploading... (11/14)
+---
+
+--- 2023-11-22T10:36:08.633Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2023-11-22T10:36:08.633Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:08.633Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:08.633Z debug
+-- END CF API RESPONSE
+---
+
+--- 2023-11-22T10:36:08.633Z debug
+result: null
+---
+
+--- 2023-11-22T10:36:08.633Z log
+Uploading... (12/14)
+---
+
+--- 2023-11-22T10:36:09.284Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2023-11-22T10:36:09.284Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:09.284Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:09.284Z debug
+-- END CF API RESPONSE
+---
+
+--- 2023-11-22T10:36:09.284Z debug
+result: null
+---
+
+--- 2023-11-22T10:36:09.284Z log
+Uploading... (14/14)
+---
+
+--- 2023-11-22T10:36:09.284Z log
+✨ Success! Uploaded 4 files (10 already uploaded) (1.55 sec)
+
+---
+
+--- 2023-11-22T10:36:09.284Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/pages/assets/upsert-hashes
+---
+
+--- 2023-11-22T10:36:09.284Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:09.284Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:09.284Z debug
+-- END CF API REQUEST
+---
+
+--- 2023-11-22T10:36:09.549Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2023-11-22T10:36:09.549Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:09.549Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:09.549Z debug
+-- END CF API RESPONSE
+---
+
+--- 2023-11-22T10:36:09.550Z debug
+-- START CF API REQUEST: POST https://api.cloudflare.com/client/v4/accounts/b367414b5bc07c5e6e07c61d633ee0af/pages/projects/demo-calculator/deployments
+---
+
+--- 2023-11-22T10:36:09.550Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:09.550Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:09.550Z debug
+-- END CF API REQUEST
+---
+
+--- 2023-11-22T10:36:10.081Z debug
+-- START CF API RESPONSE: OK 200
+---
+
+--- 2023-11-22T10:36:10.081Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:10.081Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:10.081Z debug
+-- END CF API RESPONSE
+---
+
+--- 2023-11-22T10:36:10.081Z debug
+Saving to cache: {"account_id":"b367414b5bc07c5e6e07c61d633ee0af","project_name":"demo-calculator"}
+---
+
+--- 2023-11-22T10:36:10.081Z log
+✨ Deployment complete! Take a peek over at https://33c0dfd4.demo-calculator.pages.dev
+---
+
+--- 2023-11-22T10:36:10.083Z debug
+-- START CF API REQUEST: GET https://api.cloudflare.com/client/v4/user
+---
+
+--- 2023-11-22T10:36:10.083Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:10.083Z debug
+INIT: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:10.083Z debug
+-- END CF API REQUEST
+---
+
+--- 2023-11-22T10:36:10.176Z debug
+-- START CF API RESPONSE: Forbidden 403
+---
+
+--- 2023-11-22T10:36:10.176Z debug
+HEADERS: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:10.176Z debug
+RESPONSE: omitted; set WRANGLER_LOG_SANITIZE=false to include sanitized data
+---
+
+--- 2023-11-22T10:36:10.176Z debug
+-- END CF API RESPONSE
+---
+
+--- 2023-11-22T10:36:10.176Z debug
+Metrics dispatcher: Dispatching disabled - would have sent {"type":"event","name":"create pages deployment","properties":{}}.
+---
