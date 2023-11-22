@@ -16,6 +16,7 @@ jobs:
       - name: Build Preview
         run: |
           npm install --no-save | grep -v 'YN0013'
+          npm run data:update-build-number
           CI=false yarn build
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1

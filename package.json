@@ -14,7 +14,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "buildNumber": "1",
+  "buildNumber": 3,
   "scripts": {
     "start": "PORT=3003 react-scripts start",
     "webpack": "webpack --mode development --watch",
@@ -25,7 +25,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "data:update-network-info": "node ./scripts/updateDataNetworkInfo.js"
+    "data:update-network-info": "node ./scripts/updateDataNetworkInfo.js",
+    "data:update-build-number": "node ./scripts/updatePackage.js"
   },
   "devDependencies": {
     "@babel/core": "^7.23.3",
