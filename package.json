@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "oldVersion": "0.1.0",
-  "buildNumber": 4,
+  "buildNumber": 5,
   "scripts": {
     "start": "PORT=3003 react-scripts start",
     "webpack": "webpack --mode development --watch",
