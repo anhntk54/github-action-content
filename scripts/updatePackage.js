@@ -6,7 +6,6 @@ async function main() {
     pkgJson.buildNumber = parseInt(pkgJson.buildNumber) + 1;
     console.log(pkgJson)
     await fs.writeFile('package.json', JSON.stringify(pkgJson, null, 2));
-    await fs.writeFile('a.json', JSON.stringify(pkgJson, null, 2));
     console.log(`You are update build number to ${pkgJson.buildNumber} `)
 }
 
