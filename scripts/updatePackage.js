@@ -10,6 +10,7 @@ async function main() {
         pkgJson.buildNumber = 1;
         pkgJson.oldVersion = version;
     }
+    console.log('a')
     await fs.writeFile('package.json', JSON.stringify(pkgJson, null, 2));
     console.log(`You are update build number to ${pkgJson.buildNumber} `)
 }
