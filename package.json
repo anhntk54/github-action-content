@@ -14,7 +14,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "oldVersion": "0.1.0",
+  "oldVersion": "0.1.1s",
   "buildNumber": 6,
   "scripts": {
     "start": "PORT=3003 react-scripts start",
