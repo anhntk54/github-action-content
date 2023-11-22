@@ -10,6 +10,7 @@ module.exports = {
     externals: {
         react: 'react'
     },
+    mode: 'development',
     devServer: {
         static: {
             directory: path.join(__dirname, 'dist'),
