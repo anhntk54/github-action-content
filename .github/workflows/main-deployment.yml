@@ -3,9 +3,11 @@ on:
   pull_request:
     branches:
       - main
+      - dev
   push:
     branches:
       - main
+      - dev
 
 jobs:
   master:
@@ -29,7 +31,8 @@ jobs:
           directory: './build'
           wranglerVersion: '3'
 
-      - name: Commit changes
+      - if: "startsWith(github.ref_name, 'main')"
+        name: Commit changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: Scheduler
