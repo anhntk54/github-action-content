@@ -22,9 +22,7 @@ jobs:
           npm install --no-save | grep -v 'YN0013'
           if [ ${{ github.ref_name }} == 'main' ]; then
             npm run data:update-build-number
-            echo "is MAIN branch"
-          else
-           echo "is DEV branch"
+            echo "is MAIN2 branch"
           fi
           CI=false yarn build
       - name: Deploy to Cloudflare Pages
