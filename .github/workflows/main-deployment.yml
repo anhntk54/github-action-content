@@ -20,7 +20,12 @@ jobs:
       - name: Build Preview
         run: |
           npm install --no-save | grep -v 'YN0013'
-          npm run data:update-build-number
+          if [ ${{ github.ref_name }} == 'main' ]; then
+            npm run data:update-build-number
+            echo "is MAIN branch"
+          else
+           echo "is DEV branch"
+          fi
           CI=false yarn build
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
