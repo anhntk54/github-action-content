@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         Build Number: {pkgJson.buildNumber}
-          <p>Nhanh main</p>
+          <p>Nhanh main dev</p>
       </header>
     </div>
   );
