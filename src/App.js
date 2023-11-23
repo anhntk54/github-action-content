@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         Build Number: {pkgJson.buildNumber}
+          nhanhs dev
       </header>
     </div>
   );
