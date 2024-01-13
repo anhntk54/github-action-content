@@ -35,7 +35,7 @@ jobs:
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
         run: |
           yarn install --immutable | grep -v 'YN0013'
-          if [ ${{ github.event.inputs.environment }} == 'webapp-dev' ]; then
+          if [ ${{ github.event.inputs.contentLocale }} == '1' ]; then
             yarn run update-content-data
           else
             yarn update-data ${{ github.event.inputs.environment }} ${{ github.event.inputs.folder }}
