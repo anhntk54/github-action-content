@@ -84,7 +84,7 @@ const main = async () => {
         if (value.length > 0) {
             value.forEach((item) => {
                 const {folderName, locale, content} = item;
-            const fileName = `${locale}.md`;
+            const fileName = `${locale}${isProduction ? '' : 'preview'}.md`;
             console.log(folderName, fileName)
             acc.push(createData(folderName, fileName, content));
             })
@@ -92,18 +92,6 @@ const main = async () => {
       return acc;
     }, [])
     await Promise.all(promiseList);
-    // console.log(dataContent);
-    // for (const item of dataContent) {
-    //     const {folderName, fileName, content} = item;
-    //     console.log(folderName, fileName);
-    //     const folderPath = savePathFolder(folderName);
-    //     if (!fs.existsSync(folderPath)) {
-    //         fs.mkdirSync(folderPath, {recursive: true});
-    //     }
-    //     // const fileName = `${item.slug}.json`;
-    //     const filePath = savePath(folderName, fileName);
-    //     await writeFile(filePath, content);
-    // }
 }
 
 main().catch((error) => console.error(error));
