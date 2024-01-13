@@ -3,15 +3,14 @@ import axios from "axios";
 import {writeFile} from "./utils.mjs";
 
 const STRAPI_URL = 'https://37b6-14-181-208-33.ngrok-free.app';
-const RESOURCE_URL = 'https://static-data.subwallet.app';
-const savePath = (folder, fileName) => `data/${folder}/${fileName || 'list.json'}`;
-const savePathFolder = (folder, fileName) => `data/${folder}`;
+const savePath = (folder, fileName) => `data/${folder}/${fileName}`;
+const savePathFolder = (folder) => `data/${folder}`;
 
 const fetchAndProcessData = async (url) => {
     const results = await axios.get(url);
     return results.data;
 }
-const createData = async (folderName, fileName, content) => {
+const createContentToFile = async (folderName, fileName, content) => {
         const folderPath = savePathFolder(folderName);
         if (!fs.existsSync(folderPath)) {
             fs.mkdirSync(folderPath, {recursive: true});
@@ -33,7 +32,7 @@ const main = async () => {
                 const {folderName, locale, content} = item;
             const fileName = `${locale}${isProduction ? '' : '-preview'}.md`;
             console.log(folderName, fileName)
-            acc.push(createData(folderName, fileName, content));
+            acc.push(createContentToFile(folderName, fileName, content));
             })
         }
       return acc;
