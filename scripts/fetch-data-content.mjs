@@ -63,16 +63,7 @@ const fetchAndProcessData = async (url) => {
     //     return {...item, ...dataImages};
     // }));
 }
-
-
-const main = async () => {
-    console.log('Start fetching data...');
-    const url =  `${STRAPI_URL}/api/list/content-i18n`
-    const dataContent = await fetchAndProcessData(url);
-    console.log(dataContent);
-    for (const item of dataContent) {
-        const {folderName, fileName, content} = item;
-        console.log(folderName, fileName);
+const createData = async (folderName, fileName, content) => {
         const folderPath = savePathFolder(folderName);
         if (!fs.existsSync(folderPath)) {
             fs.mkdirSync(folderPath, {recursive: true});
@@ -80,7 +71,39 @@ const main = async () => {
         // const fileName = `${item.slug}.json`;
         const filePath = savePath(folderName, fileName);
         await writeFile(filePath, content);
-    }
+}
+
+const main = async () => {
+    console.log('Start fetching data...');
+    const url =  `${STRAPI_URL}/api/list/content-i18n`
+    const dataContent = await fetchAndProcessData(url);
+
+    const environment = process.argv[2];
+    const isProduction = environment === 'production';
+    const promiseList = Object.entries(dataContent).reduce((acc, [key, value]) => {
+        if (value.length > 0) {
+            value.forEach((item) => {
+                const {folderName, locale, content} = item;
+            const fileName = `${locale}.md`;
+            console.log(folderName, fileName)
+            acc.push(createData(folderName, fileName, content));
+            })
+        }
+      return acc;
+    }, [])
+    await Promise.all(promiseList);
+    // console.log(dataContent);
+    // for (const item of dataContent) {
+    //     const {folderName, fileName, content} = item;
+    //     console.log(folderName, fileName);
+    //     const folderPath = savePathFolder(folderName);
+    //     if (!fs.existsSync(folderPath)) {
+    //         fs.mkdirSync(folderPath, {recursive: true});
+    //     }
+    //     // const fileName = `${item.slug}.json`;
+    //     const filePath = savePath(folderName, fileName);
+    //     await writeFile(filePath, content);
+    // }
 }
 
 main().catch((error) => console.error(error));
