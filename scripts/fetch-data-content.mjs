@@ -1,7 +1,6 @@
 import * as fs from "fs";
 import axios from "axios";
-import path from "path";
-import {writeFile, writeJSONFile} from "./utils.mjs";
+import {writeFile} from "./utils.mjs";
 
 const STRAPI_URL = 'https://37b6-14-181-208-33.ngrok-free.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
