@@ -3,82 +3,8 @@ import axios from "axios";
 import path from "path";
 import {writeFile, writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'http://127.0.0.1:1337';
+const STRAPI_URL = 'https://37b6-14-181-208-33.ngrok-free.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
-
-const cacheConfigs = [
-    {
-        url: `${STRAPI_URL}/api/list/chain`,
-        folder: 'chains',
-        fileName: 'list.json',
-        imageFields: ['icon'],
-        removeFields: ['id'],
-        preview: 'preview.json',
-        additionalProcess: [{
-            fileName: 'logo_map.json',
-            processor: (data, preview_data) => {
-                return Object.fromEntries(preview_data.map((c) => ([c.slug, c.icon])));
-            },
-        }]
-    },
-    {
-        url: `${STRAPI_URL}/api/list/dapp`,
-        folder: 'dapps',
-        fileName: 'list.json',
-        imageFields: ['icon', 'preview_image'],
-        removeFields: [],
-        preview: 'preview.json',
-    },
-    {
-        url: `${STRAPI_URL}/api/list/category`,
-        folder: 'categories',
-        fileName: 'list.json',
-        imageFields: [],
-        removeFields: ['id'],
-        preview: 'preview.json',
-    },
-    {
-        url: `${STRAPI_URL}/api/list/airdrop-campaign`,
-        folder: 'airdrop-campaigns',
-        fileName: 'list.json',
-        imageFields: ['logo', 'backdrop_image'],
-        removeFields: [],
-        preview: 'preview.json',
-    },
-    {
-        url: `${STRAPI_URL}/api/list/crowdloan-fund`,
-        folder: 'crowdloan-funds',
-        fileName: 'list.json',
-        imageFields: [],
-        removeFields: ['id'],
-        preview: 'preview.json',
-    },
-    {
-        url: `${STRAPI_URL}/api/list/marketing-campaign`,
-        folder: 'marketing-campaigns',
-        fileName: 'list.json',
-        imageFields: [],
-        removeFields: [],
-        preview: 'preview.json',
-    },
-    {
-        url: `${STRAPI_URL}/api/list/buy-service-info`,
-        folder: 'buy-service-infos',
-        fileName: 'list.json',
-        imageFields: [],
-        removeFields: [],
-        preview: 'preview.json',
-    },
-    {
-        url: `${STRAPI_URL}/api/list/buy-token-config`,
-        folder: 'buy-token-configs',
-        fileName: 'list.json',
-        imageFields: [],
-        removeFields: [],
-        preview: 'preview.json',
-    }
-]
-
 const savePath = (folder, fileName) => `data/${folder}/${fileName || 'list.json'}`;
 const savePathFolder = (folder, fileName) => `data/${folder}`;
 const saveImagesPath = (folder) => `data/${folder}/images`;
