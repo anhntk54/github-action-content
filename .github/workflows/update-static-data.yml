@@ -1,0 +1,60 @@
+name: Push Main
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: 'Branch name'
+        required: true
+        type: string
+        default: main
+      environment:
+        description: Environment
+        required: true
+        type: choice
+        default: development
+        options:
+          - development
+          - production
+      folder:
+        description: 'Folder name'
+        required: false
+        type: string
+      contentLocale:
+        description: 'Content locale'
+        required: false
+        type: string
+
+jobs:
+  master:
+    runs-on: ubuntu-22.04
+    name: Build and Deploy
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update data
+        env:
+          STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
+        run: |
+          yarn install --immutable | grep -v 'YN0013'
+          if [ ${{ github.event.inputs.environment }} == 'webapp-dev' ]; then
+            yarn run update-content-data
+          else
+            yarn update-data ${{ github.event.inputs.environment }} ${{ github.event.inputs.folder }}
+          fi
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: 'demo-calculator'
+          gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
+          branch: 'main'
+          directory: './build'
+          wranglerVersion: '3'
+
+      - if: "github.ref_name == 'main' && github.event_name == 'push'"
+        name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: Scheduler
+          author_email: scheduler@github.io
+          message: 'Update data'
