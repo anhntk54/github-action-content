@@ -48,7 +48,7 @@ jobs:
           projectName: 'demo-calculator'
           gitHubToken: ${{ secrets.GH_AUTOMATION_TOKEN }}
           branch: 'main'
-          directory: './build'
+          directory: './data'
           wranglerVersion: '3'
 
       - if: "github.ref_name == 'main' && github.event_name == 'push'"
