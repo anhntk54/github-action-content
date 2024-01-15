@@ -5,7 +5,7 @@ export async function writeFile(filePath, data) {
         if (err) {
             console.log(err);
         } else {
-            console.log("JSON saved to " + filePath);
+            console.log("Saved file to " + filePath);
         }
     })
 }
