@@ -19,8 +19,8 @@ on:
         description: 'Folder name'
         required: false
         type: string
-      contentLocale:
-        description: 'Content locale'
+      markdownContent:
+        description: 'Markdown content'
         required: false
         type: string
 
@@ -35,7 +35,7 @@ jobs:
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
         run: |
           yarn install --immutable | grep -v 'YN0013'
-          if [ ${{ github.event.inputs.contentLocale }} == '1' ]; then
+          if [ ${{ github.event.inputs.markdownContent }} == '1' ]; then
             yarn run update-content-data ${{ github.event.inputs.environment }}
           else
             yarn update-data ${{ github.event.inputs.environment }} ${{ github.event.inputs.folder }}

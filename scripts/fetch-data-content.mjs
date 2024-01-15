@@ -12,8 +12,6 @@ const fetchAndProcessData = async (url) => {
 }
 const createContentToFile = async (folderName, fileName, content) => {
     const folderPath = savePathFolder(folderName);
-    console.log('folderPath', folderPath)
-    console.log(fs.existsSync(folderPath))
     if (!fs.existsSync(folderPath)) {
         fs.mkdirSync(folderPath, {recursive: true});
     }
@@ -25,8 +23,6 @@ const main = async () => {
     console.log('Start fetching data...');
     const url = `${STRAPI_URL}/api/list/markdown-content`
     const dataContent = await fetchAndProcessData(url);
-    console.log('d', dataContent)
-
     const environment = process.argv[2];
     const isProduction = environment === 'production';
     const promiseList = Object.entries(dataContent).reduce((acc, [key, value]) => {
