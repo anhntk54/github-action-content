@@ -36,7 +36,7 @@ jobs:
         run: |
           yarn install --immutable | grep -v 'YN0013'
           if [ ${{ github.event.inputs.markdownContent }} == '1' ]; then
-            yarn run update-content-data ${{ github.event.inputs.environment }}
+            yarn run update-content-data ${{ github.event.inputs.environment }} ${{ github.event.inputs.folder }}
           else
             yarn update-data ${{ github.event.inputs.environment }} ${{ github.event.inputs.folder }}
           fi

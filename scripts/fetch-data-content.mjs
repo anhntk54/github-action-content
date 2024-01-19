@@ -3,19 +3,19 @@ import axios from "axios";
 import {writeFile} from "./utils.mjs";
 
 const STRAPI_URL = 'https://b063-14-181-208-33.ngrok-free.app';
-const savePath = (folder, fileName) => `data/markdown-content/${folder}/${fileName}`;
-const savePathFolder = (folder) => `data/markdown-content/${folder}`;
+const savePath = (folderParent, folder, fileName) => `data/${folderParent}/${folder}/${fileName}`;
+const savePathFolder = (folderParent, folder) => `data/${folderParent}/${folder}`;
 
 const fetchAndProcessData = async (url) => {
     const results = await axios.get(url);
     return results.data;
 }
-const createContentToFile = async (folderName, fileName, content) => {
-    const folderPath = savePathFolder(folderName);
+const createContentToFile = async (folderParent, folderName, fileName, content) => {
+    const folderPath = savePathFolder(folderParent, folderName);
     if (!fs.existsSync(folderPath)) {
         fs.mkdirSync(folderPath, {recursive: true});
     }
-    const filePath = savePath(folderName, fileName);
+    const filePath = savePath(folderParent, folderName, fileName);
     await writeFile(filePath, content);
 }
 
@@ -29,6 +29,7 @@ const main = async () => {
     const dataContent = await fetchAndProcessData(url);
     // console.log(dataContent)
     const environment = process.argv[2];
+    const folderParent = process.argv[3];
     const isProduction = environment === 'production';
     const promiseList = dataContent.reduce((acc, value) => {
         const {folder, locale, localizations, content, description} = value;
@@ -44,10 +45,10 @@ const main = async () => {
                 const contentSave = {
                     content, description
                 }
-                acc.push(createContentToFile(folder, fileName, JSON.stringify(contentSave, null, 2)));
+                acc.push(createContentToFile(folderParent, folder, fileName, JSON.stringify(contentSave, null, 2)));
             }
         }
-        acc.push(createContentToFile(folder, fileName, JSON.stringify(contentSave, null, 2)));
+        acc.push(createContentToFile(folderParent, folder, fileName, JSON.stringify(contentSave, null, 2)));
         return acc;
     }, [])
     await Promise.all(promiseList);
