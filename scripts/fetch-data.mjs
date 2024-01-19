@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://content.subwallet.app';
+const STRAPI_URL = 'https://696a-14-181-208-33.ngrok-free.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -72,6 +72,14 @@ const cacheConfigs = [
     {
         url: `${STRAPI_URL}/api/list/buy-token-config`,
         folder: 'buy-token-configs',
+        fileName: 'list.json',
+        imageFields: [],
+        removeFields: [],
+        preview: 'preview.json',
+    },
+    {
+        url: `${STRAPI_URL}/api/list/markdown-content`,
+        folder: 'Term Of Use',
         fileName: 'list.json',
         imageFields: [],
         removeFields: [],
