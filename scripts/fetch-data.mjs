@@ -79,7 +79,7 @@ const cacheConfigs = [
     },
     {
         url: `${STRAPI_URL}/api/list/markdown-content`,
-        folder: 'Term Of Use',
+        folder: 'Term-Of-Use',
         fileName: 'list.json',
         imageFields: [],
         removeFields: [],
