@@ -243,7 +243,7 @@ const main = async () => {
 
             if (config.additionalProcess) {
                 for (const process of config.additionalProcess) {
-                    process(dataContent, previewData, config, lang);
+                    process(dataContent, previewData, config, lang, isProduction);
                 }
             }
 
