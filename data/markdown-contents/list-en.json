@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "folder": "123",
+    "description": null,
+    "content": "123 en",
+    "locale": "en"
+  },
+  {
+    "id": 3,
+    "folder": "345",
+    "description": null,
+    "content": "345 en",
+    "locale": "en"
+  }
+]
