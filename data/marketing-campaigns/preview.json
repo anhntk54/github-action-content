@@ -3,8 +3,8 @@
     "id": 9,
     "name": "Stake DOT earn many",
     "description": null,
-    "start_time": "2023-10-23T08:00:00.000Z",
-    "end_time": "2023-11-07T16:00:00.000Z",
+    "start_time": "2023-10-23T01:00:00.000Z",
+    "end_time": "2023-11-07T09:00:00.000Z",
     "condition": {
       "hasCrowdloan": true
     },
@@ -129,8 +129,8 @@
     "id": 11,
     "name": "Stake DOT earn many",
     "description": null,
-    "start_time": "2023-11-05T02:00:00.000Z",
-    "end_time": "2023-11-07T16:00:00.000Z",
+    "start_time": "2023-11-04T19:00:00.000Z",
+    "end_time": "2023-11-07T09:00:00.000Z",
     "condition": {
       "hasCrowdloan": true
     },
@@ -214,8 +214,8 @@
     "id": 14,
     "name": "Several networks notice",
     "description": "Several networks notice",
-    "start_time": "2023-12-21T17:00:00.000Z",
-    "end_time": "2024-01-03T16:00:00.000Z",
+    "start_time": "2023-12-21T10:00:00.000Z",
+    "end_time": "2024-01-03T09:00:00.000Z",
     "condition": {
       "hasCrowdloan": false
     },

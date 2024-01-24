@@ -44,8 +44,8 @@
     "auctionIndex": 52,
     "firstPeriod": 14,
     "lastPeriod": 21,
-    "startTime": "2023-10-24T01:48:00.000Z",
-    "endTime": "2025-08-26T01:48:00.000Z",
+    "startTime": "2023-10-23T18:48:00.000Z",
+    "endTime": "2025-08-25T18:48:00.000Z",
     "chain": "logion"
   },
   {
@@ -88,8 +88,8 @@
     "auctionIndex": 0,
     "firstPeriod": 14,
     "lastPeriod": 21,
-    "startTime": "2023-10-24T01:48:00.000Z",
-    "endTime": "2025-08-26T01:48:00.000Z",
+    "startTime": "2023-10-23T18:48:00.000Z",
+    "endTime": "2025-08-25T18:48:00.000Z",
     "chain": "parallel"
   },
   {
@@ -129,8 +129,8 @@
     "auctionIndex": 51,
     "firstPeriod": 14,
     "lastPeriod": 21,
-    "startTime": "2023-10-24T01:48:00.000Z",
-    "endTime": "2025-08-26T01:48:00.000Z",
+    "startTime": "2023-10-23T18:48:00.000Z",
+    "endTime": "2025-08-25T18:48:00.000Z",
     "chain": "polimec"
   },
   {
@@ -169,8 +169,8 @@
     "auctionIndex": 49,
     "firstPeriod": 14,
     "lastPeriod": 21,
-    "startTime": "2023-10-24T01:48:00.000Z",
-    "endTime": "2025-08-26T01:48:00.000Z",
+    "startTime": "2023-10-23T18:48:00.000Z",
+    "endTime": "2025-08-25T18:48:00.000Z",
     "chain": "energy_web_x"
   },
   {
@@ -222,8 +222,8 @@
     "auctionIndex": 51,
     "firstPeriod": 14,
     "lastPeriod": 21,
-    "startTime": "2023-10-24T01:48:00.000Z",
-    "endTime": "2025-08-26T01:48:00.000Z",
+    "startTime": "2023-10-23T18:48:00.000Z",
+    "endTime": "2025-08-25T18:48:00.000Z",
     "chain": "sora_substrate"
   },
   {
@@ -265,8 +265,8 @@
     "auctionIndex": 47,
     "firstPeriod": 14,
     "lastPeriod": 21,
-    "startTime": "2023-10-24T01:48:00.000Z",
-    "endTime": "2025-08-26T01:48:00.000Z",
+    "startTime": "2023-10-23T18:48:00.000Z",
+    "endTime": "2025-08-25T18:48:00.000Z",
     "chain": "invarch"
   },
   {
@@ -303,8 +303,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 15,
-    "startTime": "2023-08-01T01:48:00.000Z",
-    "endTime": "2024-04-09T01:48:00.000Z",
+    "startTime": "2023-07-31T18:48:00.000Z",
+    "endTime": "2024-04-08T18:48:00.000Z",
     "chain": null
   },
   {
@@ -344,8 +344,8 @@
     "auctionIndex": 45,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2023-08-01T01:48:00.000Z",
-    "endTime": "2025-06-03T01:48:00.000Z",
+    "startTime": "2023-07-31T18:48:00.000Z",
+    "endTime": "2025-06-02T18:48:00.000Z",
     "chain": "peaq"
   },
   {
@@ -387,8 +387,8 @@
     "auctionIndex": 45,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2023-08-01T01:48:00.000Z",
-    "endTime": "2025-06-03T01:48:00.000Z",
+    "startTime": "2023-07-31T18:48:00.000Z",
+    "endTime": "2025-06-02T18:48:00.000Z",
     "chain": null
   },
   {
@@ -427,8 +427,8 @@
     "auctionIndex": 42,
     "firstPeriod": 12,
     "lastPeriod": 19,
-    "startTime": "2023-05-09T01:48:00.000Z",
-    "endTime": "2025-03-11T01:48:00.000Z",
+    "startTime": "2023-05-08T18:48:00.000Z",
+    "endTime": "2025-03-10T18:48:00.000Z",
     "chain": "moonsama"
   },
   {
@@ -476,8 +476,8 @@
     "auctionIndex": 0,
     "firstPeriod": 12,
     "lastPeriod": 19,
-    "startTime": "2023-05-09T01:48:00.000Z",
-    "endTime": "2025-03-11T01:48:00.000Z",
+    "startTime": "2023-05-08T18:48:00.000Z",
+    "endTime": "2025-03-10T18:48:00.000Z",
     "chain": null
   },
   {
@@ -519,8 +519,8 @@
     "auctionIndex": 0,
     "firstPeriod": 12,
     "lastPeriod": 19,
-    "startTime": "2023-05-09T01:48:00.000Z",
-    "endTime": "2025-03-11T01:48:00.000Z",
+    "startTime": "2023-05-08T18:48:00.000Z",
+    "endTime": "2025-03-10T18:48:00.000Z",
     "chain": null
   },
   {
@@ -560,8 +560,8 @@
     "auctionIndex": 43,
     "firstPeriod": 12,
     "lastPeriod": 19,
-    "startTime": "2023-05-09T01:48:00.000Z",
-    "endTime": "2025-03-11T01:48:00.000Z",
+    "startTime": "2023-05-08T18:48:00.000Z",
+    "endTime": "2025-03-10T18:48:00.000Z",
     "chain": null
   },
   {
@@ -600,8 +600,8 @@
     "auctionIndex": 41,
     "firstPeriod": 11,
     "lastPeriod": 18,
-    "startTime": "2023-02-14T01:48:00.000Z",
-    "endTime": "2024-12-17T01:48:00.000Z",
+    "startTime": "2023-02-13T18:48:00.000Z",
+    "endTime": "2024-12-16T18:48:00.000Z",
     "chain": null
   },
   {
@@ -648,8 +648,8 @@
     "auctionIndex": 41,
     "firstPeriod": 11,
     "lastPeriod": 18,
-    "startTime": "2023-02-14T01:48:00.000Z",
-    "endTime": "2024-12-17T01:48:00.000Z",
+    "startTime": "2023-02-13T18:48:00.000Z",
+    "endTime": "2024-12-16T18:48:00.000Z",
     "chain": null
   },
   {
@@ -696,8 +696,8 @@
     "auctionIndex": 40,
     "firstPeriod": 11,
     "lastPeriod": 18,
-    "startTime": "2023-02-14T01:48:00.000Z",
-    "endTime": "2024-12-17T01:48:00.000Z",
+    "startTime": "2023-02-13T18:48:00.000Z",
+    "endTime": "2024-12-16T18:48:00.000Z",
     "chain": "hashedNetwork"
   },
   {
@@ -738,8 +738,8 @@
     "auctionIndex": 36,
     "firstPeriod": 11,
     "lastPeriod": 18,
-    "startTime": "2023-02-14T01:48:00.000Z",
-    "endTime": "2024-12-17T01:48:00.000Z",
+    "startTime": "2023-02-13T18:48:00.000Z",
+    "endTime": "2024-12-16T18:48:00.000Z",
     "chain": "bittensor"
   },
   {
@@ -780,8 +780,8 @@
     "auctionIndex": 0,
     "firstPeriod": 11,
     "lastPeriod": 18,
-    "startTime": "2023-02-14T01:48:00.000Z",
-    "endTime": "2024-12-17T01:48:00.000Z",
+    "startTime": "2023-02-13T18:48:00.000Z",
+    "endTime": "2024-12-16T18:48:00.000Z",
     "chain": null
   },
   {
@@ -820,8 +820,8 @@
     "auctionIndex": 35,
     "firstPeriod": 11,
     "lastPeriod": 18,
-    "startTime": "2023-02-14T01:48:00.000Z",
-    "endTime": "2024-12-17T01:48:00.000Z",
+    "startTime": "2023-02-13T18:48:00.000Z",
+    "endTime": "2024-12-16T18:48:00.000Z",
     "chain": "pendulum"
   },
   {
@@ -869,8 +869,8 @@
     "auctionIndex": 34,
     "firstPeriod": 10,
     "lastPeriod": 17,
-    "startTime": "2022-11-22T01:48:00.000Z",
-    "endTime": "2024-09-24T01:48:00.000Z",
+    "startTime": "2022-11-21T18:48:00.000Z",
+    "endTime": "2024-09-23T18:48:00.000Z",
     "chain": "hashedNetwork"
   },
   {
@@ -909,8 +909,8 @@
     "auctionIndex": 32,
     "firstPeriod": 10,
     "lastPeriod": 17,
-    "startTime": "2022-11-22T01:48:00.000Z",
-    "endTime": "2024-09-24T01:48:00.000Z",
+    "startTime": "2022-11-21T18:48:00.000Z",
+    "endTime": "2024-09-23T18:48:00.000Z",
     "chain": "zeitgeist"
   },
   {
@@ -962,8 +962,8 @@
     "auctionIndex": 31,
     "firstPeriod": 10,
     "lastPeriod": 17,
-    "startTime": "2022-11-22T01:48:00.000Z",
-    "endTime": "2024-09-24T01:48:00.000Z",
+    "startTime": "2022-11-21T18:48:00.000Z",
+    "endTime": "2024-09-23T18:48:00.000Z",
     "chain": "ajunaPolkadot"
   },
   {
@@ -1010,8 +1010,8 @@
     "auctionIndex": 28,
     "firstPeriod": 10,
     "lastPeriod": 17,
-    "startTime": "2022-11-22T01:48:00.000Z",
-    "endTime": "2024-09-24T01:48:00.000Z",
+    "startTime": "2022-11-21T18:48:00.000Z",
+    "endTime": "2024-09-23T18:48:00.000Z",
     "chain": "oak_network"
   },
   {
@@ -1052,8 +1052,8 @@
     "auctionIndex": 27,
     "firstPeriod": 9,
     "lastPeriod": 16,
-    "startTime": "2022-08-30T01:48:00.000Z",
-    "endTime": "2024-07-02T01:48:00.000Z",
+    "startTime": "2022-08-29T18:48:00.000Z",
+    "endTime": "2024-07-01T18:48:00.000Z",
     "chain": null
   },
   {
@@ -1094,8 +1094,8 @@
     "auctionIndex": 0,
     "firstPeriod": 9,
     "lastPeriod": 16,
-    "startTime": "2022-08-30T01:48:00.000Z",
-    "endTime": "2024-07-02T01:48:00.000Z",
+    "startTime": "2022-08-29T18:48:00.000Z",
+    "endTime": "2024-07-01T18:48:00.000Z",
     "chain": null
   },
   {
@@ -1136,8 +1136,8 @@
     "auctionIndex": 0,
     "firstPeriod": 9,
     "lastPeriod": 16,
-    "startTime": "2022-08-30T01:48:00.000Z",
-    "endTime": "2024-07-02T01:48:00.000Z",
+    "startTime": "2022-08-29T18:48:00.000Z",
+    "endTime": "2024-07-01T18:48:00.000Z",
     "chain": null
   },
   {
@@ -1178,8 +1178,8 @@
     "auctionIndex": 0,
     "firstPeriod": 9,
     "lastPeriod": 16,
-    "startTime": "2022-08-30T01:48:00.000Z",
-    "endTime": "2024-07-02T01:48:00.000Z",
+    "startTime": "2022-08-29T18:48:00.000Z",
+    "endTime": "2024-07-01T18:48:00.000Z",
     "chain": null
   },
   {
@@ -1226,8 +1226,8 @@
     "auctionIndex": 34,
     "firstPeriod": 10,
     "lastPeriod": 17,
-    "startTime": "2022-11-22T01:48:00.000Z",
-    "endTime": "2024-09-24T01:48:00.000Z",
+    "startTime": "2022-11-21T18:48:00.000Z",
+    "endTime": "2024-09-23T18:48:00.000Z",
     "chain": "omnibtc"
   },
   {
@@ -1268,8 +1268,8 @@
     "auctionIndex": 26,
     "firstPeriod": 9,
     "lastPeriod": 16,
-    "startTime": "2022-08-30T01:48:00.000Z",
-    "endTime": "2024-07-02T01:48:00.000Z",
+    "startTime": "2022-08-29T18:48:00.000Z",
+    "endTime": "2024-07-01T18:48:00.000Z",
     "chain": "aventus"
   },
   {
@@ -1310,8 +1310,8 @@
     "auctionIndex": 30,
     "firstPeriod": 10,
     "lastPeriod": 17,
-    "startTime": "2022-11-22T01:48:00.000Z",
-    "endTime": "2024-09-24T01:48:00.000Z",
+    "startTime": "2022-11-21T18:48:00.000Z",
+    "endTime": "2024-09-23T18:48:00.000Z",
     "chain": "crust"
   },
   {
@@ -1352,8 +1352,8 @@
     "auctionIndex": 25,
     "firstPeriod": 9,
     "lastPeriod": 16,
-    "startTime": "2022-08-30T01:48:00.000Z",
-    "endTime": "2024-07-02T01:48:00.000Z",
+    "startTime": "2022-08-29T18:48:00.000Z",
+    "endTime": "2024-07-01T18:48:00.000Z",
     "chain": "kylinNetwork"
   },
   {
@@ -1397,8 +1397,8 @@
     "auctionIndex": 0,
     "firstPeriod": 9,
     "lastPeriod": 16,
-    "startTime": "2022-08-30T01:48:00.000Z",
-    "endTime": "2024-07-02T01:48:00.000Z",
+    "startTime": "2022-08-29T18:48:00.000Z",
+    "endTime": "2024-07-01T18:48:00.000Z",
     "chain": null
   },
   {
@@ -1437,8 +1437,8 @@
     "auctionIndex": 0,
     "firstPeriod": 9,
     "lastPeriod": 16,
-    "startTime": "2022-08-30T01:48:00.000Z",
-    "endTime": "2024-07-02T01:48:00.000Z",
+    "startTime": "2022-08-29T18:48:00.000Z",
+    "endTime": "2024-07-01T18:48:00.000Z",
     "chain": null
   },
   {
@@ -1486,8 +1486,8 @@
     "auctionIndex": 23,
     "firstPeriod": 9,
     "lastPeriod": 16,
-    "startTime": "2022-08-30T01:48:00.000Z",
-    "endTime": "2024-07-02T01:48:00.000Z",
+    "startTime": "2022-08-29T18:48:00.000Z",
+    "endTime": "2024-07-01T18:48:00.000Z",
     "chain": "integriteePolkadot"
   },
   {
@@ -1542,8 +1542,8 @@
     "auctionIndex": 20,
     "firstPeriod": 8,
     "lastPeriod": 15,
-    "startTime": "2022-06-07T01:48:00.000Z",
-    "endTime": "2024-04-09T01:48:00.000Z",
+    "startTime": "2022-06-06T18:48:00.000Z",
+    "endTime": "2024-04-08T18:48:00.000Z",
     "chain": "kapex"
   },
   {
@@ -1584,8 +1584,8 @@
     "auctionIndex": 17,
     "firstPeriod": 8,
     "lastPeriod": 15,
-    "startTime": "2022-06-07T01:48:00.000Z",
-    "endTime": "2024-04-09T01:48:00.000Z",
+    "startTime": "2022-06-06T18:48:00.000Z",
+    "endTime": "2024-04-08T18:48:00.000Z",
     "chain": "origintrail"
   },
   {
@@ -1629,8 +1629,8 @@
     "auctionIndex": 18,
     "firstPeriod": 8,
     "lastPeriod": 15,
-    "startTime": "2022-06-07T01:48:00.000Z",
-    "endTime": "2024-04-09T01:48:00.000Z",
+    "startTime": "2022-06-06T18:48:00.000Z",
+    "endTime": "2024-04-08T18:48:00.000Z",
     "chain": "bifrost_dot"
   },
   {
@@ -1671,8 +1671,8 @@
     "auctionIndex": 16,
     "firstPeriod": 8,
     "lastPeriod": 15,
-    "startTime": "2022-06-07T01:48:00.000Z",
-    "endTime": "2024-04-09T01:48:00.000Z",
+    "startTime": "2022-06-06T18:48:00.000Z",
+    "endTime": "2024-04-08T18:48:00.000Z",
     "chain": "polkadex"
   },
   {
@@ -1720,8 +1720,8 @@
     "auctionIndex": 15,
     "firstPeriod": 8,
     "lastPeriod": 15,
-    "startTime": "2022-06-07T01:48:00.000Z",
-    "endTime": "2024-04-09T01:48:00.000Z",
+    "startTime": "2022-06-06T18:48:00.000Z",
+    "endTime": "2024-04-08T18:48:00.000Z",
     "chain": "litentry"
   },
   {
@@ -1764,8 +1764,8 @@
     "auctionIndex": 17,
     "firstPeriod": 8,
     "lastPeriod": 15,
-    "startTime": "2022-06-07T01:48:00.000Z",
-    "endTime": "2024-04-09T01:48:00.000Z",
+    "startTime": "2022-06-06T18:48:00.000Z",
+    "endTime": "2024-04-08T18:48:00.000Z",
     "chain": null
   },
   {
@@ -1811,8 +1811,8 @@
     "auctionIndex": 19,
     "firstPeriod": 8,
     "lastPeriod": 15,
-    "startTime": "2022-06-07T01:48:00.000Z",
-    "endTime": "2024-04-09T01:48:00.000Z",
+    "startTime": "2022-06-06T18:48:00.000Z",
+    "endTime": "2024-04-08T18:48:00.000Z",
     "chain": "coinversation"
   },
   {
@@ -1854,8 +1854,8 @@
     "auctionIndex": 13,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": "phala"
   },
   {
@@ -1896,8 +1896,8 @@
     "auctionIndex": 14,
     "firstPeriod": 8,
     "lastPeriod": 15,
-    "startTime": "2022-06-07T01:48:00.000Z",
-    "endTime": "2024-04-09T01:48:00.000Z",
+    "startTime": "2022-06-06T18:48:00.000Z",
+    "endTime": "2024-04-08T18:48:00.000Z",
     "chain": "unique_network"
   },
   {
@@ -1939,8 +1939,8 @@
     "auctionIndex": 0,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -1991,8 +1991,8 @@
     "auctionIndex": 12,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": "equilibrium_parachain"
   },
   {
@@ -2032,8 +2032,8 @@
     "auctionIndex": 0,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2073,8 +2073,8 @@
     "auctionIndex": 0,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2116,8 +2116,8 @@
     "auctionIndex": 0,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2161,8 +2161,8 @@
     "auctionIndex": 9,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": "hydradx_main"
   },
   {
@@ -2208,8 +2208,8 @@
     "auctionIndex": 0,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2253,8 +2253,8 @@
     "auctionIndex": 0,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2295,8 +2295,8 @@
     "auctionIndex": 0,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2348,8 +2348,8 @@
     "auctionIndex": 7,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2390,8 +2390,8 @@
     "auctionIndex": 6,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": "efinity"
   },
   {
@@ -2447,8 +2447,8 @@
     "auctionIndex": 11,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2491,8 +2491,8 @@
     "auctionIndex": 8,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": "centrifuge"
   },
   {
@@ -2533,8 +2533,8 @@
     "auctionIndex": 7,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": "composableFinance"
   },
   {
@@ -2580,8 +2580,8 @@
     "auctionIndex": 0,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2624,8 +2624,8 @@
     "auctionIndex": 10,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": "interlay"
   },
   {
@@ -2677,8 +2677,8 @@
     "auctionIndex": 11,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": "nodle"
   },
   {
@@ -2722,8 +2722,8 @@
     "auctionIndex": 0,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2765,8 +2765,8 @@
     "auctionIndex": 0,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2810,8 +2810,8 @@
     "auctionIndex": 5,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2857,8 +2857,8 @@
     "auctionIndex": 12,
     "firstPeriod": 7,
     "lastPeriod": 14,
-    "startTime": "2022-03-15T01:48:00.000Z",
-    "endTime": "2024-01-16T01:48:00.000Z",
+    "startTime": "2022-03-14T18:48:00.000Z",
+    "endTime": "2024-01-15T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2901,8 +2901,8 @@
     "auctionIndex": 0,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2947,8 +2947,8 @@
     "auctionIndex": 4,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": null
   },
   {
@@ -2991,8 +2991,8 @@
     "auctionIndex": 0,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": null
   },
   {
@@ -3037,8 +3037,8 @@
     "auctionIndex": 4,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": "parallel"
   },
   {
@@ -3083,8 +3083,8 @@
     "auctionIndex": 5,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": "clover"
   },
   {
@@ -3135,8 +3135,8 @@
     "auctionIndex": 0,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": null
   },
   {
@@ -3187,8 +3187,8 @@
     "auctionIndex": 3,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": "astar"
   },
   {
@@ -3228,8 +3228,8 @@
     "auctionIndex": 2,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": "moonbeam"
   },
   {
@@ -3266,8 +3266,8 @@
     "auctionIndex": 0,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": null
   },
   {
@@ -3306,8 +3306,8 @@
     "auctionIndex": 1,
     "firstPeriod": 6,
     "lastPeriod": 13,
-    "startTime": "2021-12-21T01:48:00.000Z",
-    "endTime": "2023-10-24T01:48:00.000Z",
+    "startTime": "2021-12-20T18:48:00.000Z",
+    "endTime": "2023-10-23T18:48:00.000Z",
     "chain": "acala"
   },
   {
@@ -3346,8 +3346,8 @@
     "auctionIndex": 84,
     "firstPeriod": 30,
     "lastPeriod": 37,
-    "startTime": "2023-05-31T04:27:00.000Z",
-    "endTime": "2024-05-01T04:27:00.000Z",
+    "startTime": "2023-05-30T21:27:00.000Z",
+    "endTime": "2024-04-30T21:27:00.000Z",
     "chain": "picasso"
   },
   {
@@ -3388,8 +3388,8 @@
     "auctionIndex": 0,
     "firstPeriod": 29,
     "lastPeriod": 36,
-    "startTime": "2023-04-19T04:27:00.000Z",
-    "endTime": "2024-03-20T04:27:00.000Z",
+    "startTime": "2023-04-18T21:27:00.000Z",
+    "endTime": "2024-03-19T21:27:00.000Z",
     "chain": null
   },
   {
@@ -3432,8 +3432,8 @@
     "auctionIndex": 75,
     "firstPeriod": 28,
     "lastPeriod": 35,
-    "startTime": "2023-03-08T04:27:00.000Z",
-    "endTime": "2024-02-07T04:27:00.000Z",
+    "startTime": "2023-03-07T21:27:00.000Z",
+    "endTime": "2024-02-06T21:27:00.000Z",
     "chain": "aband"
   },
   {
@@ -3472,8 +3472,8 @@
     "auctionIndex": 72,
     "firstPeriod": 28,
     "lastPeriod": 35,
-    "startTime": "2023-03-08T04:27:00.000Z",
-    "endTime": "2024-02-07T04:27:00.000Z",
+    "startTime": "2023-03-07T21:27:00.000Z",
+    "endTime": "2024-02-06T21:27:00.000Z",
     "chain": "krest_network"
   },
   {
@@ -3522,8 +3522,8 @@
     "auctionIndex": 73,
     "firstPeriod": 28,
     "lastPeriod": 35,
-    "startTime": "2023-03-08T04:27:00.000Z",
-    "endTime": "2024-02-07T04:27:00.000Z",
+    "startTime": "2023-03-07T21:27:00.000Z",
+    "endTime": "2024-02-06T21:27:00.000Z",
     "chain": "sora_ksm"
   },
   {
@@ -3568,8 +3568,8 @@
     "auctionIndex": 71,
     "firstPeriod": 28,
     "lastPeriod": 35,
-    "startTime": "2023-03-08T04:27:00.000Z",
-    "endTime": "2024-02-07T04:27:00.000Z",
+    "startTime": "2023-03-07T21:27:00.000Z",
+    "endTime": "2024-02-06T21:27:00.000Z",
     "chain": "bifrost"
   },
   {
@@ -3614,8 +3614,8 @@
     "auctionIndex": 70,
     "firstPeriod": 27,
     "lastPeriod": 34,
-    "startTime": "2023-01-25T04:27:00.000Z",
-    "endTime": "2023-12-27T04:27:00.000Z",
+    "startTime": "2023-01-24T21:27:00.000Z",
+    "endTime": "2023-12-26T21:27:00.000Z",
     "chain": null
   },
   {
@@ -3660,8 +3660,8 @@
     "auctionIndex": 69,
     "firstPeriod": 27,
     "lastPeriod": 34,
-    "startTime": "2023-01-25T04:27:00.000Z",
-    "endTime": "2023-12-27T04:27:00.000Z",
+    "startTime": "2023-01-24T21:27:00.000Z",
+    "endTime": "2023-12-26T21:27:00.000Z",
     "chain": null
   },
   {
@@ -3701,8 +3701,8 @@
     "auctionIndex": 70,
     "firstPeriod": 27,
     "lastPeriod": 34,
-    "startTime": "2023-01-25T04:27:00.000Z",
-    "endTime": "2023-12-27T04:27:00.000Z",
+    "startTime": "2023-01-24T21:27:00.000Z",
+    "endTime": "2023-12-26T21:27:00.000Z",
     "chain": "shiden"
   },
   {
@@ -3742,8 +3742,8 @@
     "auctionIndex": 68,
     "firstPeriod": 27,
     "lastPeriod": 34,
-    "startTime": "2023-01-25T04:27:00.000Z",
-    "endTime": "2023-12-27T04:27:00.000Z",
+    "startTime": "2023-01-24T21:27:00.000Z",
+    "endTime": "2023-12-26T21:27:00.000Z",
     "chain": "mangatax_para"
   },
   {
@@ -3790,8 +3790,8 @@
     "auctionIndex": 63,
     "firstPeriod": 26,
     "lastPeriod": 33,
-    "startTime": "2022-12-14T04:27:00.000Z",
-    "endTime": "2023-11-15T04:27:00.000Z",
+    "startTime": "2022-12-13T21:27:00.000Z",
+    "endTime": "2023-11-14T21:27:00.000Z",
     "chain": "robonomics"
   },
   {
@@ -3829,8 +3829,8 @@
     "auctionIndex": 61,
     "firstPeriod": 26,
     "lastPeriod": 32,
-    "startTime": "2022-12-14T04:27:00.000Z",
-    "endTime": "2023-10-04T04:27:00.000Z",
+    "startTime": "2022-12-13T21:27:00.000Z",
+    "endTime": "2023-10-03T21:27:00.000Z",
     "chain": null
   },
   {
@@ -3877,8 +3877,8 @@
     "auctionIndex": 56,
     "firstPeriod": 25,
     "lastPeriod": 32,
-    "startTime": "2022-11-02T04:27:00.000Z",
-    "endTime": "2023-10-04T04:27:00.000Z",
+    "startTime": "2022-11-01T21:27:00.000Z",
+    "endTime": "2023-10-03T21:27:00.000Z",
     "chain": "genshiro"
   },
   {
@@ -3918,8 +3918,8 @@
     "auctionIndex": 57,
     "firstPeriod": 25,
     "lastPeriod": 32,
-    "startTime": "2022-11-02T04:27:00.000Z",
-    "endTime": "2023-10-04T04:27:00.000Z",
+    "startTime": "2022-11-01T21:27:00.000Z",
+    "endTime": "2023-10-03T21:27:00.000Z",
     "chain": "shadow"
   },
   {
@@ -3962,8 +3962,8 @@
     "auctionIndex": 51,
     "firstPeriod": 24,
     "lastPeriod": 31,
-    "startTime": "2022-09-21T04:27:00.000Z",
-    "endTime": "2023-08-23T04:27:00.000Z",
+    "startTime": "2022-09-20T21:27:00.000Z",
+    "endTime": "2023-08-22T21:27:00.000Z",
     "chain": "snow"
   },
   {
@@ -4004,8 +4004,8 @@
     "auctionIndex": 49,
     "firstPeriod": 23,
     "lastPeriod": 30,
-    "startTime": "2022-08-10T04:27:00.000Z",
-    "endTime": "2023-07-12T04:27:00.000Z",
+    "startTime": "2022-08-09T21:27:00.000Z",
+    "endTime": "2023-07-11T21:27:00.000Z",
     "chain": "picasso"
   },
   {
@@ -4042,8 +4042,8 @@
     "auctionIndex": 49,
     "firstPeriod": 23,
     "lastPeriod": 23,
-    "startTime": "2022-08-10T04:27:00.000Z",
-    "endTime": "2022-09-21T04:27:00.000Z",
+    "startTime": "2022-08-09T21:27:00.000Z",
+    "endTime": "2022-09-20T21:27:00.000Z",
     "chain": null
   },
   {
@@ -4087,8 +4087,8 @@
     "auctionIndex": 48,
     "firstPeriod": 23,
     "lastPeriod": 30,
-    "startTime": "2022-08-10T04:27:00.000Z",
-    "endTime": "2023-07-12T04:27:00.000Z",
+    "startTime": "2022-08-09T21:27:00.000Z",
+    "endTime": "2023-07-11T21:27:00.000Z",
     "chain": "gmdie"
   },
   {
@@ -4132,8 +4132,8 @@
     "auctionIndex": 45,
     "firstPeriod": 23,
     "lastPeriod": 30,
-    "startTime": "2022-08-10T04:27:00.000Z",
-    "endTime": "2023-07-12T04:27:00.000Z",
+    "startTime": "2022-08-09T21:27:00.000Z",
+    "endTime": "2023-07-11T21:27:00.000Z",
     "chain": "heiko"
   },
   {
@@ -4172,8 +4172,8 @@
     "auctionIndex": 42,
     "firstPeriod": 23,
     "lastPeriod": 30,
-    "startTime": "2022-08-10T04:27:00.000Z",
-    "endTime": "2023-07-12T04:27:00.000Z",
+    "startTime": "2022-08-09T21:27:00.000Z",
+    "endTime": "2023-07-11T21:27:00.000Z",
     "chain": "amplitude"
   },
   {
@@ -4213,8 +4213,8 @@
     "auctionIndex": 43,
     "firstPeriod": 23,
     "lastPeriod": 30,
-    "startTime": "2022-08-10T04:27:00.000Z",
-    "endTime": "2023-07-12T04:27:00.000Z",
+    "startTime": "2022-08-09T21:27:00.000Z",
+    "endTime": "2023-07-11T21:27:00.000Z",
     "chain": "tinkernet"
   },
   {
@@ -4262,8 +4262,8 @@
     "auctionIndex": 40,
     "firstPeriod": 22,
     "lastPeriod": 29,
-    "startTime": "2022-06-29T04:27:00.000Z",
-    "endTime": "2023-05-31T04:27:00.000Z",
+    "startTime": "2022-06-28T21:27:00.000Z",
+    "endTime": "2023-05-30T21:27:00.000Z",
     "chain": "imbue_network"
   },
   {
@@ -4305,8 +4305,8 @@
     "auctionIndex": 39,
     "firstPeriod": 22,
     "lastPeriod": 29,
-    "startTime": "2022-06-29T04:27:00.000Z",
-    "endTime": "2023-05-31T04:27:00.000Z",
+    "startTime": "2022-06-28T21:27:00.000Z",
+    "endTime": "2023-05-30T21:27:00.000Z",
     "chain": "tanganika"
   },
   {
@@ -4350,8 +4350,8 @@
     "auctionIndex": 36,
     "firstPeriod": 22,
     "lastPeriod": 29,
-    "startTime": "2022-06-29T04:27:00.000Z",
-    "endTime": "2023-05-31T04:27:00.000Z",
+    "startTime": "2022-06-28T21:27:00.000Z",
+    "endTime": "2023-05-30T21:27:00.000Z",
     "chain": null
   },
   {
@@ -4403,8 +4403,8 @@
     "auctionIndex": 37,
     "firstPeriod": 22,
     "lastPeriod": 29,
-    "startTime": "2022-06-29T04:27:00.000Z",
-    "endTime": "2023-05-31T04:27:00.000Z",
+    "startTime": "2022-06-28T21:27:00.000Z",
+    "endTime": "2023-05-30T21:27:00.000Z",
     "chain": "bajun"
   },
   {
@@ -4445,8 +4445,8 @@
     "auctionIndex": 35,
     "firstPeriod": 21,
     "lastPeriod": 28,
-    "startTime": "2022-05-18T04:27:00.000Z",
-    "endTime": "2023-04-19T04:27:00.000Z",
+    "startTime": "2022-05-17T21:27:00.000Z",
+    "endTime": "2023-04-18T21:27:00.000Z",
     "chain": "shiden"
   },
   {
@@ -4486,8 +4486,8 @@
     "auctionIndex": 33,
     "firstPeriod": 21,
     "lastPeriod": 28,
-    "startTime": "2022-05-18T04:27:00.000Z",
-    "endTime": "2023-04-19T04:27:00.000Z",
+    "startTime": "2022-05-17T21:27:00.000Z",
+    "endTime": "2023-04-18T21:27:00.000Z",
     "chain": "dorafactory"
   },
   {
@@ -4530,8 +4530,8 @@
     "auctionIndex": 38,
     "firstPeriod": 22,
     "lastPeriod": 29,
-    "startTime": "2022-06-29T04:27:00.000Z",
-    "endTime": "2023-05-31T04:27:00.000Z",
+    "startTime": "2022-06-28T21:27:00.000Z",
+    "endTime": "2023-05-30T21:27:00.000Z",
     "chain": "kabocha"
   },
   {
@@ -4574,8 +4574,8 @@
     "auctionIndex": 32,
     "firstPeriod": 21,
     "lastPeriod": 28,
-    "startTime": "2022-05-18T04:27:00.000Z",
-    "endTime": "2023-04-19T04:27:00.000Z",
+    "startTime": "2022-05-17T21:27:00.000Z",
+    "endTime": "2023-04-18T21:27:00.000Z",
     "chain": null
   },
   {
@@ -4618,8 +4618,8 @@
     "auctionIndex": 0,
     "firstPeriod": 21,
     "lastPeriod": 28,
-    "startTime": "2022-05-18T04:27:00.000Z",
-    "endTime": "2023-04-19T04:27:00.000Z",
+    "startTime": "2022-05-17T21:27:00.000Z",
+    "endTime": "2023-04-18T21:27:00.000Z",
     "chain": null
   },
   {
@@ -4658,8 +4658,8 @@
     "auctionIndex": 0,
     "firstPeriod": 21,
     "lastPeriod": 28,
-    "startTime": "2022-05-18T04:27:00.000Z",
-    "endTime": "2023-04-19T04:27:00.000Z",
+    "startTime": "2022-05-17T21:27:00.000Z",
+    "endTime": "2023-04-18T21:27:00.000Z",
     "chain": null
   },
   {
@@ -4706,8 +4706,8 @@
     "auctionIndex": 31,
     "firstPeriod": 21,
     "lastPeriod": 28,
-    "startTime": "2022-05-18T04:27:00.000Z",
-    "endTime": "2023-04-19T04:27:00.000Z",
+    "startTime": "2022-05-17T21:27:00.000Z",
+    "endTime": "2023-04-18T21:27:00.000Z",
     "chain": "pichiu"
   },
   {
@@ -4747,8 +4747,8 @@
     "auctionIndex": 30,
     "firstPeriod": 20,
     "lastPeriod": 27,
-    "startTime": "2022-04-06T04:27:00.000Z",
-    "endTime": "2023-03-08T04:27:00.000Z",
+    "startTime": "2022-04-05T21:27:00.000Z",
+    "endTime": "2023-03-07T21:27:00.000Z",
     "chain": "turing"
   },
   {
@@ -4793,8 +4793,8 @@
     "auctionIndex": 0,
     "firstPeriod": 22,
     "lastPeriod": 29,
-    "startTime": "2022-06-29T04:27:00.000Z",
-    "endTime": "2023-05-31T04:27:00.000Z",
+    "startTime": "2022-06-28T21:27:00.000Z",
+    "endTime": "2023-05-30T21:27:00.000Z",
     "chain": null
   },
   {
@@ -4833,8 +4833,8 @@
     "auctionIndex": 26,
     "firstPeriod": 20,
     "lastPeriod": 27,
-    "startTime": "2022-04-06T04:27:00.000Z",
-    "endTime": "2023-03-08T04:27:00.000Z",
+    "startTime": "2022-04-05T21:27:00.000Z",
+    "endTime": "2023-03-07T21:27:00.000Z",
     "chain": "mangatax_para"
   },
   {
@@ -4885,8 +4885,8 @@
     "auctionIndex": 29,
     "firstPeriod": 20,
     "lastPeriod": 27,
-    "startTime": "2022-04-06T04:27:00.000Z",
-    "endTime": "2023-03-08T04:27:00.000Z",
+    "startTime": "2022-04-05T21:27:00.000Z",
+    "endTime": "2023-03-07T21:27:00.000Z",
     "chain": null
   },
   {
@@ -4928,8 +4928,8 @@
     "auctionIndex": 25,
     "firstPeriod": 19,
     "lastPeriod": 26,
-    "startTime": "2022-02-23T04:27:00.000Z",
-    "endTime": "2023-01-25T04:27:00.000Z",
+    "startTime": "2022-02-22T21:27:00.000Z",
+    "endTime": "2023-01-24T21:27:00.000Z",
     "chain": "kico"
   },
   {
@@ -4977,8 +4977,8 @@
     "auctionIndex": 23,
     "firstPeriod": 19,
     "lastPeriod": 26,
-    "startTime": "2022-02-23T04:27:00.000Z",
-    "endTime": "2023-01-25T04:27:00.000Z",
+    "startTime": "2022-02-22T21:27:00.000Z",
+    "endTime": "2023-01-24T21:27:00.000Z",
     "chain": "litmus"
   },
   {
@@ -5028,8 +5028,8 @@
     "auctionIndex": 24,
     "firstPeriod": 19,
     "lastPeriod": 26,
-    "startTime": "2022-02-23T04:27:00.000Z",
-    "endTime": "2023-01-25T04:27:00.000Z",
+    "startTime": "2022-02-22T21:27:00.000Z",
+    "endTime": "2023-01-24T21:27:00.000Z",
     "chain": "sora_ksm"
   },
   {
@@ -5080,8 +5080,8 @@
     "auctionIndex": 0,
     "firstPeriod": 19,
     "lastPeriod": 26,
-    "startTime": "2022-02-23T04:27:00.000Z",
-    "endTime": "2023-01-25T04:27:00.000Z",
+    "startTime": "2022-02-22T21:27:00.000Z",
+    "endTime": "2023-01-24T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5123,8 +5123,8 @@
     "auctionIndex": 22,
     "firstPeriod": 19,
     "lastPeriod": 26,
-    "startTime": "2022-02-23T04:27:00.000Z",
-    "endTime": "2023-01-25T04:27:00.000Z",
+    "startTime": "2022-02-22T21:27:00.000Z",
+    "endTime": "2023-01-24T21:27:00.000Z",
     "chain": "crabParachain"
   },
   {
@@ -5171,8 +5171,8 @@
     "auctionIndex": 21,
     "firstPeriod": 19,
     "lastPeriod": 26,
-    "startTime": "2022-02-23T04:27:00.000Z",
-    "endTime": "2023-01-25T04:27:00.000Z",
+    "startTime": "2022-02-22T21:27:00.000Z",
+    "endTime": "2023-01-24T21:27:00.000Z",
     "chain": "integritee"
   },
   {
@@ -5221,8 +5221,8 @@
     "auctionIndex": 0,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5272,8 +5272,8 @@
     "auctionIndex": 20,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": "robonomics"
   },
   {
@@ -5323,8 +5323,8 @@
     "auctionIndex": 20,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5375,8 +5375,8 @@
     "auctionIndex": 0,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5416,8 +5416,8 @@
     "auctionIndex": 17,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5459,8 +5459,8 @@
     "auctionIndex": 19,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": "shadow"
   },
   {
@@ -5503,8 +5503,8 @@
     "auctionIndex": 0,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5543,8 +5543,8 @@
     "auctionIndex": 0,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5583,8 +5583,8 @@
     "auctionIndex": 0,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5627,8 +5627,8 @@
     "auctionIndex": 18,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": "sakura"
   },
   {
@@ -5673,8 +5673,8 @@
     "auctionIndex": 16,
     "firstPeriod": 18,
     "lastPeriod": 25,
-    "startTime": "2022-01-12T04:27:00.000Z",
-    "endTime": "2022-12-14T04:27:00.000Z",
+    "startTime": "2022-01-11T21:27:00.000Z",
+    "endTime": "2022-12-13T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5716,8 +5716,8 @@
     "auctionIndex": 15,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5766,8 +5766,8 @@
     "auctionIndex": 0,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5821,8 +5821,8 @@
     "auctionIndex": 14,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": "quartz"
   },
   {
@@ -5864,8 +5864,8 @@
     "auctionIndex": 0,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": null
   },
   {
@@ -5915,8 +5915,8 @@
     "auctionIndex": 15,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": "genshiro"
   },
   {
@@ -5958,8 +5958,8 @@
     "auctionIndex": 0,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6009,8 +6009,8 @@
     "auctionIndex": 0,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6052,8 +6052,8 @@
     "auctionIndex": 0,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6103,8 +6103,8 @@
     "auctionIndex": 13,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": "pioneer"
   },
   {
@@ -6154,8 +6154,8 @@
     "auctionIndex": 15,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6202,8 +6202,8 @@
     "auctionIndex": 12,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": "picasso"
   },
   {
@@ -6248,8 +6248,8 @@
     "auctionIndex": 0,
     "firstPeriod": 17,
     "lastPeriod": 24,
-    "startTime": "2021-12-01T04:27:00.000Z",
-    "endTime": "2022-11-02T04:27:00.000Z",
+    "startTime": "2021-11-30T21:27:00.000Z",
+    "endTime": "2022-11-01T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6295,8 +6295,8 @@
     "auctionIndex": 8,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": "basilisk"
   },
   {
@@ -6342,8 +6342,8 @@
     "auctionIndex": 11,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": "kintsugi"
   },
   {
@@ -6395,8 +6395,8 @@
     "auctionIndex": 6,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6440,8 +6440,8 @@
     "auctionIndex": 0,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6491,8 +6491,8 @@
     "auctionIndex": 9,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": "altair"
   },
   {
@@ -6544,8 +6544,8 @@
     "auctionIndex": 0,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6597,8 +6597,8 @@
     "auctionIndex": 0,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6643,8 +6643,8 @@
     "auctionIndex": 10,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": "heiko"
   },
   {
@@ -6686,8 +6686,8 @@
     "auctionIndex": 7,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": "calamari"
   },
   {
@@ -6739,8 +6739,8 @@
     "auctionIndex": 0,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6779,8 +6779,8 @@
     "auctionIndex": 6,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6832,8 +6832,8 @@
     "auctionIndex": 11,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6877,8 +6877,8 @@
     "auctionIndex": 0,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6922,8 +6922,8 @@
     "auctionIndex": 0,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -6979,8 +6979,8 @@
     "auctionIndex": 11,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7024,8 +7024,8 @@
     "auctionIndex": 0,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2021-09-08T04:27:00.000Z",
-    "endTime": "2022-08-10T04:27:00.000Z",
+    "startTime": "2021-09-07T21:27:00.000Z",
+    "endTime": "2022-08-09T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7064,8 +7064,8 @@
     "auctionIndex": 0,
     "firstPeriod": 14,
     "lastPeriod": 20,
-    "startTime": "2021-07-28T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-07-27T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7105,8 +7105,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7148,8 +7148,8 @@
     "auctionIndex": 5,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7189,8 +7189,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7229,8 +7229,8 @@
     "auctionIndex": 5,
     "firstPeriod": 13,
     "lastPeriod": 13,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2021-07-28T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2021-07-27T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7271,8 +7271,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7321,8 +7321,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7372,8 +7372,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7424,8 +7424,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7476,8 +7476,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7529,8 +7529,8 @@
     "auctionIndex": 5,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": "bifrost"
   },
   {
@@ -7573,8 +7573,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7617,8 +7617,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7661,8 +7661,8 @@
     "auctionIndex": 4,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": "khala"
   },
   {
@@ -7707,8 +7707,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7763,8 +7763,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7807,8 +7807,8 @@
     "auctionIndex": 0,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": null
   },
   {
@@ -7848,8 +7848,8 @@
     "auctionIndex": 2,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": "moonriver"
   },
   {
@@ -7889,8 +7889,8 @@
     "auctionIndex": 2,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": "moonriver"
   },
   {
@@ -7933,8 +7933,8 @@
     "auctionIndex": 3,
     "firstPeriod": 13,
     "lastPeriod": 20,
-    "startTime": "2021-06-16T04:27:00.000Z",
-    "endTime": "2022-05-18T04:27:00.000Z",
+    "startTime": "2021-06-15T21:27:00.000Z",
+    "endTime": "2022-05-17T21:27:00.000Z",
     "chain": "shiden"
   },
   {
@@ -7979,8 +7979,8 @@
     "auctionIndex": 0,
     "firstPeriod": 22,
     "lastPeriod": 29,
-    "startTime": "2025-08-26T01:48:00.000Z",
-    "endTime": "2027-06-29T01:48:00.000Z",
+    "startTime": "2025-08-25T18:48:00.000Z",
+    "endTime": "2027-06-28T18:48:00.000Z",
     "chain": null
   },
   {
@@ -8029,8 +8029,8 @@
     "auctionIndex": 55,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2024-01-16T01:48:00.000Z",
-    "endTime": "2025-11-18T01:48:00.000Z",
+    "startTime": "2024-01-15T18:48:00.000Z",
+    "endTime": "2025-11-17T18:48:00.000Z",
     "chain": "logion"
   },
   {
@@ -8071,8 +8071,8 @@
     "auctionIndex": 53,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2024-01-16T01:48:00.000Z",
-    "endTime": "2025-11-18T01:48:00.000Z",
+    "startTime": "2024-01-15T18:48:00.000Z",
+    "endTime": "2025-11-17T18:48:00.000Z",
     "chain": "clover"
   },
   {
@@ -8125,8 +8125,8 @@
     "auctionIndex": 59,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2024-01-16T01:48:00.000Z",
-    "endTime": "2025-11-18T01:48:00.000Z",
+    "startTime": "2024-01-15T18:48:00.000Z",
+    "endTime": "2025-11-17T18:48:00.000Z",
     "chain": "sora_substrate"
   },
   {
@@ -8168,8 +8168,8 @@
     "auctionIndex": 54,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2024-01-16T01:48:00.000Z",
-    "endTime": "2025-11-18T01:48:00.000Z",
+    "startTime": "2024-01-15T18:48:00.000Z",
+    "endTime": "2025-11-17T18:48:00.000Z",
     "chain": "parallel"
   },
   {
@@ -8213,8 +8213,8 @@
     "auctionIndex": 0,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2024-01-16T01:48:00.000Z",
-    "endTime": "2025-11-18T01:48:00.000Z",
+    "startTime": "2024-01-15T18:48:00.000Z",
+    "endTime": "2025-11-17T18:48:00.000Z",
     "chain": null
   },
   {
@@ -8266,8 +8266,8 @@
     "auctionIndex": 0,
     "firstPeriod": 15,
     "lastPeriod": 22,
-    "startTime": "2024-01-16T01:48:00.000Z",
-    "endTime": "2025-11-18T01:48:00.000Z",
+    "startTime": "2024-01-15T18:48:00.000Z",
+    "endTime": "2025-11-17T18:48:00.000Z",
     "chain": null
   }
 ]
