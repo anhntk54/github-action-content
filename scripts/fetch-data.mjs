@@ -203,10 +203,10 @@ const cacheConfigs = [
                         }
                     }
                     const prefix = isProduction ? 'list-' : 'preview-';
-                    const path = savePath(config.folder, `${prefix}priceMap.json`);
+                    const path = savePath(config.folder, `${prefix}price-map.json`);
                     const pathAsset = savePath(config.folder, `${prefix}asset.json`);
                     const pathAssetRef = savePath(config.folder, `${prefix}asset-ref.json`);
-                    const pathDisabledXcmChannels = savePath(config.folder, `${prefix}disabledXcmChannels.json`);
+                    const pathDisabledXcmChannels = savePath(config.folder, `${prefix}disabled-xcm-channels.json`);
 
                     writeJSONFile(path, dataSave).catch(console.error)
                     writeJSONFile(pathAsset, assetMap).catch(console.error)
