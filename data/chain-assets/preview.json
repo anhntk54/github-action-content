@@ -41,7 +41,7 @@
       },
       {
         "type": "XCM",
-        "disable": false,
+        "disable": true,
         "destAsset": "parallel-LOCAL-DOT"
       },
       {
