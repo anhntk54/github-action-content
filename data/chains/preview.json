@@ -15,7 +15,8 @@
       "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
       "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
       "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
-      "Light Client": "light://substrate-connect/polkadot"
+      "Light Client": "light://substrate-connect/polkadot",
+      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -184,8 +185,8 @@
           "fundId": "2004-2",
           "paraId": 2004,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 2,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -228,8 +229,8 @@
           "fundId": "2096-39",
           "paraId": 2096,
           "status": "won",
-          "startTime": "2021-11-30T21:27:00.000Z",
-          "endTime": "2022-11-01T21:27:00.000Z",
+          "startTime": "2021-12-01T04:27:00.000Z",
+          "endTime": "2022-11-02T04:27:00.000Z",
           "auctionIndex": 13,
           "firstPeriod": 17,
           "lastPeriod": 24
@@ -315,8 +316,8 @@
           "fundId": "2006-3",
           "paraId": 2006,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 3,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -427,8 +428,8 @@
           "fundId": "2000-0",
           "paraId": 2000,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 1,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -613,8 +614,8 @@
           "fundId": "2258-92",
           "paraId": 2258,
           "status": "won",
-          "startTime": "2023-01-24T21:27:00.000Z",
-          "endTime": "2023-12-26T21:27:00.000Z",
+          "startTime": "2023-01-25T04:27:00.000Z",
+          "endTime": "2023-12-27T04:27:00.000Z",
           "auctionIndex": 70,
           "firstPeriod": 27,
           "lastPeriod": 34
@@ -624,8 +625,8 @@
           "fundId": "2120-75",
           "paraId": 2120,
           "status": "won",
-          "startTime": "2022-05-17T21:27:00.000Z",
-          "endTime": "2023-04-18T21:27:00.000Z",
+          "startTime": "2022-05-18T04:27:00.000Z",
+          "endTime": "2023-04-19T04:27:00.000Z",
           "auctionIndex": 35,
           "firstPeriod": 21,
           "lastPeriod": 28
@@ -635,8 +636,8 @@
           "fundId": "2007-0",
           "paraId": 2007,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 3,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -770,8 +771,8 @@
           "fundId": "2056-45",
           "paraId": 2056,
           "status": "won",
-          "startTime": "2022-08-29T18:48:00.000Z",
-          "endTime": "2024-07-01T18:48:00.000Z",
+          "startTime": "2022-08-30T01:48:00.000Z",
+          "endTime": "2024-07-02T01:48:00.000Z",
           "auctionIndex": 26,
           "firstPeriod": 9,
           "lastPeriod": 16
@@ -915,8 +916,8 @@
           "fundId": "2011-29",
           "paraId": 2011,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 12,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -1016,8 +1017,8 @@
           "fundId": "2023-2",
           "paraId": 2023,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 2,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -1027,8 +1028,8 @@
           "fundId": "2000-1",
           "paraId": 2000,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 2,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -1102,8 +1103,8 @@
           "fundId": "2114-68",
           "paraId": 2114,
           "status": "won",
-          "startTime": "2022-04-05T21:27:00.000Z",
-          "endTime": "2023-03-07T21:27:00.000Z",
+          "startTime": "2022-04-06T04:27:00.000Z",
+          "endTime": "2023-03-08T04:27:00.000Z",
           "auctionIndex": 30,
           "firstPeriod": 20,
           "lastPeriod": 27
@@ -1148,8 +1149,8 @@
           "fundId": "2262-95",
           "paraId": 2262,
           "status": "won",
-          "startTime": "2023-03-07T21:27:00.000Z",
-          "endTime": "2024-02-06T21:27:00.000Z",
+          "startTime": "2023-03-08T04:27:00.000Z",
+          "endTime": "2024-02-07T04:27:00.000Z",
           "auctionIndex": 71,
           "firstPeriod": 28,
           "lastPeriod": 35
@@ -1159,8 +1160,8 @@
           "fundId": "2001-9",
           "paraId": 2001,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 5,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -1206,8 +1207,8 @@
           "fundId": "2030-37",
           "paraId": 2030,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 18,
           "firstPeriod": 8,
           "lastPeriod": 15
@@ -1280,8 +1281,8 @@
           "fundId": "2084-27",
           "paraId": 2084,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 7,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -1324,8 +1325,8 @@
           "fundId": "2124-81",
           "paraId": 2124,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 42,
           "firstPeriod": 23,
           "lastPeriod": 30
@@ -1471,8 +1472,8 @@
           "fundId": "2012-6",
           "paraId": 2012,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 4,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -1482,8 +1483,8 @@
           "fundId": "3350-72",
           "paraId": 3350,
           "status": "failed",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 0,
           "firstPeriod": 14,
           "lastPeriod": 21
@@ -1493,8 +1494,8 @@
           "fundId": "3350-78",
           "paraId": 3350,
           "status": "won",
-          "startTime": "2024-01-15T18:48:00.000Z",
-          "endTime": "2025-11-17T18:48:00.000Z",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
           "auctionIndex": 54,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -1537,8 +1538,8 @@
           "fundId": "2002-5",
           "paraId": 2002,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 5,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -1548,8 +1549,8 @@
           "fundId": "2002-76",
           "paraId": 2002,
           "status": "won",
-          "startTime": "2024-01-15T18:48:00.000Z",
-          "endTime": "2025-11-17T18:48:00.000Z",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
           "auctionIndex": 53,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -1618,8 +1619,8 @@
           "fundId": "2034-25",
           "paraId": 2034,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 9,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -1694,8 +1695,8 @@
           "fundId": "2031-18",
           "paraId": 2031,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 8,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -1740,8 +1741,8 @@
           "fundId": "2032-15",
           "paraId": 2032,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 10,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -1785,8 +1786,8 @@
           "fundId": "2026-14",
           "paraId": 2026,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 11,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -1874,8 +1875,8 @@
           "fundId": "2011-96",
           "paraId": 2011,
           "status": "won",
-          "startTime": "2023-03-07T21:27:00.000Z",
-          "endTime": "2024-02-06T21:27:00.000Z",
+          "startTime": "2023-03-08T04:27:00.000Z",
+          "endTime": "2024-02-07T04:27:00.000Z",
           "auctionIndex": 73,
           "firstPeriod": 28,
           "lastPeriod": 35
@@ -1885,8 +1886,8 @@
           "fundId": "2011-62",
           "paraId": 2011,
           "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
+          "startTime": "2022-02-23T04:27:00.000Z",
+          "endTime": "2023-01-25T04:27:00.000Z",
           "auctionIndex": 24,
           "firstPeriod": 19,
           "lastPeriod": 26
@@ -1933,42 +1934,29 @@
     "ordinal": 50,
     "icon": "https://static-data.subwallet.app/chains/images/icon/polkadex_dc0b44d234.png",
     "providers": {
-      "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws",
-      "Dwellir": "wss://polkadex-rpc.dwellir.com",
-      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+      "RadiumBlock": "wss://polkadex.public.curie.radiumblock.co/ws",
+      "OnFinality": "wss://polkadex.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
     "substrateInfo": {
-      "relaySlug": "polkadot",
-      "paraId": 2040,
-      "genesisHash": "0x72f3bba34b1ecd532bccbed46701ad37c4ef329bfe86b7cf014ac06cb92ed47d",
-      "addressPrefix": 89,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": "https://www.polkadex.trade/crowdloans",
-      "blockExplorer": "https://polkadex-parachain.subscan.io/",
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x3920bcb4960a1eef5580cd5367ff3f430eef052774f78468852f7b9cb39f8a3c",
+      "addressPrefix": 88,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://polkadex.subscan.io/",
       "existentialDeposit": "1000000000000",
       "symbol": "PDEX",
       "decimals": 12,
       "hasNativeNft": false,
-      "supportStaking": false,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "crowdloanFunds": [
-        {
-          "relayChain": "polkadot",
-          "fundId": "2040-36",
-          "paraId": 2040,
-          "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
-          "auctionIndex": 16,
-          "firstPeriod": 8,
-          "lastPeriod": 15
-        }
-      ]
+      "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "polkadex-parachain"
+      "subscanSlug": "polkadex"
     }
   },
   {
@@ -2125,8 +2113,8 @@
           "fundId": "2021-20",
           "paraId": 2021,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 6,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -2167,8 +2155,8 @@
           "fundId": "2019-17",
           "paraId": 2019,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 7,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -2212,8 +2200,8 @@
           "fundId": "2035-32",
           "paraId": 2035,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 13,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -2256,8 +2244,8 @@
           "fundId": "2008-44",
           "paraId": 2008,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 30,
           "firstPeriod": 10,
           "lastPeriod": 17
@@ -2372,8 +2360,8 @@
           "fundId": "2004-6",
           "paraId": 2004,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 4,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -2451,8 +2439,8 @@
           "fundId": "2090-35",
           "paraId": 2090,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 8,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -2496,8 +2484,8 @@
           "fundId": "2088-31",
           "paraId": 2088,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 9,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -2540,8 +2528,8 @@
           "fundId": "2126-82",
           "paraId": 2126,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 45,
           "firstPeriod": 23,
           "lastPeriod": 30
@@ -2551,8 +2539,8 @@
           "fundId": "2085-28",
           "paraId": 2085,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 10,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -2596,8 +2584,8 @@
           "fundId": "2092-34",
           "paraId": 2092,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 11,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -2670,8 +2658,8 @@
           "fundId": "2270-100",
           "paraId": 2270,
           "status": "won",
-          "startTime": "2023-05-30T21:27:00.000Z",
-          "endTime": "2024-04-30T21:27:00.000Z",
+          "startTime": "2023-05-31T04:27:00.000Z",
+          "endTime": "2024-05-01T04:27:00.000Z",
           "auctionIndex": 84,
           "firstPeriod": 30,
           "lastPeriod": 37
@@ -2681,8 +2669,8 @@
           "fundId": "2130-85",
           "paraId": 2130,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 49,
           "firstPeriod": 23,
           "lastPeriod": 30
@@ -2692,8 +2680,8 @@
           "fundId": "2087-37",
           "paraId": 2087,
           "status": "won",
-          "startTime": "2021-11-30T21:27:00.000Z",
-          "endTime": "2022-11-01T21:27:00.000Z",
+          "startTime": "2021-12-01T04:27:00.000Z",
+          "endTime": "2022-11-02T04:27:00.000Z",
           "auctionIndex": 12,
           "firstPeriod": 17,
           "lastPeriod": 24
@@ -2738,8 +2726,8 @@
           "fundId": "2095-45",
           "paraId": 2095,
           "status": "won",
-          "startTime": "2021-11-30T21:27:00.000Z",
-          "endTime": "2022-11-01T21:27:00.000Z",
+          "startTime": "2021-12-01T04:27:00.000Z",
+          "endTime": "2022-11-02T04:27:00.000Z",
           "auctionIndex": 14,
           "firstPeriod": 17,
           "lastPeriod": 24
@@ -2782,8 +2770,8 @@
           "fundId": "2037-31",
           "paraId": 2037,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 14,
           "firstPeriod": 8,
           "lastPeriod": 15
@@ -2826,8 +2814,8 @@
           "fundId": "2226-88",
           "paraId": 2226,
           "status": "won",
-          "startTime": "2022-11-01T21:27:00.000Z",
-          "endTime": "2023-10-03T21:27:00.000Z",
+          "startTime": "2022-11-02T04:27:00.000Z",
+          "endTime": "2023-10-04T04:27:00.000Z",
           "auctionIndex": 56,
           "firstPeriod": 25,
           "lastPeriod": 32
@@ -2837,8 +2825,8 @@
           "fundId": "2024-43",
           "paraId": 2024,
           "status": "won",
-          "startTime": "2021-11-30T21:27:00.000Z",
-          "endTime": "2022-11-01T21:27:00.000Z",
+          "startTime": "2021-12-01T04:27:00.000Z",
+          "endTime": "2022-11-02T04:27:00.000Z",
           "auctionIndex": 15,
           "firstPeriod": 17,
           "lastPeriod": 24
@@ -2938,8 +2926,8 @@
           "fundId": "2092-53",
           "paraId": 2092,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 32,
           "firstPeriod": 10,
           "lastPeriod": 17
@@ -2982,8 +2970,8 @@
           "fundId": "2016-49",
           "paraId": 2016,
           "status": "won",
-          "startTime": "2022-01-11T21:27:00.000Z",
-          "endTime": "2022-12-13T21:27:00.000Z",
+          "startTime": "2022-01-12T04:27:00.000Z",
+          "endTime": "2022-12-14T04:27:00.000Z",
           "auctionIndex": 18,
           "firstPeriod": 18,
           "lastPeriod": 25
@@ -3026,8 +3014,8 @@
           "fundId": "2225-87",
           "paraId": 2225,
           "status": "won",
-          "startTime": "2022-11-01T21:27:00.000Z",
-          "endTime": "2023-10-03T21:27:00.000Z",
+          "startTime": "2022-11-02T04:27:00.000Z",
+          "endTime": "2023-10-04T04:27:00.000Z",
           "auctionIndex": 57,
           "firstPeriod": 25,
           "lastPeriod": 32
@@ -3037,8 +3025,8 @@
           "fundId": "2012-53",
           "paraId": 2012,
           "status": "won",
-          "startTime": "2022-01-11T21:27:00.000Z",
-          "endTime": "2022-12-13T21:27:00.000Z",
+          "startTime": "2022-01-12T04:27:00.000Z",
+          "endTime": "2022-12-14T04:27:00.000Z",
           "auctionIndex": 19,
           "firstPeriod": 18,
           "lastPeriod": 25
@@ -3112,8 +3100,8 @@
           "fundId": "2240-90",
           "paraId": 2240,
           "status": "won",
-          "startTime": "2022-12-13T21:27:00.000Z",
-          "endTime": "2023-11-14T21:27:00.000Z",
+          "startTime": "2022-12-14T04:27:00.000Z",
+          "endTime": "2023-11-15T04:27:00.000Z",
           "auctionIndex": 63,
           "firstPeriod": 26,
           "lastPeriod": 33
@@ -3123,8 +3111,8 @@
           "fundId": "2048-57",
           "paraId": 2048,
           "status": "won",
-          "startTime": "2022-01-11T21:27:00.000Z",
-          "endTime": "2022-12-13T21:27:00.000Z",
+          "startTime": "2022-01-12T04:27:00.000Z",
+          "endTime": "2022-12-14T04:27:00.000Z",
           "auctionIndex": 20,
           "firstPeriod": 18,
           "lastPeriod": 25
@@ -3168,8 +3156,8 @@
           "fundId": "2015-59",
           "paraId": 2015,
           "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
+          "startTime": "2022-02-23T04:27:00.000Z",
+          "endTime": "2023-01-25T04:27:00.000Z",
           "auctionIndex": 21,
           "firstPeriod": 19,
           "lastPeriod": 26
@@ -3212,8 +3200,8 @@
           "fundId": "2039-40",
           "paraId": 2039,
           "status": "won",
-          "startTime": "2022-08-29T18:48:00.000Z",
-          "endTime": "2024-07-01T18:48:00.000Z",
+          "startTime": "2022-08-30T01:48:00.000Z",
+          "endTime": "2024-07-02T01:48:00.000Z",
           "auctionIndex": 23,
           "firstPeriod": 9,
           "lastPeriod": 16
@@ -3266,8 +3254,8 @@
           "fundId": "2105-60",
           "paraId": 2105,
           "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
+          "startTime": "2022-02-23T04:27:00.000Z",
+          "endTime": "2023-01-25T04:27:00.000Z",
           "auctionIndex": 22,
           "firstPeriod": 19,
           "lastPeriod": 26
@@ -3444,8 +3432,8 @@
           "fundId": "2256-91",
           "paraId": 2256,
           "status": "won",
-          "startTime": "2023-01-24T21:27:00.000Z",
-          "endTime": "2023-12-26T21:27:00.000Z",
+          "startTime": "2023-01-25T04:27:00.000Z",
+          "endTime": "2023-12-27T04:27:00.000Z",
           "auctionIndex": 68,
           "firstPeriod": 27,
           "lastPeriod": 34
@@ -3455,8 +3443,8 @@
           "fundId": "2110-66",
           "paraId": 2110,
           "status": "won",
-          "startTime": "2022-04-05T21:27:00.000Z",
-          "endTime": "2023-03-07T21:27:00.000Z",
+          "startTime": "2022-04-06T04:27:00.000Z",
+          "endTime": "2023-03-08T04:27:00.000Z",
           "auctionIndex": 26,
           "firstPeriod": 20,
           "lastPeriod": 27
@@ -3529,8 +3517,8 @@
           "fundId": "2106-63",
           "paraId": 2106,
           "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
+          "startTime": "2022-02-23T04:27:00.000Z",
+          "endTime": "2023-01-25T04:27:00.000Z",
           "auctionIndex": 23,
           "firstPeriod": 19,
           "lastPeriod": 26
@@ -3572,8 +3560,8 @@
           "fundId": "2013-35",
           "paraId": 2013,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 15,
           "firstPeriod": 8,
           "lastPeriod": 15
@@ -3615,8 +3603,8 @@
           "fundId": "2125-80",
           "paraId": 2125,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 43,
           "firstPeriod": 23,
           "lastPeriod": 30
@@ -3657,8 +3645,8 @@
           "fundId": "2121-79",
           "paraId": 2121,
           "status": "won",
-          "startTime": "2022-06-28T21:27:00.000Z",
-          "endTime": "2023-05-30T21:27:00.000Z",
+          "startTime": "2022-06-29T04:27:00.000Z",
+          "endTime": "2023-05-31T04:27:00.000Z",
           "auctionIndex": 40,
           "firstPeriod": 22,
           "lastPeriod": 29
@@ -3871,8 +3859,8 @@
           "fundId": "2043-38",
           "paraId": 2043,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 17,
           "firstPeriod": 8,
           "lastPeriod": 15
@@ -3945,8 +3933,8 @@
           "fundId": "2115-74",
           "paraId": 2115,
           "status": "won",
-          "startTime": "2022-05-17T21:27:00.000Z",
-          "endTime": "2023-04-18T21:27:00.000Z",
+          "startTime": "2022-05-18T04:27:00.000Z",
+          "endTime": "2023-04-19T04:27:00.000Z",
           "auctionIndex": 33,
           "firstPeriod": 21,
           "lastPeriod": 28
@@ -3988,8 +3976,8 @@
           "fundId": "2119-76",
           "paraId": 2119,
           "status": "won",
-          "startTime": "2022-06-28T21:27:00.000Z",
-          "endTime": "2023-05-30T21:27:00.000Z",
+          "startTime": "2022-06-29T04:27:00.000Z",
+          "endTime": "2023-05-31T04:27:00.000Z",
           "auctionIndex": 37,
           "firstPeriod": 22,
           "lastPeriod": 29
@@ -4090,8 +4078,8 @@
           "fundId": "2113-73",
           "paraId": 2113,
           "status": "won",
-          "startTime": "2022-06-28T21:27:00.000Z",
-          "endTime": "2023-05-30T21:27:00.000Z",
+          "startTime": "2022-06-29T04:27:00.000Z",
+          "endTime": "2023-05-31T04:27:00.000Z",
           "auctionIndex": 38,
           "firstPeriod": 22,
           "lastPeriod": 29
@@ -4130,8 +4118,8 @@
           "fundId": "2123-83",
           "paraId": 2123,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 48,
           "firstPeriod": 23,
           "lastPeriod": 30
@@ -4200,8 +4188,8 @@
           "fundId": "2116-78",
           "paraId": 2116,
           "status": "won",
-          "startTime": "2022-06-28T21:27:00.000Z",
-          "endTime": "2023-05-30T21:27:00.000Z",
+          "startTime": "2022-06-29T04:27:00.000Z",
+          "endTime": "2023-05-31T04:27:00.000Z",
           "auctionIndex": 39,
           "firstPeriod": 22,
           "lastPeriod": 29
@@ -4244,8 +4232,8 @@
           "fundId": "2094-55",
           "paraId": 2094,
           "status": "won",
-          "startTime": "2023-02-13T18:48:00.000Z",
-          "endTime": "2024-12-16T18:48:00.000Z",
+          "startTime": "2023-02-14T01:48:00.000Z",
+          "endTime": "2024-12-17T01:48:00.000Z",
           "auctionIndex": 35,
           "firstPeriod": 11,
           "lastPeriod": 18
@@ -4756,8 +4744,8 @@
           "fundId": "2051-52",
           "paraId": 2051,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 31,
           "firstPeriod": 10,
           "lastPeriod": 17
@@ -4861,8 +4849,8 @@
           "fundId": "2093-58",
           "paraId": 2093,
           "status": "won",
-          "startTime": "2023-02-13T18:48:00.000Z",
-          "endTime": "2024-12-16T18:48:00.000Z",
+          "startTime": "2023-02-14T01:48:00.000Z",
+          "endTime": "2024-12-17T01:48:00.000Z",
           "auctionIndex": 40,
           "firstPeriod": 11,
           "lastPeriod": 18
@@ -4872,8 +4860,8 @@
           "fundId": "2093-54",
           "paraId": 2093,
           "status": "failed",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 34,
           "firstPeriod": 10,
           "lastPeriod": 17
@@ -4914,8 +4902,8 @@
           "fundId": "2007-39",
           "paraId": 2007,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 20,
           "firstPeriod": 8,
           "lastPeriod": 15
@@ -4956,8 +4944,8 @@
           "fundId": "2052-43",
           "paraId": 2052,
           "status": "won",
-          "startTime": "2022-08-29T18:48:00.000Z",
-          "endTime": "2024-07-01T18:48:00.000Z",
+          "startTime": "2022-08-30T01:48:00.000Z",
+          "endTime": "2024-07-02T01:48:00.000Z",
           "auctionIndex": 25,
           "firstPeriod": 9,
           "lastPeriod": 16
@@ -5026,8 +5014,8 @@
           "fundId": "2107-64",
           "paraId": 2107,
           "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
+          "startTime": "2022-02-23T04:27:00.000Z",
+          "endTime": "2023-01-25T04:27:00.000Z",
           "auctionIndex": 25,
           "firstPeriod": 19,
           "lastPeriod": 26
@@ -5094,8 +5082,8 @@
           "fundId": "2102-69",
           "paraId": 2102,
           "status": "won",
-          "startTime": "2022-05-17T21:27:00.000Z",
-          "endTime": "2023-04-18T21:27:00.000Z",
+          "startTime": "2022-05-18T04:27:00.000Z",
+          "endTime": "2023-04-19T04:27:00.000Z",
           "auctionIndex": 31,
           "firstPeriod": 21,
           "lastPeriod": 28
@@ -5317,8 +5305,8 @@
           "fundId": "3341-73",
           "paraId": 3341,
           "status": "failed",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 52,
           "firstPeriod": 14,
           "lastPeriod": 21
@@ -5328,8 +5316,8 @@
           "fundId": "3354-77",
           "paraId": 3354,
           "status": "won",
-          "startTime": "2024-01-15T18:48:00.000Z",
-          "endTime": "2025-11-17T18:48:00.000Z",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
           "auctionIndex": 55,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -5520,9 +5508,9 @@
           "relayChain": "polkadot",
           "fundId": "2025-75",
           "paraId": 2025,
-          "status": "in_auction",
-          "startTime": "2024-01-15T18:48:00.000Z",
-          "endTime": "2025-11-17T18:48:00.000Z",
+          "status": "won",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
           "auctionIndex": 59,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -5532,8 +5520,8 @@
           "fundId": "2025-69",
           "paraId": 2025,
           "status": "failed",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 51,
           "firstPeriod": 14,
           "lastPeriod": 21
@@ -5917,7 +5905,8 @@
     "ordinal": 160,
     "icon": "https://static-data.subwallet.app/chains/images/icon/krest_6217afc787.png",
     "providers": {
-      "Peaq": "wss://wss-krest.peaq.network/"
+      "Peaq": "wss://wss-krest.peaq.network/",
+      "UnitedBloc": "wss://krest.unitedbloc.com/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5932,7 +5921,7 @@
       "symbol": "KREST",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportStaking": false,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": [
@@ -5941,8 +5930,8 @@
           "fundId": "2241-97",
           "paraId": 2241,
           "status": "won",
-          "startTime": "2023-03-07T21:27:00.000Z",
-          "endTime": "2024-02-06T21:27:00.000Z",
+          "startTime": "2023-03-08T04:27:00.000Z",
+          "endTime": "2024-02-07T04:27:00.000Z",
           "auctionIndex": 72,
           "firstPeriod": 28,
           "lastPeriod": 35
@@ -5991,7 +5980,7 @@
     "ordinal": 162,
     "icon": "https://static-data.subwallet.app/chains/images/icon/jur_network_6aff4974ed.png",
     "providers": {
-      "DeeperNetwork": "wss://jur-archive-mainnet-1.simplystaking.xyz/VX68C07AR4K2/ws"
+      "Jur Mainnet": "wss://mainnet.jur.io/"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -6178,8 +6167,8 @@
           "fundId": "2097-57",
           "paraId": 2097,
           "status": "won",
-          "startTime": "2023-02-13T18:48:00.000Z",
-          "endTime": "2024-12-16T18:48:00.000Z",
+          "startTime": "2023-02-14T01:48:00.000Z",
+          "endTime": "2024-12-17T01:48:00.000Z",
           "auctionIndex": 36,
           "firstPeriod": 11,
           "lastPeriod": 18
@@ -6276,8 +6265,8 @@
           "fundId": "2027-33",
           "paraId": 2027,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 19,
           "firstPeriod": 8,
           "lastPeriod": 15
@@ -6344,8 +6333,8 @@
           "fundId": "3334-64",
           "paraId": 3334,
           "status": "won",
-          "startTime": "2023-05-08T18:48:00.000Z",
-          "endTime": "2025-03-10T18:48:00.000Z",
+          "startTime": "2023-05-09T01:48:00.000Z",
+          "endTime": "2025-03-11T01:48:00.000Z",
           "auctionIndex": 42,
           "firstPeriod": 12,
           "lastPeriod": 19
@@ -6384,8 +6373,8 @@
           "fundId": "2090-51",
           "paraId": 2090,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 28,
           "firstPeriod": 10,
           "lastPeriod": 17
@@ -6424,8 +6413,8 @@
           "fundId": "2053-46",
           "paraId": 2053,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 34,
           "firstPeriod": 10,
           "lastPeriod": 17
@@ -6464,8 +6453,8 @@
           "fundId": "3338-66",
           "paraId": 3338,
           "status": "won",
-          "startTime": "2023-07-31T18:48:00.000Z",
-          "endTime": "2025-06-02T18:48:00.000Z",
+          "startTime": "2023-08-01T01:48:00.000Z",
+          "endTime": "2025-06-03T01:48:00.000Z",
           "auctionIndex": 45,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -6562,8 +6551,8 @@
           "fundId": "3345-70",
           "paraId": 3345,
           "status": "won",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 49,
           "firstPeriod": 14,
           "lastPeriod": 21
@@ -6604,8 +6593,8 @@
           "fundId": "3340-68",
           "paraId": 3340,
           "status": "won",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 47,
           "firstPeriod": 14,
           "lastPeriod": 21
@@ -6728,8 +6717,8 @@
           "fundId": "2129-86",
           "paraId": 2129,
           "status": "won",
-          "startTime": "2022-09-20T21:27:00.000Z",
-          "endTime": "2023-08-22T21:27:00.000Z",
+          "startTime": "2022-09-21T04:27:00.000Z",
+          "endTime": "2023-08-23T04:27:00.000Z",
           "auctionIndex": 51,
           "firstPeriod": 24,
           "lastPeriod": 31
@@ -6768,8 +6757,8 @@
           "fundId": "2257-98",
           "paraId": 2257,
           "status": "won",
-          "startTime": "2023-03-07T21:27:00.000Z",
-          "endTime": "2024-02-06T21:27:00.000Z",
+          "startTime": "2023-03-08T04:27:00.000Z",
+          "endTime": "2024-02-07T04:27:00.000Z",
           "auctionIndex": 75,
           "firstPeriod": 28,
           "lastPeriod": 35
@@ -6920,26 +6909,28 @@
   },
   {
     "slug": "manta_network",
-    "name": "Manta Network",
+    "name": "Manta Atlantic",
     "isTestnet": false,
-    "chainStatus": "INACTIVE",
+    "chainStatus": "ACTIVE",
     "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/chains/images/icon/Property_1_Light_214e514a42.png",
-    "providers": {},
+    "icon": "https://static-data.subwallet.app/chains/images/icon/Manta_Network_1871b13795.png",
+    "providers": {
+      "Manta Network": "wss://ws.manta.systems"
+    },
     "evmInfo": null,
     "substrateInfo": {
       "relaySlug": "polkadot",
       "paraId": 2104,
-      "genesisHash": null,
-      "addressPrefix": null,
+      "genesisHash": "0xf3c7ad88f6a80f366c4be216691411ef0622e8b809b1046ea297ef106058d4eb",
+      "addressPrefix": 77,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://manta.subscan.io/",
-      "existentialDeposit": null,
-      "symbol": null,
-      "decimals": null,
+      "existentialDeposit": "100000000000000000",
+      "symbol": "MANTA",
+      "decimals": 18,
       "hasNativeNft": null,
-      "supportStaking": null,
+      "supportStaking": true,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
@@ -7036,8 +7027,8 @@
           "fundId": "3344-71",
           "paraId": 3344,
           "status": "won",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 51,
           "firstPeriod": 14,
           "lastPeriod": 21
@@ -7381,5 +7372,76 @@
       "crowdloanFunds": []
     },
     "extraInfo": null
+  },
+  {
+    "slug": "manta_network_evm",
+    "name": "Manta Pacific",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "ordinal": 9999,
+    "icon": "https://static-data.subwallet.app/chains/images/icon/Manta_Network_1871b13795.png",
+    "providers": {
+      "Manta Pacific": "https://pacific-rpc.manta.network/http"
+    },
+    "evmInfo": {
+      "evmChainId": 169,
+      "blockExplorer": "https://pacific-explorer.manta.network/",
+      "existentialDeposit": null,
+      "symbol": "ETH",
+      "decimals": 18,
+      "supportSmartContract": [
+        "ERC20",
+        "ERC721"
+      ],
+      "abiExplorer": "https://pacific-explorer.manta.network"
+    },
+    "substrateInfo": null,
+    "extraInfo": null
+  },
+  {
+    "slug": "polkadex_dot",
+    "name": "Polkadex Polkadot",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "ordinal": 9999,
+    "icon": "https://static-data.subwallet.app/chains/images/icon/polkadex_04756a30d9.png",
+    "providers": {
+      "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws",
+      "Dwellir": "wss://polkadex-rpc.dwellir.com",
+      "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": "polkadot",
+      "paraId": 2040,
+      "genesisHash": "0x72f3bba34b1ecd532bccbed46701ad37c4ef329bfe86b7cf014ac06cb92ed47d",
+      "addressPrefix": 89,
+      "chainType": "PARACHAIN",
+      "crowdloanUrl": "https://www.polkadex.trade/crowdloans",
+      "blockExplorer": "https://polkadex-parachain.subscan.io/",
+      "existentialDeposit": "1000000000000",
+      "symbol": "PDEX",
+      "decimals": 12,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": [
+        {
+          "relayChain": "polkadot",
+          "fundId": "2040-36",
+          "paraId": 2040,
+          "status": "won",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
+          "auctionIndex": 16,
+          "firstPeriod": 8,
+          "lastPeriod": 15
+        }
+      ]
+    },
+    "extraInfo": {
+      "subscanSlug": "polkadex-parachain"
+    }
   }
 ]

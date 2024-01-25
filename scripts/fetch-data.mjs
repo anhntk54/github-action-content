@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://03cd-113-191-64-47.ngrok-free.app';
+const STRAPI_URL = 'https://content.subwallet.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -15,7 +15,7 @@ const cacheConfigs = [
         removeFields: ['id'],
         preview: 'preview.json',
         additionalProcess: [
-            (data, preview_data, config, lang) => {
+            (data, preview_data, config, lang, isProduction) => {
                 const {folder} = config;
                 const combineData = Object.fromEntries(preview_data.map((c) => ([c.slug, c.icon])));
                 const path = savePath(folder, getFileNameByLang('logo_map.json', lang))
@@ -108,10 +108,7 @@ const cacheConfigs = [
         langs: ['en', 'vi', 'zh', 'ja', 'ru'],
         additionalProcess: [
             (data, preview_data, config, lang, isProduction) => {
-                if (lang === '') {
-                    return;
-                }
-                if (data.length > 0) {
+                if (data.length > 0 || preview_data.length > 0) {
                     const folderParent = config.folder;
                     for (const dataContent of preview_data) {
                         const prefix = isProduction ? config.fileName : config.preview;
@@ -130,7 +127,41 @@ const cacheConfigs = [
                 }
             }
         ]
-    }
+    },
+    {
+        url: `${STRAPI_URL}/api/list/chain-asset`,
+        folder: 'chain-assets',
+        fileName: 'list.json',
+        imageFields: ['icon'],
+        removeFields: ['id'],
+        preview: 'preview.json',
+        additionalProcess: [
+            (data, preview_data, config, lang, isProduction) => {
+                const {folder} = config;
+                const combineData = Object.fromEntries(preview_data.map((c) => ([c.slug, c.icon])));
+                const path = savePath(folder, getFileNameByLang('logo_map.json', lang))
+
+                writeJSONFile(path, combineData).catch(console.error)
+            }
+        ]
+    },
+    {
+        url: `${STRAPI_URL}/api/list/multi-chain-asset`,
+        folder: 'multi-chain-assets',
+        fileName: 'list.json',
+        imageFields: ['icon'],
+        removeFields: ['id'],
+        preview: 'preview.json',
+        additionalProcess: [
+            (data, preview_data, config, lang, isProduction) => {
+                const {folder} = config;
+                const combineData = Object.fromEntries(preview_data.map((c) => ([c.slug, c.icon])));
+                const path = savePath(folder, getFileNameByLang('logo_map.json', lang))
+
+                writeJSONFile(path, combineData).catch(console.error)
+            }
+        ]
+    },
 ]
 
 const savePath = (folder, fileName) => `data/${folder}/${fileName || 'list.json'}`;
