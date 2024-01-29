@@ -21,7 +21,7 @@
       },
       {
         "type": "XCM",
-        "disable": false,
+        "disable": true,
         "destAsset": "acala-LOCAL-DOT"
       },
       {
@@ -41,7 +41,7 @@
       },
       {
         "type": "XCM",
-        "disable": false,
+        "disable": true,
         "destAsset": "parallel-LOCAL-DOT"
       },
       {
@@ -8902,21 +8902,5 @@
         "destAsset": "manta_network-NATIVE-MANTA"
       }
     ]
-  },
-  {
-    "slug": "bittensor_testnet-NATIVE-TAO",
-    "name": "Bittensor Testnet",
-    "symbol": "TAO",
-    "decimals": 9,
-    "priceId": null,
-    "minAmount": "500",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "hasValue": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/chain-assets/images/icon/bittensor_7ebbcae9d6.png",
-    "originChain": "bittensor_testnet",
-    "multiChainAsset": null,
-    "assetRefs": []
   }
 ]
