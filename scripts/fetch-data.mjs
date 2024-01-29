@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://fe74-2001-ee0-43c9-6020-3c1a-d20a-7a32-adb4.ngrok-free.app';
+const STRAPI_URL = 'https://content.subwallet.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -139,20 +139,9 @@ const cacheConfigs = [
         additionalProcess: [
             async (data, preview_data, config, lang, isProduction) => {
                 // console.error('Processing data for chain-assets', preview_data)
-                if (preview_data.length > 0) {
+                if (preview_data.length > 0 || data.length > 0) {
                     const {folder} = config;
-                    const downloadDir = saveImagesPath(folder);
                     const chains = await Promise.all(preview_data.map(async asset => {
-                        let iconURL = asset.icon;
-                        if (iconURL) {
-                            try {
-                                const newFileName = await downloadFile(iconURL, downloadDir, asset.slug.toLowerCase());
-                                iconURL = `${RESOURCE_URL}/assets/chain-assets/${newFileName}`;
-                            } catch (e) {
-                                console.error(e);
-                            }
-                        }
-
                         return {
                             originChain: asset.originChain,
                             slug: asset.slug,
@@ -165,7 +154,7 @@ const cacheConfigs = [
                             metadata: asset.metadata,
                             multiChainAsset: asset.multiChainAsset || null,
                             hasValue: asset.hasValue,
-                            icon: iconURL
+                            icon: asset.icon
                         }
                     }));
 
@@ -197,20 +186,16 @@ const cacheConfigs = [
                             for (const assetRef of item.assetRefs) {
                                 if (assetRef.disable) {
                                     disabledXcmChannels.push(assetRef.destAsset)
-                                    console.log('Disable', assetRef)
                                 }
                             }
                         }
                     }
-                    const prefix = isProduction ? 'list-' : 'preview-';
-                    const path = savePath(config.folder, `${prefix}price-map.json`);
-                    const pathAsset = savePath(config.folder, `${prefix}asset.json`);
-                    const pathAssetRef = savePath(config.folder, `${prefix}asset-ref.json`);
-                    const pathDisabledXcmChannels = savePath(config.folder, `${prefix}disabled-xcm-channels.json`);
+
+                    const prefix = isProduction ? 'list' : 'preview';
+                    const path = savePath('price-map', `${prefix}.json`);
+                    const pathDisabledXcmChannels = savePath('disabled-xcm-channels', `${prefix}.json`);
 
                     writeJSONFile(path, dataSave).catch(console.error)
-                    writeJSONFile(pathAsset, assetMap).catch(console.error)
-                    writeJSONFile(pathAssetRef, refMap).catch(console.error)
                     writeJSONFile(pathDisabledXcmChannels, disabledXcmChannels).catch(console.error)
                 }
             }
@@ -222,42 +207,7 @@ const cacheConfigs = [
         fileName: 'list.json',
         imageFields: ['icon'],
         removeFields: ['id'],
-        preview: 'preview.json',
-        additionalProcess: [
-            async (data, preview_data, config, lang, isProduction) => {
-                console.log('Processing data for multi-chain-assets', preview_data)
-                if (preview_data.length > 0) {
-                    const {folder} = config;
-                    const downloadDir = saveImagesPath(folder);
-                    const chains = await Promise.all(data.map(async mAsset => {
-                        let iconURL = mAsset.icon;
-                        if (iconURL) {
-                            try {
-                                const newFileName = await downloadFile(iconURL, downloadDir, mAsset.slug.toLowerCase());
-                                iconURL = `${RESOURCE_URL}/assets/${folder}/${newFileName}`;
-                            } catch (e) {
-                                console.error(e);
-                            }
-                        }
-
-                        return {
-                            slug: mAsset.slug,
-                            originChainAsset: mAsset.originChainAsset,
-                            name: mAsset.name,
-                            symbol: mAsset.symbol,
-                            priceId: mAsset.priceId,
-                            hasValue: mAsset.hasValue,
-                            icon: iconURL,
-                        }
-                    }));
-                    const mAssetMap = Object.fromEntries(chains.map(chain => [chain.slug, chain]));
-                    const prefix = isProduction ? 'list-' : 'preview-';
-                    const pathAsset = savePath(folder, `${prefix}multi-asset.json`);
-                    writeJSONFile(pathAsset, mAssetMap).catch(console.error)
-
-                }
-            }
-        ]
+        preview: 'preview.json'
     },
 ]
 
