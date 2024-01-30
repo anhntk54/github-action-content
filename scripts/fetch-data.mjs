@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://9020-113-191-64-47.ngrok-free.app';
+const STRAPI_URL = 'https://3824-113-191-64-47.ngrok-free.apps';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -185,7 +185,6 @@ const cacheConfigs = [
                         if (item.assetRefs && item.assetRefs.length > 0) {
                             for (const assetRef of item.assetRefs) {
                                 if (assetRef.disable) {
-                                    console.log('Disable XCM channel', assetRef)
                                     const slugDisable = `${item.slug}___${assetRef.destAsset}`
                                     disabledXcmChannels.push(slugDisable)
                                 }
