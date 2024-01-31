@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://3824-113-191-64-47.ngrok-free.app';
+const STRAPI_URL = 'https://5cdd-113-191-64-47.ngrok-free.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -193,8 +193,8 @@ const cacheConfigs = [
                     }
 
                     const prefix = isProduction ? 'list' : 'preview';
-                    const path = savePath('price-map', `${prefix}.json`);
-                    const pathDisabledXcmChannels = savePath('disabled-xcm-channels', `${prefix}.json`);
+                    const path = savePath(`${folder}/price-map`, `${prefix}.json`);
+                    const pathDisabledXcmChannels = savePath(`${folder}/disabled-xcm-channels`, `${prefix}.json`);
 
                     writeJSONFile(path, dataSave).catch(console.error)
                     writeJSONFile(pathDisabledXcmChannels, disabledXcmChannels).catch(console.error)
@@ -209,6 +209,29 @@ const cacheConfigs = [
         imageFields: ['icon'],
         removeFields: ['id'],
         preview: 'preview.json'
+    },
+    {
+        url: `${STRAPI_URL}/api/list/version-buy`,
+        folder: 'version-buys',
+        fileName: 'list.json',
+        imageFields: [],
+        removeFields: ['id'],
+        preview: 'preview.json',
+        additionalProcess: [
+            async (data, preview_data, config, lang, isProduction) => {
+                console.error('Processing data for version-buys', preview_data)
+                if (preview_data.length > 0 || data.length > 0) {
+                    const {folder} = config;
+                    const dataSave = preview_data.map((item) => {
+                        return item.version;
+                    })
+                    const prefix = isProduction ? 'list' : 'preview';
+                    const path = savePath(folder, `${prefix}-disable-buy.json`);
+
+                    writeJSONFile(path, dataSave).catch(console.error)
+                }
+            }
+        ]
     },
 ]
 
