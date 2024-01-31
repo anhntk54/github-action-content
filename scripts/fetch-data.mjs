@@ -224,11 +224,19 @@ const cacheConfigs = [
                     const {folder} = config;
                     const dataSave = preview_data.map((item) => {
                         return item.version;
-                    })
-                    const prefix = isProduction ? 'list' : 'preview';
-                    const path = savePath(folder, `${prefix}-disable-buy.json`);
+                    });
+                    // const dataConfig = await fetch(`data/tokens/config.json`).then((res) => res.json());
+                    try {
+                        const filePath = 'data/tokens/config.json';
+                        const dataConfig = JSON.parse(fs.readFileSync(filePath));
+                        dataConfig.buy = dataSave;
+                        const path = savePath('tokens', `config.json`);
 
-                    writeJSONFile(path, dataSave).catch(console.error)
+                        writeJSONFile(path, dataConfig).catch(console.error)
+                    }
+                    catch (e) {
+                        console.log(e)
+                    }
                 }
             }
         ]
