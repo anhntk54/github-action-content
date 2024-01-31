@@ -219,24 +219,25 @@ const cacheConfigs = [
         preview: 'preview.json',
         additionalProcess: [
             async (data, preview_data, config, lang, isProduction) => {
-                console.error('Processing data for version-buys', preview_data)
                 if (preview_data.length > 0 || data.length > 0) {
-                    const {folder} = config;
                     const dataSave = preview_data.map((item) => {
                         return item.version;
                     });
-                    // const dataConfig = await fetch(`data/tokens/config.json`).then((res) => res.json());
+                    let dataConfig = {
+                        address: true,
+                        sell: true,
+                        buy: []
+                    };
                     try {
                         const filePath = 'data/tokens/config.json';
-                        const dataConfig = JSON.parse(fs.readFileSync(filePath));
-                        dataConfig.buy = dataSave;
-                        const path = savePath('tokens', `config.json`);
-
-                        writeJSONFile(path, dataConfig).catch(console.error)
-                    }
-                    catch (e) {
+                        dataConfig = JSON.parse(fs.readFileSync(filePath));
+                    } catch (e) {
                         console.log(e)
                     }
+
+                    dataConfig.buy = dataSave;
+                    const path = savePath('tokens', `config.json`);
+                    writeJSONFile(path, dataConfig).catch(console.error)
                 }
             }
         ]
