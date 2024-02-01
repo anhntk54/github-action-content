@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://5cdd-113-191-64-47.ngrok-free.app';
+const STRAPI_URL = 'https://e4de-113-191-64-47.ngrok-free.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -211,8 +211,8 @@ const cacheConfigs = [
         preview: 'preview.json'
     },
     {
-        url: `${STRAPI_URL}/api/list/version-buy`,
-        folder: 'version-buys',
+        url: `${STRAPI_URL}/api/list/buy-button`,
+        folder: 'buy-buttons',
         fileName: 'list.json',
         imageFields: [],
         removeFields: ['id'],
