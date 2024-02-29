@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://e4de-113-191-64-47.ngrok-free.app';
+const STRAPI_URL = 'https://99f8-2001-ee0-43c9-6020-98db-74d2-fa5f-3f47.ngrok-free.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -211,36 +211,10 @@ const cacheConfigs = [
         preview: 'preview.json'
     },
     {
-        url: `${STRAPI_URL}/api/list/buy-button`,
-        folder: 'buy-buttons',
+        url: `${STRAPI_URL}/api/list/app-banner`,
+        folder: 'app-banners',
         fileName: 'list.json',
-        imageFields: [],
-        removeFields: ['id'],
-        preview: 'preview.json',
-        additionalProcess: [
-            async (data, preview_data, config, lang, isProduction) => {
-                if (preview_data.length > 0 || data.length > 0) {
-                    const dataSave = preview_data.map((item) => {
-                        return item.version;
-                    });
-                    let dataConfig = {
-                        address: true,
-                        sell: true,
-                        buy: []
-                    };
-                    try {
-                        const filePath = 'data/tokens/config.json';
-                        dataConfig = JSON.parse(fs.readFileSync(filePath));
-                    } catch (e) {
-                        console.log(e)
-                    }
-
-                    dataConfig.buy = dataSave;
-                    const path = savePath('tokens', `config.json`);
-                    writeJSONFile(path, dataConfig).catch(console.error)
-                }
-            }
-        ]
+        preview: 'preview.json'
     },
 ]
 
