@@ -214,6 +214,8 @@ const cacheConfigs = [
         url: `${STRAPI_URL}/api/list/app-banner`,
         folder: 'app-banners',
         fileName: 'list.json',
+        imageFields: [],
+        removeFields: [],
         preview: 'preview.json'
     },
 ]
