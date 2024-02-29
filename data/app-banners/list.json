@@ -1,1 +1,55 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "ASTR token detail banner (mobile app)",
+    "description": null,
+    "start_time": "2024-02-27T17:00:00.000Z",
+    "end_time": "2024-03-01T17:00:00.000Z",
+    "contents": [
+      {
+        "platform": "web",
+        "screen_or_url": "Home",
+        "position": "home",
+        "action": "open_external_url",
+        "directional": "Home",
+        "media": "https://media-resources.subwallet.app/GGJJW_63_Ws_AER_Hdh_fef9a37345.jpeg"
+      }
+    ],
+    "actions": [
+      {
+        "action_name": "Comfirm",
+        "confirmation_text": "Are you sure?",
+        "content": null,
+        "frequency": "show_first",
+        "platform": "web",
+        "button_name": null,
+        "button_color": null,
+        "type": "open_url",
+        "directional": null
+      }
+    ],
+    "popups": [
+      {
+        "platform": "web",
+        "screen_or_url": "Home",
+        "action_type": "dismiss",
+        "directional": null,
+        "displayedLoginSuccessful": null,
+        "content": null,
+        "Version": null,
+        "ordinal": null,
+        "condition_type": null,
+        "collection_id": null,
+        "condition_value": null,
+        "crowdloan_id": null,
+        "crowdloan_status": null,
+        "earning_token": null,
+        "earning_pool_id": null,
+        "yield_pool_type": null,
+        "earning_active_stake": null,
+        "frequency": "weekly",
+        "frequency_value": 1
+      }
+    ]
+  }
+]
