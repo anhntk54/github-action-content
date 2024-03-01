@@ -48,7 +48,8 @@
         "yield_pool_type": null,
         "earning_active_stake": null,
         "frequency": "weekly",
-        "frequency_value": 1
+        "frequency_value": 1,
+        "button_label": null
       }
     ]
   }
