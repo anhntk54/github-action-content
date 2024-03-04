@@ -214,6 +214,30 @@ const cacheConfigs = [
         url: `${STRAPI_URL}/api/list/app-banner`,
         folder: 'app-banners',
         fileName: 'list.json',
+        imageFields: ['media'],
+        removeFields: [],
+        preview: 'preview.json'
+    },
+    {
+        url: `${STRAPI_URL}/api/list/app-popup`,
+        folder: 'app-popups',
+        fileName: 'list.json',
+        imageFields: ['media'],
+        removeFields: [],
+        preview: 'preview.json'
+    },
+    {
+        url: `${STRAPI_URL}/api/list/app-change-log`,
+        folder: 'app-change-logs',
+        fileName: 'list.json',
+        imageFields: [],
+        removeFields: [],
+        preview: 'preview.json'
+    },
+    {
+        url: `${STRAPI_URL}/api/list/app-confirmation;`,
+        folder: 'app-confirmation;s',
+        fileName: 'list.json',
         imageFields: [],
         removeFields: [],
         preview: 'preview.json'
