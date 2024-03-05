@@ -1,41 +1,31 @@
 [
   {
     "id": 1,
-    "position": "token_detail",
+    "position": "dapp",
     "priority": 1,
-    "media": "https://static-data.subwallet.app/app-banners/images/media/vara_6238a8a42c.png",
+    "media": "https://static-data.subwallet.app/app-banners/images/media/GGJJW_63_Ws_AER_Hdh_fef9a37345.jpeg",
     "info": {
-      "id": 2,
-      "name": "hahaha",
-      "description": "a",
-      "start_time": "2024-03-04T17:00:00.000Z",
-      "stop_time": "2024-03-12T17:00:00.000Z",
+      "id": 1,
+      "name": "Test app-banner",
+      "description": null,
+      "start_time": "2024-03-03T17:00:00.000Z",
+      "stop_time": "2024-03-08T17:00:00.000Z",
       "platforms": [
-        "mobile",
-        "web"
+        "mobile"
       ]
     },
     "action": {
-      "id": 3,
-      "url": "234",
-      "screen": "32",
-      "params": 2,
-      "is_cancel": null
+      "id": 1,
+      "url": "Helo",
+      "screen": "Home",
+      "params": null,
+      "is_cancel": false
     },
-    "conditions": {
-      "condition-balance": [
-        {
-          "id": 3,
-          "comparison": "gt",
-          "value": null,
-          "chain_asset": "acala_evm-NATIVE-ACA"
-        }
-      ]
-    },
+    "conditions": {},
     "instruction": {
-      "id": 3,
-      "confirm_label": "2343",
-      "cancel_label": "234",
+      "id": 1,
+      "confirm_label": "Start",
+      "cancel_label": "Delete",
       "instruction_id": 4,
       "group": "earning",
       "slug": "LENDING"
