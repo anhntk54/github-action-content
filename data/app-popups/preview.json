@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "priority": 999,
+    "position": "earning",
+    "repeat": "once",
+    "content": "s",
+    "media": "https://static-data.subwallet.app/app-popups/images/media/GFL_7p1d_WUA_Eschq_f6004397f2.jpeg",
+    "info": {
+      "id": 2,
+      "name": "Popup",
+      "description": "description popup",
+      "start_time": "2024-03-05T17:00:00.000Z",
+      "stop_time": "2024-03-22T17:00:00.000Z",
+      "platforms": null
+    },
+    "buttons": [
+      {
+        "id": 2,
+        "label": "OK",
+        "color": "warning",
+        "instruction": {
+          "id": 3,
+          "confirm_label": "Pool",
+          "cancel_label": "cancel",
+          "instruction_id": 111,
+          "group": "earning",
+          "slug": "NOMINATION_POOL"
+        },
+        "action": {
+          "id": 3,
+          "url": "/Home",
+          "screen": "Home",
+          "params": null,
+          "is_cancel": true
+        }
+      }
+    ]
+  }
+]
