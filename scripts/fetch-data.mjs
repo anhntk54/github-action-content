@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://content-stage.subwallet.app';
+const STRAPI_URL = 'https://ec06-14-191-183-97.ngrok-free.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -290,6 +290,7 @@ const fetchAndProcessData = async (url, folder, downloadDir, fieldsImage) => {
     const results = await axios.get(url);
 
     if (!results.data) return;
+    console.log('Processing data', url, results.data)
 
     return await Promise.all(results.data.map(async item => {
         const dataImages = {};
