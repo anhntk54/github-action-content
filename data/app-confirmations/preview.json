@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Confirm",
+    "position": "send-fund",
+    "repeat": "everytime",
+    "content": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "text": "a",
+            "type": "text"
+          }
+        ]
+      }
+    ],
+    "confirm_label": "OK",
+    "cancel_label": "Cancel",
+    "conditions": {
+      "condition-balance": [
+        {
+          "id": 1,
+          "comparison": "gte",
+          "value": 1,
+          "chain_asset": "acala-LOCAL-aSEED"
+        },
+        {
+          "id": 2,
+          "comparison": "gte",
+          "value": 1,
+          "chain_asset": "acala-LOCAL-ASTR"
+        }
+      ],
+      "condition-crowdloan": [
+        {
+          "id": 1,
+          "chain": "acala_testnet"
+        }
+      ]
+    }
+  }
+]
