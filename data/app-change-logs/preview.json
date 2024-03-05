@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Version 1",
+    "platform": "extension",
+    "version": "1.3.6",
+    "content": "1",
+    "buttons": [
+      {
+        "id": 1,
+        "label": "OK",
+        "color": "primary",
+        "instruction": {
+          "id": 2,
+          "confirm_label": "Hello",
+          "cancel_label": "Bye",
+          "instruction_id": 2,
+          "group": "earning",
+          "slug": "NATIVE_STAKING"
+        },
+        "action": {
+          "id": 2,
+          "url": "/home",
+          "screen": "Home",
+          "params": null,
+          "is_cancel": true
+        }
+      }
+    ]
+  }
+]
