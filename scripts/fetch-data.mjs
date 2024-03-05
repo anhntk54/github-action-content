@@ -235,8 +235,8 @@ const cacheConfigs = [
         preview: 'preview.json'
     },
     {
-        url: `${STRAPI_URL}/api/list/app-confirmation;`,
-        folder: 'app-confirmation;s',
+        url: `${STRAPI_URL}/api/list/app-confirmation`,
+        folder: 'app-confirmations',
         fileName: 'list.json',
         imageFields: [],
         removeFields: [],
