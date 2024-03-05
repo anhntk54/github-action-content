@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://ec06-14-191-183-97.ngrok-free.app';
+const STRAPI_URL = 'https://content-stage.subwallet.app';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
