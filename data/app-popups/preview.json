@@ -35,6 +35,40 @@
           "is_cancel": true
         }
       }
-    ]
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "lt",
+          "value": 1,
+          "chain_asset": "acala-LOCAL-DOT"
+        }
+      ],
+      "condition-crowdloan": [
+        {
+          "chain": "acala_testnet"
+        }
+      ],
+      "condition-earning": [
+        {
+          "pool_slug": "GLMR___native_staking___moonbeam",
+          "comparison": "lt",
+          "value": 1
+        }
+      ],
+      "condition-has-money": [
+        {
+          "has_money": [
+            "balance"
+          ]
+        }
+      ],
+      "condition-nft": [
+        {
+          "collection_id": "1",
+          "chain": "acala_testnet"
+        }
+      ]
+    }
   }
 ]
