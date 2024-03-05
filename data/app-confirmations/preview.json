@@ -4,17 +4,7 @@
     "name": "Confirm",
     "position": "send-fund",
     "repeat": "everytime",
-    "content": [
-      {
-        "type": "paragraph",
-        "children": [
-          {
-            "text": "a",
-            "type": "text"
-          }
-        ]
-      }
-    ],
+    "content": "Mô ta",
     "confirm_label": "OK",
     "cancel_label": "Cancel",
     "conditions": {
