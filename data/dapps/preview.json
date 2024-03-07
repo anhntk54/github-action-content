@@ -23,7 +23,7 @@
     "id": 59,
     "title": "HydraDX",
     "description": "The HydraDX Omnipool - an innovative Automated Market Maker (AMM) unlocks unparalleled efficiencies by combining all assets in a single trading pool.",
-    "url": "https://hydradx.io/WALLET",
+    "url": "https://app.hydradx.io/trade/swap?referral=WALLET",
     "subtitle": "DeFi Protocol designed to bring liquidity to Polkadot",
     "is_substrate": null,
     "is_evm": null,
@@ -50,7 +50,7 @@
     "is_featured": true,
     "ordinal": 2,
     "desktop_mode": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/favicon_3edde93782.ico",
+    "icon": "https://static-data.subwallet.app/dapps/images/icon/bitavatar_a0a2b018f1.png",
     "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/thumb_bit_avatar_57c39fbf15.jpg",
     "chains": [
       "bitcountry"
@@ -307,7 +307,7 @@
     "ordinal": 14,
     "desktop_mode": null,
     "icon": "https://static-data.subwallet.app/dapps/images/icon/subsquare_4cdf1d9498.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/bafybeigdvohyozmu76ttwoae6rfx4rkvspspj3xqfv7ogz2ncmj4ub2y7y_6583a1ad07.png",
+    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/Subsquare_9c0305db99.png",
     "chains": [],
     "categories": [
       "governance"
@@ -346,7 +346,7 @@
     "ordinal": 16,
     "desktop_mode": null,
     "icon": "https://static-data.subwallet.app/dapps/images/icon/centrifuge_7293c743a5.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/Centrifuge_Preview_072dcd8a82.png",
+    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/Centrifuge_c1a847d712.png",
     "chains": [
       "ethereum",
       "centrifuge"
@@ -365,7 +365,7 @@
     "is_evm": null,
     "is_featured": false,
     "ordinal": 17,
-    "desktop_mode": null,
+    "desktop_mode": true,
     "icon": "https://static-data.subwallet.app/dapps/images/icon/mangata_x_ca60b3b40f.png",
     "preview_image": null,
     "chains": [
@@ -426,7 +426,7 @@
     "is_substrate": null,
     "is_evm": null,
     "is_featured": null,
-    "ordinal": 20,
+    "ordinal": 21,
     "desktop_mode": null,
     "icon": "https://static-data.subwallet.app/dapps/images/icon/wallet_connect_9ed43a1b95.png",
     "preview_image": null,
@@ -590,9 +590,29 @@
     "is_featured": null,
     "ordinal": 26,
     "desktop_mode": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/kodadot_e5b6996e52.png",
+    "icon": "https://static-data.subwallet.app/dapps/images/icon/kodadot_9069442d5a.png",
     "preview_image": null,
     "chains": [],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Unique Marketplace",
+    "description": "The Unique marketplace supports next-generation NFT Utility tools for creators. Enjoy a truly seamless experience by creating and trading the most advanced NFTs on the Unique and Quartz Networks.",
+    "url": "https://unqnft.io/",
+    "subtitle": "NFT Marketplace",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 26,
+    "desktop_mode": null,
+    "icon": "https://static-data.subwallet.app/dapps/images/icon/unique_network_b207ab1ac7.png",
+    "preview_image": null,
+    "chains": [
+      "unique_network"
+    ],
     "categories": [
       "nft"
     ]
@@ -1310,6 +1330,27 @@
     ]
   },
   {
+    "id": 136,
+    "title": "Polkadex Orderbook",
+    "description": "A fully decentralized platform for exchanging tokens in a peer-to-peer trustless environment, while additionally enabling high-liquidity, lightning-fast transaction speed and advanced trading features such as high-frequency trading and trading bots.",
+    "url": "https://orderbook.polkadex.trade",
+    "subtitle": "Decentralized Exchange Platform",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 60,
+    "desktop_mode": null,
+    "icon": "https://static-data.subwallet.app/dapps/images/icon/polkadex_76c2ed54f7.png",
+    "preview_image": null,
+    "chains": [
+      "polkadex",
+      "polkadex_dot"
+    ],
+    "categories": [
+      "defi"
+    ]
+  },
+  {
     "id": 60,
     "title": "Ink Whale",
     "description": "Ink Whale lets you earn fixed interest and other rewards for locking up your tokens or NFT on Aleph Zero Network.",
@@ -1359,7 +1400,7 @@
     "is_evm": null,
     "is_featured": null,
     "ordinal": 63,
-    "desktop_mode": null,
+    "desktop_mode": true,
     "icon": "https://static-data.subwallet.app/dapps/images/icon/karura_f0db29b6d2.png",
     "preview_image": null,
     "chains": [
@@ -1465,7 +1506,7 @@
     "is_evm": null,
     "is_featured": false,
     "ordinal": 68,
-    "desktop_mode": null,
+    "desktop_mode": true,
     "icon": "https://static-data.subwallet.app/dapps/images/icon/upgardooor_336e5c5057.png",
     "preview_image": null,
     "chains": [
@@ -1640,6 +1681,27 @@
     "categories": [
       "nft",
       "utilities"
+    ]
+  },
+  {
+    "id": 137,
+    "title": "DED MINE",
+    "description": "Check out DED MINE; the first release from DED GAMES - a brick-breaker helping DEDbird in a quest to burrow to the surface and beyond.",
+    "url": "https://ded.games/play/dedmine",
+    "subtitle": "The first release from DED GAMES",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 75,
+    "desktop_mode": null,
+    "icon": "https://static-data.subwallet.app/dapps/images/icon/ded_277c75073c.png",
+    "preview_image": null,
+    "chains": [
+      "unique_network",
+      "statemint"
+    ],
+    "categories": [
+      "socialfi"
     ]
   },
   {
