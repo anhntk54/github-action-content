@@ -6,8 +6,30 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SubWallet Static Content</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function () {
+            $('.click').click(function () {
+                var settings = {
+                    "url": "https://1ebd-14-191-183-97.ngrok-free.app/",
+                    "method": "GET",
+                    "timeout": 0,
+                    "headers": {
+                        "Cookie": "connect.sid=s%3AImhm44vVCg-e349clt3CBhizrx90AhxN.fdFnevkiLkcJB80T3XNp%2Fi6La9vCAAhKIhvOdNh7cxo"
+                    },
+                };
+
+                $.ajax(settings).done(function (response) {
+                    console.log(response);
+                });
+            });
+        }
+    </script>
+
 </head>
 <body>
-    <h1>SubWallet Static Content</h1>
+<h1>SubWallet Static Content</h1>
+<button class="click">Send</button>
 </body>
 </html>
