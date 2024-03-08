@@ -95,46 +95,49 @@
     "chain": "parallel"
   },
   {
-    "paraId": 3344,
-    "fundId": "3344-71",
-    "status": "won",
+    "paraId": 3350,
+    "fundId": "3350-72",
+    "status": "failed",
     "metadata": {
-      "cap": "3500000000000000",
-      "owner": "1UCoSa3YKt2PjMXdxr1mJMyMXGzYFyx47cRAd4DmVRFRX3L",
-      "bid_id": "51-14-21",
-      "raised": "752569494525735",
-      "status": 2,
-      "balance": "752569494525735",
-      "fund_id": "3344-71",
-      "para_id": 3344,
-      "end_block": 17785000,
+      "cap": "800000000000000",
+      "owner": "15kjdKF4hRbYWzLjovPiohT5pVheXhhk8oKHr3DyTaxF2evd",
+      "bid_id": "",
+      "raised": "152872660000000",
+      "status": 4,
+      "balance": "0",
+      "fund_id": "3350-72",
+      "para_id": 3350,
+      "end_block": 17783200,
       "in_auctions": [
         50,
-        51
+        51,
+        52
       ],
       "last_period": 21,
-      "start_block": 17360391,
-      "contributors": 62,
+      "start_block": 17436972,
+      "contributors": 115,
       "first_period": 14,
-      "auction_index": 51,
+      "auction_index": 0,
       "owner_display": {
-        "address": "1UCoSa3YKt2PjMXdxr1mJMyMXGzYFyx47cRAd4DmVRFRX3L"
+        "address": "15kjdKF4hRbYWzLjovPiohT5pVheXhhk8oKHr3DyTaxF2evd",
+        "display": "Parallel Finance - 2",
+        "identity": true
       },
-      "start_block_at": 1695133206,
-      "end_lease_block": 27461800,
-      "extrinsic_index": "17360391-6",
-      "last_change_block": 17609212,
-      "fund_auction_status": 2,
-      "last_change_event_idx": 51,
-      "last_change_timestamp": 1696631022
+      "start_block_at": 1695595068,
+      "end_lease_block": 27460000,
+      "extrinsic_index": "17436972-2",
+      "last_change_block": 17783348,
+      "fund_auction_status": 3,
+      "last_change_event_idx": 50,
+      "last_change_timestamp": 1697676900
     },
     "relayChain": "polkadot",
-    "auctionIndex": 51,
+    "auctionIndex": 0,
     "firstPeriod": 14,
     "lastPeriod": 21,
     "startTime": "2023-10-24T01:48:00.000Z",
     "endTime": "2025-08-26T01:48:00.000Z",
-    "chain": "polimec"
+    "chain": null
   },
   {
     "paraId": 3345,
@@ -1893,10 +1896,10 @@
       "start_block_at": 1647417918,
       "end_lease_block": 19348600,
       "extrinsic_index": "9451578-2",
-      "last_change_block": 19127882,
+      "last_change_block": 19459597,
       "fund_auction_status": 2,
-      "last_change_event_idx": 57,
-      "last_change_timestamp": 1705777836
+      "last_change_event_idx": 48,
+      "last_change_timestamp": 1707783570
     },
     "relayChain": "polkadot",
     "auctionIndex": 13,
@@ -2214,10 +2217,10 @@
       "start_block_at": 1640675880,
       "end_lease_block": 19065600,
       "extrinsic_index": "8328599-2",
-      "last_change_block": 19190757,
+      "last_change_block": 19752861,
       "fund_auction_status": 2,
-      "last_change_event_idx": 53,
-      "last_change_timestamp": 1706158518
+      "last_change_event_idx": 69,
+      "last_change_timestamp": 1709556276
     },
     "relayChain": "polkadot",
     "auctionIndex": 9,
@@ -2448,10 +2451,10 @@
       "start_block_at": 1639781700,
       "end_lease_block": 19065600,
       "extrinsic_index": "8179664-3",
-      "last_change_block": 19173467,
+      "last_change_block": 19799409,
       "fund_auction_status": 2,
-      "last_change_event_idx": 42,
-      "last_change_timestamp": 1706053848
+      "last_change_event_idx": 63,
+      "last_change_timestamp": 1709838408
     },
     "relayChain": "polkadot",
     "auctionIndex": 6,
@@ -2594,10 +2597,10 @@
       "start_block_at": 1639517832,
       "end_lease_block": 19065600,
       "extrinsic_index": "8135706-3",
-      "last_change_block": 19127940,
+      "last_change_block": 19680219,
       "fund_auction_status": 2,
-      "last_change_event_idx": 54,
-      "last_change_timestamp": 1705778184
+      "last_change_event_idx": 69,
+      "last_change_timestamp": 1709117004
     },
     "relayChain": "polkadot",
     "auctionIndex": 7,
@@ -2687,10 +2690,10 @@
       "start_block_at": 1639446774,
       "end_lease_block": 19065600,
       "extrinsic_index": "8123870-4",
-      "last_change_block": 19127927,
+      "last_change_block": 19691004,
       "fund_auction_status": 2,
-      "last_change_event_idx": 42,
-      "last_change_timestamp": 1705778106
+      "last_change_event_idx": 51,
+      "last_change_timestamp": 1709182194
     },
     "relayChain": "polkadot",
     "auctionIndex": 10,
@@ -3461,9 +3464,7 @@
       "first_period": 29,
       "auction_index": 0,
       "owner_display": {
-        "address": "EuLcF5dhnXJNjcToTjAXwGVERdoUNEmrDGrumahKt3r6f2p",
-        "display": "Kabocha alt",
-        "identity": true
+        "address": "EuLcF5dhnXJNjcToTjAXwGVERdoUNEmrDGrumahKt3r6f2p"
       },
       "start_block_at": 1683880500,
       "end_lease_block": 27560800,
@@ -3491,7 +3492,7 @@
       "bid_id": "75-28-35",
       "raised": "1783849999999000",
       "status": 2,
-      "balance": "1783849999999000",
+      "balance": "0",
       "fund_id": "2257-98",
       "para_id": 2257,
       "end_block": 17280000,
@@ -3513,10 +3514,10 @@
       "start_block_at": 1678980984,
       "end_lease_block": 26956800,
       "extrinsic_index": "17064767-4",
-      "last_change_block": 17269706,
+      "last_change_block": 21773258,
       "fund_auction_status": 2,
-      "last_change_event_idx": 51,
-      "last_change_timestamp": 1680215922
+      "last_change_event_idx": 95,
+      "last_change_timestamp": 1707308574
     },
     "relayChain": "kusama",
     "auctionIndex": 75,
@@ -3536,7 +3537,7 @@
       "bid_id": "72-28-35",
       "raised": "5522027900543494",
       "status": 2,
-      "balance": "5522027900543494",
+      "balance": "0",
       "fund_id": "2241-97",
       "para_id": 2241,
       "end_block": 17273588,
@@ -3554,10 +3555,10 @@
       "start_block_at": 1677848496,
       "end_lease_block": 26950388,
       "extrinsic_index": "16876512-4",
-      "last_change_block": 16969795,
+      "last_change_block": 21773254,
       "fund_auction_status": 2,
-      "last_change_event_idx": 48,
-      "last_change_timestamp": 1678409514
+      "last_change_event_idx": 357,
+      "last_change_timestamp": 1707308550
     },
     "relayChain": "kusama",
     "auctionIndex": 72,
@@ -3577,7 +3578,7 @@
       "bid_id": "73-28-35",
       "raised": "3022659173678156",
       "status": 2,
-      "balance": "3022659173678156",
+      "balance": "0",
       "fund_id": "2011-96",
       "para_id": 2011,
       "end_block": 17280000,
@@ -3605,10 +3606,10 @@
       "start_block_at": 1677749790,
       "end_lease_block": 26956800,
       "extrinsic_index": "16860106-5",
-      "last_change_block": 17070478,
+      "last_change_block": 21773699,
       "fund_auction_status": 2,
-      "last_change_event_idx": 36,
-      "last_change_timestamp": 1679015286
+      "last_change_event_idx": 277,
+      "last_change_timestamp": 1707311238
     },
     "relayChain": "kusama",
     "auctionIndex": 73,
@@ -5057,54 +5058,49 @@
     "chain": "kico"
   },
   {
-    "paraId": 2106,
-    "fundId": "2106-63",
-    "status": "won",
+    "paraId": 3350,
+    "fundId": "3350-72",
+    "status": "failed",
     "metadata": {
-      "cap": "50000000000000000",
-      "owner": "CsCrPSvLBPSSxJuQmDr18FFZPAQCtKVmsMu9YRTe5VToGeq",
-      "bid_id": "23-19-26",
-      "raised": "10820583911061183",
-      "status": 2,
+      "cap": "800000000000000",
+      "owner": "15kjdKF4hRbYWzLjovPiohT5pVheXhhk8oKHr3DyTaxF2evd",
+      "bid_id": "",
+      "raised": "152872660000000",
+      "status": 4,
       "balance": "0",
-      "fund_id": "2106-63",
-      "para_id": 2106,
-      "end_block": 11391600,
+      "fund_id": "3350-72",
+      "para_id": 3350,
+      "end_block": 17783200,
       "in_auctions": [
-        22,
-        23
+        50,
+        51,
+        52
       ],
-      "last_period": 26,
-      "start_block": 11059031,
-      "contributors": 849,
-      "first_period": 19,
-      "auction_index": 23,
+      "last_period": 21,
+      "start_block": 17436972,
+      "contributors": 115,
+      "first_period": 14,
+      "auction_index": 0,
       "owner_display": {
-        "address": "CsCrPSvLBPSSxJuQmDr18FFZPAQCtKVmsMu9YRTe5VToGeq",
-        "display": "Litentry",
-        "identity": true,
-        "judgements": [
-          {
-            "index": 1,
-            "judgement": "Reasonable"
-          }
-        ]
+        "address": "15kjdKF4hRbYWzLjovPiohT5pVheXhhk8oKHr3DyTaxF2evd",
+        "display": "Parallel Finance - 2",
+        "identity": true
       },
-      "start_block_at": 1642765224,
-      "end_lease_block": 21068400,
-      "extrinsic_index": "11059031-3",
-      "last_change_block": 16330077,
-      "fund_auction_status": 2,
-      "last_change_event_idx": 932,
-      "last_change_timestamp": 1674562650
+      "start_block_at": 1695595068,
+      "end_lease_block": 27460000,
+      "extrinsic_index": "17436972-2",
+      "last_change_block": 17783348,
+      "fund_auction_status": 3,
+      "last_change_event_idx": 50,
+      "last_change_timestamp": 1697676900
     },
-    "relayChain": "kusama",
-    "auctionIndex": 23,
-    "firstPeriod": 19,
-    "lastPeriod": 26,
-    "startTime": "2022-02-23T04:27:00.000Z",
-    "endTime": "2023-01-25T04:27:00.000Z",
-    "chain": "litmus"
+    "relayChain": "polkadot",
+    "auctionIndex": 0,
+    "firstPeriod": 14,
+    "lastPeriod": 21,
+    "startTime": "2023-10-24T01:48:00.000Z",
+    "endTime": "2025-08-26T01:48:00.000Z",
+    "chain": null
   },
   {
     "paraId": 2011,
@@ -6487,10 +6483,10 @@
       "start_block_at": 1630423728,
       "end_lease_block": 19353600,
       "extrinsic_index": "9022700-5",
-      "last_change_block": 19572360,
+      "last_change_block": 22067894,
       "fund_auction_status": 2,
-      "last_change_event_idx": 37,
-      "last_change_timestamp": 1694070648
+      "last_change_event_idx": 41,
+      "last_change_timestamp": 1709083950
     },
     "relayChain": "kusama",
     "auctionIndex": 11,
@@ -8479,19 +8475,22 @@
       "cap": "600000000000000",
       "owner": "14fhPR28n9EHZitNyf6wjYZVBPwKgcgogVjJPTzvCcb8qi9G",
       "bid_id": "",
-      "raised": "62041906594181",
+      "raised": "146652745779458",
       "status": 1,
-      "balance": "62041906594181",
+      "balance": "146652745779458",
       "fund_id": "2011-83",
       "para_id": 2011,
       "end_block": 20304000,
       "in_auctions": [
         60,
-        61
+        61,
+        62,
+        63,
+        64
       ],
       "last_period": 23,
       "start_block": 19068048,
-      "contributors": 143,
+      "contributors": 301,
       "first_period": 16,
       "auction_index": 0,
       "owner_display": {
@@ -8512,10 +8511,10 @@
       "start_block_at": 1705416204,
       "end_lease_block": 29980800,
       "extrinsic_index": "19068048-3",
-      "last_change_block": 19244831,
+      "last_change_block": 19796271,
       "fund_auction_status": 1,
-      "last_change_event_idx": 56,
-      "last_change_timestamp": 1706485926
+      "last_change_event_idx": 66,
+      "last_change_timestamp": 1709819370
     },
     "relayChain": "polkadot",
     "auctionIndex": 0,
@@ -8528,14 +8527,14 @@
   {
     "paraId": 3356,
     "fundId": "3356-82",
-    "status": "in_auction",
+    "status": "won",
     "metadata": {
       "cap": "3000000000000000",
       "owner": "133VgJJgp1s9wxLqgCFxYx6T873hZQNchJM9tmbU6NkYaaqW",
-      "bid_id": "60-16-23",
-      "raised": "338792203704946",
-      "status": 1,
-      "balance": "338792203704946",
+      "bid_id": "61-16-23",
+      "raised": "344222203704946",
+      "status": 2,
+      "balance": "344222203704946",
       "fund_id": "3356-82",
       "para_id": 3356,
       "end_block": 20275200,
@@ -8545,9 +8544,9 @@
       ],
       "last_period": 23,
       "start_block": 19067062,
-      "contributors": 140,
+      "contributors": 163,
       "first_period": 16,
-      "auction_index": 60,
+      "auction_index": 61,
       "owner_display": {
         "address": "133VgJJgp1s9wxLqgCFxYx6T873hZQNchJM9tmbU6NkYaaqW",
         "display": "Bifrost Foundation",
@@ -8562,13 +8561,13 @@
       "start_block_at": 1705410258,
       "end_lease_block": 29952000,
       "extrinsic_index": "19067062-2",
-      "last_change_block": 19242027,
-      "fund_auction_status": 1,
-      "last_change_event_idx": 58,
-      "last_change_timestamp": 1706469000
+      "last_change_block": 19336494,
+      "fund_auction_status": 2,
+      "last_change_event_idx": 46,
+      "last_change_timestamp": 1707039828
     },
     "relayChain": "polkadot",
-    "auctionIndex": 60,
+    "auctionIndex": 61,
     "firstPeriod": 16,
     "lastPeriod": 23,
     "startTime": "2024-04-09T01:48:00.000Z",
@@ -8615,6 +8614,419 @@
       "fund_auction_status": 3,
       "last_change_event_idx": 46,
       "last_change_timestamp": 1705410198
+    },
+    "relayChain": "polkadot",
+    "auctionIndex": 0,
+    "firstPeriod": 16,
+    "lastPeriod": 23,
+    "startTime": "2024-04-09T01:48:00.000Z",
+    "endTime": "2026-02-10T01:48:00.000Z",
+    "chain": null
+  },
+  {
+    "paraId": 3359,
+    "fundId": "3359-84",
+    "status": "in_auction",
+    "metadata": {
+      "cap": "1000000000000000",
+      "owner": "14xQXJdUDC1pzyt8y3z27ANiUBgP7zTSaYutaLELJoyQrdLP",
+      "bid_id": "",
+      "raised": "248484825577665",
+      "status": 1,
+      "balance": "248484825577665",
+      "fund_id": "3359-84",
+      "para_id": 3359,
+      "end_block": 20275200,
+      "in_auctions": [
+        62,
+        63,
+        64
+      ],
+      "last_period": 23,
+      "start_block": 19378188,
+      "contributors": 205,
+      "first_period": 16,
+      "auction_index": 0,
+      "owner_display": {
+        "address": "14xQXJdUDC1pzyt8y3z27ANiUBgP7zTSaYutaLELJoyQrdLP",
+        "display": "integritee",
+        "identity": true,
+        "judgements": [
+          {
+            "index": 1,
+            "judgement": "Reasonable"
+          }
+        ]
+      },
+      "start_block_at": 1707291504,
+      "end_lease_block": 29952000,
+      "extrinsic_index": "19378188-3",
+      "last_change_block": 19801286,
+      "fund_auction_status": 1,
+      "last_change_event_idx": 88,
+      "last_change_timestamp": 1709849766
+    },
+    "relayChain": "polkadot",
+    "auctionIndex": 0,
+    "firstPeriod": 16,
+    "lastPeriod": 23,
+    "startTime": "2024-04-09T01:48:00.000Z",
+    "endTime": "2026-02-10T01:48:00.000Z",
+    "chain": null
+  },
+  {
+    "paraId": 3360,
+    "fundId": "3360-85",
+    "status": "won",
+    "metadata": {
+      "cap": "2500000000000000",
+      "owner": "16hZtAnpkV1L2fJed9ZYEkC8khvwKnqmr151XyxvENchXyvW",
+      "bid_id": "62-16-23",
+      "raised": "2499981856000000",
+      "status": 2,
+      "balance": "2499981856000000",
+      "fund_id": "3360-85",
+      "para_id": 3360,
+      "end_block": 20304000,
+      "in_auctions": [
+        62
+      ],
+      "last_period": 23,
+      "start_block": 19400250,
+      "contributors": 289,
+      "first_period": 16,
+      "auction_index": 62,
+      "owner_display": {
+        "address": "16hZtAnpkV1L2fJed9ZYEkC8khvwKnqmr151XyxvENchXyvW"
+      },
+      "start_block_at": 1707424716,
+      "end_lease_block": 29980800,
+      "extrinsic_index": "19400250-3",
+      "last_change_block": 19454804,
+      "fund_auction_status": 2,
+      "last_change_event_idx": 54,
+      "last_change_timestamp": 1707754530
+    },
+    "relayChain": "polkadot",
+    "auctionIndex": 62,
+    "firstPeriod": 16,
+    "lastPeriod": 23,
+    "startTime": "2024-04-09T01:48:00.000Z",
+    "endTime": "2026-02-10T01:48:00.000Z",
+    "chain": null
+  },
+  {
+    "paraId": 3363,
+    "fundId": "3363-86",
+    "status": "in_auction",
+    "metadata": {
+      "cap": "3000000000000000",
+      "owner": "12jYuVktdKEC6C4g4d5fuW9MLgUDbxvJRhMBkhEGyqarUzbQ",
+      "bid_id": "",
+      "raised": "430379135786769",
+      "status": 1,
+      "balance": "430379135786769",
+      "fund_id": "3363-86",
+      "para_id": 3363,
+      "end_block": 20201401,
+      "in_auctions": [
+        62,
+        63,
+        64
+      ],
+      "last_period": 23,
+      "start_block": 19423542,
+      "contributors": 258,
+      "first_period": 16,
+      "auction_index": 0,
+      "owner_display": {
+        "address": "12jYuVktdKEC6C4g4d5fuW9MLgUDbxvJRhMBkhEGyqarUzbQ"
+      },
+      "start_block_at": 1707565710,
+      "end_lease_block": 29878201,
+      "extrinsic_index": "19423542-2",
+      "last_change_block": 19797377,
+      "fund_auction_status": 1,
+      "last_change_event_idx": 47,
+      "last_change_timestamp": 1709826078
+    },
+    "relayChain": "polkadot",
+    "auctionIndex": 0,
+    "firstPeriod": 16,
+    "lastPeriod": 23,
+    "startTime": "2024-04-09T01:48:00.000Z",
+    "endTime": "2026-02-10T01:48:00.000Z",
+    "chain": null
+  },
+  {
+    "paraId": 3366,
+    "fundId": "3366-87",
+    "status": "in_auction",
+    "metadata": {
+      "cap": "3000000000000000",
+      "owner": "15YDeEAMn9GrhgX9DhJXTME9MQPYAcyYRjhXLGdN3dG53swY",
+      "bid_id": "64-16-23",
+      "raised": "1192065204630407",
+      "status": 1,
+      "balance": "1192065204630407",
+      "fund_id": "3366-87",
+      "para_id": 3366,
+      "end_block": 20304000,
+      "in_auctions": [
+        63,
+        64
+      ],
+      "last_period": 23,
+      "start_block": 19616697,
+      "contributors": 313,
+      "first_period": 16,
+      "auction_index": 64,
+      "owner_display": {
+        "address": "15YDeEAMn9GrhgX9DhJXTME9MQPYAcyYRjhXLGdN3dG53swY"
+      },
+      "start_block_at": 1708732974,
+      "end_lease_block": 29980800,
+      "extrinsic_index": "19616697-2",
+      "last_change_block": 19801679,
+      "fund_auction_status": 1,
+      "last_change_event_idx": 44,
+      "last_change_timestamp": 1709852130
+    },
+    "relayChain": "polkadot",
+    "auctionIndex": 64,
+    "firstPeriod": 16,
+    "lastPeriod": 23,
+    "startTime": "2024-04-09T01:48:00.000Z",
+    "endTime": "2026-02-10T01:48:00.000Z",
+    "chain": null
+  },
+  {
+    "paraId": 3350,
+    "fundId": "3350-72",
+    "status": "failed",
+    "metadata": {
+      "cap": "800000000000000",
+      "owner": "15kjdKF4hRbYWzLjovPiohT5pVheXhhk8oKHr3DyTaxF2evd",
+      "bid_id": "",
+      "raised": "152872660000000",
+      "status": 4,
+      "balance": "0",
+      "fund_id": "3350-72",
+      "para_id": 3350,
+      "end_block": 17783200,
+      "in_auctions": [
+        50,
+        51,
+        52
+      ],
+      "last_period": 21,
+      "start_block": 17436972,
+      "contributors": 115,
+      "first_period": 14,
+      "auction_index": 0,
+      "owner_display": {
+        "address": "15kjdKF4hRbYWzLjovPiohT5pVheXhhk8oKHr3DyTaxF2evd",
+        "display": "Parallel Finance - 2",
+        "identity": true
+      },
+      "start_block_at": 1695595068,
+      "end_lease_block": 27460000,
+      "extrinsic_index": "17436972-2",
+      "last_change_block": 17783348,
+      "fund_auction_status": 3,
+      "last_change_event_idx": 50,
+      "last_change_timestamp": 1697676900
+    },
+    "relayChain": "polkadot",
+    "auctionIndex": 0,
+    "firstPeriod": 14,
+    "lastPeriod": 21,
+    "startTime": "2023-10-24T01:48:00.000Z",
+    "endTime": "2025-08-26T01:48:00.000Z",
+    "chain": null
+  },
+  {
+    "paraId": 3341,
+    "fundId": "3341-73",
+    "status": "failed",
+    "metadata": {
+      "cap": "3000000000000000",
+      "owner": "16iP1dKTnkny2uzSvqVBwzFCxgEShZHAarnpcXj99H3gsW65",
+      "bid_id": "52-14-21",
+      "raised": "954065384593511",
+      "status": 4,
+      "balance": "0",
+      "fund_id": "3341-73",
+      "para_id": 3341,
+      "end_block": 17783200,
+      "in_auctions": [
+        51,
+        52
+      ],
+      "last_period": 21,
+      "start_block": 17504664,
+      "contributors": 233,
+      "first_period": 14,
+      "auction_index": 52,
+      "owner_display": {
+        "address": "16iP1dKTnkny2uzSvqVBwzFCxgEShZHAarnpcXj99H3gsW65",
+        "display": "logion network",
+        "identity": true,
+        "judgements": [
+          {
+            "index": 0,
+            "judgement": "Reasonable"
+          }
+        ]
+      },
+      "start_block_at": 1696002594,
+      "end_lease_block": 27460000,
+      "extrinsic_index": "17504664-2",
+      "last_change_block": 17787817,
+      "fund_auction_status": 3,
+      "last_change_event_idx": 41,
+      "last_change_timestamp": 1697703756
+    },
+    "relayChain": "polkadot",
+    "auctionIndex": 52,
+    "firstPeriod": 14,
+    "lastPeriod": 21,
+    "startTime": "2023-10-24T01:48:00.000Z",
+    "endTime": "2025-08-26T01:48:00.000Z",
+    "chain": "logion"
+  },
+  {
+    "paraId": 3344,
+    "fundId": "3344-71",
+    "status": "won",
+    "metadata": {
+      "cap": "3500000000000000",
+      "owner": "1UCoSa3YKt2PjMXdxr1mJMyMXGzYFyx47cRAd4DmVRFRX3L",
+      "bid_id": "51-14-21",
+      "raised": "752569494525735",
+      "status": 2,
+      "balance": "752569494525735",
+      "fund_id": "3344-71",
+      "para_id": 3344,
+      "end_block": 17785000,
+      "in_auctions": [
+        50,
+        51
+      ],
+      "last_period": 21,
+      "start_block": 17360391,
+      "contributors": 62,
+      "first_period": 14,
+      "auction_index": 51,
+      "owner_display": {
+        "address": "1UCoSa3YKt2PjMXdxr1mJMyMXGzYFyx47cRAd4DmVRFRX3L"
+      },
+      "start_block_at": 1695133206,
+      "end_lease_block": 27461800,
+      "extrinsic_index": "17360391-6",
+      "last_change_block": 17609212,
+      "fund_auction_status": 2,
+      "last_change_event_idx": 51,
+      "last_change_timestamp": 1696631022
+    },
+    "relayChain": "polkadot",
+    "auctionIndex": 51,
+    "firstPeriod": 14,
+    "lastPeriod": 21,
+    "startTime": "2023-10-24T01:48:00.000Z",
+    "endTime": "2025-08-26T01:48:00.000Z",
+    "chain": null
+  },
+  {
+    "paraId": 2106,
+    "fundId": "2106-63",
+    "status": "won",
+    "metadata": {
+      "cap": "50000000000000000",
+      "owner": "CsCrPSvLBPSSxJuQmDr18FFZPAQCtKVmsMu9YRTe5VToGeq",
+      "bid_id": "23-19-26",
+      "raised": "10820583911061183",
+      "status": 2,
+      "balance": "0",
+      "fund_id": "2106-63",
+      "para_id": 2106,
+      "end_block": 11391600,
+      "in_auctions": [
+        22,
+        23
+      ],
+      "last_period": 26,
+      "start_block": 11059031,
+      "contributors": 849,
+      "first_period": 19,
+      "auction_index": 23,
+      "owner_display": {
+        "address": "CsCrPSvLBPSSxJuQmDr18FFZPAQCtKVmsMu9YRTe5VToGeq",
+        "display": "Litentry",
+        "identity": true,
+        "judgements": [
+          {
+            "index": 1,
+            "judgement": "Reasonable"
+          }
+        ]
+      },
+      "start_block_at": 1642765224,
+      "end_lease_block": 21068400,
+      "extrinsic_index": "11059031-3",
+      "last_change_block": 16330077,
+      "fund_auction_status": 2,
+      "last_change_event_idx": 932,
+      "last_change_timestamp": 1674562650
+    },
+    "relayChain": "kusama",
+    "auctionIndex": 23,
+    "firstPeriod": 19,
+    "lastPeriod": 26,
+    "startTime": "2022-02-23T04:27:00.000Z",
+    "endTime": "2023-01-25T04:27:00.000Z",
+    "chain": null
+  },
+  {
+    "paraId": 3367,
+    "fundId": "3367-88",
+    "status": "in_auction",
+    "metadata": {
+      "cap": "5000000000000000",
+      "owner": "1333zsMafds2sKAr8nG3zwXTCHPYv2Nm6CRgakpu6YVGt7nM",
+      "bid_id": "",
+      "raised": "18842000000000",
+      "status": 1,
+      "balance": "18842000000000",
+      "fund_id": "3367-88",
+      "para_id": 3367,
+      "end_block": 20304000,
+      "in_auctions": [
+        64
+      ],
+      "last_period": 23,
+      "start_block": 19735066,
+      "contributors": 36,
+      "first_period": 16,
+      "auction_index": 0,
+      "owner_display": {
+        "address": "1333zsMafds2sKAr8nG3zwXTCHPYv2Nm6CRgakpu6YVGt7nM",
+        "display": "Seun Lanlege",
+        "identity": true,
+        "judgements": [
+          {
+            "index": 1,
+            "judgement": "Reasonable"
+          }
+        ]
+      },
+      "start_block_at": 1709448522,
+      "end_lease_block": 29980800,
+      "extrinsic_index": "19735066-3",
+      "last_change_block": 19802248,
+      "fund_auction_status": 1,
+      "last_change_event_idx": 55,
+      "last_change_timestamp": 1709855586
     },
     "relayChain": "polkadot",
     "auctionIndex": 0,

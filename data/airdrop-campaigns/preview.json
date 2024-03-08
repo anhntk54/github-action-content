@@ -1,78 +1,72 @@
 [
   {
-    "id": 8,
-    "name": "Stake DOT Earn Many",
-    "status": "archived",
+    "id": 10,
+    "name": "$DED is LIVE1",
+    "status": "live",
     "ordinal": 1,
-    "description": "From Oct 24 to Nov 07, take part in the most comprehensive staking campaign ever in the Polkadot ecosystem with Polkadot nomination pools, Acala, Bifrost, and Parallel liquid staking, and Interlay and Moonwell lending is happening at SubWallet Web Dashboard!\n\nUsers who have staked and earned a DOT Power Staker NFT are eligible to participate in this Airlyft campaign and share a reward pool of $1,000.\n\nNote: 100 winners are selected based on a combination of points, content quality, and social media engagement. Each winner will receive 10 USDT on Polkadot Asset Hub.\n\nAdditional information: Users who stake with Acala, Bifrost, and Parallel from Oct 24 to Nov 07 have the chance to share exclusive reward pools, including 80K ACA, 5K BNC, and 1M PARA. More details are available in SubWallet Earning FAQs.",
-    "start_time": "2023-10-24T12:00:00.000Z",
-    "end_time": "2023-11-08T00:00:00.000Z",
-    "url": "https://airlyft.one/subwallet/stake-dot-earn-many-by-subwallet",
-    "twitter_url": "https://twitter.com/subwalletapp",
-    "reward": "1,000 USDT",
-    "total_winner": "100",
-    "total_supply": "N/A",
+    "description": "Hop in to explore DOT Is $DED Zealy community, and pledge yourself to $DED!\n\nOver 4000 DOT in rewards across 3 stages!\n\nPhase $DED is LIVE - Reward Pool: 1.400 DOT\n\n📅 Duration: 02/12 - 02/26 (3pm CET)\n",
+    "start_time": "2024-02-11T17:00:00.000Z",
+    "end_time": "2024-02-26T14:00:00.000Z",
+    "url": "https://bit.ly/zealyded",
+    "twitter_url": "https://twitter.com/dotisded",
+    "reward": "1,400 DOT",
+    "total_winner": null,
+    "total_supply": null,
     "tags": [
-      "manual_selection"
+      "points"
     ],
-    "campaign_url": "https://web.subwallet.app/home/earning/overview",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/wallet_connect_9ed43a1b95.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/image_2_2e3a8054b5.png",
+    "campaign_url": "https://www.dotisded.io/",
+    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/ded_277c75073c.png",
+    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/GGJJW_63_Ws_AER_Hdh_fef9a37345.jpeg",
     "chains": [
-      "polkadot",
-      "bifrost_dot",
-      "acala",
-      "parallel",
-      "interlay",
-      "moonbeam"
+      "polkadot"
     ]
   },
   {
-    "id": 9,
-    "name": "Mission pool to test",
-    "status": null,
+    "id": 12,
+    "name": "$DED is LIVE 2",
+    "status": "live",
     "ordinal": 1,
-    "description": "Mission pool to test",
-    "start_time": "2023-12-26T10:45:00.000Z",
-    "end_time": "2023-12-26T11:00:00.000Z",
-    "url": "https://web.subwallet.app/home/earning/overview",
-    "twitter_url": "https://twitter.com/subwalletapp",
-    "reward": "1,000 DOT",
-    "total_winner": "N/A",
-    "total_supply": "N/A",
+    "description": "Hop in to explore DOT Is $DED Zealy community, and pledge yourself to $DED!\n\nOver 4000 DOT in rewards across 3 stages!\n\nPhase $DED is LIVE - Reward Pool: 1.400 DOT\n\n📅 Duration: 02/12 - 02/26 (3pm CET)\n",
+    "start_time": "2024-02-11T17:00:00.000Z",
+    "end_time": "2024-02-26T14:00:00.000Z",
+    "url": "https://bit.ly/zealyded",
+    "twitter_url": "https://twitter.com/dotisded",
+    "reward": "1,400 DOT",
+    "total_winner": null,
+    "total_supply": null,
     "tags": [
-      "lucky_draw",
-      "fcfs"
+      "points"
     ],
-    "campaign_url": "https://web.subwallet.app",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/wallet_connect_9ed43a1b95.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/image_2_2e3a8054b5.png",
+    "campaign_url": "https://www.dotisded.io/",
+    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/ded_277c75073c.png",
+    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/GGJJW_63_Ws_AER_Hdh_fef9a37345.jpeg",
     "chains": [
-      "polkadot",
-      "acala"
+      "polkadot"
     ]
   },
   {
-    "id": 5,
-    "name": "Polkadot Unlock Harvest",
-    "status": "archived",
+    "id": 11,
+    "name": "PLOT the vDOT with Zeitgeist",
+    "status": "live",
     "ordinal": 2,
-    "description": "The goal of the event is to pave the road for the DOT unlock event on October 24th. Introducing users to the dApp and familiarizing you with its mechanics and the assets within, you will be allowed to take advantage of the benefits of Bifrost Liquid Staking. The Moonbeam x Omni LS dApp Campaign is the first in a series of events that will also involve Polkadot ecosystem Wallets, as well as Polkadot itself.",
-    "start_time": "2023-10-24T11:00:00.000Z",
-    "end_time": "2023-11-22T12:00:00.000Z",
-    "url": "https://airlyft.one/bifrost-finance/polkadot-unlock-harvest",
+    "description": "Mint vDOT and predict Markets on Zeitgeist !\n20 random winners will share 500 $BNC and 2000 $ZTG.",
+    "start_time": "2024-01-31T17:00:00.000Z",
+    "end_time": "2024-03-01T11:00:00.000Z",
+    "url": "https://bit.ly/airlyft_bifrost_zei",
     "twitter_url": "https://twitter.com/BifrostFinance",
-    "reward": "1 LS_POLKADOT",
-    "total_winner": "N/A",
-    "total_supply": "80,000,000 BNC",
+    "reward": "500 $BNC and 2000 $ZTG",
+    "total_winner": "20",
+    "total_supply": null,
     "tags": [
-      "fcfs"
+      "lucky_draw"
     ],
-    "campaign_url": "https://airlyft.one/bifrost-finance/polkadot-unlock-harvest",
+    "campaign_url": "https://bifrost.app/",
     "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/bifrost_polkadot_b85046fb9e.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/bifrost_moonbeam_a82f6c23ef.webp",
+    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/GFL_7p1d_WUA_Eschq_f6004397f2.jpeg",
     "chains": [
-      "bifrost_dot"
+      "bifrost_dot",
+      "zeitgeist"
     ]
   },
   {
@@ -123,13 +117,41 @@
     ]
   },
   {
-    "id": 6,
-    "name": "Road To The Unlock!",
+    "id": 8,
+    "name": "Stake DOT Earn Many",
     "status": "archived",
     "ordinal": 5,
-    "description": "By following the whole campaign and testing the new Omni LS & partners dapps, you will be able to collect several NFTs along the road. By collecting all NFTs you will be eligible for the final NFT and a 20,000 $BNC tokens airdrop to share!",
-    "start_time": "2023-10-11T11:00:00.000Z",
-    "end_time": "2023-10-24T11:00:00.000Z",
+    "description": "From Oct 24 to Nov 07, take part in the most comprehensive staking campaign ever in the Polkadot ecosystem with Polkadot nomination pools, Acala, Bifrost, and Parallel liquid staking, and Interlay and Moonwell lending is happening at SubWallet Web Dashboard!\n\nUsers who have staked and earned a DOT Power Staker NFT are eligible to participate in this Airlyft campaign and share a reward pool of $1,000.\n\nNote: 100 winners are selected based on a combination of points, content quality, and social media engagement. Each winner will receive 10 USDT on Polkadot Asset Hub.\n\nAdditional information: Users who stake with Acala, Bifrost, and Parallel from Oct 24 to Nov 07 have the chance to share exclusive reward pools, including 80K ACA, 5K BNC, and 1M PARA. More details are available in SubWallet Earning FAQs.",
+    "start_time": "2023-10-24T12:00:00.000Z",
+    "end_time": "2023-11-08T00:00:00.000Z",
+    "url": "https://airlyft.one/subwallet/stake-dot-earn-many-by-subwallet",
+    "twitter_url": "https://twitter.com/subwalletapp",
+    "reward": "1,000 USDT",
+    "total_winner": "100",
+    "total_supply": "N/A",
+    "tags": [
+      "manual_selection"
+    ],
+    "campaign_url": "https://web.subwallet.app/home/earning/overview",
+    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/wallet_connect_9ed43a1b95.png",
+    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/image_2_2e3a8054b5.png",
+    "chains": [
+      "polkadot",
+      "bifrost_dot",
+      "acala",
+      "parallel",
+      "interlay",
+      "moonbeam"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Road To The Unlock",
+    "status": "live",
+    "ordinal": 6,
+    "description": "By following the whole campaign and testing the new Omni LS & partners dapps, you will be able to collect several NFTs along the road. By collecting all NFTs you will be eligible for the final NFT and a 20,000 $BNC tokens airdrop to share",
+    "start_time": "2023-11-11T11:00:00.000Z",
+    "end_time": "2023-12-24T11:00:00.000Z",
     "url": "https://airlyft.one/bifrost-finance/road-to-the-unlock",
     "twitter_url": "https://twitter.com/BifrostFinance",
     "reward": "5 XP & 13 Fuel",
@@ -140,7 +162,7 @@
     ],
     "campaign_url": "https://airlyft.one/bifrost-finance/road-to-the-unlock",
     "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/bifrost_polkadot_b85046fb9e.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/bifrost_moonbeam_a82f6c23ef.webp",
+    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/GGJJW_63_Ws_AER_Hdh_fef9a37345.jpeg",
     "chains": [
       "bifrost_dot"
     ]
@@ -166,6 +188,52 @@
     "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/zeitgeist_6ca1f96bd6.webp",
     "chains": [
       "zeitgeist"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Polkadot Unlock Harvest",
+    "status": "archived",
+    "ordinal": 7,
+    "description": "The goal of the event is to pave the road for the DOT unlock event on October 24th. Introducing users to the dApp and familiarizing you with its mechanics and the assets within, you will be allowed to take advantage of the benefits of Bifrost Liquid Staking. The Moonbeam x Omni LS dApp Campaign is the first in a series of events that will also involve Polkadot ecosystem Wallets, as well as Polkadot itself.",
+    "start_time": "2023-10-24T11:00:00.000Z",
+    "end_time": "2023-11-22T12:00:00.000Z",
+    "url": "https://airlyft.one/bifrost-finance/polkadot-unlock-harvest",
+    "twitter_url": "https://twitter.com/BifrostFinance",
+    "reward": "1 LS_POLKADOT",
+    "total_winner": "N/A",
+    "total_supply": "80,000,000 BNC",
+    "tags": [
+      "fcfs"
+    ],
+    "campaign_url": "https://airlyft.one/bifrost-finance/polkadot-unlock-harvest",
+    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/bifrost_polkadot_b85046fb9e.png",
+    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/bifrost_moonbeam_a82f6c23ef.webp",
+    "chains": [
+      "bifrost_dot"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Test",
+    "status": "upcoming",
+    "ordinal": 15,
+    "description": "One of three ",
+    "start_time": "2024-02-26T17:15:00.000Z",
+    "end_time": "2024-02-28T17:45:00.000Z",
+    "url": "https://airlyft.one/bifrost-finance/omni-ls-polkadot-wallets",
+    "twitter_url": "https://twitter.com/BifrostFinance",
+    "reward": "LS",
+    "total_winner": "1",
+    "total_supply": "90",
+    "tags": [
+      "fcfs"
+    ],
+    "campaign_url": "https://airlyft.one/bifrost-finance/omni-ls-polkadot-wallets",
+    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/ded_277c75073c.png",
+    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/Subsquare_9c0305db99.png",
+    "chains": [
+      "ajunaPolkadot"
     ]
   }
 ]

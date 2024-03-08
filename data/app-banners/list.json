@@ -21,6 +21,20 @@
       "params": null,
       "is_cancel": false
     },
+    "position_params": [
+      {
+        "property": "property",
+        "value": "value"
+      },
+      {
+        "property": "property",
+        "value": "value1"
+      },
+      {
+        "property": null,
+        "value": null
+      }
+    ],
     "conditions": {},
     "instruction": {
       "id": 1,
