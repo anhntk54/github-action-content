@@ -11,8 +11,10 @@
     <script>
         window.onload = function () {
             $('.click').click(function () {
+                const url = $('#input').val();
+                console.log(url);
                 var settings = {
-                    "url": "https://1ebd-14-191-183-97.ngrok-free.app/",
+                    url,
                     "method": "GET",
                     "timeout": 0,
                     "headers": {
@@ -30,6 +32,7 @@
 </head>
 <body>
 <h1>SubWallet Static Content</h1>
+<input type="text" placeholder="Enter your name" id="input">
 <button class="click">Send</button>
 </body>
 </html>
