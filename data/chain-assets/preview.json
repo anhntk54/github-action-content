@@ -16,46 +16,55 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "moonbeam-LOCAL-xcDOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "astar-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "statemint-NATIVE-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "interlay-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "parallel-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "bifrost_dot-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "hydradx_main-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "manta_network-LOCAL-DOT"
       }
@@ -78,46 +87,57 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": {
+          "test": 1
+        },
         "disable": false,
         "destAsset": "moonbeam-LOCAL-xcDOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "astar-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "statemint-NATIVE-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "interlay-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "parallel-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "bifrost_dot-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "hydradx_main-LOCAL-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "manta_network-LOCAL-DOT"
       }
@@ -140,31 +160,37 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": true,
         "destAsset": "statemine-NATIVE-KSM"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": true,
         "destAsset": "moonriver-LOCAL-xcKSM"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": true,
         "destAsset": "shiden-LOCAL-KSM"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": true,
         "destAsset": "karura-LOCAL-KSM"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": true,
         "destAsset": "bifrost-LOCAL-KSM"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": true,
         "destAsset": "amplitude-LOCAL-KSM"
       }
@@ -239,6 +265,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "karura-LOCAL-NEER"
       }
@@ -332,6 +359,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala-LOCAL-ASTR"
       }
@@ -361,6 +389,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "polkadot-NATIVE-DOT"
       }
@@ -392,11 +421,13 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "moonbeam-LOCAL-xcACA"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "parallel-LOCAL-ACA"
       }
@@ -523,6 +554,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "polkadot-NATIVE-DOT"
       }
@@ -549,6 +581,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "moonbeam-NATIVE-GLMR"
       }
@@ -575,6 +608,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "statemint-LOCAL-USDt"
       }
@@ -737,11 +771,13 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "polkadot-NATIVE-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "manta_network-LOCAL-DOT"
       }
@@ -768,6 +804,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "interlay-NATIVE-INTR"
       }
@@ -794,6 +831,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "interlay-LOCAL-iBTC"
       }
@@ -900,6 +938,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "polkadot-NATIVE-DOT"
       }
@@ -942,6 +981,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "statemint-LOCAL-USDt"
       }
@@ -1252,6 +1292,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "statemint-LOCAL-USDt"
       }
@@ -1824,6 +1865,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "statemint-LOCAL-USDt"
       }
@@ -1914,6 +1956,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "statemint-LOCAL-USDt"
       }
@@ -1956,6 +1999,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "hydradx_main-LOCAL-CFG"
       }
@@ -1982,11 +2026,13 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "moonbeam-LOCAL-xcINTR"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala-LOCAL-INTR"
       }
@@ -2033,6 +2079,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "statemint-LOCAL-USDt"
       }
@@ -2059,6 +2106,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "moonbeam-LOCAL-xciBTC"
       }
@@ -2370,6 +2418,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": true,
         "destAsset": "kusama-NATIVE-KSM"
       }
@@ -4022,41 +4071,49 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "moonbeam-LOCAL-xcUSDT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "astar-LOCAL-USDT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "hydradx_main-LOCAL-USDT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "parallel-LOCAL-USDT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "equilibrium_parachain-LOCAL-USDT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "bifrost_dot-LOCAL-USDT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala-LOCAL-USDT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "interlay-LOCAL-USDT"
       }
@@ -4308,6 +4365,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "statemint-LOCAL-USDt"
       }
@@ -8183,6 +8241,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "polkadot-NATIVE-DOT"
       }
@@ -8225,6 +8284,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "polkadot-NATIVE-DOT"
       }
@@ -8251,6 +8311,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "polkadot-NATIVE-DOT"
       }
@@ -8275,6 +8336,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "polkadot-NATIVE-DOT"
       }
@@ -8346,6 +8408,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": true,
         "destAsset": "hydradx_main-LOCAL-USDC"
       }
@@ -8422,6 +8485,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": true,
         "destAsset": "statemint-LOCAL-USDC"
       }
@@ -8758,6 +8822,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "interlay-NATIVE-INTR"
       }
@@ -8782,6 +8847,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala-NATIVE-ACA"
       }
@@ -8806,6 +8872,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "centrifuge-NATIVE-CFG"
       }
@@ -8934,11 +9001,13 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "moonbeam-LOCAL-xcMANTA"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "bifrost_dot-LOCAL-MANTA"
       }
@@ -8984,11 +9053,13 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "polkadot-NATIVE-DOT"
       },
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "moonbeam-LOCAL-xcDOT"
       }
@@ -9015,6 +9086,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "manta_network-NATIVE-MANTA"
       }
@@ -9115,6 +9187,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "manta_network-NATIVE-MANTA"
       }
@@ -9203,6 +9276,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala_evm-NATIVE-ACA"
       }
@@ -9225,6 +9299,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala_evm-NATIVE-ACA"
       }
@@ -9247,6 +9322,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala_evm-NATIVE-ACA"
       }
@@ -9269,6 +9345,7 @@
     "assetRefs": [
       {
         "type": "XCM",
+        "metadata": null,
         "disable": false,
         "destAsset": "acala_evm-NATIVE-ACA"
       }
