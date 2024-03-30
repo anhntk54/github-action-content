@@ -7,6 +7,8 @@
     "content": "Mô ta",
     "confirm_label": "OK",
     "cancel_label": "Cancel",
+    "repeat_every_x_days": 2,
+    "position_params": [],
     "conditions": {
       "condition-balance": [
         {
