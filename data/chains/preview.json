@@ -9,7 +9,8 @@
     "providers": {},
     "evmInfo": null,
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polkadot",
@@ -47,7 +48,15 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "polkadot"
+      "subscanSlug": "polkadot",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": {
+      "blockExplorer": "demo",
+      "existentialDeposit": "demo",
+      "decimals": 20,
+      "symbol": "sym",
+      "bitcoinNetwork": "testnet"
     }
   },
   {
@@ -60,7 +69,8 @@
     "providers": {},
     "evmInfo": null,
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polkad1oqt",
@@ -72,7 +82,8 @@
     "providers": {},
     "evmInfo": null,
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "pol11kadot",
@@ -84,7 +95,8 @@
     "providers": {},
     "evmInfo": null,
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kusama",
@@ -121,8 +133,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "kusama"
-    }
+      "subscanSlug": "kusama",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "ethereum",
@@ -151,7 +165,8 @@
       "abiExplorer": "https://etherscan.io"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "binance",
@@ -179,7 +194,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "moonbeam",
@@ -237,8 +253,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "moonbeam"
-    }
+      "subscanSlug": "moonbeam",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "pioneer",
@@ -281,8 +299,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "pioneer"
-    }
+      "subscanSlug": "pioneer",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "aleph",
@@ -316,8 +336,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "alephzero"
-    }
+      "subscanSlug": "alephzero",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "astar",
@@ -368,8 +390,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "astar"
-    }
+      "subscanSlug": "astar",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "astarEvm",
@@ -397,7 +421,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "statemint",
@@ -433,8 +458,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "assethub-polkadot"
-    }
+      "subscanSlug": "assethub-polkadot",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "acala",
@@ -483,8 +510,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "acala"
-    }
+      "subscanSlug": "acala",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "polygon",
@@ -511,7 +540,8 @@
       "abiExplorer": "https://polygonscan.com"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "arbitrum_one",
@@ -537,7 +567,8 @@
       "abiExplorer": "https://arbiscan.io"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "optimism",
@@ -562,7 +593,8 @@
       "abiExplorer": "https://optimistic.etherscan.io"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "tomochain",
@@ -587,7 +619,8 @@
       "abiExplorer": "https://tomoscan.i"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "alephTest",
@@ -620,7 +653,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "shiden",
@@ -691,8 +725,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "shiden"
-    }
+      "subscanSlug": "shiden",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "shidenEvm",
@@ -720,7 +756,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "shibuya",
@@ -755,8 +792,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "shibuya"
-    }
+      "subscanSlug": "shibuya",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "shibuyaEvm",
@@ -783,7 +822,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "aventus",
@@ -825,7 +865,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "westend",
@@ -860,8 +901,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "westend"
-    }
+      "subscanSlug": "westend",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "rococo",
@@ -896,8 +939,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "rococo"
-    }
+      "subscanSlug": "rococo",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "bitcountry",
@@ -927,7 +972,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "equilibrium_parachain",
@@ -970,7 +1016,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "moonbase",
@@ -1014,8 +1061,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "moonbase"
-    }
+      "subscanSlug": "moonbase",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "moonriver",
@@ -1083,8 +1132,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "moonriver"
-    }
+      "subscanSlug": "moonriver",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "turingStaging",
@@ -1114,7 +1165,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "turing",
@@ -1158,8 +1210,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "turing"
-    }
+      "subscanSlug": "turing",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "bifrost",
@@ -1215,8 +1269,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "bifrost-kusama"
-    }
+      "subscanSlug": "bifrost-kusama",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "bifrost_dot",
@@ -1255,15 +1311,17 @@
           "status": "won",
           "startTime": "2022-06-07T01:48:00.000Z",
           "endTime": "2024-04-09T01:48:00.000Z",
-          "auctionIndex": 18,
+          "auctionIndex": 65,
           "firstPeriod": 8,
           "lastPeriod": 15
         }
       ]
     },
     "extraInfo": {
-      "subscanSlug": "bifrost"
-    }
+      "subscanSlug": "bifrost",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "bifrost_testnet",
@@ -1293,7 +1351,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "calamari",
@@ -1336,8 +1395,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "calamari"
-    }
+      "subscanSlug": "calamari",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "amplitude",
@@ -1379,7 +1440,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "amplitude_test",
@@ -1409,7 +1471,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bobabase",
@@ -1432,7 +1495,8 @@
       "abiExplorer": "https://blockexplorer.bobabase.boba.network/"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ethereum_goerli",
@@ -1457,7 +1521,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "binance_test",
@@ -1483,7 +1548,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "parallel",
@@ -1549,8 +1615,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "parallel"
-    }
+      "subscanSlug": "parallel",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "clover",
@@ -1604,8 +1672,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "clv"
-    }
+      "subscanSlug": "clv",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "cloverEvm",
@@ -1630,7 +1700,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "hydradx_main",
@@ -1674,8 +1745,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "hydradx"
-    }
+      "subscanSlug": "hydradx",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "edgeware",
@@ -1706,7 +1779,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "centrifuge",
@@ -1750,8 +1824,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "centrifuge"
-    }
+      "subscanSlug": "centrifuge",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "interlay",
@@ -1796,8 +1872,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "interlay"
-    }
+      "subscanSlug": "interlay",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "nodle",
@@ -1841,8 +1919,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "nodle"
-    }
+      "subscanSlug": "nodle",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "darwinia2",
@@ -1886,8 +1966,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "darwinia"
-    }
+      "subscanSlug": "darwinia",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "sora_ksm",
@@ -1940,7 +2022,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "odyssey",
@@ -1970,7 +2053,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polkadex",
@@ -2002,8 +2086,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "polkadex"
-    }
+      "subscanSlug": "polkadex",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "polkadexTest",
@@ -2033,7 +2119,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "rmrk",
@@ -2063,7 +2150,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "dolphin",
@@ -2091,7 +2179,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "opal",
@@ -2124,7 +2213,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "efinity",
@@ -2167,7 +2257,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "composableFinance",
@@ -2210,8 +2301,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "composable"
-    }
+      "subscanSlug": "composable",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "phala",
@@ -2255,8 +2348,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "phala"
-    }
+      "subscanSlug": "phala",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "crust",
@@ -2299,8 +2394,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "crust-parachain"
-    }
+      "subscanSlug": "crust-parachain",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "statemine",
@@ -2336,8 +2433,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "assethub-kusama"
-    }
+      "subscanSlug": "assethub-kusama",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "karura",
@@ -2372,8 +2471,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "karura"
-    }
+      "subscanSlug": "karura",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "khala",
@@ -2418,8 +2519,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "khala"
-    }
+      "subscanSlug": "khala",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kilt",
@@ -2452,8 +2555,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "spiritnet"
-    }
+      "subscanSlug": "spiritnet",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "basilisk",
@@ -2497,8 +2602,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "basilisk"
-    }
+      "subscanSlug": "basilisk",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "altair",
@@ -2542,8 +2649,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "altair"
-    }
+      "subscanSlug": "altair",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "heiko",
@@ -2597,8 +2706,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "parallel-heiko"
-    }
+      "subscanSlug": "parallel-heiko",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kintsugi",
@@ -2642,8 +2753,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "kintsugi"
-    }
+      "subscanSlug": "kintsugi",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kintsugi_test",
@@ -2673,7 +2786,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "picasso",
@@ -2738,8 +2852,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "picasso"
-    }
+      "subscanSlug": "picasso",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "quartz",
@@ -2783,7 +2899,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "unique_network",
@@ -2828,8 +2945,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "unique"
-    }
+      "subscanSlug": "unique",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "genshiro",
@@ -2882,7 +3001,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "genshiro_testnet",
@@ -2910,7 +3030,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subsocial_x",
@@ -2940,7 +3061,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "zeitgeist",
@@ -2984,8 +3106,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "zeitgeist"
-    }
+      "subscanSlug": "zeitgeist",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "sakura",
@@ -3028,8 +3152,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "sakura"
-    }
+      "subscanSlug": "sakura",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "shadow",
@@ -3083,8 +3209,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "shadow"
-    }
+      "subscanSlug": "shadow",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "uniqueNft",
@@ -3114,7 +3242,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "robonomics",
@@ -3169,8 +3298,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "robonomics"
-    }
+      "subscanSlug": "robonomics",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "integritee",
@@ -3214,8 +3345,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "integritee"
-    }
+      "subscanSlug": "integritee",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "integriteePolkadot",
@@ -3257,7 +3390,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "crabParachain",
@@ -3312,8 +3446,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "crab"
-    }
+      "subscanSlug": "crab",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "pangolin",
@@ -3354,7 +3490,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "chainx",
@@ -3384,7 +3521,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "acala_testnet",
@@ -3415,8 +3553,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "acala-testnet"
-    }
+      "subscanSlug": "acala-testnet",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "mangatax",
@@ -3446,7 +3586,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "mangatax_para",
@@ -3501,8 +3642,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "mangatax"
-    }
+      "subscanSlug": "mangatax",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "encointer",
@@ -3532,7 +3675,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "litmus",
@@ -3562,7 +3706,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "litentry",
@@ -3605,7 +3750,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "tinkernet",
@@ -3648,7 +3794,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "imbue_network",
@@ -3690,7 +3837,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_test",
@@ -3718,7 +3866,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_2a",
@@ -3748,7 +3897,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3c",
@@ -3776,7 +3926,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3d",
@@ -3804,7 +3955,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3e",
@@ -3832,7 +3984,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3f",
@@ -3862,7 +4015,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "origintrail",
@@ -3905,8 +4059,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "origintrail"
-    }
+      "subscanSlug": "origintrail",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3g",
@@ -3936,7 +4092,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "dorafactory",
@@ -3976,7 +4133,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bajun",
@@ -4020,8 +4178,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "bajun"
-    }
+      "subscanSlug": "bajun",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "dancebox",
@@ -4051,7 +4211,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "listen",
@@ -4079,7 +4240,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kabocha",
@@ -4121,7 +4283,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "gmdie",
@@ -4161,7 +4324,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ternoa",
@@ -4191,7 +4355,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "tanganika",
@@ -4232,8 +4397,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "datahighway"
-    }
+      "subscanSlug": "datahighway",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "pendulum",
@@ -4275,7 +4442,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "gear_testnet",
@@ -4305,7 +4473,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ternoa_alphanet",
@@ -4335,7 +4504,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "calamari_test",
@@ -4365,7 +4535,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "boba",
@@ -4391,7 +4562,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bobabeam",
@@ -4417,7 +4589,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kilt_peregrine",
@@ -4448,8 +4621,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "kilt-testnet"
-    }
+      "subscanSlug": "kilt-testnet",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "xx_network",
@@ -4479,7 +4654,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "watr_network",
@@ -4509,7 +4685,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "watr_network_evm",
@@ -4534,7 +4711,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "fusotao",
@@ -4564,7 +4742,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "discovol",
@@ -4594,7 +4773,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "discovol_testnet",
@@ -4624,7 +4804,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "atocha",
@@ -4654,7 +4835,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "myriad",
@@ -4684,7 +4866,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "deBio",
@@ -4714,7 +4897,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "collectives",
@@ -4744,7 +4928,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ajunaPolkadot",
@@ -4787,7 +4972,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bitgreen",
@@ -4817,7 +5003,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "frequency",
@@ -4848,7 +5035,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "hashedNetwork",
@@ -4903,7 +5091,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kapex",
@@ -4945,7 +5134,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kylinNetwork",
@@ -4987,7 +5177,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ipci",
@@ -5017,7 +5208,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kico",
@@ -5057,7 +5249,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "luhnNetwork",
@@ -5085,7 +5278,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "pichiu",
@@ -5125,7 +5319,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "riodefi",
@@ -5153,7 +5348,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "automata",
@@ -5184,7 +5380,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "creditcoin",
@@ -5215,8 +5412,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "creditcoin"
-    }
+      "subscanSlug": "creditcoin",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "crownSterling",
@@ -5246,7 +5445,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "dockPosMainnet",
@@ -5277,8 +5477,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "dock"
-    }
+      "subscanSlug": "dock",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kusari",
@@ -5306,7 +5508,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "logion",
@@ -5370,7 +5573,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "neatcoin",
@@ -5400,7 +5604,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "nftmart",
@@ -5430,7 +5635,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polymesh",
@@ -5461,8 +5667,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "polymesh"
-    }
+      "subscanSlug": "polymesh",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "riochain",
@@ -5490,7 +5698,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "sherpax",
@@ -5518,7 +5727,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "sora_substrate",
@@ -5575,8 +5785,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "sora"
-    }
+      "subscanSlug": "sora",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "swapdex",
@@ -5606,7 +5818,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "3dpass",
@@ -5638,7 +5851,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "alephSmartNet",
@@ -5666,7 +5880,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kulupu",
@@ -5696,7 +5911,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "joystream",
@@ -5727,8 +5943,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "joystream"
-    }
+      "subscanSlug": "joystream",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "aventus_testnet",
@@ -5758,7 +5976,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "vara_network",
@@ -5790,8 +6009,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "vara"
-    }
+      "subscanSlug": "vara",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kate",
@@ -5821,7 +6042,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bridgeHubPolkadot",
@@ -5852,7 +6074,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bridgeHubKusama",
@@ -5885,7 +6108,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "fantom_testnet",
@@ -5913,7 +6137,8 @@
       "abiExplorer": "https://testnet.ftmscan.com"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "fantom",
@@ -5942,7 +6167,8 @@
       "abiExplorer": "https://ftmscan.com"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "krest_network",
@@ -5986,8 +6212,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "krest"
-    }
+      "subscanSlug": "krest",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "deeper_network",
@@ -6017,7 +6245,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "jur_network",
@@ -6047,7 +6276,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "base_mainnet",
@@ -6072,7 +6302,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "avalanche_c",
@@ -6097,7 +6328,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "crust_mainnet",
@@ -6129,8 +6361,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "crust"
-    }
+      "subscanSlug": "crust",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "acala_evm",
@@ -6155,7 +6389,8 @@
       "abiExplorer": "https://blockscout.acala.network/"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "karura_evm",
@@ -6180,7 +6415,8 @@
       "abiExplorer": "https://blockscout.karura.network/"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bittensor",
@@ -6222,7 +6458,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "xcavate",
@@ -6252,7 +6489,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "unorthodox",
@@ -6280,7 +6518,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "coinversation",
@@ -6320,7 +6559,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "layerx_network",
@@ -6348,7 +6588,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "moonsama",
@@ -6388,7 +6629,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "oak_network",
@@ -6428,7 +6670,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "omnibtc",
@@ -6468,7 +6711,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "peaq",
@@ -6508,7 +6752,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "quantum_portal",
@@ -6536,7 +6781,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "virto_network",
@@ -6564,7 +6810,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "energy_web_x",
@@ -6606,7 +6853,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "invarch",
@@ -6648,7 +6896,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "zero",
@@ -6676,7 +6925,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kpron_network",
@@ -6704,7 +6954,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "mars",
@@ -6732,7 +6983,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "snow",
@@ -6772,7 +7024,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "aband",
@@ -6812,7 +7065,8 @@
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "acurast_canary",
@@ -6840,7 +7094,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "alpha_network",
@@ -6868,7 +7123,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "loom_network",
@@ -6896,7 +7152,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subgame_gamma",
@@ -6924,7 +7181,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "trustbase",
@@ -6952,7 +7210,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "manta_network",
@@ -6983,8 +7242,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "manta"
-    }
+      "subscanSlug": "manta",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "t3rn",
@@ -7012,7 +7273,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "geminis_network",
@@ -7040,7 +7302,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polimec",
@@ -7070,7 +7333,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subdao",
@@ -7098,7 +7362,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subgame_network",
@@ -7126,7 +7391,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "zeta_test",
@@ -7148,7 +7414,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "watr_mainnet",
@@ -7178,7 +7445,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "watr_mainnet_evm",
@@ -7200,7 +7468,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "enjin_relaychain",
@@ -7230,7 +7499,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "enjin_matrixchain",
@@ -7261,7 +7531,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "vara_testnet",
@@ -7291,7 +7562,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "goldberg_testnet",
@@ -7321,7 +7593,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "energy_web_x_testnet",
@@ -7351,7 +7624,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "energy_web_chain",
@@ -7376,7 +7650,8 @@
       "abiExplorer": "https://explorer.energyweb.org/api?module=contract&action=getabi"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "energy_web_x_rococo",
@@ -7406,7 +7681,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "manta_network_evm",
@@ -7431,7 +7707,8 @@
       "abiExplorer": "https://pacific-explorer.manta.network"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polkadex_dot",
@@ -7475,8 +7752,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "polkadex-parachain"
-    }
+      "subscanSlug": "polkadex-parachain",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "bittensor_testnet",
@@ -7506,7 +7785,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3h",
@@ -7537,8 +7817,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "subspace"
-    }
+      "subscanSlug": "subspace",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "continuum_network",
@@ -7568,7 +7850,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "rococo_assethub",
@@ -7599,6 +7882,7 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   }
 ]

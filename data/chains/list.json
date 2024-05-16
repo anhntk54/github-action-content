@@ -5,40 +5,51 @@
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "ordinal": 1,
-    "icon": "https://static-data.subwallet.app/chains/images/icon/polkadot_63b5dd41ef.png",
-    "providers": {
-      "Dwellir": "wss://polkadot-rpc.dwellir.com",
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
-      "1RPC": "wss://1rpc.io/dot",
-      "Stakeworld": "wss://dot-rpc.stakeworld.io",
-      "LuckyFriday": "wss://rpc-polkadot.luckyfriday.io",
-      "Dwellir Tunisia": "wss://polkadot-rpc-tn.dwellir.com",
-      "IBP-GeoDNS1": "wss://rpc.ibp.network/polkadot",
-      "IBP-GeoDNS2": "wss://rpc.dotters.network/polkadot",
-      "Light Client": "light://substrate-connect/polkadot",
-      "BlockOps": "wss://polkadot-public-rpc.blockops.network/ws"
-    },
+    "icon": null,
+    "providers": {},
     "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": null,
-      "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-      "addressPrefix": 0,
-      "chainType": "RELAYCHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": "https://polkadot.subscan.io/",
-      "existentialDeposit": "10000000000",
-      "symbol": "DOT",
-      "decimals": 10,
-      "hasNativeNft": false,
-      "supportStaking": true,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    },
-    "extraInfo": {
-      "subscanSlug": "polkadot"
-    }
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
+  },
+  {
+    "slug": "polkad1ot",
+    "name": "Polkadot",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "ordinal": 1,
+    "icon": null,
+    "providers": {},
+    "evmInfo": null,
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
+  },
+  {
+    "slug": "polkad1oqt",
+    "name": "Polkadot",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "ordinal": 1,
+    "icon": null,
+    "providers": {},
+    "evmInfo": null,
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
+  },
+  {
+    "slug": "pol11kadot",
+    "name": "Polkadot",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "ordinal": 1,
+    "icon": null,
+    "providers": {},
+    "evmInfo": null,
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kusama",
@@ -49,8 +60,6 @@
     "icon": "https://static-data.subwallet.app/chains/images/icon/kusama_3a65d79366.png",
     "providers": {
       "Dwellir": "wss://kusama-rpc.dwellir.com",
-      "RadiumBlock": "wss://polkadot.public.curie.radiumblock.co/ws",
-      "1RPC": "wss://1rpc.io/ksm",
       "Dwellir Tunisia": "wss://kusama-rpc-tn.dwellir.com",
       "LuckyFriday": "wss://rpc-kusama.luckyfriday.io",
       "Stakeworld": "wss://ksm-rpc.stakeworld.io",
@@ -77,8 +86,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "kusama"
-    }
+      "subscanSlug": "kusama",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "ethereum",
@@ -107,7 +118,8 @@
       "abiExplorer": "https://etherscan.io"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "binance",
@@ -135,7 +147,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "moonbeam",
@@ -149,7 +162,6 @@
       "Dwellir": "wss://moonbeam-rpc.dwellir.com",
       "1rpc": "wss://1rpc.io/glmr",
       "Blast": "wss://moonbeam.public.blastapi.io",
-      "OnFinality": "wss://moonbeam.api.onfinality.io/public-ws",
       "UnitedBloc": "wss://moonbeam.unitedbloc.com"
     },
     "evmInfo": {
@@ -185,8 +197,8 @@
           "fundId": "2004-2",
           "paraId": 2004,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 2,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -194,8 +206,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "moonbeam"
-    }
+      "subscanSlug": "moonbeam",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "pioneer",
@@ -229,8 +243,8 @@
           "fundId": "2096-39",
           "paraId": 2096,
           "status": "won",
-          "startTime": "2021-11-30T21:27:00.000Z",
-          "endTime": "2022-11-01T21:27:00.000Z",
+          "startTime": "2021-12-01T04:27:00.000Z",
+          "endTime": "2022-11-02T04:27:00.000Z",
           "auctionIndex": 13,
           "firstPeriod": 17,
           "lastPeriod": 24
@@ -238,8 +252,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "pioneer"
-    }
+      "subscanSlug": "pioneer",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "aleph",
@@ -273,8 +289,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "alephzero"
-    }
+      "subscanSlug": "alephzero",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "astar",
@@ -316,8 +334,8 @@
           "fundId": "2006-3",
           "paraId": 2006,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 3,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -325,8 +343,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "astar"
-    }
+      "subscanSlug": "astar",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "astarEvm",
@@ -354,7 +374,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "statemint",
@@ -365,8 +386,11 @@
     "icon": "https://static-data.subwallet.app/chains/images/icon/polkadot_asset_hub_218e73fad2.png",
     "providers": {
       "Dwellir": "wss://statemint-rpc.dwellir.com",
-      "RadiumBlock": "wss://statemint.public.curie.radiumblock.co/ws",
-      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
+      "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com",
+      "IBP-GeoDNS1": "wss://sys.ibp.network/statemint",
+      "IBP-GeoDNS2": "wss://sys.dotters.network/statemint",
+      "Lucky Friday": "wss://rpc-asset-hub-polkadot.luckyfriday.io",
+      "StakeWorld": "wss://dot-rpc.stakeworld.io/assethub"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -377,7 +401,7 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://assethub-polkadot.subscan.io/",
-      "existentialDeposit": "1000000000",
+      "existentialDeposit": "100000000",
       "symbol": "DOT",
       "decimals": 10,
       "hasNativeNft": true,
@@ -387,8 +411,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "assethub-polkadot"
-    }
+      "subscanSlug": "assethub-polkadot",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "acala",
@@ -428,8 +454,8 @@
           "fundId": "2000-0",
           "paraId": 2000,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 1,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -437,8 +463,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "acala"
-    }
+      "subscanSlug": "acala",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "polygon",
@@ -465,7 +493,8 @@
       "abiExplorer": "https://polygonscan.com"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "arbitrum_one",
@@ -491,7 +520,8 @@
       "abiExplorer": "https://arbiscan.io"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "optimism",
@@ -516,7 +546,8 @@
       "abiExplorer": "https://optimistic.etherscan.io"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "tomochain",
@@ -541,7 +572,8 @@
       "abiExplorer": "https://tomoscan.i"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "alephTest",
@@ -574,7 +606,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "shiden",
@@ -614,8 +647,8 @@
           "fundId": "2258-92",
           "paraId": 2258,
           "status": "won",
-          "startTime": "2023-01-24T21:27:00.000Z",
-          "endTime": "2023-12-26T21:27:00.000Z",
+          "startTime": "2023-01-25T04:27:00.000Z",
+          "endTime": "2023-12-27T04:27:00.000Z",
           "auctionIndex": 70,
           "firstPeriod": 27,
           "lastPeriod": 34
@@ -625,8 +658,8 @@
           "fundId": "2120-75",
           "paraId": 2120,
           "status": "won",
-          "startTime": "2022-05-17T21:27:00.000Z",
-          "endTime": "2023-04-18T21:27:00.000Z",
+          "startTime": "2022-05-18T04:27:00.000Z",
+          "endTime": "2023-04-19T04:27:00.000Z",
           "auctionIndex": 35,
           "firstPeriod": 21,
           "lastPeriod": 28
@@ -636,8 +669,8 @@
           "fundId": "2007-0",
           "paraId": 2007,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 3,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -645,8 +678,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "shiden"
-    }
+      "subscanSlug": "shiden",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "shidenEvm",
@@ -674,7 +709,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "shibuya",
@@ -709,8 +745,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "shibuya"
-    }
+      "subscanSlug": "shibuya",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "shibuyaEvm",
@@ -737,7 +775,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "aventus",
@@ -771,15 +810,16 @@
           "fundId": "2056-45",
           "paraId": 2056,
           "status": "won",
-          "startTime": "2022-08-29T18:48:00.000Z",
-          "endTime": "2024-07-01T18:48:00.000Z",
+          "startTime": "2022-08-30T01:48:00.000Z",
+          "endTime": "2024-07-02T01:48:00.000Z",
           "auctionIndex": 26,
           "firstPeriod": 9,
           "lastPeriod": 16
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "westend",
@@ -814,8 +854,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "westend"
-    }
+      "subscanSlug": "westend",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "rococo",
@@ -850,8 +892,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "rococo"
-    }
+      "subscanSlug": "rococo",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "bitcountry",
@@ -881,7 +925,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "equilibrium_parachain",
@@ -903,7 +948,7 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://equilibrium.io/en/crowdloan#bid",
       "blockExplorer": "https://equilibrium.subscan.io",
-      "existentialDeposit": null,
+      "existentialDeposit": "100000000",
       "symbol": "EQ",
       "decimals": 9,
       "hasNativeNft": false,
@@ -916,15 +961,16 @@
           "fundId": "2011-29",
           "paraId": 2011,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 12,
           "firstPeriod": 7,
           "lastPeriod": 14
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "moonbase",
@@ -968,8 +1014,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "moonbase"
-    }
+      "subscanSlug": "moonbase",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "moonriver",
@@ -1017,8 +1065,8 @@
           "fundId": "2023-2",
           "paraId": 2023,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 2,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -1028,8 +1076,8 @@
           "fundId": "2000-1",
           "paraId": 2000,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 2,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -1037,8 +1085,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "moonriver"
-    }
+      "subscanSlug": "moonriver",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "turingStaging",
@@ -1068,7 +1118,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "turing",
@@ -1103,8 +1154,8 @@
           "fundId": "2114-68",
           "paraId": 2114,
           "status": "won",
-          "startTime": "2022-04-05T21:27:00.000Z",
-          "endTime": "2023-03-07T21:27:00.000Z",
+          "startTime": "2022-04-06T04:27:00.000Z",
+          "endTime": "2023-03-08T04:27:00.000Z",
           "auctionIndex": 30,
           "firstPeriod": 20,
           "lastPeriod": 27
@@ -1112,8 +1163,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "turing"
-    }
+      "subscanSlug": "turing",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "bifrost",
@@ -1149,8 +1202,8 @@
           "fundId": "2262-95",
           "paraId": 2262,
           "status": "won",
-          "startTime": "2023-03-07T21:27:00.000Z",
-          "endTime": "2024-02-06T21:27:00.000Z",
+          "startTime": "2023-03-08T04:27:00.000Z",
+          "endTime": "2024-02-07T04:27:00.000Z",
           "auctionIndex": 71,
           "firstPeriod": 28,
           "lastPeriod": 35
@@ -1160,8 +1213,8 @@
           "fundId": "2001-9",
           "paraId": 2001,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 5,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -1169,8 +1222,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "bifrost-kusama"
-    }
+      "subscanSlug": "bifrost-kusama",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "bifrost_dot",
@@ -1207,17 +1262,19 @@
           "fundId": "2030-37",
           "paraId": 2030,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
-          "auctionIndex": 18,
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
+          "auctionIndex": 65,
           "firstPeriod": 8,
           "lastPeriod": 15
         }
       ]
     },
     "extraInfo": {
-      "subscanSlug": "bifrost"
-    }
+      "subscanSlug": "bifrost",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "bifrost_testnet",
@@ -1233,7 +1290,7 @@
     "substrateInfo": {
       "relaySlug": "rococo",
       "paraId": 2030,
-      "genesisHash": "0x8b290fa39a8808f29d7309ea99442c95bf964838aef14be5a6449ae48f8a5f1f",
+      "genesisHash": "0x0c003b98abbedae774f5e13cd6146781317016725ab4db34312ea2681e9901f3",
       "addressPrefix": 6,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
@@ -1247,7 +1304,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "calamari",
@@ -1281,8 +1339,8 @@
           "fundId": "2084-27",
           "paraId": 2084,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 7,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -1290,8 +1348,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "calamari"
-    }
+      "subscanSlug": "calamari",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "amplitude",
@@ -1325,15 +1385,16 @@
           "fundId": "2124-81",
           "paraId": 2124,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 42,
           "firstPeriod": 23,
           "lastPeriod": 30
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "amplitude_test",
@@ -1349,7 +1410,7 @@
     "substrateInfo": {
       "relaySlug": "rococo",
       "paraId": 2124,
-      "genesisHash": "0x67221cd96c1551b72d55f65164d6a39f31b570c77a05c90e31931b0e2f379e13",
+      "genesisHash": "0xa8d080b07f9c84465aeb9576db5a7838bcbca3ffb78dbfd7d4b56acafc1f29d1",
       "addressPrefix": 57,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
@@ -1363,7 +1424,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bobabase",
@@ -1386,7 +1448,8 @@
       "abiExplorer": "https://blockexplorer.bobabase.boba.network/"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ethereum_goerli",
@@ -1411,7 +1474,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "binance_test",
@@ -1437,7 +1501,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "parallel",
@@ -1472,8 +1537,8 @@
           "fundId": "2012-6",
           "paraId": 2012,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 4,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -1483,8 +1548,8 @@
           "fundId": "3350-72",
           "paraId": 3350,
           "status": "failed",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 0,
           "firstPeriod": 14,
           "lastPeriod": 21
@@ -1494,8 +1559,8 @@
           "fundId": "3350-78",
           "paraId": 3350,
           "status": "won",
-          "startTime": "2024-01-15T18:48:00.000Z",
-          "endTime": "2025-11-17T18:48:00.000Z",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
           "auctionIndex": 54,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -1503,8 +1568,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "parallel"
-    }
+      "subscanSlug": "parallel",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "clover",
@@ -1538,8 +1605,8 @@
           "fundId": "2002-5",
           "paraId": 2002,
           "status": "won",
-          "startTime": "2021-12-20T18:48:00.000Z",
-          "endTime": "2023-10-23T18:48:00.000Z",
+          "startTime": "2021-12-21T01:48:00.000Z",
+          "endTime": "2023-10-24T01:48:00.000Z",
           "auctionIndex": 5,
           "firstPeriod": 6,
           "lastPeriod": 13
@@ -1549,8 +1616,8 @@
           "fundId": "2002-76",
           "paraId": 2002,
           "status": "won",
-          "startTime": "2024-01-15T18:48:00.000Z",
-          "endTime": "2025-11-17T18:48:00.000Z",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
           "auctionIndex": 53,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -1558,8 +1625,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "clv"
-    }
+      "subscanSlug": "clv",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "cloverEvm",
@@ -1584,7 +1653,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "hydradx_main",
@@ -1619,8 +1689,8 @@
           "fundId": "2034-25",
           "paraId": 2034,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 9,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -1628,8 +1698,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "hydradx"
-    }
+      "subscanSlug": "hydradx",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "edgeware",
@@ -1660,7 +1732,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "centrifuge",
@@ -1695,8 +1768,8 @@
           "fundId": "2031-18",
           "paraId": 2031,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 8,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -1704,8 +1777,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "centrifuge"
-    }
+      "subscanSlug": "centrifuge",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "interlay",
@@ -1723,7 +1798,7 @@
     "substrateInfo": {
       "relaySlug": "polkadot",
       "paraId": 2032,
-      "genesisHash": "0xed86d448b84db333cdbe07362ddc79530343b907bd88712557c024d7a94296bb",
+      "genesisHash": "0xbf88efe70e9e0e916416e8bed61f2b45717f517d7f3523e33c7b001e5ffcbc72",
       "addressPrefix": 2032,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://crowdloan.interlay.io/",
@@ -1741,8 +1816,8 @@
           "fundId": "2032-15",
           "paraId": 2032,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 10,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -1750,8 +1825,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "interlay"
-    }
+      "subscanSlug": "interlay",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "nodle",
@@ -1768,7 +1845,7 @@
     "substrateInfo": {
       "relaySlug": "polkadot",
       "paraId": 2026,
-      "genesisHash": "0xa3d114c2b8d0627c1aa9b134eafcf7d05ca561fdc19fb388bb9457f81809fb23",
+      "genesisHash": "0x97da7ede98d7bad4e36b4d734b6055425a3be036da2a332ea5a7037656427a21",
       "addressPrefix": 37,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://parachain.nodle.com/",
@@ -1786,8 +1863,8 @@
           "fundId": "2026-14",
           "paraId": 2026,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 11,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -1795,8 +1872,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "nodle"
-    }
+      "subscanSlug": "nodle",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "darwinia2",
@@ -1840,8 +1919,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "darwinia"
-    }
+      "subscanSlug": "darwinia",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "sora_ksm",
@@ -1875,8 +1956,8 @@
           "fundId": "2011-96",
           "paraId": 2011,
           "status": "won",
-          "startTime": "2023-03-07T21:27:00.000Z",
-          "endTime": "2024-02-06T21:27:00.000Z",
+          "startTime": "2023-03-08T04:27:00.000Z",
+          "endTime": "2024-02-07T04:27:00.000Z",
           "auctionIndex": 73,
           "firstPeriod": 28,
           "lastPeriod": 35
@@ -1886,15 +1967,16 @@
           "fundId": "2011-62",
           "paraId": 2011,
           "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
+          "startTime": "2022-02-23T04:27:00.000Z",
+          "endTime": "2023-01-25T04:27:00.000Z",
           "auctionIndex": 24,
           "firstPeriod": 19,
           "lastPeriod": 26
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "odyssey",
@@ -1924,7 +2006,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polkadex",
@@ -1956,8 +2039,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "polkadex"
-    }
+      "subscanSlug": "polkadex",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "polkadexTest",
@@ -1987,7 +2072,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "rmrk",
@@ -2017,7 +2103,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "dolphin",
@@ -2045,7 +2132,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "opal",
@@ -2064,7 +2152,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0x3fa374fbc8d0a9077356aefe327c88f447ce7f1fda905b1d4b4a2680a7b5cefa",
+      "genesisHash": "0xc87870ef90a438d574b8e320f17db372c50f62beb52e479c8ff6ee5b460670b9",
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
@@ -2078,7 +2166,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "efinity",
@@ -2113,15 +2202,16 @@
           "fundId": "2021-20",
           "paraId": 2021,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 6,
           "firstPeriod": 7,
           "lastPeriod": 14
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "composableFinance",
@@ -2155,8 +2245,8 @@
           "fundId": "2019-17",
           "paraId": 2019,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 7,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -2164,8 +2254,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "composable"
-    }
+      "subscanSlug": "composable",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "phala",
@@ -2200,8 +2292,8 @@
           "fundId": "2035-32",
           "paraId": 2035,
           "status": "won",
-          "startTime": "2022-03-14T18:48:00.000Z",
-          "endTime": "2024-01-15T18:48:00.000Z",
+          "startTime": "2022-03-15T01:48:00.000Z",
+          "endTime": "2024-01-16T01:48:00.000Z",
           "auctionIndex": 13,
           "firstPeriod": 7,
           "lastPeriod": 14
@@ -2209,8 +2301,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "phala"
-    }
+      "subscanSlug": "phala",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "crust",
@@ -2244,8 +2338,8 @@
           "fundId": "2008-44",
           "paraId": 2008,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 30,
           "firstPeriod": 10,
           "lastPeriod": 17
@@ -2253,8 +2347,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "crust-parachain"
-    }
+      "subscanSlug": "crust-parachain",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "statemine",
@@ -2265,8 +2361,11 @@
     "icon": "https://static-data.subwallet.app/chains/images/icon/kusama_asset_hub_9ae4528303.png",
     "providers": {
       "Dwellir": "wss://statemine-rpc.dwellir.com",
-      "RadiumBlock": "wss://statemine.public.curie.radiumblock.co/ws",
-      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com"
+      "Dwellir Tunisia": "wss://statemine-rpc-tn.dwellir.com",
+      "IBP-GeoDNS1": "wss://sys.ibp.network/statemine",
+      "IBP-GeoDNS2": "wss://sys.dotters.network/statemine",
+      "Lucky Friday": "wss://rpc-asset-hub-kusama.luckyfriday.io",
+      "Stake World": "wss://ksm-rpc.stakeworld.io/assethub"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -2277,7 +2376,7 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://assethub-kusama.subscan.io/",
-      "existentialDeposit": "33333333",
+      "existentialDeposit": "3333333",
       "symbol": "KSM",
       "decimals": 12,
       "hasNativeNft": true,
@@ -2287,8 +2386,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "assethub-kusama"
-    }
+      "subscanSlug": "assethub-kusama",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "karura",
@@ -2323,8 +2424,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "karura"
-    }
+      "subscanSlug": "karura",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "khala",
@@ -2360,8 +2463,8 @@
           "fundId": "2004-6",
           "paraId": 2004,
           "status": "won",
-          "startTime": "2021-06-15T21:27:00.000Z",
-          "endTime": "2022-05-17T21:27:00.000Z",
+          "startTime": "2021-06-16T04:27:00.000Z",
+          "endTime": "2022-05-18T04:27:00.000Z",
           "auctionIndex": 4,
           "firstPeriod": 13,
           "lastPeriod": 20
@@ -2369,8 +2472,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "khala"
-    }
+      "subscanSlug": "khala",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kilt",
@@ -2403,8 +2508,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "spiritnet"
-    }
+      "subscanSlug": "spiritnet",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "basilisk",
@@ -2439,8 +2546,8 @@
           "fundId": "2090-35",
           "paraId": 2090,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 8,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -2448,8 +2555,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "basilisk"
-    }
+      "subscanSlug": "basilisk",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "altair",
@@ -2484,8 +2593,8 @@
           "fundId": "2088-31",
           "paraId": 2088,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 9,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -2493,8 +2602,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "altair"
-    }
+      "subscanSlug": "altair",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "heiko",
@@ -2528,8 +2639,8 @@
           "fundId": "2126-82",
           "paraId": 2126,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 45,
           "firstPeriod": 23,
           "lastPeriod": 30
@@ -2539,8 +2650,8 @@
           "fundId": "2085-28",
           "paraId": 2085,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 10,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -2548,8 +2659,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "parallel-heiko"
-    }
+      "subscanSlug": "parallel-heiko",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kintsugi",
@@ -2584,8 +2697,8 @@
           "fundId": "2092-34",
           "paraId": 2092,
           "status": "won",
-          "startTime": "2021-09-07T21:27:00.000Z",
-          "endTime": "2022-08-09T21:27:00.000Z",
+          "startTime": "2021-09-08T04:27:00.000Z",
+          "endTime": "2022-08-10T04:27:00.000Z",
           "auctionIndex": 11,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -2593,8 +2706,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "kintsugi"
-    }
+      "subscanSlug": "kintsugi",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kintsugi_test",
@@ -2610,7 +2725,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0x3a5a5cd27eb15fd26c37315a0f0b938733bb798c897428448efac5e6150cad06",
+      "genesisHash": "0xe3a1cf3db108e3e45c63a4841fe89ba95108b1db14fdec10c2e8a078ff322a67",
       "addressPrefix": 2092,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
@@ -2624,7 +2739,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "picasso",
@@ -2658,8 +2774,8 @@
           "fundId": "2270-100",
           "paraId": 2270,
           "status": "won",
-          "startTime": "2023-05-30T21:27:00.000Z",
-          "endTime": "2024-04-30T21:27:00.000Z",
+          "startTime": "2023-05-31T04:27:00.000Z",
+          "endTime": "2024-05-01T04:27:00.000Z",
           "auctionIndex": 84,
           "firstPeriod": 30,
           "lastPeriod": 37
@@ -2669,8 +2785,8 @@
           "fundId": "2130-85",
           "paraId": 2130,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 49,
           "firstPeriod": 23,
           "lastPeriod": 30
@@ -2680,8 +2796,8 @@
           "fundId": "2087-37",
           "paraId": 2087,
           "status": "won",
-          "startTime": "2021-11-30T21:27:00.000Z",
-          "endTime": "2022-11-01T21:27:00.000Z",
+          "startTime": "2021-12-01T04:27:00.000Z",
+          "endTime": "2022-11-02T04:27:00.000Z",
           "auctionIndex": 12,
           "firstPeriod": 17,
           "lastPeriod": 24
@@ -2689,8 +2805,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "picasso"
-    }
+      "subscanSlug": "picasso",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "quartz",
@@ -2726,15 +2844,16 @@
           "fundId": "2095-45",
           "paraId": 2095,
           "status": "won",
-          "startTime": "2021-11-30T21:27:00.000Z",
-          "endTime": "2022-11-01T21:27:00.000Z",
+          "startTime": "2021-12-01T04:27:00.000Z",
+          "endTime": "2022-11-02T04:27:00.000Z",
           "auctionIndex": 14,
           "firstPeriod": 17,
           "lastPeriod": 24
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "unique_network",
@@ -2770,8 +2889,8 @@
           "fundId": "2037-31",
           "paraId": 2037,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 14,
           "firstPeriod": 8,
           "lastPeriod": 15
@@ -2779,8 +2898,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "unique"
-    }
+      "subscanSlug": "unique",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "genshiro",
@@ -2796,11 +2917,11 @@
     "substrateInfo": {
       "relaySlug": "kusama",
       "paraId": 2024,
-      "genesisHash": "0x9b8cefc0eb5c568b527998bdd76c184e2b76ae561be76e4667072230217ea243",
+      "genesisHash": "0x9de765698374eb576968c8a764168893fb277e65ad3ddafcfe2c49593fc6d663",
       "addressPrefix": 67,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://genshiro.equilibrium.io/en",
-      "blockExplorer": "https://genshiro.subscan.io/",
+      "blockExplorer": null,
       "existentialDeposit": null,
       "symbol": "GENS",
       "decimals": 9,
@@ -2814,8 +2935,8 @@
           "fundId": "2226-88",
           "paraId": 2226,
           "status": "won",
-          "startTime": "2022-11-01T21:27:00.000Z",
-          "endTime": "2023-10-03T21:27:00.000Z",
+          "startTime": "2022-11-02T04:27:00.000Z",
+          "endTime": "2023-10-04T04:27:00.000Z",
           "auctionIndex": 56,
           "firstPeriod": 25,
           "lastPeriod": 32
@@ -2825,15 +2946,16 @@
           "fundId": "2024-43",
           "paraId": 2024,
           "status": "won",
-          "startTime": "2021-11-30T21:27:00.000Z",
-          "endTime": "2022-11-01T21:27:00.000Z",
+          "startTime": "2021-12-01T04:27:00.000Z",
+          "endTime": "2022-11-02T04:27:00.000Z",
           "auctionIndex": 15,
           "firstPeriod": 17,
           "lastPeriod": 24
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "genshiro_testnet",
@@ -2861,7 +2983,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subsocial_x",
@@ -2891,7 +3014,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "zeitgeist",
@@ -2926,8 +3050,8 @@
           "fundId": "2092-53",
           "paraId": 2092,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 32,
           "firstPeriod": 10,
           "lastPeriod": 17
@@ -2935,8 +3059,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "zeitgeist"
-    }
+      "subscanSlug": "zeitgeist",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "sakura",
@@ -2970,8 +3096,8 @@
           "fundId": "2016-49",
           "paraId": 2016,
           "status": "won",
-          "startTime": "2022-01-11T21:27:00.000Z",
-          "endTime": "2022-12-13T21:27:00.000Z",
+          "startTime": "2022-01-12T04:27:00.000Z",
+          "endTime": "2022-12-14T04:27:00.000Z",
           "auctionIndex": 18,
           "firstPeriod": 18,
           "lastPeriod": 25
@@ -2979,8 +3105,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "sakura"
-    }
+      "subscanSlug": "sakura",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "shadow",
@@ -3014,8 +3142,8 @@
           "fundId": "2225-87",
           "paraId": 2225,
           "status": "won",
-          "startTime": "2022-11-01T21:27:00.000Z",
-          "endTime": "2023-10-03T21:27:00.000Z",
+          "startTime": "2022-11-02T04:27:00.000Z",
+          "endTime": "2023-10-04T04:27:00.000Z",
           "auctionIndex": 57,
           "firstPeriod": 25,
           "lastPeriod": 32
@@ -3025,8 +3153,8 @@
           "fundId": "2012-53",
           "paraId": 2012,
           "status": "won",
-          "startTime": "2022-01-11T21:27:00.000Z",
-          "endTime": "2022-12-13T21:27:00.000Z",
+          "startTime": "2022-01-12T04:27:00.000Z",
+          "endTime": "2022-12-14T04:27:00.000Z",
           "auctionIndex": 19,
           "firstPeriod": 18,
           "lastPeriod": 25
@@ -3034,8 +3162,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "shadow"
-    }
+      "subscanSlug": "shadow",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "uniqueNft",
@@ -3065,7 +3195,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "robonomics",
@@ -3100,8 +3231,8 @@
           "fundId": "2240-90",
           "paraId": 2240,
           "status": "won",
-          "startTime": "2022-12-13T21:27:00.000Z",
-          "endTime": "2023-11-14T21:27:00.000Z",
+          "startTime": "2022-12-14T04:27:00.000Z",
+          "endTime": "2023-11-15T04:27:00.000Z",
           "auctionIndex": 63,
           "firstPeriod": 26,
           "lastPeriod": 33
@@ -3111,8 +3242,8 @@
           "fundId": "2048-57",
           "paraId": 2048,
           "status": "won",
-          "startTime": "2022-01-11T21:27:00.000Z",
-          "endTime": "2022-12-13T21:27:00.000Z",
+          "startTime": "2022-01-12T04:27:00.000Z",
+          "endTime": "2022-12-14T04:27:00.000Z",
           "auctionIndex": 20,
           "firstPeriod": 18,
           "lastPeriod": 25
@@ -3120,8 +3251,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "robonomics"
-    }
+      "subscanSlug": "robonomics",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "integritee",
@@ -3138,7 +3271,7 @@
     "substrateInfo": {
       "relaySlug": "kusama",
       "paraId": 2015,
-      "genesisHash": "0xf195ef30c646663a24a3164b307521174a86f437c586397a43183c736a8383c1",
+      "genesisHash": "0xcdedc8eadbfa209d3f207bba541e57c3c58a667b05a2e1d1e86353c9000758da",
       "addressPrefix": 13,
       "chainType": "PARACHAIN",
       "crowdloanUrl": "https://crowdloan.integritee.network/",
@@ -3156,8 +3289,8 @@
           "fundId": "2015-59",
           "paraId": 2015,
           "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
+          "startTime": "2022-02-23T04:27:00.000Z",
+          "endTime": "2023-01-25T04:27:00.000Z",
           "auctionIndex": 21,
           "firstPeriod": 19,
           "lastPeriod": 26
@@ -3165,8 +3298,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "integritee"
-    }
+      "subscanSlug": "integritee",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "integriteePolkadot",
@@ -3200,15 +3335,16 @@
           "fundId": "2039-40",
           "paraId": 2039,
           "status": "won",
-          "startTime": "2022-08-29T18:48:00.000Z",
-          "endTime": "2024-07-01T18:48:00.000Z",
+          "startTime": "2022-08-30T01:48:00.000Z",
+          "endTime": "2024-07-02T01:48:00.000Z",
           "auctionIndex": 23,
           "firstPeriod": 9,
           "lastPeriod": 16
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "crabParachain",
@@ -3254,8 +3390,8 @@
           "fundId": "2105-60",
           "paraId": 2105,
           "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
+          "startTime": "2022-02-23T04:27:00.000Z",
+          "endTime": "2023-01-25T04:27:00.000Z",
           "auctionIndex": 22,
           "firstPeriod": 19,
           "lastPeriod": 26
@@ -3263,8 +3399,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "crab"
-    }
+      "subscanSlug": "crab",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "pangolin",
@@ -3305,7 +3443,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "chainx",
@@ -3335,7 +3474,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "acala_testnet",
@@ -3351,7 +3491,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0x5c562e6300954998233c9a40b6b86f3028977e6d32d0da1af207738d19f98c1b",
+      "genesisHash": "0x3035b88c212be330a1a724c675d56d53a5016ec32af1790738832db0227ac54c",
       "addressPrefix": 42,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
@@ -3366,8 +3506,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "acala-testnet"
-    }
+      "subscanSlug": "acala-testnet",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "mangatax",
@@ -3397,7 +3539,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "mangatax_para",
@@ -3419,7 +3562,7 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://mangatax.subscan.io/",
-      "existentialDeposit": null,
+      "existentialDeposit": "0",
       "symbol": "MGX",
       "decimals": 18,
       "hasNativeNft": false,
@@ -3432,8 +3575,8 @@
           "fundId": "2256-91",
           "paraId": 2256,
           "status": "won",
-          "startTime": "2023-01-24T21:27:00.000Z",
-          "endTime": "2023-12-26T21:27:00.000Z",
+          "startTime": "2023-01-25T04:27:00.000Z",
+          "endTime": "2023-12-27T04:27:00.000Z",
           "auctionIndex": 68,
           "firstPeriod": 27,
           "lastPeriod": 34
@@ -3443,8 +3586,8 @@
           "fundId": "2110-66",
           "paraId": 2110,
           "status": "won",
-          "startTime": "2022-04-05T21:27:00.000Z",
-          "endTime": "2023-03-07T21:27:00.000Z",
+          "startTime": "2022-04-06T04:27:00.000Z",
+          "endTime": "2023-03-08T04:27:00.000Z",
           "auctionIndex": 26,
           "firstPeriod": 20,
           "lastPeriod": 27
@@ -3452,8 +3595,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "mangatax"
-    }
+      "subscanSlug": "mangatax",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "encointer",
@@ -3474,7 +3619,7 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": "https://encointer.subscan.io/",
-      "existentialDeposit": "3333333",
+      "existentialDeposit": "33333333",
       "symbol": "KSM",
       "decimals": 12,
       "hasNativeNft": false,
@@ -3483,7 +3628,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "litmus",
@@ -3511,21 +3657,10 @@
       "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "crowdloanFunds": [
-        {
-          "relayChain": "kusama",
-          "fundId": "2106-63",
-          "paraId": 2106,
-          "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
-          "auctionIndex": 23,
-          "firstPeriod": 19,
-          "lastPeriod": 26
-        }
-      ]
+      "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "litentry",
@@ -3560,15 +3695,16 @@
           "fundId": "2013-35",
           "paraId": 2013,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 15,
           "firstPeriod": 8,
           "lastPeriod": 15
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "tinkernet",
@@ -3603,15 +3739,16 @@
           "fundId": "2125-80",
           "paraId": 2125,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 43,
           "firstPeriod": 23,
           "lastPeriod": 30
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "imbue_network",
@@ -3632,7 +3769,7 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
-      "existentialDeposit": "100000000000",
+      "existentialDeposit": "1000000",
       "symbol": "IMBU",
       "decimals": 12,
       "hasNativeNft": false,
@@ -3645,15 +3782,16 @@
           "fundId": "2121-79",
           "paraId": 2121,
           "status": "won",
-          "startTime": "2022-06-28T21:27:00.000Z",
-          "endTime": "2023-05-30T21:27:00.000Z",
+          "startTime": "2022-06-29T04:27:00.000Z",
+          "endTime": "2023-05-31T04:27:00.000Z",
           "auctionIndex": 40,
           "firstPeriod": 22,
           "lastPeriod": 29
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_test",
@@ -3681,13 +3819,14 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_2a",
     "name": "Subspace Gemini 2a",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "ordinal": 93,
     "icon": "https://static-data.subwallet.app/chains/images/icon/subspace_d693cf5ecd.png",
     "providers": {
@@ -3711,7 +3850,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3c",
@@ -3739,7 +3879,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3d",
@@ -3767,7 +3908,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3e",
@@ -3795,13 +3937,14 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3f",
     "name": "Subspace Gemini 3f",
     "isTestnet": true,
-    "chainStatus": "ACTIVE",
+    "chainStatus": "INACTIVE",
     "ordinal": 97,
     "icon": "https://static-data.subwallet.app/chains/images/icon/subspace_d693cf5ecd.png",
     "providers": {
@@ -3825,7 +3968,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "origintrail",
@@ -3859,8 +4003,8 @@
           "fundId": "2043-38",
           "paraId": 2043,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 17,
           "firstPeriod": 8,
           "lastPeriod": 15
@@ -3868,8 +4012,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "origintrail"
-    }
+      "subscanSlug": "origintrail",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "subspace_gemini_3g",
@@ -3889,7 +4035,7 @@
       "addressPrefix": 2254,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
-      "blockExplorer": "https://subspace.subscan.io/",
+      "blockExplorer": null,
       "existentialDeposit": "500",
       "symbol": "tSSC",
       "decimals": 18,
@@ -3899,9 +4045,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": {
-      "subscanSlug": "subspace"
-    }
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "dorafactory",
@@ -3933,15 +4078,16 @@
           "fundId": "2115-74",
           "paraId": 2115,
           "status": "won",
-          "startTime": "2022-05-17T21:27:00.000Z",
-          "endTime": "2023-04-18T21:27:00.000Z",
+          "startTime": "2022-05-18T04:27:00.000Z",
+          "endTime": "2023-04-19T04:27:00.000Z",
           "auctionIndex": 33,
           "firstPeriod": 21,
           "lastPeriod": 28
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bajun",
@@ -3976,8 +4122,8 @@
           "fundId": "2119-76",
           "paraId": 2119,
           "status": "won",
-          "startTime": "2022-06-28T21:27:00.000Z",
-          "endTime": "2023-05-30T21:27:00.000Z",
+          "startTime": "2022-06-29T04:27:00.000Z",
+          "endTime": "2023-05-31T04:27:00.000Z",
           "auctionIndex": 37,
           "firstPeriod": 22,
           "lastPeriod": 29
@@ -3985,8 +4131,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "bajun"
-    }
+      "subscanSlug": "bajun",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "dancebox",
@@ -4016,7 +4164,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "listen",
@@ -4044,7 +4193,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kabocha",
@@ -4078,15 +4228,16 @@
           "fundId": "2113-73",
           "paraId": 2113,
           "status": "won",
-          "startTime": "2022-06-28T21:27:00.000Z",
-          "endTime": "2023-05-30T21:27:00.000Z",
+          "startTime": "2022-06-29T04:27:00.000Z",
+          "endTime": "2023-05-31T04:27:00.000Z",
           "auctionIndex": 38,
           "firstPeriod": 22,
           "lastPeriod": 29
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "gmdie",
@@ -4118,15 +4269,16 @@
           "fundId": "2123-83",
           "paraId": 2123,
           "status": "won",
-          "startTime": "2022-08-09T21:27:00.000Z",
-          "endTime": "2023-07-11T21:27:00.000Z",
+          "startTime": "2022-08-10T04:27:00.000Z",
+          "endTime": "2023-07-12T04:27:00.000Z",
           "auctionIndex": 48,
           "firstPeriod": 23,
           "lastPeriod": 30
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ternoa",
@@ -4156,7 +4308,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "tanganika",
@@ -4188,8 +4341,8 @@
           "fundId": "2116-78",
           "paraId": 2116,
           "status": "won",
-          "startTime": "2022-06-28T21:27:00.000Z",
-          "endTime": "2023-05-30T21:27:00.000Z",
+          "startTime": "2022-06-29T04:27:00.000Z",
+          "endTime": "2023-05-31T04:27:00.000Z",
           "auctionIndex": 39,
           "firstPeriod": 22,
           "lastPeriod": 29
@@ -4197,8 +4350,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "datahighway"
-    }
+      "subscanSlug": "datahighway",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "pendulum",
@@ -4219,7 +4374,7 @@
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
-      "existentialDeposit": null,
+      "existentialDeposit": "1000000000",
       "symbol": "PEN",
       "decimals": 12,
       "hasNativeNft": false,
@@ -4232,15 +4387,16 @@
           "fundId": "2094-55",
           "paraId": 2094,
           "status": "won",
-          "startTime": "2023-02-13T18:48:00.000Z",
-          "endTime": "2024-12-16T18:48:00.000Z",
+          "startTime": "2023-02-14T01:48:00.000Z",
+          "endTime": "2024-12-17T01:48:00.000Z",
           "auctionIndex": 35,
           "firstPeriod": 11,
           "lastPeriod": 18
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "gear_testnet",
@@ -4270,7 +4426,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ternoa_alphanet",
@@ -4295,12 +4452,13 @@
       "symbol": "CAPS",
       "decimals": 18,
       "hasNativeNft": false,
-      "supportStaking": true,
+      "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "calamari_test",
@@ -4316,7 +4474,7 @@
     "substrateInfo": {
       "relaySlug": null,
       "paraId": null,
-      "genesisHash": "0x2ae061f08422b6503b8aa5f401242a209999669c3b8945f814dc096fb1a977bd",
+      "genesisHash": "0x53a6ab000c8c3c1015747a1e3ea237a327c77df3e59d142801a23b25163d4f45",
       "addressPrefix": 78,
       "chainType": "RELAYCHAIN",
       "crowdloanUrl": null,
@@ -4330,7 +4488,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "boba",
@@ -4356,7 +4515,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bobabeam",
@@ -4382,7 +4542,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kilt_peregrine",
@@ -4413,8 +4574,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "kilt-testnet"
-    }
+      "subscanSlug": "kilt-testnet",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "xx_network",
@@ -4444,7 +4607,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "watr_network",
@@ -4474,7 +4638,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "watr_network_evm",
@@ -4499,7 +4664,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "fusotao",
@@ -4529,7 +4695,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "discovol",
@@ -4559,7 +4726,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "discovol_testnet",
@@ -4589,7 +4757,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "atocha",
@@ -4619,7 +4788,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "myriad",
@@ -4649,7 +4819,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "deBio",
@@ -4679,7 +4850,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "collectives",
@@ -4709,7 +4881,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ajunaPolkadot",
@@ -4744,15 +4917,16 @@
           "fundId": "2051-52",
           "paraId": 2051,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 31,
           "firstPeriod": 10,
           "lastPeriod": 17
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bitgreen",
@@ -4782,7 +4956,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "frequency",
@@ -4813,7 +4988,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "hashedNetwork",
@@ -4831,7 +5007,7 @@
     "substrateInfo": {
       "relaySlug": "polkadot",
       "paraId": 2093,
-      "genesisHash": "0x331645ae3db556c7754a82f79cece12cce3420975d5b0219d51b1cb4f6ddc21c",
+      "genesisHash": "0xdce5477cfca571c2cb652f38bbb70429004be3cf9649dd2b4ad9455b2251fe43",
       "addressPrefix": 42,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
@@ -4849,8 +5025,8 @@
           "fundId": "2093-58",
           "paraId": 2093,
           "status": "won",
-          "startTime": "2023-02-13T18:48:00.000Z",
-          "endTime": "2024-12-16T18:48:00.000Z",
+          "startTime": "2023-02-14T01:48:00.000Z",
+          "endTime": "2024-12-17T01:48:00.000Z",
           "auctionIndex": 40,
           "firstPeriod": 11,
           "lastPeriod": 18
@@ -4860,15 +5036,16 @@
           "fundId": "2093-54",
           "paraId": 2093,
           "status": "failed",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 34,
           "firstPeriod": 10,
           "lastPeriod": 17
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kapex",
@@ -4902,15 +5079,16 @@
           "fundId": "2007-39",
           "paraId": 2007,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 20,
           "firstPeriod": 8,
           "lastPeriod": 15
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kylinNetwork",
@@ -4944,15 +5122,16 @@
           "fundId": "2052-43",
           "paraId": 2052,
           "status": "won",
-          "startTime": "2022-08-29T18:48:00.000Z",
-          "endTime": "2024-07-01T18:48:00.000Z",
+          "startTime": "2022-08-30T01:48:00.000Z",
+          "endTime": "2024-07-02T01:48:00.000Z",
           "auctionIndex": 25,
           "firstPeriod": 9,
           "lastPeriod": 16
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "ipci",
@@ -4982,7 +5161,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kico",
@@ -5014,15 +5194,16 @@
           "fundId": "2107-64",
           "paraId": 2107,
           "status": "won",
-          "startTime": "2022-02-22T21:27:00.000Z",
-          "endTime": "2023-01-24T21:27:00.000Z",
+          "startTime": "2022-02-23T04:27:00.000Z",
+          "endTime": "2023-01-25T04:27:00.000Z",
           "auctionIndex": 25,
           "firstPeriod": 19,
           "lastPeriod": 26
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "luhnNetwork",
@@ -5050,7 +5231,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "pichiu",
@@ -5082,15 +5264,16 @@
           "fundId": "2102-69",
           "paraId": 2102,
           "status": "won",
-          "startTime": "2022-05-17T21:27:00.000Z",
-          "endTime": "2023-04-18T21:27:00.000Z",
+          "startTime": "2022-05-18T04:27:00.000Z",
+          "endTime": "2023-04-19T04:27:00.000Z",
           "auctionIndex": 31,
           "firstPeriod": 21,
           "lastPeriod": 28
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "riodefi",
@@ -5118,7 +5301,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "automata",
@@ -5149,7 +5333,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "creditcoin",
@@ -5180,8 +5365,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "creditcoin"
-    }
+      "subscanSlug": "creditcoin",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "crownSterling",
@@ -5211,7 +5398,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "dockPosMainnet",
@@ -5242,8 +5430,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "dock"
-    }
+      "subscanSlug": "dock",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kusari",
@@ -5271,7 +5461,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "logion",
@@ -5305,8 +5496,8 @@
           "fundId": "3341-73",
           "paraId": 3341,
           "status": "failed",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 52,
           "firstPeriod": 14,
           "lastPeriod": 21
@@ -5316,15 +5507,27 @@
           "fundId": "3354-77",
           "paraId": 3354,
           "status": "won",
-          "startTime": "2024-01-15T18:48:00.000Z",
-          "endTime": "2025-11-17T18:48:00.000Z",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
           "auctionIndex": 55,
           "firstPeriod": 15,
           "lastPeriod": 22
+        },
+        {
+          "relayChain": "polkadot",
+          "fundId": "3341-73",
+          "paraId": 3341,
+          "status": "failed",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
+          "auctionIndex": 52,
+          "firstPeriod": 14,
+          "lastPeriod": 21
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "neatcoin",
@@ -5354,7 +5557,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "nftmart",
@@ -5384,7 +5588,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polymesh",
@@ -5415,8 +5620,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "polymesh"
-    }
+      "subscanSlug": "polymesh",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "riochain",
@@ -5444,7 +5651,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "sherpax",
@@ -5472,7 +5680,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "sora_substrate",
@@ -5509,8 +5718,8 @@
           "fundId": "2025-75",
           "paraId": 2025,
           "status": "won",
-          "startTime": "2024-01-15T18:48:00.000Z",
-          "endTime": "2025-11-17T18:48:00.000Z",
+          "startTime": "2024-01-16T01:48:00.000Z",
+          "endTime": "2025-11-18T01:48:00.000Z",
           "auctionIndex": 59,
           "firstPeriod": 15,
           "lastPeriod": 22
@@ -5520,8 +5729,8 @@
           "fundId": "2025-69",
           "paraId": 2025,
           "status": "failed",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 51,
           "firstPeriod": 14,
           "lastPeriod": 21
@@ -5529,8 +5738,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "sora"
-    }
+      "subscanSlug": "sora",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "swapdex",
@@ -5560,7 +5771,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "3dpass",
@@ -5592,7 +5804,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "alephSmartNet",
@@ -5620,7 +5833,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kulupu",
@@ -5650,7 +5864,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "joystream",
@@ -5681,8 +5896,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "joystream"
-    }
+      "subscanSlug": "joystream",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "aventus_testnet",
@@ -5712,7 +5929,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "vara_network",
@@ -5722,7 +5940,8 @@
     "ordinal": 154,
     "icon": "https://static-data.subwallet.app/chains/images/icon/vara_be88d00224.png",
     "providers": {
-      "Vara": "wss://rpc.vara-network.io"
+      "Vara": "wss://rpc.vara-network.io",
+      "Vara Network": "wss://rpc.vara.network"
     },
     "evmInfo": null,
     "substrateInfo": {
@@ -5743,8 +5962,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "vara"
-    }
+      "subscanSlug": "vara",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "kate",
@@ -5774,7 +5995,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bridgeHubPolkadot",
@@ -5805,7 +6027,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bridgeHubKusama",
@@ -5838,7 +6061,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "fantom_testnet",
@@ -5866,7 +6090,8 @@
       "abiExplorer": "https://testnet.ftmscan.com"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "fantom",
@@ -5895,7 +6120,8 @@
       "abiExplorer": "https://ftmscan.com"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "krest_network",
@@ -5930,8 +6156,8 @@
           "fundId": "2241-97",
           "paraId": 2241,
           "status": "won",
-          "startTime": "2023-03-07T21:27:00.000Z",
-          "endTime": "2024-02-06T21:27:00.000Z",
+          "startTime": "2023-03-08T04:27:00.000Z",
+          "endTime": "2024-02-07T04:27:00.000Z",
           "auctionIndex": 72,
           "firstPeriod": 28,
           "lastPeriod": 35
@@ -5939,8 +6165,10 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "krest"
-    }
+      "subscanSlug": "krest",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "deeper_network",
@@ -5970,7 +6198,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "jur_network",
@@ -6000,7 +6229,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "base_mainnet",
@@ -6025,7 +6255,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "avalanche_c",
@@ -6050,7 +6281,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "crust_mainnet",
@@ -6082,8 +6314,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "crust"
-    }
+      "subscanSlug": "crust",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "acala_evm",
@@ -6108,7 +6342,8 @@
       "abiExplorer": "https://blockscout.acala.network/"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "karura_evm",
@@ -6133,7 +6368,8 @@
       "abiExplorer": "https://blockscout.karura.network/"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "bittensor",
@@ -6167,15 +6403,16 @@
           "fundId": "2097-57",
           "paraId": 2097,
           "status": "won",
-          "startTime": "2023-02-13T18:48:00.000Z",
-          "endTime": "2024-12-16T18:48:00.000Z",
+          "startTime": "2023-02-14T01:48:00.000Z",
+          "endTime": "2024-12-17T01:48:00.000Z",
           "auctionIndex": 36,
           "firstPeriod": 11,
           "lastPeriod": 18
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "xcavate",
@@ -6205,7 +6442,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "unorthodox",
@@ -6233,7 +6471,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "coinversation",
@@ -6265,15 +6504,16 @@
           "fundId": "2027-33",
           "paraId": 2027,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 19,
           "firstPeriod": 8,
           "lastPeriod": 15
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "layerx_network",
@@ -6301,7 +6541,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "moonsama",
@@ -6333,15 +6574,16 @@
           "fundId": "3334-64",
           "paraId": 3334,
           "status": "won",
-          "startTime": "2023-05-08T18:48:00.000Z",
-          "endTime": "2025-03-10T18:48:00.000Z",
+          "startTime": "2023-05-09T01:48:00.000Z",
+          "endTime": "2025-03-11T01:48:00.000Z",
           "auctionIndex": 42,
           "firstPeriod": 12,
           "lastPeriod": 19
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "oak_network",
@@ -6373,15 +6615,16 @@
           "fundId": "2090-51",
           "paraId": 2090,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 28,
           "firstPeriod": 10,
           "lastPeriod": 17
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "omnibtc",
@@ -6413,15 +6656,16 @@
           "fundId": "2053-46",
           "paraId": 2053,
           "status": "won",
-          "startTime": "2022-11-21T18:48:00.000Z",
-          "endTime": "2024-09-23T18:48:00.000Z",
+          "startTime": "2022-11-22T01:48:00.000Z",
+          "endTime": "2024-09-24T01:48:00.000Z",
           "auctionIndex": 34,
           "firstPeriod": 10,
           "lastPeriod": 17
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "peaq",
@@ -6453,15 +6697,16 @@
           "fundId": "3338-66",
           "paraId": 3338,
           "status": "won",
-          "startTime": "2023-07-31T18:48:00.000Z",
-          "endTime": "2025-06-02T18:48:00.000Z",
+          "startTime": "2023-08-01T01:48:00.000Z",
+          "endTime": "2025-06-03T01:48:00.000Z",
           "auctionIndex": 45,
           "firstPeriod": 13,
           "lastPeriod": 20
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "quantum_portal",
@@ -6489,7 +6734,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "virto_network",
@@ -6517,7 +6763,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "energy_web_x",
@@ -6551,15 +6798,16 @@
           "fundId": "3345-70",
           "paraId": 3345,
           "status": "won",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 49,
           "firstPeriod": 14,
           "lastPeriod": 21
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "invarch",
@@ -6576,7 +6824,7 @@
       "relaySlug": "polkadot",
       "paraId": 3340,
       "genesisHash": "0x31a7d8914fb31c249b972f18c115f1e22b4b039abbcb03c73b6774c5642f9efe",
-      "addressPrefix": 42,
+      "addressPrefix": 117,
       "chainType": "PARACHAIN",
       "crowdloanUrl": null,
       "blockExplorer": null,
@@ -6593,15 +6841,16 @@
           "fundId": "3340-68",
           "paraId": 3340,
           "status": "won",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
+          "startTime": "2023-10-24T01:48:00.000Z",
+          "endTime": "2025-08-26T01:48:00.000Z",
           "auctionIndex": 47,
           "firstPeriod": 14,
           "lastPeriod": 21
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "zero",
@@ -6629,7 +6878,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "kpron_network",
@@ -6657,7 +6907,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "mars",
@@ -6685,7 +6936,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "snow",
@@ -6717,15 +6969,16 @@
           "fundId": "2129-86",
           "paraId": 2129,
           "status": "won",
-          "startTime": "2022-09-20T21:27:00.000Z",
-          "endTime": "2023-08-22T21:27:00.000Z",
+          "startTime": "2022-09-21T04:27:00.000Z",
+          "endTime": "2023-08-23T04:27:00.000Z",
           "auctionIndex": 51,
           "firstPeriod": 24,
           "lastPeriod": 31
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "aband",
@@ -6757,15 +7010,16 @@
           "fundId": "2257-98",
           "paraId": 2257,
           "status": "won",
-          "startTime": "2023-03-07T21:27:00.000Z",
-          "endTime": "2024-02-06T21:27:00.000Z",
+          "startTime": "2023-03-08T04:27:00.000Z",
+          "endTime": "2024-02-07T04:27:00.000Z",
           "auctionIndex": 75,
           "firstPeriod": 28,
           "lastPeriod": 35
         }
       ]
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "acurast_canary",
@@ -6793,7 +7047,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "alpha_network",
@@ -6821,7 +7076,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "loom_network",
@@ -6849,7 +7105,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subgame_gamma",
@@ -6877,7 +7134,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "trustbase",
@@ -6905,7 +7163,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "manta_network",
@@ -6936,8 +7195,10 @@
       "crowdloanFunds": []
     },
     "extraInfo": {
-      "subscanSlug": "manta"
-    }
+      "subscanSlug": "manta",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   },
   {
     "slug": "t3rn",
@@ -6965,7 +7226,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "geminis_network",
@@ -6993,7 +7255,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polimec",
@@ -7021,21 +7284,10 @@
       "supportStaking": false,
       "supportSmartContract": null,
       "crowdloanParaId": null,
-      "crowdloanFunds": [
-        {
-          "relayChain": "polkadot",
-          "fundId": "3344-71",
-          "paraId": 3344,
-          "status": "won",
-          "startTime": "2023-10-23T18:48:00.000Z",
-          "endTime": "2025-08-25T18:48:00.000Z",
-          "auctionIndex": 51,
-          "firstPeriod": 14,
-          "lastPeriod": 21
-        }
-      ]
+      "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subdao",
@@ -7063,7 +7315,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "subgame_network",
@@ -7091,7 +7344,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "zeta_test",
@@ -7113,7 +7367,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "watr_mainnet",
@@ -7143,7 +7398,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "watr_mainnet_evm",
@@ -7165,7 +7421,8 @@
       "abiExplorer": null
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "enjin_relaychain",
@@ -7195,7 +7452,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "enjin_matrixchain",
@@ -7226,7 +7484,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "vara_testnet",
@@ -7256,7 +7515,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "goldberg_testnet",
@@ -7286,7 +7546,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "energy_web_x_testnet",
@@ -7316,7 +7577,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "energy_web_chain",
@@ -7341,7 +7603,8 @@
       "abiExplorer": "https://explorer.energyweb.org/api?module=contract&action=getabi"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "energy_web_x_rococo",
@@ -7371,7 +7634,8 @@
       "crowdloanParaId": null,
       "crowdloanFunds": []
     },
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "manta_network_evm",
@@ -7386,7 +7650,7 @@
     "evmInfo": {
       "evmChainId": 169,
       "blockExplorer": "https://pacific-explorer.manta.network/",
-      "existentialDeposit": null,
+      "existentialDeposit": "0",
       "symbol": "ETH",
       "decimals": 18,
       "supportSmartContract": [
@@ -7396,7 +7660,8 @@
       "abiExplorer": "https://pacific-explorer.manta.network"
     },
     "substrateInfo": null,
-    "extraInfo": null
+    "extraInfo": null,
+    "bitcoinInfo": null
   },
   {
     "slug": "polkadex_dot",
@@ -7407,7 +7672,6 @@
     "icon": "https://static-data.subwallet.app/chains/images/icon/polkadex_04756a30d9.png",
     "providers": {
       "RadiumBlock": "wss://polkadex-parachain.public.curie.radiumblock.co/ws",
-      "Dwellir": "wss://polkadex-rpc.dwellir.com",
       "OnFinality": "wss://polkadex-parachain.api.onfinality.io/public-ws"
     },
     "evmInfo": null,
@@ -7432,8 +7696,8 @@
           "fundId": "2040-36",
           "paraId": 2040,
           "status": "won",
-          "startTime": "2022-06-06T18:48:00.000Z",
-          "endTime": "2024-04-08T18:48:00.000Z",
+          "startTime": "2022-06-07T01:48:00.000Z",
+          "endTime": "2024-04-09T01:48:00.000Z",
           "auctionIndex": 16,
           "firstPeriod": 8,
           "lastPeriod": 15
@@ -7441,7 +7705,43 @@
       ]
     },
     "extraInfo": {
-      "subscanSlug": "polkadex-parachain"
-    }
+      "subscanSlug": "polkadex-parachain",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
+  },
+  {
+    "slug": "subspace_gemini_3h",
+    "name": "Subspace Gemini 3h",
+    "isTestnet": true,
+    "chainStatus": "ACTIVE",
+    "ordinal": 9999,
+    "icon": "https://static-data.subwallet.app/chains/images/icon/subspace_ba6bca778d.png",
+    "providers": {
+      "Gemini 3h": "wss://rpc-0.gemini-3h.subspace.network/ws"
+    },
+    "evmInfo": null,
+    "substrateInfo": {
+      "relaySlug": null,
+      "paraId": null,
+      "genesisHash": "0x0c121c75f4ef450f40619e1fca9d1e8e7fbabc42c895bc4790801e85d5a91c34",
+      "addressPrefix": 2254,
+      "chainType": "RELAYCHAIN",
+      "crowdloanUrl": null,
+      "blockExplorer": "https://subspace.subscan.io/",
+      "existentialDeposit": "500",
+      "symbol": "tSSC",
+      "decimals": 18,
+      "hasNativeNft": false,
+      "supportStaking": false,
+      "supportSmartContract": null,
+      "crowdloanParaId": null,
+      "crowdloanFunds": []
+    },
+    "extraInfo": {
+      "subscanSlug": "subspace",
+      "chainBalanceSlug": null
+    },
+    "bitcoinInfo": null
   }
 ]
