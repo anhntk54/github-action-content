@@ -4,6 +4,7 @@ import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
 const STRAPI_URL = 'https://content-stage.subwallet.app';
+// const STRAPI_URL = 'http://127.0.0.1:1337';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -282,6 +283,34 @@ const cacheConfigs = [
         imageFields: [],
         removeFields: ['id'],
         preview: 'preview.json',
+
+        additionalProcess: [
+            async (data, preview_data, config, lang, isProduction) => {
+                if (preview_data.length > 0 || data.length > 0) {
+                    const folderParent = config.folder;
+                    for (const dataContent of preview_data) {
+                        console.log('Processing data', dataContent)
+                        const {
+                            projectId,
+                            languageDefault,
+                            values,
+                            languages
+                        } = dataContent;
+                        const folder = saveFolderChild(folderParent, projectId);
+                        if (!fs.existsSync(folder)) {
+                            fs.mkdirSync(folder, {recursive: true});
+                        }
+                        for (const language of languages) {
+                            const file = saveFileInFolderChild(folderParent, projectId, `${language}.json`);
+                            if (language === languageDefault) {
+                                writeJSONFile(saveFileInFolderChild(folderParent, projectId, 'default.json'), values[language]).catch(console.error)
+                            }
+                            writeJSONFile(file, values[language]).catch(console.error)
+                        }
+                    }
+                }
+            }
+        ]
     },
 ]
 
