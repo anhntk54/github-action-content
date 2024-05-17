@@ -275,6 +275,14 @@ const cacheConfigs = [
             }
         ]
     },
+    {
+        url: `${STRAPI_URL}/api/list/localization-content`,
+        folder: 'localization-contents',
+        fileName: 'list.json',
+        imageFields: [],
+        removeFields: ['id'],
+        preview: 'preview.json',
+    },
 ]
 
 const savePath = (folder, fileName) => `data/${folder}/${fileName || 'list.json'}`;
