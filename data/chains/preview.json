@@ -60,9 +60,9 @@
     }
   },
   {
-    "slug": "polkad1ot",
+    "slug": "polkad1ot1",
     "name": "Polkadot",
-    "isTestnet": false,
+    "isTestnet": true,
     "chainStatus": "ACTIVE",
     "ordinal": 1,
     "icon": null,
@@ -7884,5 +7884,26 @@
     },
     "extraInfo": null,
     "bitcoinInfo": null
+  },
+  {
+    "slug": "bitcoin",
+    "name": "Bitcoin",
+    "isTestnet": false,
+    "chainStatus": "ACTIVE",
+    "ordinal": 9999,
+    "icon": "https://static-data.subwallet.app/chains/images/icon/sora_cd4fcddf6e.png",
+    "providers": {
+      "Blockstream": "https://blockstream.info/api"
+    },
+    "evmInfo": null,
+    "substrateInfo": null,
+    "extraInfo": null,
+    "bitcoinInfo": {
+      "blockExplorer": "https://mempool.space",
+      "existentialDeposit": "0",
+      "decimals": 8,
+      "symbol": "BTC",
+      "bitcoinNetwork": "mainnet"
+    }
   }
 ]

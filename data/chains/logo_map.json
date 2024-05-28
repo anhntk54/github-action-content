@@ -1,6 +1,6 @@
 {
   "polkadot": "https://static-data.subwallet.app/chains/images/icon/polkadot_63b5dd41ef.png",
-  "polkad1ot": null,
+  "polkad1ot1": null,
   "polkad1oqt": null,
   "pol11kadot": null,
   "kusama": "https://static-data.subwallet.app/chains/images/icon/kusama_3a65d79366.png",
@@ -213,5 +213,6 @@
   "bittensor_testnet": "https://static-data.subwallet.app/chains/images/icon/bittensor_7ebbcae9d6.png",
   "subspace_gemini_3h": "https://static-data.subwallet.app/chains/images/icon/subspace_ba6bca778d.png",
   "continuum_network": "https://static-data.subwallet.app/chains/images/icon/bit_country_continuum_5f92dd7fcc.png",
-  "rococo_assethub": "https://static-data.subwallet.app/chains/images/icon/polkadot_asset_hub_50b263697b.png"
+  "rococo_assethub": "https://static-data.subwallet.app/chains/images/icon/polkadot_asset_hub_50b263697b.png",
+  "bitcoin": "https://static-data.subwallet.app/chains/images/icon/sora_cd4fcddf6e.png"
 }
