@@ -23,6 +23,6 @@ else {
   const urlParams = new URLSearchParams(queryString);
   const startApp = urlParams.get('startApp');
       console.log(startApp)
-    window.location.replace('https://t.me/Playnation_bot/app');
+    window.location.replace('https://t.me/Playnation_bot/app' + (startApp ? '?startApp=' + startApp : ''));
   })
 }</script></body></html>
