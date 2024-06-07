@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Playnation Karura Airdrop</title><meta name="title" content="Playnation Karura Airdrop"><meta name="description" content="The airdrop is based on users' contributions and achievements, with different raffle entries. Earn raffles by being a top NPS Holder, inviting friends, or joining mini-events on Playnation's social channel."><meta property="og:site_name" content="Playnation Karura Airdrop"><meta property="og:url" content="https://t.me/Playnation_bot/app"><meta property="og:title" content="Playnation Karura Airdrop"><meta property="og:type" content="website"><meta property="og:description" content="The airdrop is based on users' contributions and achievements, with different raffle entries. Earn raffles by being a top NPS Holder, inviting friends, or joining mini-events on Playnation's social channel."><meta name="twitter:site" content="@https://"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Playnation Karura Airdrop"><meta name="twitter:description" content="The airdrop is based on users' contributions and achievements, with different raffle entries. Earn raffles by being a top NPS Holder, inviting friends, or joining mini-events on Playnation's social channel."><meta property="og:image" content="https://media-resources.subwallet.app/karura_campaign_c235f284e6.jpeg"><meta property="og:image:secure_url" content="https://media-resources.subwallet.app/karura_campaign_c235f284e6.jpeg"><meta property="og:image:width" content="1280"><meta property="og:image:height" content="720"><meta name="copyright" content="SubWallet"><link rel="canonical" href="https://t.me/Playnation_bot/app"><!-- Favicon and App Icon--><link rel="apple-touch-icon" sizes="180x180" href="https://web.subwallet.app/images/favicon/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://web.subwallet.app/images/favicon/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://web.subwallet.app/images/favicon/favicon-16x16.png"></head><body style="background-color: rgb(12, 12, 12);"><div id="root"></div><a id="redirect-link" href="https://t.me/Playnation_bot/app"><div id="loading-placeholder" style="background-color: rgb(12, 12, 12); position:fixed; top: 0; left: 0; right: 0; bottom: 0"><img id="loading-img" src="https://web.subwallet.app/images/loading.svg" style="position: absolute; top: calc(50% - 50px); left: calc(50% - 50px)" alt="Loading"></div></a><script>function detectMob() {
+  const toMatch = [ /Android/i, /webOS/i, /iPhone/i, /iPad/i, /iPod/i, /BlackBerry/i, /Windows Phone/i ];
+    return toMatch.some((toMatchItem) => {
+      return navigator.userAgent.match(toMatchItem);
+    });
+  }
+
+var queryString = window.location.search;
+var finalUrl = 'https://t.me/Playnation_bot/app' + queryString;
+var inSubWallet = detectMob() && window.SubWallet;
+var isTelegramLink = 'https://t.me/Playnation_bot/app'.startsWith('https://t.me');
+var fallback_image = {"id":1352,"name":"sdaxzz.png","alternativeText":null,"caption":null,"width":2000,"height":2000,"formats":{"thumbnail":{"ext":".png","url":"https://media-resources.subwallet.app/thumbnail_sdaxzz_708e668bf2.png","hash":"thumbnail_sdaxzz_708e668bf2","mime":"image/png","name":"thumbnail_sdaxzz.png","path":null,"size":42.72,"width":156,"height":156}},"hash":"sdaxzz_708e668bf2","ext":".png","mime":"image/png","size":668.02,"url":"https://media-resources.subwallet.app/sdaxzz_708e668bf2.png","previewUrl":null,"provider":"strapi-provider-cloudflare-r2","provider_metadata":null,"folderPath":"/","createdAt":"2024-06-07T03:56:00.859Z","updatedAt":"2024-06-07T03:56:00.859Z"};
+
+document.getElementById('redirect-link').href = finalUrl;
+
+if (inSubWallet && isTelegramLink && fallback_image) {
+  // replace img in loading-placeholder > img
+  var img = document.getElementById('loading-img');
+  if (img) {
+    var placeholder = img.parentNode;
+    placeholder.removeChild(img);
+
+
+    placeholder.style.backgroundImage = 'url(' + fallback_image.url + ')';
+    placeholder.style.backgroundPosition = 'center';
+    placeholder.style.backgroundSize = 'cover';
+  }
+}
+else {
+  window.addEventListener('load', function() {
+    window.location.replace(finalUrl);
+  })
+}</script></body></html>
