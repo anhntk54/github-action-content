@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script src="https://assets.airlyft.one/widget/widget.js"></script>
+<script>
+  (async () => {
+      try {
+          const widget = await window.AirlyftWidget("f7a51371-bd64-4ebb-8d5f-c7f3f496b5e3");
+          widget.createSidebar({});
+      } catch (err) {
+          consolr.error(err)
+      }
+    })();
+</script>
+</body>
+</html>
