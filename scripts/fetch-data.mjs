@@ -3,8 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://content-stage.subwallet.app';
-// const STRAPI_URL = 'http://127.0.0.1:1337';
+const STRAPI_URL = 'https://content.trieunhu.xyz';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
@@ -38,7 +37,7 @@ const cacheConfigs = [
         folder: 'categories',
         fileName: 'list.json',
         imageFields: [],
-        removeFields: ['id'],
+        removeFields: ['id',],
         preview: 'preview.json',
     },
     {
@@ -85,7 +84,16 @@ const cacheConfigs = [
         url: `${STRAPI_URL}/api/list/instruction`,
         folder: 'instructions',
         fileName: 'list.json',
-        imageFields: [],
+        imageFields: ['media'],
+        removeFields: [],
+        preview: 'preview.json',
+        langs: ['en', 'vi', 'zh', 'ja', 'ru'],
+    },
+    {
+        url: `${STRAPI_URL}/api/list/instruction-new`,
+        folder: 'instruction-news',
+        fileName: 'list.json',
+        imageFields: ['media'],
         removeFields: [],
         preview: 'preview.json',
         langs: ['en', 'vi', 'zh', 'ja', 'ru'],
@@ -114,9 +122,9 @@ const cacheConfigs = [
                     for (const dataContent of preview_data) {
                         const prefix = isProduction ? config.fileName : config.preview;
                         const fileName = getFileNameByLang(prefix, lang);
-                        const {folder, content, description} = dataContent;
+                        const {folder, content, description, title} = dataContent;
                         const contentSave = {
-                            content, description
+                            content, description, title
                         }
                         const folderPath = saveFolderChild(folderParent, folder);
                         if (!fs.existsSync(folderPath)) {
@@ -243,74 +251,71 @@ const cacheConfigs = [
         removeFields: [],
         preview: 'preview.json'
     },
-
     {
         url: `${STRAPI_URL}/api/list/buy-button`,
         folder: 'buy-buttons',
-        fileName: 'list.json',
+        fileName: '',
         imageFields: [],
         removeFields: ['id'],
-        preview: 'preview.json',
+        preview: '',
         additionalProcess: [
-            async (data, preview_data, config, lang, isProduction) => {
-                if (preview_data.length > 0 || data.length > 0) {
-                    const dataSave = preview_data.map((item) => {
+            async (data, previewData, config, lang, isProduction) => {
+                const {data: _data, fileName} = isProduction ? {
+                    data: data,
+                    fileName: "config.json"
+                } : {
+                    data: previewData,
+                    fileName: "preview.json"
+                };
+
+                if (_data.length > 0) {
+                    const dataSave = _data.map((item) => {
                         return item.version;
-                    });
+                    }).sort((a, b) => a.localeCompare(b, undefined, {numeric: true}));
                     let dataConfig = {
                         address: true,
-                        sell: true,
+                        send: true,
                         buy: []
                     };
+                    const path = savePath('tokens', fileName);
                     try {
-                        const filePath = 'data/tokens/config.json';
-                        dataConfig = JSON.parse(fs.readFileSync(filePath));
+                        dataConfig = JSON.parse(fs.readFileSync(path));
                     } catch (e) {
                         console.log(e)
                     }
 
                     dataConfig.buy = dataSave;
-                    const path = savePath('tokens', `config.json`);
                     writeJSONFile(path, dataConfig).catch(console.error)
                 }
             }
         ]
     },
     {
-        url: `${STRAPI_URL}/api/list/localization-content`,
-        folder: 'localization-contents',
+        url: `${STRAPI_URL}/api/list/mobile-feature`,
+        folder: 'mobile-features',
         fileName: 'list.json',
         imageFields: [],
         removeFields: ['id'],
         preview: 'preview.json',
-
-        additionalProcess: [
-            async (data, preview_data, config, lang, isProduction) => {
-                if (preview_data.length > 0 || data.length > 0) {
-                    const folderParent = config.folder;
-                    for (const dataContent of preview_data) {
-                        console.log('Processing data', dataContent)
-                        const {
-                            projectId,
-                            languageDefault,
-                            values,
-                            languages
-                        } = dataContent;
-                        const folder = saveFolderChild(folderParent, projectId);
-                        if (!fs.existsSync(folder)) {
-                            fs.mkdirSync(folder, {recursive: true});
-                        }
-                        for (const language of languages) {
-                            const file = saveFileInFolderChild(folderParent, projectId, `${language}.json`);
-                            if (language === languageDefault) {
-                                writeJSONFile(saveFileInFolderChild(folderParent, projectId, 'default.json'), values[language]).catch(console.error)
-                            }
-                            writeJSONFile(file, values[language]).catch(console.error)
-                        }
-                    }
-                }
-            }
-        ]
+        additionalProcess: []
+    },
+    {
+        url: `${STRAPI_URL}/api/list/localization-content`,
+        folder: 'localization-contents',
+        fileName: 'list.json',
+        imageFields: [],
+        removeFields: [],
+        preview: 'preview.json',
+        additionalProcess: []
+    },
+    {
+        url: `${STRAPI_URL}/api/list/browser-config`,
+        folder: 'browser-configs',
+        fileName: 'list.json',
+        imageFields: [],
+        removeFields: ['id'],
+        preview: 'preview.json',
+        additionalProcess: []
     },
 ]
 
@@ -360,7 +365,6 @@ const fetchAndProcessData = async (url, folder, downloadDir, fieldsImage) => {
     const results = await axios.get(url);
 
     if (!results.data) return;
-    console.log('Processing data', url, results.data)
 
     return await Promise.all(results.data.map(async item => {
         const dataImages = {};
@@ -417,11 +421,8 @@ const main = async () => {
         }
 
         for (const lang of langs) {
-            const path = savePath(folder, getFileNameByLang(config.fileName, lang));
-            const previewPath = config.preview && savePath(folder, getFileNameByLang(config.preview, lang));
-
             const dataContent = await fetchAndProcessData(getUrl(config.url, false, lang), folder, downloadDir, fieldsImage);
-            const previewData = config.preview && (await fetchAndProcessData(getUrl(config.url, true, lang), folder, downloadDir, fieldsImage));
+            const previewData = await fetchAndProcessData(getUrl(config.url, true, lang), folder, downloadDir, fieldsImage);
 
             if (config.additionalProcess) {
                 for (const process of config.additionalProcess) {
@@ -431,17 +432,27 @@ const main = async () => {
 
             for (const f of config.removeFields) {
                 for (const item of dataContent) {
-                    item[f] && delete item[f];
+                    if (f in item) {
+                        delete item[f];
+                    }
                 }
                 if (previewData) {
                     for (const item of previewData) {
-                        item[f] && delete item[f];
+                        if (f in item) {
+                            delete item[f];
+                        }
                     }
                 }
             }
+            if (config.fileName && isProduction && dataContent) {
+                const path = savePath(folder, getFileNameByLang(config.fileName, lang));
+                await writeJSONFile(path, dataContent);
+            }
+            if (config.preview && previewData) {
+                const previewPath = savePath(folder, getFileNameByLang(config.preview, lang))
+                await writeJSONFile(previewPath, previewData);
+            }
 
-            isProduction && await writeJSONFile(path, dataContent);
-            previewData && await writeJSONFile(previewPath, previewData);
         }
     }
 }
