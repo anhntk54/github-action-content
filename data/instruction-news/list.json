@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "group": "earning",
+    "slug": "a",
+    "title": "a",
+    "faq_url": null,
+    "locale": "en",
+    "instructions": [
+      {
+        "id": 210,
+        "icon": "AddressBook",
+        "icon_color": null,
+        "title": "a",
+        "description": "a"
+      },
+      {
+        "id": 211,
+        "icon": null,
+        "icon_color": null,
+        "title": null,
+        "description": null
+      }
+    ],
+    "media": "https://static-data.subwallet.app/instruction-news/images/media/abstract_90ad4ac251.png"
+  }
+]
