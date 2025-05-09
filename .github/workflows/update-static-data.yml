@@ -65,6 +65,7 @@ jobs:
             echo '123'
           
             # Save each JSON object to file.json
+            echo $updated_item
             echo $updated_item > texterify.json
           
             # Run the required commands
