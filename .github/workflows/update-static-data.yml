@@ -54,6 +54,9 @@ jobs:
             JSON_FILE="data/localization-contents/preview.json"
             SUFFIX="/dev"
           fi
+          echo $JSON_FILE
+            echo $SUFFIX
+          
           # Read and loop through each item in the selected JSON file
           jq -c '.[]' $JSON_FILE | while read -r item; do
             # Update the export_directory field
