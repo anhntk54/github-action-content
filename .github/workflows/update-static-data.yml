@@ -27,11 +27,7 @@ jobs:
     runs-on: ubuntu-22.04
     name: Update Static Data
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.inputs.branch }}
-          fetch-depth: 0
-          token: ${{ secrets.GH_AUTOMATION_TOKEN }}
+      - uses: actions/checkout@v3
       - name: Update data
         env:
           STRAPI_TOKEN: ${{ secrets.STRAPI_TOKEN }}
