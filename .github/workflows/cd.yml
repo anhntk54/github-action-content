@@ -1,0 +1,33 @@
+name: Deploy SubWallet Backend to VM dev
+on:
+    pull_request:
+        branches:
+        - 'dev'
+    push:
+        branches:
+        - 'dev'
+jobs:
+  deploy:
+    if: "!startsWith(github.event.head_commit.message, '[CD Skip]')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to VM
+        uses: appleboy/ssh-action@master
+        env:
+          GITHUB_ACTOR: ${{ github.github_actor }}
+          BRANCH: ${{ github.ref_name }}
+        with:
+          host: ${{ secrets.VM_DEV_HOST }}
+          username: ${{ secrets.VM_DEV_USER }}
+          password: ${{ secrets.VM_DEV_PASSWORD }}
+          port: ${{ secrets.VM_DEV_PORT }}
+          envs: GITHUB_ACTOR,BRANCH
+          script: |
+            cd /home/koni/subwallet-dev/SubWallet-Monorepos
+            git checkout $BRANCH
+            git pull 
+            chmod +x yarn-install.sh
+            bash yarn-install.sh 
+            bash stop.sh 
+            sleep 10s
+            bash start.sh
