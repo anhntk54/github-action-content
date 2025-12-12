@@ -3,7 +3,7 @@ import axios from "axios";
 import path from "path";
 import {writeJSONFile} from "./utils.mjs";
 
-const STRAPI_URL = 'https://content.trieunhu.xyz';
+const STRAPI_URL = 'https://content.anhnt.cloud';
 const RESOURCE_URL = 'https://static-data.subwallet.app';
 
 const cacheConfigs = [
