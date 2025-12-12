@@ -85,7 +85,6 @@ jobs:
           author_name: Scheduler
           author_email: scheduler@github.io
           message: 'Update Static Data'
-          pull: '--rebase'
       - name: Get Project name cloudflare
         id: get_project_name_cf
         run: |
