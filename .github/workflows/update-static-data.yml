@@ -85,6 +85,7 @@ jobs:
           author_name: Scheduler
           author_email: scheduler@github.io
           message: 'Update Static Data'
+          pull: '--rebase'
       - name: Get Project name cloudflare
         id: get_project_name_cf
         run: |
@@ -92,7 +93,7 @@ jobs:
           if [ ${{ github.event.repository.name }} == "SubWallet-Static-Content" ]; then
             PROJECT_NAME="sw-static-data"
           else
-            PROJECT_NAME="sw-static-data-dev"
+            PROJECT_NAME="sw-static-data"
           fi
           echo $PROJECT_NAME
           echo "project_name=$PROJECT_NAME" >> $GITHUB_OUTPUT
