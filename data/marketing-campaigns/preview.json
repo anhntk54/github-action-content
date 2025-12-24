@@ -25,7 +25,7 @@
           "browser"
         ],
         "buttons": [],
-        "media": "https://media-resources.subwallet.app//6/crowdloan_banner_f4e4f4e6de.png"
+        "media": "/uploads/crowdloan_banner_f4e4f4e6de.png"
       },
       {
         "id": 19,
@@ -450,101 +450,7 @@
           "crowdloan"
         ],
         "buttons": [],
-        "media": "https://media-resources.subwallet.app//6/Extension_crowdloan_tabbar_x1_c1e3cfc5a2.png"
-      }
-    ],
-    "notifications": []
-  },
-  {
-    "id": 49,
-    "name": "Test - Unlock batch 2 (Extension)",
-    "description": null,
-    "start_time": "2024-01-30T05:00:00.000Z",
-    "end_time": "2024-02-07T16:59:00.000Z",
-    "condition": {
-      "allowedTokenSlug": "['DOT-Polkadot']"
-    },
-    "banners": [
-      {
-        "id": 112,
-        "alt": "Popup banner in app extension",
-        "action": "open_url",
-        "metadata": {
-          "url": "https://web.subwallet.app/home/earning/overview?utm_source=extension&utm_medium=inappbanner&utm_campaign=unlockbatch+2"
-        },
-        "environments": [
-          "extension"
-        ],
-        "position": [
-          "home"
-        ],
-        "buttons": [
-          {
-            "name": "Dismiss",
-            "icon": "XCircle",
-            "color": "secondary",
-            "type": null,
-            "metadata": {
-              "doneOnClick": true
-            }
-          },
-          {
-            "name": "Earn now",
-            "icon": "ArrowCircleRight",
-            "color": "primary",
-            "type": "open_url",
-            "metadata": {
-              "url": "https://web.subwallet.app/home/earning/overview?utm_source=extension&utm_medium=inappbanner&utm_campaign=unlockbatch+2",
-              "doneOnClick": true
-            }
-          }
-        ],
-        "media": "https://media-resources.subwallet.app/Home_screen_74335f9a45.png"
-      },
-      {
-        "id": 111,
-        "alt": "Banner in crowdloan tab",
-        "action": "open_url",
-        "metadata": {
-          "url": "https://web.subwallet.app/home/earning/overview?utm_source=extension&utm_medium=crowdloantab&utm_campaign=unlockbatch+2"
-        },
-        "environments": [
-          "extension"
-        ],
-        "position": [
-          "crowdloan"
-        ],
-        "buttons": [],
-        "media": "https://media-resources.subwallet.app/Token_detail_2x_a2656c3257.png"
-      }
-    ],
-    "notifications": []
-  },
-  {
-    "id": 50,
-    "name": "[Test] Using bit.ly url to open deeplink - DOT token detail banner (mobile app)",
-    "description": null,
-    "start_time": "2024-01-16T09:30:00.000Z",
-    "end_time": "2024-02-02T16:59:00.000Z",
-    "condition": {
-      "allowedTokenSlug": "[\"Polkadot\", \"polkadot-NATIVE-DOT\", \"statemint-NATIVE-DOT\", \"acala-LOCAL-DOT\", \"acala-LOCAL-LDOT\", \"acala-LOCAL-LcDOT\", \"acala-LOCAL-tDOT\", \"moonbeam-LOCAL-xcDOT\", \"astar-LOCAL-DOT\", \"equilibrium_parachain-LOCAL-DOT\", \"bifrost_dot-LOCAL-vDOT\", \"bifrost_dot-LOCAL-vsDOT\", \"interlay-LOCAL-LDOT\", \"genshiro-LOCAL-DOT\", \"pendulum-LOCAL-DOT\", \"collectives-NATIVE-DOT\", \"astar-LOCAL-LDOT\", \"astarEvm-ERC20-DOT-0xffffffffffffffffffffffffffffffffffffffff\", \"equilibrium_parachain-LOCAL-EQDOT\", \"binance-ERC20-DOT-0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402\", \"bridgeHubPolkadot-NATIVE-DOT\", \"interlay-LOCAL-LP_DOT_iBTC\", \"interlay-LOCAL-qDOT\", \"bifrost_dot-LOCAL-DOT\", \"parallel-LOCAL-sDOT\", \"parallel-LOCAL-DOT\", \"interlay-LOCAL-DOT\", \"hydradx_main-LOCAL-DOT\", \"parallel-LOCAL-cDOT714\", \"moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4\"]"
-    },
-    "banners": [
-      {
-        "id": 113,
-        "alt": "Mobile token details",
-        "action": "open_url",
-        "metadata": {
-          "url": "https://mobile.subwallet.app/home/main/earning/earning-list"
-        },
-        "environments": [
-          "mobile"
-        ],
-        "position": [
-          "token-details"
-        ],
-        "buttons": [],
-        "media": null
+        "media": "/uploads/Extension_crowdloan_tabbar_x1_c1e3cfc5a2.png"
       }
     ],
     "notifications": []
@@ -724,35 +630,6 @@
     "notifications": []
   },
   {
-    "id": 57,
-    "name": "ASTR token detail banner (mobile app)",
-    "description": null,
-    "start_time": "2024-02-17T17:30:00.000Z",
-    "end_time": "2024-02-29T16:59:00.000Z",
-    "condition": {
-      "allowedTokenSlug": "[\"ASTR-Astar\", \"astar-NATIVE-ASTR\"]"
-    },
-    "banners": [
-      {
-        "id": 120,
-        "alt": "Mobile token details",
-        "action": "open_url",
-        "metadata": {
-          "url": "https://bit.ly/hdx_astr"
-        },
-        "environments": [
-          "mobile"
-        ],
-        "position": [
-          "token-details"
-        ],
-        "buttons": [],
-        "media": "https://media-resources.subwallet.app/ASTR_2x_a640811dca.png"
-      }
-    ],
-    "notifications": []
-  },
-  {
     "id": 58,
     "name": "GLMR token detail banner (mobile app)",
     "description": null,
@@ -776,7 +653,7 @@
           "token-details"
         ],
         "buttons": [],
-        "media": "https://media-resources.subwallet.app/GLMR_2x_db78ebbfd2.png"
+        "media": "/uploads/GLMR_2x_db78ebbfd2.png"
       }
     ],
     "notifications": []
@@ -825,27 +702,183 @@
             }
           }
         ],
-        "media": "https://media-resources.subwallet.app/Crowdloan_unlock_batch_7_1200x600_addb0dedfc.png"
+        "media": "/uploads/Crowdloan_unlock_batch_7_1200x600_addb0dedfc.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 61,
+    "name": "[Test] Apply master password 2 (mobile app)",
+    "description": null,
+    "start_time": "2024-02-15T01:15:00.000Z",
+    "end_time": "2024-03-05T16:59:00.000Z",
+    "condition": {
+      "allowedTokenSlug": "[\"ASTR-Astar\", \"astar-NATIVE-ASTR\"]"
+    },
+    "banners": [
+      {
+        "id": 124,
+        "alt": "Mobile token details",
+        "action": "open_url",
+        "metadata": {
+          "url": "https://bit.ly/hdx_astr"
+        },
+        "environments": [
+          "mobile"
+        ],
+        "position": [
+          "home"
+        ],
+        "buttons": [
+          {
+            "name": "I don’t care",
+            "icon": "XCircle",
+            "color": "secondary",
+            "type": null,
+            "metadata": {
+              "doneOnClick": true
+            }
+          },
+          {
+            "name": "Join now",
+            "icon": "ArrowCircleRight",
+            "color": "primary",
+            "type": "open_url",
+            "metadata": {
+              "url": "https://web.subwallet.app/earning-demo?utm_source=inapppopupbanner&utm_medium=mobile&utm_campaign=stakedotearnmany",
+              "doneOnClick": true
+            }
+          }
+        ],
+        "media": "https://media-resources.subwallet.app/Home_screen_update_64871280b6.png"
       }
     ],
     "notifications": []
   },
   {
     "id": 62,
-    "name": "INTR token detail banner (mobile app)",
+    "name": "[Test] Extension campaign ",
     "description": null,
-    "start_time": "2024-02-17T17:30:00.000Z",
-    "end_time": "2024-02-29T16:59:00.000Z",
+    "start_time": "2024-01-23T17:00:00.000Z",
+    "end_time": "2024-02-24T17:00:00.000Z",
     "condition": {
-      "allowedTokenSlug": "[\"INTR-Interlay\", \"interlay-NATIVE-INTR\"]"
+      "allowedTokenSlug": "['DOT-Polkadot']"
     },
     "banners": [
       {
+        "id": 126,
+        "alt": "Popup banner in app extension",
+        "action": "open_url",
+        "metadata": {
+          "url": "https://www.subwallet.app/"
+        },
+        "environments": [
+          "extension",
+          "mobile"
+        ],
+        "position": [
+          "home"
+        ],
+        "buttons": [
+          {
+            "name": "Cancel",
+            "icon": "XCircle",
+            "color": "secondary",
+            "type": null,
+            "metadata": {
+              "doneOnClick": true
+            }
+          },
+          {
+            "name": "Test",
+            "icon": "ArrowCircleRight",
+            "color": "primary",
+            "type": "open_url",
+            "metadata": {
+              "url": "https://www.subwallet.app/",
+              "doneOnClick": true
+            }
+          }
+        ],
+        "media": "https://media-resources.subwallet.app/Home_screen_update_64871280b6.png"
+      },
+      {
         "id": 125,
+        "alt": "Banner in crowdloan tab",
+        "action": "open_url",
+        "metadata": {
+          "url": "https://www.subwallet.app/"
+        },
+        "environments": [
+          "extension",
+          "mobile"
+        ],
+        "position": [
+          "crowdloan"
+        ],
+        "buttons": [],
+        "media": "/uploads/Extension_crowdloan_tabbar_x1_c1e3cfc5a2.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 63,
+    "name": "Update tabbar (mobile)",
+    "description": null,
+    "start_time": "2024-03-04T09:00:00.000Z",
+    "end_time": "2024-03-11T16:59:00.000Z",
+    "condition": {
+      "hasCrowdloan": true
+    },
+    "banners": [
+      {
+        "id": 127,
+        "alt": "popup",
+        "action": null,
+        "metadata": {
+          "url": ""
+        },
+        "environments": [
+          "mobile"
+        ],
+        "position": [
+          "home"
+        ],
+        "buttons": [
+          {
+            "name": "I understand",
+            "icon": null,
+            "color": "primary",
+            "type": null,
+            "metadata": {
+              "url": "",
+              "doneOnClick": true
+            }
+          }
+        ],
+        "media": null
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 64,
+    "name": "Airdrop VARCH - DOT token detail banner (mobile app)",
+    "description": null,
+    "start_time": "2024-03-26T12:00:00.000Z",
+    "end_time": "2024-03-31T15:00:00.000Z",
+    "condition": {
+      "allowedTokenSlug": "[\"Polkadot\", \"polkadot-NATIVE-DOT\", \"statemint-NATIVE-DOT\", \"acala-LOCAL-DOT\", \"acala-LOCAL-LDOT\", \"acala-LOCAL-LcDOT\", \"acala-LOCAL-tDOT\", \"moonbeam-LOCAL-xcDOT\", \"astar-LOCAL-DOT\", \"equilibrium_parachain-LOCAL-DOT\", \"bifrost_dot-LOCAL-vDOT\", \"bifrost_dot-LOCAL-vsDOT\", \"interlay-LOCAL-LDOT\", \"genshiro-LOCAL-DOT\", \"pendulum-LOCAL-DOT\", \"collectives-NATIVE-DOT\", \"astar-LOCAL-LDOT\", \"astarEvm-ERC20-DOT-0xffffffffffffffffffffffffffffffffffffffff\", \"equilibrium_parachain-LOCAL-EQDOT\", \"binance-ERC20-DOT-0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402\", \"bridgeHubPolkadot-NATIVE-DOT\", \"interlay-LOCAL-LP_DOT_iBTC\", \"interlay-LOCAL-qDOT\", \"bifrost_dot-LOCAL-DOT\", \"parallel-LOCAL-sDOT\", \"parallel-LOCAL-DOT\", \"interlay-LOCAL-DOT\", \"hydradx_main-LOCAL-DOT\", \"parallel-LOCAL-cDOT714\", \"moonbeam-ERC20-stDOT-0xbc7E02c4178a7dF7d3E564323a5c359dc96C4db4\"]"
+    },
+    "banners": [
+      {
+        "id": 128,
         "alt": "Mobile token details",
         "action": "open_url",
         "metadata": {
-          "url": "https://bit.ly/hdx_intr"
+          "url": "subwallet://home/main/earning/earning-list"
         },
         "environments": [
           "mobile"
@@ -854,7 +887,465 @@
           "token-details"
         ],
         "buttons": [],
-        "media": null
+        "media": "/uploads/Stake_DOT_earn_airdrop_32cbc1aac1.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 65,
+    "name": "Airdrop VARCH - VARA token detail banner (mobile app)",
+    "description": null,
+    "start_time": "2024-03-26T12:00:00.000Z",
+    "end_time": "2024-03-31T15:00:00.000Z",
+    "condition": {
+      "allowedTokenSlug": "[\"vara_network-NATIVE-VARA\"]"
+    },
+    "banners": [
+      {
+        "id": 129,
+        "alt": "Mobile token details",
+        "action": "open_url",
+        "metadata": {
+          "url": "subwallet://home/main/earning/earning-list"
+        },
+        "environments": [
+          "mobile"
+        ],
+        "position": [
+          "token-details"
+        ],
+        "buttons": [],
+        "media": "/uploads/Stake_DOT_earn_airdrop_32cbc1aac1.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 66,
+    "name": "Airdrop VARCH - EVM token detail banner (mobile app)",
+    "description": null,
+    "start_time": "2024-03-26T12:00:00.000Z",
+    "end_time": "2024-03-31T15:00:00.000Z",
+    "condition": {
+      "allowedTokenSlug": "[\"ethereum-NATIVE-ETH\", \"binance-NATIVE-BNB\", \"polygon-NATIVE-MATIC\", \"optimism-NATIVE-ETH\", \"optimism-ERC20-OP-0x4200000000000000000000000000000000000042\", \"ETH-Ethereum\", \"BNB-Binance\", \"OP-Optimism\", \"MATIC-Polygon\"]"
+    },
+    "banners": [
+      {
+        "id": 130,
+        "alt": "Mobile token details",
+        "action": "open_url",
+        "metadata": {
+          "url": "subwallet://home/main/earning/earning-list"
+        },
+        "environments": [
+          "mobile"
+        ],
+        "position": [
+          "token-details"
+        ],
+        "buttons": [],
+        "media": "/uploads/Stake_DOT_earn_airdrop_32cbc1aac1.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 67,
+    "name": "Trade DED - token detail banner (mobile)",
+    "description": null,
+    "start_time": "2024-03-28T12:00:00.000Z",
+    "end_time": "2024-04-10T15:00:00.000Z",
+    "condition": {
+      "allowedTokenSlug": "[\"statemint-LOCAL-DED\", \"hydradx_main-LOCAL-DED\", \"hydradx_main-NATIVE-HDX\", \"statemint-LOCAL-USDt\", \"USDT-Tether\" ]"
+    },
+    "banners": [
+      {
+        "id": 131,
+        "alt": "Token details",
+        "action": "open_url",
+        "metadata": {
+          "url": "https://bit.ly/hdx_dedmobile"
+        },
+        "environments": [
+          "mobile"
+        ],
+        "position": [
+          "token-details"
+        ],
+        "buttons": [],
+        "media": "https://media-resources.subwallet.app//8/Trade_DED_on_HDX_8d72cf4969.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 68,
+    "name": "Trade PINK - token detail banner (mobile)",
+    "description": null,
+    "start_time": "2024-03-29T05:00:00.000Z",
+    "end_time": "2024-04-10T15:00:00.000Z",
+    "condition": {
+      "allowedTokenSlug": "[\"moonbeam-LOCAL-xcPINK\", \"moonbeam-NATIVE-GLMR\", \"statemint-LOCAL-PINK\", \"acala-LOCAL-PINK\", \"crust-LOCAL-PINK\", \"darwinia2-LOCAL-PINK\", \"bifrost_dot-LOCAL-PINK\", \"phala-LOCAL-PINK\", \"astar-LOCAL-PINK\", \"PINK-StatemintPink\", \"GLMR-Moonbeam\"]"
+    },
+    "banners": [
+      {
+        "id": 132,
+        "alt": "Token details",
+        "action": "open_url",
+        "metadata": {
+          "url": "https://bit.ly/stellafromsub_pink"
+        },
+        "environments": [
+          "mobile"
+        ],
+        "position": [
+          "token-details"
+        ],
+        "buttons": [],
+        "media": "/uploads/Trade_PINK_on_Stellaswap_ab55404b5e.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 69,
+    "name": "Airdrop VARCH (Mobile - Popup)",
+    "description": null,
+    "start_time": "2024-03-30T05:00:00.000Z",
+    "end_time": "2024-03-31T15:00:00.000Z",
+    "condition": {
+      "allowedTokenSlug": "['DOT-Polkadot']"
+    },
+    "banners": [
+      {
+        "id": 133,
+        "alt": "Popup banner in mobile app",
+        "action": "open_url",
+        "metadata": {
+          "url": "subwallet://home/main/earning/earning-list"
+        },
+        "environments": [
+          "mobile",
+          "mobile"
+        ],
+        "position": [
+          "home"
+        ],
+        "buttons": [
+          {
+            "name": "Dismiss",
+            "icon": "XCircle",
+            "color": "secondary",
+            "type": null,
+            "metadata": {
+              "doneOnClick": true
+            }
+          },
+          {
+            "name": "Earn now",
+            "icon": "ArrowCircleRight",
+            "color": "primary",
+            "type": "open_url",
+            "metadata": {
+              "url": "subwallet://home/main/earning/earning-list",
+              "doneOnClick": true
+            }
+          }
+        ],
+        "media": "/uploads/Stake_DOT_earn_airdrop_popup_ccdbfe771b.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 70,
+    "name": "Airdrop VARCH (Extension - Popup)",
+    "description": null,
+    "start_time": "2024-03-30T05:00:00.000Z",
+    "end_time": "2024-03-31T15:00:00.000Z",
+    "condition": {
+      "allowedTokenSlug": "['DOT-Polkadot']"
+    },
+    "banners": [
+      {
+        "id": 134,
+        "alt": "Popup banner in extension",
+        "action": "open_url",
+        "metadata": {
+          "url": "/index.html#/home/earning"
+        },
+        "environments": [
+          "extension"
+        ],
+        "position": [
+          "home"
+        ],
+        "buttons": [
+          {
+            "name": "Dismiss",
+            "icon": "XCircle",
+            "color": "secondary",
+            "type": null,
+            "metadata": {
+              "doneOnClick": true
+            }
+          },
+          {
+            "name": "Earn now",
+            "icon": "ArrowCircleRight",
+            "color": "primary",
+            "type": "open_url",
+            "metadata": {
+              "url": "/index.html#/home/earning",
+              "doneOnClick": true
+            }
+          }
+        ],
+        "media": "/uploads/Stake_DOT_earn_airdrop_popup_ccdbfe771b.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 75,
+    "name": "Test - Mobile - Update version",
+    "description": null,
+    "start_time": "2024-04-24T17:00:00.000Z",
+    "end_time": "2024-05-29T17:00:00.000Z",
+    "condition": null,
+    "banners": [
+      {
+        "id": 139,
+        "alt": "Update version IOS",
+        "action": "open_url",
+        "metadata": null,
+        "environments": [
+          "mobile"
+        ],
+        "position": [
+          "tokens",
+          "home"
+        ],
+        "buttons": [
+          {
+            "name": "I understand",
+            "icon": "XCircle",
+            "color": "secondary",
+            "type": null,
+            "metadata": {
+              "doneOnClick": true
+            }
+          }
+        ],
+        "media": "https://media-resources.subwallet.app//6/Back_up_your_accounts_c03f91f1e0.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 76,
+    "name": "Extension - Currency",
+    "description": null,
+    "start_time": "2024-05-19T03:00:00.000Z",
+    "end_time": "2024-05-26T16:59:00.000Z",
+    "condition": null,
+    "banners": [
+      {
+        "id": 140,
+        "alt": "Popup banner in app extension",
+        "action": "open_url",
+        "metadata": {
+          "url": "/index.html#/settings/general"
+        },
+        "environments": [
+          "extension"
+        ],
+        "position": [
+          "home"
+        ],
+        "buttons": [
+          {
+            "name": "Dismiss",
+            "icon": "XCircle",
+            "color": "secondary",
+            "type": null,
+            "metadata": {
+              "doneOnClick": true
+            }
+          },
+          {
+            "name": "Set up",
+            "icon": "ArrowCircleRight",
+            "color": "primary",
+            "type": "open_url",
+            "metadata": {
+              "url": "/index.html#/settings/general",
+              "doneOnClick": true
+            }
+          }
+        ],
+        "media": "https://media-resources.subwallet.app//6/New_Currencies_f827749bdf.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 77,
+    "name": "Back up your accounts!",
+    "description": null,
+    "start_time": "2024-05-27T17:00:00.000Z",
+    "end_time": "2024-06-03T17:00:00.000Z",
+    "condition": null,
+    "banners": [
+      {
+        "id": 143,
+        "alt": "Back up your accounts!",
+        "action": "open_url",
+        "metadata": {
+          "url": "https://docs.subwallet.app/main/extension-user-guide/account-management/export-and-backup-accounts#export-all-accounts"
+        },
+        "environments": [
+          "extension"
+        ],
+        "position": [
+          "home"
+        ],
+        "buttons": [
+          {
+            "name": "I've backed up",
+            "icon": "XCircle",
+            "color": "secondary",
+            "type": null,
+            "metadata": {
+              "doneOnClick": true
+            }
+          },
+          {
+            "name": "Learn more",
+            "icon": "ArrowCircleRight",
+            "color": "primary",
+            "type": "open_url",
+            "metadata": {
+              "url": "https://docs.subwallet.app/main/extension-user-guide/account-management/export-and-backup-accounts#export-all-accounts",
+              "doneOnClick": true
+            }
+          }
+        ],
+        "media": "https://media-resources.subwallet.app//6/Back_up_your_accounts_0c03cb20a5.png"
+      }
+    ],
+    "notifications": [
+      {
+        "id": 24,
+        "title": "Back up your accounts!",
+        "message": "As required by Google, SubWallet is updating to Manifest V3. Click to learn how to back up and secure your accounts ahead of the update.",
+        "repeat": 0,
+        "repeat_after_minutes": 0,
+        "action": "open_url",
+        "metadata": {
+          "url": "https://docs.subwallet.app/main/extension-user-guide/account-management/export-and-backup-accounts#export-all-accounts"
+        },
+        "buttons": [
+          {
+            "name": "Learn more",
+            "icon": null,
+            "color": "none",
+            "type": "open_url",
+            "metadata": {
+              "url": "https://docs.subwallet.app/main/extension-user-guide/account-management/export-and-backup-accounts#export-all-accounts"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Update your app version",
+    "description": "Update your app version 1.1.62",
+    "start_time": "2024-06-03T12:00:00.000Z",
+    "end_time": "2024-06-10T12:00:00.000Z",
+    "condition": {
+      "hasCrowdloan": true
+    },
+    "banners": [
+      {
+        "id": 145,
+        "alt": "popup",
+        "action": null,
+        "metadata": {
+          "url": ""
+        },
+        "environments": [
+          "mobile"
+        ],
+        "position": [
+          "home"
+        ],
+        "buttons": [
+          {
+            "name": "I understand",
+            "icon": null,
+            "color": "primary",
+            "type": null,
+            "metadata": {
+              "url": "",
+              "doneOnClick": true
+            }
+          }
+        ],
+        "media": "https://media-resources.subwallet.app//6/Update_your_app_version_396618b2bb.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 80,
+    "name": "Test testing ",
+    "description": "test",
+    "start_time": "2025-12-24T07:45:00.000Z",
+    "end_time": "2025-12-24T09:00:00.000Z",
+    "condition": null,
+    "banners": [
+      {
+        "id": 146,
+        "alt": null,
+        "action": "open_url",
+        "metadata": null,
+        "environments": [
+          "extension"
+        ],
+        "position": [
+          "token-details"
+        ],
+        "buttons": [],
+        "media": "/uploads/polimec_308c6e9fbc_7889426102.png"
+      }
+    ],
+    "notifications": []
+  },
+  {
+    "id": 82,
+    "name": "Test testing ",
+    "description": "test",
+    "start_time": "2025-12-24T07:45:00.000Z",
+    "end_time": "2025-12-24T09:00:00.000Z",
+    "condition": null,
+    "banners": [
+      {
+        "id": 148,
+        "alt": null,
+        "action": "open_url",
+        "metadata": null,
+        "environments": [
+          "extension"
+        ],
+        "position": [
+          "token-details"
+        ],
+        "buttons": [],
+        "media": "/uploads/polimec_308c6e9fbc_7889426102.png"
       }
     ],
     "notifications": []
