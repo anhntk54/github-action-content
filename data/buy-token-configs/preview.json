@@ -1,45 +1,13 @@
 [
   {
-    "serviceInfo": {
-      "transak": {
-        "network": "mainnet",
-        "symbol": "DOT",
-        "isSuspended": false
-      },
-      "banxa": {
-        "network": "DOT",
-        "symbol": "DOT",
-        "isSuspended": false
-      },
-      "coinbase": {
-        "network": "polkadot",
-        "symbol": "DOT",
-        "isSuspended": false
-      }
-    },
+    "serviceInfo": {},
     "network": "polkadot",
     "slug": "polkadot-NATIVE-DOT",
     "symbol": "DOT",
     "support": "SUBSTRATE"
   },
   {
-    "serviceInfo": {
-      "transak": {
-        "network": "mainnet",
-        "symbol": "KSM",
-        "isSuspended": false
-      },
-      "banxa": {
-        "network": "KSM",
-        "symbol": "KSM",
-        "isSuspended": false
-      },
-      "coinbase": {
-        "network": "kusama",
-        "symbol": "KSM",
-        "isSuspended": false
-      }
-    },
+    "serviceInfo": {},
     "network": "kusama",
     "slug": "kusama-NATIVE-KSM",
     "symbol": "KSM",
@@ -50,17 +18,26 @@
       "transak": {
         "network": "ethereum",
         "symbol": "ETH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
       },
       "banxa": {
         "network": "ETH",
         "symbol": "ETH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       },
       "coinbase": {
         "network": "ethereum",
         "symbol": "ETH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "ETH",
+        "symbol": "ETH",
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -70,10 +47,17 @@
   },
   {
     "serviceInfo": {
-      "transak": {
-        "network": "astar",
+      "meld": {
+        "network": "ASTR",
         "symbol": "ASTR",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "ASTR",
+        "symbol": "ASTR",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "astar",
@@ -86,12 +70,20 @@
       "transak": {
         "network": "avaxcchain",
         "symbol": "AVAX",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
       },
       "coinbase": {
         "network": "avalanche-c-chain",
         "symbol": "AVAX",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "AVAX-C",
+        "symbol": "AVAX",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "avalanche_c",
@@ -104,7 +96,20 @@
       "transak": {
         "network": "bsc",
         "symbol": "BNB",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "banxa": {
+        "network": "BSC",
+        "symbol": "BNB",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "BSC",
+        "symbol": "BNB_BSC",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "binance",
@@ -117,7 +122,14 @@
       "banxa": {
         "network": "TERNOA",
         "symbol": "CAPS",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "CAPS",
+        "symbol": "CAPS",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "ternoa",
@@ -128,27 +140,28 @@
   {
     "serviceInfo": {
       "transak": {
-        "network": "mainnet",
-        "symbol": "DOCK",
-        "isSuspended": false
-      }
-    },
-    "network": "dockPosMainnet",
-    "slug": "dockPosMainnet-NATIVE-DOCK",
-    "symbol": "DOCK",
-    "support": "SUBSTRATE"
-  },
-  {
-    "serviceInfo": {
-      "transak": {
         "network": "arbitrum",
         "symbol": "ETH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
       },
       "coinbase": {
         "network": "arbitrum",
         "symbol": "ETH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "ARB",
+        "symbol": "ETH",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "ARBITRUM",
+        "symbol": "ETH_ARBITRUM",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "arbitrum_one",
@@ -161,12 +174,26 @@
       "transak": {
         "network": "base",
         "symbol": "ETH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "banxa": {
+        "network": "BASE",
+        "symbol": "ETH",
+        "isSuspended": false,
+        "supportSell": null
       },
       "coinbase": {
         "network": "base",
         "symbol": "ETH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "BASE",
+        "symbol": "ETH_BASE",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "base_mainnet",
@@ -179,12 +206,26 @@
       "transak": {
         "network": "optimism",
         "symbol": "ETH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
       },
       "coinbase": {
         "network": "optimism",
         "symbol": "ETH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "OPTIMISM",
+        "symbol": "ETH",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "OPTIMISM",
+        "symbol": "ETH_OPTIMISM",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "optimism",
@@ -195,32 +236,22 @@
   {
     "serviceInfo": {
       "transak": {
-        "network": "fantom",
-        "symbol": "FTM",
-        "isSuspended": false
-      },
-      "banxa": {
-        "network": "FTM",
-        "symbol": "FTM",
-        "isSuspended": false
-      }
-    },
-    "network": "fantom",
-    "slug": "fantom-NATIVE-FTM",
-    "symbol": "FTM",
-    "support": "ETHEREUM"
-  },
-  {
-    "serviceInfo": {
-      "transak": {
         "network": "mainnet",
         "symbol": "GLMR",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
       },
       "banxa": {
         "network": "GLMR",
         "symbol": "GLMR",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "GLMR",
+        "symbol": "GLMR",
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "moonbeam",
@@ -232,31 +263,41 @@
     "serviceInfo": {
       "transak": {
         "network": "polygon",
-        "symbol": "MATIC",
-        "isSuspended": false
+        "symbol": "POL",
+        "isSuspended": false,
+        "supportSell": true
       },
       "banxa": {
         "network": "MATIC",
-        "symbol": "MATIC",
-        "isSuspended": false
+        "symbol": "POL",
+        "isSuspended": false,
+        "supportSell": false
       },
-      "coinbase": {
-        "network": "polygon",
-        "symbol": "MATIC",
-        "isSuspended": false
+      "meld": {
+        "network": "POLYGON",
+        "symbol": "POL",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "polygon",
-    "slug": "polygon-NATIVE-MATIC",
-    "symbol": "MATIC",
+    "slug": "polygon-NATIVE-POL",
+    "symbol": "POL",
     "support": "ETHEREUM"
   },
   {
     "serviceInfo": {
-      "transak": {
-        "network": "moonriver",
+      "banxa": {
+        "network": "MOVR",
         "symbol": "MOVR",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "MOVR",
+        "symbol": "MOVR",
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "moonriver",
@@ -266,23 +307,11 @@
   },
   {
     "serviceInfo": {
-      "transak": {
-        "network": "pioneer",
-        "symbol": "NEER",
-        "isSuspended": false
-      }
-    },
-    "network": "pioneer",
-    "slug": "pioneer-NATIVE-NEER",
-    "symbol": "NEER",
-    "support": "SUBSTRATE"
-  },
-  {
-    "serviceInfo": {
-      "transak": {
-        "network": "ethereum",
+      "meld": {
+        "network": "ETH",
         "symbol": "1INCH",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "ethereum",
@@ -295,12 +324,14 @@
       "transak": {
         "network": "ethereum",
         "symbol": "APE",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       },
       "banxa": {
         "network": "ETH",
         "symbol": "APE",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -310,15 +341,11 @@
   },
   {
     "serviceInfo": {
-      "transak": {
-        "network": "ethereum",
-        "symbol": "BAT",
-        "isSuspended": false
-      },
       "banxa": {
         "network": "ETH",
         "symbol": "BAT",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -331,7 +358,8 @@
       "banxa": {
         "network": "BOBA",
         "symbol": "BOBA",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "boba",
@@ -342,40 +370,16 @@
   {
     "serviceInfo": {
       "transak": {
-        "network": "bsc",
-        "symbol": "BUSD",
-        "isSuspended": true
-      }
-    },
-    "network": "binance",
-    "slug": "binance-ERC20-BUSD-0xe9e7cea3dedca5984780bafc599bd69add087d56",
-    "symbol": "BUSD",
-    "support": "ETHEREUM"
-  },
-  {
-    "serviceInfo": {
-      "transak": {
         "network": "ethereum",
-        "symbol": "BUSD",
-        "isSuspended": false
+        "symbol": "CHZ",
+        "isSuspended": false,
+        "supportSell": null
       },
       "banxa": {
         "network": "ETH",
-        "symbol": "BUSD",
-        "isSuspended": false
-      }
-    },
-    "network": "ethereum",
-    "slug": "ethereum-ERC20-BUSD-0x4Fabb145d64652a948d72533023f6E7A623C7C53",
-    "symbol": "BUSD",
-    "support": "ETHEREUM"
-  },
-  {
-    "serviceInfo": {
-      "banxa": {
-        "network": "ETH",
         "symbol": "CHZ",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -385,15 +389,11 @@
   },
   {
     "serviceInfo": {
-      "transak": {
-        "network": "ethereum",
-        "symbol": "COMP",
-        "isSuspended": false
-      },
       "banxa": {
         "network": "ETH",
         "symbol": "COMP",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -406,7 +406,14 @@
       "banxa": {
         "network": "BSC",
         "symbol": "CAKE",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "BSC",
+        "symbol": "CAKE_BSC",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "binance",
@@ -419,17 +426,26 @@
       "transak": {
         "network": "ethereum",
         "symbol": "DAI",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
       },
       "banxa": {
         "network": "ETH",
         "symbol": "DAI",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       },
       "coinbase": {
         "network": "ethereum",
         "symbol": "DAI",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "ETH",
+        "symbol": "DAI",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "ethereum",
@@ -442,12 +458,20 @@
       "transak": {
         "network": "ethereum",
         "symbol": "LINK",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       },
       "banxa": {
         "network": "ETH",
         "symbol": "LINK",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "ETH",
+        "symbol": "LINK",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "ethereum",
@@ -460,7 +484,8 @@
       "coinbase": {
         "network": "ethereum",
         "symbol": "MATIC",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -470,15 +495,11 @@
   },
   {
     "serviceInfo": {
-      "transak": {
-        "network": "ethereum",
-        "symbol": "MKR",
-        "isSuspended": false
-      },
       "banxa": {
         "network": "ETH",
         "symbol": "MKR",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -491,7 +512,14 @@
       "coinbase": {
         "network": "optimism",
         "symbol": "OP",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "OPTIMISM",
+        "symbol": "OP",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "optimism",
@@ -501,15 +529,11 @@
   },
   {
     "serviceInfo": {
-      "transak": {
-        "network": "ethereum",
-        "symbol": "SAND",
-        "isSuspended": false
-      },
       "banxa": {
         "network": "ETH",
         "symbol": "SAND",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -522,7 +546,20 @@
       "transak": {
         "network": "ethereum",
         "symbol": "UNI",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "banxa": {
+        "network": "ETH",
+        "symbol": "UNI",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "ETH",
+        "symbol": "UNI",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "ethereum",
@@ -535,7 +572,20 @@
       "transak": {
         "network": "bsc",
         "symbol": "USDC",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "banxa": {
+        "network": "BSC",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "BSC",
+        "symbol": "USDC_BSC",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "binance",
@@ -548,12 +598,20 @@
       "transak": {
         "network": "ethereum",
         "symbol": "USDC",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
       },
       "banxa": {
         "network": "ETH",
         "symbol": "USDC",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "ETH",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "ethereum",
@@ -566,7 +624,20 @@
       "transak": {
         "network": "bsc",
         "symbol": "USDT",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "BSC",
+        "symbol": "USDT",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "BSC",
+        "symbol": "USDT_BSC",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "binance",
@@ -579,12 +650,20 @@
       "transak": {
         "network": "ethereum",
         "symbol": "USDT",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
       },
       "banxa": {
         "network": "ETH",
         "symbol": "USDT",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "ETH",
+        "symbol": "USDT",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "ethereum",
@@ -597,20 +676,34 @@
       "transak": {
         "network": "polygon",
         "symbol": "USDT",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "banxa": {
+        "network": "MATIC",
+        "symbol": "USDT",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "POLYGON",
+        "symbol": "USDT_POLYGON",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "polygon",
-    "slug": "polygon-ERC20-USDT-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
-    "symbol": "USDT",
+    "slug": "polygon-ERC20-USD₮0-0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "symbol": "USD₮0",
     "support": "ETHEREUM"
   },
   {
     "serviceInfo": {
-      "transak": {
-        "network": "ethereum",
+      "banxa": {
+        "network": "ETH",
         "symbol": "VERSE",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -623,12 +716,26 @@
       "transak": {
         "network": "ethereum",
         "symbol": "WBTC",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       },
       "coinbase": {
         "network": "ethereum",
         "symbol": "WBTC",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "ETH",
+        "symbol": "WBTC",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "ETH",
+        "symbol": "WBTC",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "ethereum",
@@ -638,15 +745,17 @@
   },
   {
     "serviceInfo": {
-      "transak": {
-        "network": "alephzero",
-        "symbol": "AZERO",
-        "isSuspended": false
-      },
       "banxa": {
         "network": "AZERO",
         "symbol": "AZERO",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "AZERO",
+        "symbol": "AZERO",
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "aleph",
@@ -659,7 +768,8 @@
       "transak": {
         "network": "ethereum",
         "symbol": "SHIB",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": null
       }
     },
     "network": "ethereum",
@@ -672,7 +782,20 @@
       "transak": {
         "network": "arbitrum",
         "symbol": "USDC",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "banxa": {
+        "network": "ARB",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "ARBITRUM",
+        "symbol": "USDC_ARBITRUM",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "arbitrum_one",
@@ -685,11 +808,766 @@
       "transak": {
         "network": "polygon",
         "symbol": "USDC",
-        "isSuspended": false
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "banxa": {
+        "network": "MATIC",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "POLYGON",
+        "symbol": "USDC_POLYGON",
+        "isSuspended": false,
+        "supportSell": false
       }
     },
     "network": "polygon",
     "slug": "polygon-ERC20-USDC-0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+    "symbol": "USDC",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "BNC",
+        "symbol": "BNC",
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "BNC",
+        "symbol": "BNC",
+        "isSuspended": false,
+        "supportSell": null
+      }
+    },
+    "network": "bifrost",
+    "slug": "bifrost-NATIVE-BNC",
+    "symbol": "BNC",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "immutablezkevm",
+        "symbol": "IMX",
+        "isSuspended": false,
+        "supportSell": true
+      }
+    },
+    "network": "immutableZkEvm",
+    "slug": "immutableZkEvm-NATIVE-IMX",
+    "symbol": "IMX",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "INTR",
+        "symbol": "INTR",
+        "isSuspended": false,
+        "supportSell": null
+      }
+    },
+    "network": "interlay",
+    "slug": "interlay-NATIVE-INTR",
+    "symbol": "INTR",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "KAR",
+        "symbol": "KAR",
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "KAR",
+        "symbol": "KAR",
+        "isSuspended": false,
+        "supportSell": null
+      }
+    },
+    "network": "karura",
+    "slug": "karura-NATIVE-KAR",
+    "symbol": "KAR",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "KINT",
+        "symbol": "KINT",
+        "isSuspended": false,
+        "supportSell": null
+      }
+    },
+    "network": "kintsugi",
+    "slug": "kintsugi-NATIVE-KINT",
+    "symbol": "KINT",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "ETH",
+        "symbol": "PEPE",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "ethereum",
+    "slug": "ethereum-ERC20-PEPE-0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+    "symbol": "PEPE",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "mantle",
+        "symbol": "MNT",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "banxa": {
+        "network": "MNT",
+        "symbol": "MNT",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "mantle",
+    "slug": "mantle-NATIVE-MNT",
+    "symbol": "MNT",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "ETH",
+        "symbol": "POL",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "ethereum",
+    "slug": "ethereum-ERC20-POL-0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6",
+    "symbol": "POL",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "VARA",
+        "symbol": "VARA",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "VARA",
+        "symbol": "VARA",
+        "isSuspended": false,
+        "supportSell": null
+      }
+    },
+    "network": "vara_network",
+    "slug": "vara_network-NATIVE-VARA",
+    "symbol": "VARA",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "base",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "banxa": {
+        "network": "BASE",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "BASE",
+        "symbol": "USDC_BASE",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "base_mainnet",
+    "slug": "base_mainnet-ERC20-USDC-0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "symbol": "USDC",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "HDX",
+        "symbol": "HDX",
+        "isSuspended": false,
+        "supportSell": null
+      }
+    },
+    "network": "hydradx_main",
+    "slug": "hydradx_main-NATIVE-HDX",
+    "symbol": "HDX",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "BSX",
+        "symbol": "BSX",
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "BSX",
+        "symbol": "BSX",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "basilisk",
+    "slug": "basilisk-NATIVE-BSX",
+    "symbol": "BSX",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "BNCPOLKA",
+        "symbol": "BNC_BNCPOLKA",
+        "isSuspended": false,
+        "supportSell": null
+      }
+    },
+    "network": "bifrost_dot",
+    "slug": "bifrost_dot-NATIVE-BNC",
+    "symbol": "BNC",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "ACA",
+        "symbol": "ACA",
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "ACA",
+        "symbol": "ACA",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "acala",
+    "slug": "acala-NATIVE-ACA",
+    "symbol": "ACA",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "ASSETHUB",
+        "symbol": "USDT_ASSETHUB",
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "ASSETHUB",
+        "symbol": "USDT",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "statemint",
+    "slug": "statemint-LOCAL-USDt",
+    "symbol": "USDt",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "ASSETHUB",
+        "symbol": "USDC_ASSETHUB",
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "banxa": {
+        "network": "ASSETHUB",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "statemint",
+    "slug": "statemint-LOCAL-USDC",
+    "symbol": "USDC",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "zksync",
+        "symbol": "ETH",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "banxa": {
+        "network": "ZKSYNC2",
+        "symbol": "ETH",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "zksync_era",
+    "slug": "zksync_era-NATIVE-ETH",
+    "symbol": "ETH",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "ARB",
+        "symbol": "USDT",
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "ARBITRUM",
+        "symbol": "USDT_ARBITRUM",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-USD₮0-0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "symbol": "USD₮0",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "celo",
+        "symbol": "CELO",
+        "isSuspended": false,
+        "supportSell": true
+      }
+    },
+    "network": "celo",
+    "slug": "celo-NATIVE-CELO",
+    "symbol": "CELO",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "unichain",
+        "symbol": "ETH",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "UNICHAIN",
+        "symbol": "ETH_UNICHAIN",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "unichain",
+    "slug": "unichain-NATIVE-ETH",
+    "symbol": "ETH",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "BSC",
+        "symbol": "DOT",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "binance",
+    "slug": "binance-ERC20-DOT-0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+    "symbol": "DOT",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "BSC",
+        "symbol": "ETH",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "binance",
+    "slug": "binance-ERC20-ETH-0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+    "symbol": "ETH",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "coinbase": {
+        "network": "arbitrum",
+        "symbol": "WBTC",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "arbitrum_one",
+    "slug": "arbitrum_one-ERC20-WBTC-0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+    "symbol": "WBTC",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "polygon",
+        "symbol": "WETH",
+        "isSuspended": false,
+        "supportSell": true
+      }
+    },
+    "network": "polygon",
+    "slug": "polygon-ERC20-WETH-0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "symbol": "WETH",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "linea",
+        "symbol": "ETH",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "lineaZkEvm",
+    "slug": "lineaZkEvm-NATIVE-ETH",
+    "symbol": "ETH",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "story",
+        "symbol": "IP",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "story_protocol",
+    "slug": "story_protocol-NATIVE-IP",
+    "symbol": "IP",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "OPTIMISM",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "optimism",
+    "slug": "optimism-ERC20-USDC-0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "symbol": "USDC",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "POLYX",
+        "symbol": "POLYX",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "polymesh",
+    "slug": "polymesh-NATIVE-POLYX",
+    "symbol": "POLYX",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "coinbase": {
+        "network": "bittensor",
+        "symbol": "TAO",
+        "isSuspended": false,
+        "supportSell": null
+      },
+      "meld": {
+        "network": "TAO",
+        "symbol": "TAO",
+        "isSuspended": false,
+        "supportSell": null
+      }
+    },
+    "network": "bittensor",
+    "slug": "bittensor-NATIVE-TAO",
+    "symbol": "TAO",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "coinbase": {
+        "network": "cardano",
+        "symbol": "ADA",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "ADA",
+        "symbol": "ADA",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "banxa": {
+        "network": "ADA",
+        "symbol": "ADA",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "cardano",
+    "slug": "cardano-NATIVE-ADA",
+    "symbol": "ADA",
+    "support": "CARDANO"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "ZKSYNCERA",
+        "symbol": "ZK_ZKSYNCERA",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "zksync_era",
+    "slug": "zksync_era-ERC20-ZK-0x5A7d6b2F92C77FAD6CCaBd7EE0624E64907Eaf3E",
+    "symbol": "ZK",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "OPTIMISM",
+        "symbol": "USDT_OPTIMISM",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "optimism",
+    "slug": "optimism-ERC20-USDT-0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "symbol": "USDT",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "ETH",
+        "symbol": "LDO",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "ethereum",
+    "slug": "ethereum-ERC20-LDO-0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+    "symbol": "LDO",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "ton",
+        "symbol": "TON",
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "meld": {
+        "network": "TON",
+        "symbol": "TON",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "banxa": {
+        "network": "TON",
+        "symbol": "TON",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "ton",
+    "slug": "ton-NATIVE-TON",
+    "symbol": "TON",
+    "support": "TON"
+  },
+  {
+    "serviceInfo": {
+      "meld": {
+        "network": "MANTA",
+        "symbol": "MANTA",
+        "isSuspended": false,
+        "supportSell": null
+      }
+    },
+    "network": "manta_network",
+    "slug": "manta_network-NATIVE-MANTA",
+    "symbol": "MANTA",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "mainnet",
+        "symbol": "BTC",
+        "isSuspended": false,
+        "supportSell": true
+      },
+      "banxa": {
+        "network": "BTC",
+        "symbol": "BTC",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "coinbase": {
+        "network": "bitcoin",
+        "symbol": "BTC",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "bitcoin",
+    "slug": "bitcoin-NATIVE-BTC",
+    "symbol": "BTC",
+    "support": "BITCOIN"
+  },
+  {
+    "serviceInfo": {
+      "transak": {
+        "network": "unichain",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": false
+      },
+      "meld": {
+        "network": "UNICHAIN",
+        "symbol": "USDC_UNICHAIN",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "unichain",
+    "slug": "unichain-ERC20-USDC-0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+    "symbol": "USDC",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "PEAQ-EVM",
+        "symbol": "PEAQ",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "peaq_evm",
+    "slug": "peaq_evm-NATIVE-PEAQ",
+    "symbol": "PEAQ",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "TON",
+        "symbol": "USDT",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "ton",
+    "slug": "ton-TEP74-USD₮-EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs",
+    "symbol": "USD₮",
+    "support": "TON"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "BNCPOLKA",
+        "symbol": "USDT",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-USDT",
+    "symbol": "USDT",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "BNCPOLKA",
+        "symbol": "DOT",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "bifrost_dot",
+    "slug": "bifrost_dot-LOCAL-DOT",
+    "symbol": "DOT",
+    "support": "SUBSTRATE"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "S",
+        "symbol": "S",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "sonic",
+    "slug": "sonic-NATIVE-S",
+    "symbol": "S",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "MYTH",
+        "symbol": "MYTH",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "mythos",
+    "slug": "mythos-NATIVE-MYTH",
+    "symbol": "MYTH",
+    "support": "ETHEREUM"
+  },
+  {
+    "serviceInfo": {
+      "banxa": {
+        "network": "PEAQ-EVM",
+        "symbol": "USDC",
+        "isSuspended": false,
+        "supportSell": false
+      }
+    },
+    "network": "peaq_evm",
+    "slug": "peaq_evm-ERC20-USDC-0xbbA60da06c2c5424f03f7434542280FCAd453d10",
     "symbol": "USDC",
     "support": "ETHEREUM"
   }
