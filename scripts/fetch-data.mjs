@@ -366,7 +366,8 @@ const fetchAndProcessData = async (url, folder, downloadDir, fieldsImage) => {
 
     if (!results.data) return;
 
-    return await Promise.all(results.data.map(async item => {
+    try {
+        return await Promise.all(results.data.map(async item => {
         const dataImages = {};
         for (const field of fieldsImage) {
             const dataField = item[field];
@@ -377,14 +378,17 @@ const fetchAndProcessData = async (url, folder, downloadDir, fieldsImage) => {
                 if (cachedImage) {
                     dataImages[field] = urlImage(folder, field, cachedImage);
                 } else {
-                    const newFileName = cachedImage || await downloadFile(dataField, folderFieldImage);
-                    downloadedFiles[imageKey] = newFileName;
-                    dataImages[field] = urlImage(folder, field, newFileName);
+                    // const newFileName = cachedImage || await downloadFile(dataField, folderFieldImage);
+                    // downloadedFiles[imageKey] = newFileName;
+                    // dataImages[field] = urlImage(folder, field, newFileName);
                 }
             }
         }
         return {...item, ...dataImages};
     }));
+    }catch (e) {
+
+    }
 }
 
 const getFileNameByLang = (filename, lang) => {
@@ -431,6 +435,7 @@ const main = async () => {
             }
 
             for (const f of config.removeFields) {
+                if (!dataContent) continue;
                 for (const item of dataContent) {
                     if (f in item) {
                         delete item[f];
