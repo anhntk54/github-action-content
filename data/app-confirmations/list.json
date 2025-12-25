@@ -20,5 +20,27 @@
       }
     ],
     "conditions": {}
+  },
+  {
+    "id": 9,
+    "name": "Test app confirmation 2",
+    "position": "earning",
+    "repeat": "one",
+    "confirm_label": "OK",
+    "cancel_label": "Cancel",
+    "content": "Test now",
+    "repeat_every_x_days": 1,
+    "comparison_operator": "AND",
+    "position_params": [
+      {
+        "property": null,
+        "value": null
+      },
+      {
+        "property": "poolSlug",
+        "value": "100"
+      }
+    ],
+    "conditions": {}
   }
 ]
