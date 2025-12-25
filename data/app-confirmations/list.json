@@ -1,32 +1,24 @@
 [
   {
-    "id": 1,
-    "name": "Confirm",
-    "position": "send-fund",
-    "repeat": "everytime",
-    "content": "Mô ta",
+    "id": 7,
+    "name": "Test app confirmation ",
+    "position": "earning",
+    "repeat": "one",
     "confirm_label": "OK",
     "cancel_label": "Cancel",
-    "repeat_every_x_days": 2,
-    "position_params": [],
-    "conditions": {
-      "condition-balance": [
-        {
-          "comparison": "gte",
-          "value": 1,
-          "chain_asset": "acala-LOCAL-aSEED"
-        },
-        {
-          "comparison": "gte",
-          "value": 1,
-          "chain_asset": "acala-LOCAL-ASTR"
-        }
-      ],
-      "condition-crowdloan": [
-        {
-          "chain": "acala_testnet"
-        }
-      ]
-    }
+    "content": "Test now",
+    "repeat_every_x_days": 1,
+    "comparison_operator": "AND",
+    "position_params": [
+      {
+        "property": null,
+        "value": null
+      },
+      {
+        "property": "poolSlug",
+        "value": "100"
+      }
+    ],
+    "conditions": {}
   }
 ]
