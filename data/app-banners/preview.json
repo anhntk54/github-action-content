@@ -1497,5 +1497,57 @@
     "position_params": [],
     "conditions": {},
     "instruction": null
+  },
+  {
+    "id": 132,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/358_x_88_0ed0cd9efb.png",
+    "info": {
+      "id": 220,
+      "name": "Testing VARA Campaign - Mobile",
+      "description": null,
+      "start_time": "2024-07-11T13:00:00.000Z",
+      "stop_time": "2024-07-24T13:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 191,
+      "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "vara_network-NATIVE-VARA"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "vara_network-NATIVE-VARA"
+        }
+      ]
+    },
+    "instruction": {
+      "id": 109,
+      "confirm_label": "Play",
+      "cancel_label": "Cancel",
+      "instruction_id": 40,
+      "group": null,
+      "slug": "Vara_Campaign_Mobile"
+    }
   }
 ]
