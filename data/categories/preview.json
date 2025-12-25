@@ -7,31 +7,17 @@
     "ordinal": 1
   },
   {
-    "slug": "defi",
-    "name": "DeFi",
-    "color": "cyan",
-    "description": null,
-    "ordinal": 1
-  },
-  {
-    "slug": "defi",
-    "name": "DeFi",
-    "color": "cyan",
-    "description": null,
-    "ordinal": 1
-  },
-  {
-    "slug": "defi",
-    "name": "DeFi",
-    "color": "cyan",
-    "description": null,
-    "ordinal": 1
-  },
-  {
     "slug": "staking",
     "name": "Staking",
     "color": "geekblue",
     "description": null,
+    "ordinal": 2
+  },
+  {
+    "slug": "Test",
+    "name": "test test",
+    "color": "error",
+    "description": "Error meassage",
     "ordinal": 2
   },
   {
@@ -77,11 +63,25 @@
     "ordinal": 8
   },
   {
-    "slug": "crowdloans",
-    "name": "Crowdloans",
-    "color": "blue",
+    "slug": "tooling",
+    "name": "Tooling",
+    "color": "red",
     "description": null,
-    "ordinal": 9
+    "ordinal": 8
+  },
+  {
+    "slug": "tooling",
+    "name": "Tooling",
+    "color": "red",
+    "description": null,
+    "ordinal": 8
+  },
+  {
+    "slug": "tooling",
+    "name": "Tooling",
+    "color": "red",
+    "description": null,
+    "ordinal": 8
   },
   {
     "slug": "data",
@@ -110,6 +110,20 @@
     "color": "success",
     "description": null,
     "ordinal": 13
+  },
+  {
+    "slug": "gaming",
+    "name": "Gaming",
+    "color": "magenta",
+    "description": null,
+    "ordinal": 13
+  },
+  {
+    "slug": "meme",
+    "name": "Meme",
+    "color": "lime",
+    "description": null,
+    "ordinal": 99
   },
   {
     "slug": "test_env",
