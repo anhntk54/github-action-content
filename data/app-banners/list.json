@@ -1175,5 +1175,37 @@
       "group": null,
       "slug": "Vara_Campaign_Mobile"
     }
+  },
+  {
+    "id": 134,
+    "position": "crowdloan",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/1432x272_1_b87940846b.png",
+    "info": {
+      "id": 222,
+      "name": "Test banner4",
+      "description": null,
+      "start_time": "2024-09-22T17:00:00.000Z",
+      "stop_time": "2024-09-27T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": null,
+    "position_params": [],
+    "conditions": {
+      "condition-crowdloan": [
+        {
+          "chain": "invarch"
+        }
+      ]
+    },
+    "instruction": null
   }
 ]
