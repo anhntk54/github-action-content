@@ -9163,7 +9163,7 @@
   },
   {
     "paraId": null,
-    "fundId": null,
+    "fundId": "TTTTTTTTTT",
     "status": "won",
     "metadata": null,
     "relayChain": "kusama",
