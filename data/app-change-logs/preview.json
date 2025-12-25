@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "title": "test change log",
+    "title": "test change log 1111111111111",
     "platform": "extension",
     "version": "SubWallet v 1.3.70",
     "content": "Test app change log",
@@ -54,6 +54,27 @@
         "color": "primary",
         "instruction": {
           "id": 108,
+          "confirm_label": null,
+          "cancel_label": null,
+          "instruction": null
+        },
+        "action": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "test change log 33333333",
+    "platform": "extension",
+    "version": "SubWallet v 1.3.70",
+    "content": "Test app change log",
+    "buttons": [
+      {
+        "id": 153,
+        "label": "Now",
+        "color": "primary",
+        "instruction": {
+          "id": 110,
           "confirm_label": null,
           "cancel_label": null,
           "instruction": null
