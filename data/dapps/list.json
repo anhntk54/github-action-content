@@ -1,5 +1,47 @@
 [
   {
+    "id": 25,
+    "title": "StellaSwap",
+    "description": "StellaSwap is one of the first automated market-making (AMM), decentralized exchange (DEX) for the Moonbeam parachain network. Their main objective is to create a broader range of network effects to address the issues of liquidity in the DeFi space.",
+    "url": "https://app.stellaswap.com/exchange/swap?utm_source=subwallet&utm_medium=partner",
+    "subtitle": "Automated market-making, decentralized exchange on Moonbeam",
+    "is_substrate": null,
+    "is_evm": true,
+    "is_featured": true,
+    "ordinal": 30,
+    "desktop_mode": null,
+    "icon": "/uploads/stellaswap_68aa6c5c5a.png",
+    "preview_image": "/uploads/d_App_preview_stellaswap_5865af7a48.png",
+    "chains": [
+      "moonbeam"
+    ],
+    "categories": [
+      "defi",
+      "staking"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Polkadot Staking Dashboard",
+    "description": "The Polkadot Staking Dashboard is a tool only dedicated to staking on Polkadot, Kusama (Polkadot's canary network), and Westend (Polkadot's test network).",
+    "url": "https://staking.polkadot.cloud/#/overview",
+    "subtitle": "The official dashboard for staking on Polkadot, Kusama, and Westend",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": true,
+    "ordinal": 40,
+    "desktop_mode": null,
+    "icon": "/uploads/polkadot_63b5dd41ef.png",
+    "preview_image": "/uploads/Screenshot_2023_10_05_at_10_57_23_AM_312480fd7b.png",
+    "chains": [
+      "kusama",
+      "westend"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
     "id": 54,
     "title": "dotinsights",
     "description": "A trusted research hub and data platform of Polkadot & Kusama Ecosystem made by SubWallet",
@@ -8,1705 +50,14 @@
     "is_substrate": true,
     "is_evm": true,
     "is_featured": true,
-    "ordinal": 1,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/dotinsights_367a459604.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/dotinsight_1d624aa8ec.jpg",
+    "ordinal": 50,
+    "desktop_mode": null,
+    "icon": "/uploads/dotinsights_367a459604.png",
+    "preview_image": "/uploads/dotinsight_1d624aa8ec.jpg",
     "chains": [],
     "categories": [
       "utilities",
       "data"
-    ]
-  },
-  {
-    "id": 126,
-    "title": "SubWallet Earning",
-    "description": "SubWallet is a comprehensive Polkadot, Substrate & Ethereum wallet with browser extension, mobile app and web wallet.",
-    "url": "https://web.subwallet.app/home/earning/overview",
-    "subtitle": "Earn rewards with top protocols at SubWallet",
-    "is_substrate": true,
-    "is_evm": true,
-    "is_featured": true,
-    "ordinal": 2,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/wallet_connect_9ed43a1b95.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/D_app_Browser_banner_6d88570f3b.png",
-    "chains": [
-      "polkadot"
-    ],
-    "categories": [
-      "staking"
-    ]
-  },
-  {
-    "id": 79,
-    "title": "Polkadot.js",
-    "description": "Polkadot-JS is a collection of tools, utilities, and libraries that interface with the Polkadot blockchain in a granular way.",
-    "url": "https://polkadot.js.org/apps/#",
-    "subtitle": "Tool collection for interacting with the Polkadot Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": 5,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/polkadot_js_8bc6183004.png",
-    "preview_image": null,
-    "chains": [
-      "polkadot",
-      "kusama"
-    ],
-    "categories": [
-      "tooling"
-    ]
-  },
-  {
-    "id": 111,
-    "title": "doTreasury",
-    "description": "dotreasury.com aim to introduce remarks from councilors and communities to improve current kusama treasury with a retrospect mechanism.",
-    "url": "https://www.dotreasury.com/",
-    "subtitle": "doTreasury | Empower treasury with credit building",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 5,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/do_Treasury_8f44be68e2.png",
-    "preview_image": null,
-    "chains": [
-      "polkadot",
-      "kusama"
-    ],
-    "categories": [
-      "governance"
-    ]
-  },
-  {
-    "id": 112,
-    "title": "Dancebox",
-    "description": "Tanssi's Appchain Infrastructure Protocol simplifies appchain deployment. Explore the Dancebox TestNet and see firsthand how Tanssi manages infrastructure challenges, freeing you and your team to focus on dApp innovation.",
-    "url": "https://apps.tanssi.network/dancebox",
-    "subtitle": "Dancebox - The Testnet of Tanssi Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 6,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/tanssi_2e13dc9c66.png",
-    "preview_image": null,
-    "chains": [
-      "dancebox"
-    ],
-    "categories": [
-      "tooling"
-    ]
-  },
-  {
-    "id": 117,
-    "title": "Airlyft",
-    "description": "Discover Thriving Communities, Participate in Engaging Campaigns and Win Irresistible Rewards like NFTS, Tokens and Whitelists.",
-    "url": "https://airlyft.one/",
-    "subtitle": "Multichain & Decentralized Quest Platform",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 6,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/airlyft_f23e57e74e.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": []
-  },
-  {
-    "id": 34,
-    "title": "Moonbeam",
-    "description": "Moonbeam delivers complete Ethereum compatibility within a Polkadot parachain environment. It is also compatible with the Substrate and Polkadot ecosystem, including block explorers, wallets, parachains, and more, allowing users the flexibility to choose the right tools and services for the job.",
-    "url": "https://apps.moonbeam.network/moonbeam",
-    "subtitle": "The ultimate platform for Moonbeam Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": true,
-    "ordinal": 7,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/moonbeam_network_40889ef4a4.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/Moonbeam_screen_255932dc3b.png",
-    "chains": [
-      "moonbeam"
-    ],
-    "categories": [
-      "evm",
-      "staking",
-      "smart contract"
-    ]
-  },
-  {
-    "id": 35,
-    "title": "Moonriver",
-    "description": "Moonriver is a companion network to Moonbeam and provides a permanently incentivized canary network.",
-    "url": "https://apps.moonbeam.network/moonriver",
-    "subtitle": "The platform for Moonriver Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": 7,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/moonriver_4c83e2956f.png",
-    "preview_image": null,
-    "chains": [
-      "moonriver"
-    ],
-    "categories": [
-      "evm",
-      "staking",
-      "smart contract"
-    ]
-  },
-  {
-    "id": 30,
-    "title": "Acala Platform",
-    "description": "Acala is a specialized stablecoin and liquidity blockchain that is decentralized, cross-chain by design, and future-proof with forkless upgradability. ",
-    "url": "https://apps.acala.network/",
-    "subtitle": "The Acala's DeFi platform",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": 8,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/acala_81b1f3f72b.png",
-    "preview_image": null,
-    "chains": [
-      "acala",
-      "acala_evm"
-    ],
-    "categories": [
-      "dex",
-      "crowdloans"
-    ]
-  },
-  {
-    "id": 16,
-    "title": "MoonFit",
-    "description": "MoonFit is a Web3 & NFT lifestyle app that promotes active living by rewarding users anytime they burn calories through physical activities.",
-    "url": "https://app.moonfit.xyz/nft-sale",
-    "subtitle": "Web3 & NFT Lifestyle App",
-    "is_substrate": null,
-    "is_evm": true,
-    "is_featured": false,
-    "ordinal": 10,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/moonfit_215142f555.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/moonfit_f8c96e00cb.jpg",
-    "chains": [
-      "moonbeam"
-    ],
-    "categories": [
-      "socialfi"
-    ]
-  },
-  {
-    "id": 108,
-    "title": "Birdeye",
-    "description": "Birdeye's core objective is to assist traders in their investment deliberations through the provisioning of data-centric market analysis tools sourced from Birdeye and its affiliated partners.",
-    "url": "https://birdeye.so",
-    "subtitle": "Blockchain Data Aggregator tailored for Traders",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": 11,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/Theme_light_986801254d.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum",
-      "arbitrum_one",
-      "optimism",
-      "polygon",
-      "avalanche_c",
-      "binance"
-    ],
-    "categories": [
-      "evm",
-      "data"
-    ]
-  },
-  {
-    "id": 85,
-    "title": "Astar Portal",
-    "description": "Astar Portal is the hub of a multi-chain, one-stop platform for managing assets and dApp Staking - build2earn protocol.",
-    "url": "https://portal.astar.network/",
-    "subtitle": "Astar & Shiden Network",
-    "is_substrate": true,
-    "is_evm": true,
-    "is_featured": false,
-    "ordinal": 12,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/astar_network_e410f4950e.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/astart_portal_83d70dbf1b.jpg",
-    "chains": [
-      "astar",
-      "shiden",
-      "shibuya"
-    ],
-    "categories": [
-      "staking",
-      "smart contract"
-    ]
-  },
-  {
-    "id": 92,
-    "title": "Polkadot Staking Dashboard",
-    "description": "The Polkadot Staking Dashboard is a tool only dedicated to staking on Polkadot, Kusama (Polkadot's canary network), and Westend (Polkadot's test network).",
-    "url": "https://staking.polkadot.network/#/overview",
-    "subtitle": "The official dashboard for staking on Polkadot, Kusama, and Westend",
-    "is_substrate": true,
-    "is_evm": null,
-    "is_featured": true,
-    "ordinal": 13,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/polkadot_40ee7fbf4e.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/Screenshot_2023_10_05_at_10_57_23_AM_312480fd7b.png",
-    "chains": [
-      "polkadot",
-      "kusama",
-      "westend"
-    ],
-    "categories": [
-      "staking"
-    ]
-  },
-  {
-    "id": 18,
-    "title": "Parallel Finance App",
-    "description": "Parallel Finance is designed to create a low entry barrier to accessing Decentralized Finance. Parallel users can leverage derivative assets generated from one product to earn additional yields through the money market protocol.",
-    "url": "https://app.parallel.fi/",
-    "subtitle": "A DeFi super DApp protocol on Polkadot",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": 14,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/parallel_4a3b2a90fe.png",
-    "preview_image": null,
-    "chains": [
-      "parallel"
-    ],
-    "categories": [
-      "dex",
-      "staking",
-      "crowdloans"
-    ]
-  },
-  {
-    "id": 45,
-    "title": "SubConnect",
-    "description": "SubConnect is a single Web3 provider solution for all Wallets in Dotsama Ecosystem and blockchains built on Substrate. This is a simple Demo DApp to test it out.",
-    "url": "https://connect.subwallet.app/#/",
-    "subtitle": "The Demo DApp for Substrate Wallet Connect",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": 14,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/wallet_connect_9ed43a1b95.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "tooling"
-    ]
-  },
-  {
-    "id": 64,
-    "title": "KodaDot",
-    "description": "Multi-chain NFT marketplace across Polkadot parachains",
-    "url": "https://kodadot.xyz/",
-    "subtitle": "KodaDot",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": 14,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/kodadot_e5b6996e52.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 2,
-    "title": "ArtZero.io",
-    "description": "Discover, create, collect and trade NFTs on Aleph Zero and Astar Blockchain with ArtZero.io",
-    "url": "https://a0.artzero.io/",
-    "subtitle": "ArtZero - NFT Marketplace for Aleph Zero and Astar Blockchains",
-    "is_substrate": true,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 15,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/artzero_63774d40c3.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/artzero_a54179a36e.avif",
-    "chains": [
-      "aleph",
-      "astar"
-    ],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 65,
-    "title": "Bit.Country Kusama Crowdloan",
-    "description": "Check your primary NEER reward as well as your referral reward on this website.",
-    "url": "https://ksmcrowdloan.bit.country/reward",
-    "subtitle": "Crowdloan Page for Bit.Country Pioneer Network",
-    "is_substrate": true,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 16,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/bit_country_pioneer_a3c839ef5d.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/crowdloan_banner_11e4c68721.png",
-    "chains": [
-      "kusama",
-      "pioneer"
-    ],
-    "categories": [
-      "nft",
-      "socialfi"
-    ]
-  },
-  {
-    "id": 122,
-    "title": "Mintaur App",
-    "description": "Launch your RMRK Modular NFTs fast with Mintaur. RMRK Modular NFTs are ERC standards that allow NFTs to be multi-asset, nested, soulbound, composable, and emotable.",
-    "url": "https://www.mintaur.app/",
-    "subtitle": "Mint modern modular NFTs on demand",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 16,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/mintaur_c03735b1c2.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum",
-      "polygon",
-      "moonbeam",
-      "base_mainnet",
-      "astarEvm"
-    ],
-    "categories": [
-      "nft",
-      "evm"
-    ]
-  },
-  {
-    "id": 110,
-    "title": "Polkadot Power Passport",
-    "description": "Proof of asset for holders of more than sixty projects in the Polkadot ecosystem",
-    "url": "https://nft.dotinvietnam.com/",
-    "subtitle": "By DOTinVietnam",
-    "is_substrate": true,
-    "is_evm": true,
-    "is_featured": false,
-    "ordinal": 20,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/dotinvietnam_74c19a6031.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/nft_dotinvietnam_cc21b67317.jpg",
-    "chains": [
-      "kusama"
-    ],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 113,
-    "title": "Omni Liquid Staking",
-    "description": "Omni Liquid Staking is the first omni-chain liquid staking protocol developed based on Bifrost SLPx, cross-chain interoperability and consensus security provided by Polkadot XCM, realizing the vision of minting, using, and aggregating the liquidity across chains.",
-    "url": "https://omni.ls",
-    "subtitle": "Omni-chain liquid staking protocol",
-    "is_substrate": true,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/bifrost_omni_liquid_staking_d2327ebe60.png",
-    "preview_image": null,
-    "chains": [
-      "bifrost",
-      "bifrost_dot"
-    ],
-    "categories": [
-      "staking"
-    ]
-  },
-  {
-    "id": 114,
-    "title": "Jur Society DApp",
-    "description": "Explore and join societies of your interest or create your own.",
-    "url": "https://society.jur.io/explore",
-    "subtitle": "Explore and Create Societies",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/jur_8792d81143.png",
-    "preview_image": null,
-    "chains": [
-      "jur_network"
-    ],
-    "categories": [
-      "community"
-    ]
-  },
-  {
-    "id": 115,
-    "title": "Blur.io",
-    "description": "Sweep NFTs across multiple marketplaces, snipe reveals faster than others, and manage your portfolio with advanced analytics.",
-    "url": "https://blur.io/",
-    "subtitle": "NFT Marketplace for Pro Traders",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/blur_io_63364fc278.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": []
-  },
-  {
-    "id": 116,
-    "title": "Openseas",
-    "description": "The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.",
-    "url": "https://opensea.io/",
-    "subtitle": "Marketplace for crypto collectibles and NFTs",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/opensea_1688cddd62.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": []
-  },
-  {
-    "id": 118,
-    "title": "Dolpha Analytics",
-    "description": "Dolpha Analytics is an on-chain data analytics and insights platform for the Polkadot and Kusama ecosystems. Dolpha empowers casual and power users to get a pulse on the ecosystems, perform due diligence, surface signals, and make informed data-driven decisions.",
-    "url": "https://dolpha.com/",
-    "subtitle": "On-chain data analytics and insights platform",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/dolpha_insights_964a706dde.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "data"
-    ]
-  },
-  {
-    "id": 119,
-    "title": "Chainviz",
-    "description": "Chainviz is a real-time 3D visualization of the Polkadot machine.\nChainviz is a Helikon Labs project, envisioned and developed by Kutsal Kaan Bilgin and designed by Klad.",
-    "url": "https://chainviz.app/",
-    "subtitle": "Real-time 3D visualization of the Polkadot machine.",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/chainviz_9cb286e02f.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "data",
-      "tooling"
-    ]
-  },
-  {
-    "id": 121,
-    "title": "Emotes App",
-    "description": "RMRK’s NFT smart contract allows anyone to react to any NFT. Reactions are expressed in Unicode standardized emojis.",
-    "url": "https://emotes.app/",
-    "subtitle": "React to any NFTs using the RMRK NFT Emotes Standard",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/emotes_2501d01fc2.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "nft",
-      "evm"
-    ]
-  },
-  {
-    "id": 123,
-    "title": "Upgradooor App",
-    "description": "Amplify your regular ERC-721 NFTs by converting them into supercharged RMRK NFTs. Upgrading your ERC-721 NFT allows you to unlock the capabilities of Modular NFTs. You'll gain immediate access to nesting capabilities, enabling you to either send your NFT into others or receive NFTs. ",
-    "url": "https://upgradooor.app/",
-    "subtitle": "Supercharge your ERC721 NFTs with powers of RMRK's Modular NFTs",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/upgardooor_336e5c5057.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum",
-      "moonbeam",
-      "polygon",
-      "base_mainnet",
-      "astarEvm"
-    ],
-    "categories": [
-      "nft",
-      "evm"
-    ]
-  },
-  {
-    "id": 124,
-    "title": "NFT.io",
-    "description": "NFT.io is the latest innovation from the Enjin team, a global NFT Marketplace fully integrated with the Enjin Blockchain.",
-    "url": "https://nft.io/",
-    "subtitle": "Enjin NFT Marketplace",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/nft_io_838ae7c63a.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 128,
-    "title": "Bittensor TAO Staking dApp",
-    "description": "Delegate Tao, the native Bittensor token, to any validator on the network. View and manage your existing delegations.",
-    "url": "https://delegate.taostats.io/",
-    "subtitle": "Bittensor TAO Delegation and Staking",
-    "is_substrate": true,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/bittensor_7ebbcae9d6.png",
-    "preview_image": null,
-    "chains": [
-      "bittensor"
-    ],
-    "categories": [
-      "staking"
-    ]
-  },
-  {
-    "id": 130,
-    "title": "Dot Ordinals",
-    "description": "Dot Ordinals​ is a Dapp designed to create inscriptions tokens DRC-20 or NFTs on Polkadot-based blockchains.",
-    "url": "https://dotordinals.io/",
-    "subtitle": "Create inscriptions tokens DRC-20 or NFTs",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": 9999,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/Dotordinals_017d877f44.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "nft",
-      "utilities"
-    ]
-  },
-  {
-    "id": 3,
-    "title": "1inch",
-    "description": "1inch aims to be One-stop access\nto decentralized finance. 1inch analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.",
-    "url": "https://app.1inch.io/",
-    "subtitle": "DeFi / DEX aggregator on Ethereum, Binance Smart Chain, Optimism, Polygon, Arbitrum",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/1inch_689ac3fdae.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Aave",
-    "description": "Aave is a decentralised non-custodial liquidity market protocol where users can participate as suppliers or borrowers. Suppliers provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralised (perpetually) or undercollateralised (one-block liquidity) fashion.",
-    "url": "https://app.aave.com/",
-    "subtitle": "Open Source Liquidity Protocol",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/aave_28364b7b66.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "ArthSwap",
-    "description": "With simple UI and high APY design, ArthSwap enables High-Frequency Trade on Astar Network. ArthSwap is a one-stop DeFi protocol that aspires to be the main DEX on the Astar Network. Arthswap's primary products are trading, staking, IDO launchpad, and liquidity farming, with other capabilities to be consistently added.",
-    "url": "https://app.arthswap.org/#/swap",
-    "subtitle": "DEX on the Astar Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/arthswap_fb8a7c7543.png",
-    "preview_image": null,
-    "chains": [
-      "astarEvm",
-      "shibuyaEvm"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Basilisk Snek Swap",
-    "description": "Snek Swap is an AMM built for the Kusama ecosystem which enables users to trade tokens in a decentralized and permissionless manner. With Snake Swap, users can trade tokens or become a liquidity provider and earn rewards from the generated trading fees.",
-    "url": "https://app.basilisk.cloud/#/trade",
-    "subtitle": "AMM for the Kusama ecosystem",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/basilisk_5c8a4b00d8.png",
-    "preview_image": null,
-    "chains": [
-      "basilisk"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Beamswap",
-    "description": "Beamswap is a decentralized exchange (DEX) with an automated market maker (AMM), providing liquidity and peer-to-peer transactions. The DeFi hub provides an array of services and features supporting the DeFi and Web3 spaces, including crypto swaps, staking, and yield farming, and serves as a launch platform for new and exciting projects built on the Moonbeam Network.",
-    "url": "https://app.beamswap.io/exchange/swap",
-    "subtitle": "DeFi hub on Moonbeam Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/beamswap_4f441f15a9.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam"
-    ],
-    "categories": [
-      "dex",
-      "evm"
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Bounce",
-    "description": "Bounce’s fully decentralized auction platform uses blockchain technology to ensure more transparent, efficient, and accessible auctioning, bidding, and buying processes for Web3 users. ",
-    "url": "https://app.bounce.finance/market",
-    "subtitle": "A decentralized auction platform",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/bounce_finance_d54cfafcf6.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Cask",
-    "description": "Cask is a decentralized non-custodial protocol for automating the flow of money in Web3.",
-    "url": "https://app.cask.fi",
-    "subtitle": "Recurring money flows and automation for Web3",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/cask_protocol_0c34a97c6d.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "evm"
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Cosmize",
-    "description": "COSMIZE aims to create an environment where people & communities can express themselves in virtual spaces without restrictions.",
-    "url": "https://app.cosmize.io",
-    "subtitle": "The first Polkadot-based metaverse on AstarNetwork",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/cosmize_f0577fe206.png",
-    "preview_image": null,
-    "chains": [
-      "astarEvm"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 11,
-    "title": "DAM Finance",
-    "description": "DAM is a multi-network platform facilitating the scalable flow of liquidity to where it's needed most. DAM's first dapp, d2o, is a decentralized stablecoin that helps emerging networks scale native liquidity without the tradeoffs of traditional bridging solutions.",
-    "url": "https://app.dam.finance/",
-    "subtitle": "Decentralized liquidity infrastructure",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/dam_finance_aa27bca11b.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam",
-      "ethereum",
-      "astar"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Equilibrium",
-    "description": "The functionality of all key DeFi apps on one platform, with advanced bailout mechanism for system security.\nUsers can: Lend - All main crypto assets, EQ tokens Borrow - All main crypto assets, decentralized stablecoins, synthetics Trade - All main crypto assets, decentralized stablecoins, synthetics, EQ tokens Stake - PoS & DPoS crypto assets, EQ tokens\nSolves cross-chain interoperability, unlocking $311 Bln of total remaining DeFi market potential",
-    "url": "https://app.equilibrium.io/",
-    "subtitle": "DeFi 2.0 cross-chain money market protocol with high leverage",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/equilibrium_8c9f18b502.png",
-    "preview_image": null,
-    "chains": [
-      "equilibrium_parachain"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 13,
-    "title": "FiDi",
-    "description": "FiDi Portfolio Analytics is a presentation layer with a breadth of 100+ chains/2.5k+ protocols,  offering unparalleled analytical depth for selected networks, and support for all major wallet providers.",
-    "url": "https://app.fidi.tech/",
-    "subtitle": "High-precision Analytical Data Hub in Web3",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/fidi_6943c4b18f.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam",
-      "ethereum",
-      "arbitrum_one",
-      "optimism",
-      "moonriver",
-      "base_mainnet",
-      "shiden",
-      "polygon",
-      "binance",
-      "astar",
-      "fantom",
-      "astarEvm",
-      "shidenEvm"
-    ],
-    "categories": [
-      "evm",
-      "data"
-    ]
-  },
-  {
-    "id": 14,
-    "title": "GM! Say it back",
-    "description": "Burn $FREN to mint and send $GM, but mind the clock on the GMdapp, $GM can only be minted in the morning, $GN can only be minted at night. If you try to mint during the day, you'll burn your $FREN for nothing!",
-    "url": "https://app.gmordie.com/",
-    "subtitle": "GM! Say it back",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/gmdie_77f0697e04.png",
-    "preview_image": null,
-    "chains": [
-      "gmdie"
-    ],
-    "categories": [
-      "community"
-    ]
-  },
-  {
-    "id": 19,
-    "title": "Phala App",
-    "description": "Phala Network is revolutionizing Web3 by providing dApp developers with an off-chain compute infrastructure that is truly decentralized and trustless. By connecting Smart Contracts to our off-chain programs called Phat Contracts, developers can supercharge their dApps with seamless cross-chain integrations, connectivity to the internet, and heavy computation.",
-    "url": "https://app.phala.network/",
-    "subtitle": "Privacy-preserving cloud computing service",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/phala_network_84a301ea7e.png",
-    "preview_image": null,
-    "chains": [
-      "phala",
-      "khala"
-    ],
-    "categories": [
-      "dex",
-      "staking"
-    ]
-  },
-  {
-    "id": 20,
-    "title": "Polkasafe",
-    "description": "PolkaSafe is a cross-chain, non-custodial, enterprise-grade multisig platform specifically designed to catalyze the efficiency, security, and ease of digital transactions across the blockchain ecosystem.",
-    "url": "https://app.polkasafe.xyz/",
-    "subtitle": "Multisig Wallet & SDK, empowering businesses and dApps",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/polkasafe_2ed7baa407.png",
-    "preview_image": null,
-    "chains": [
-      "aleph",
-      "astar",
-      "kusama",
-      "polkadot",
-      "rococo",
-      "statemint",
-      "statemine",
-      "westend"
-    ],
-    "categories": [
-      "tooling"
-    ]
-  },
-  {
-    "id": 22,
-    "title": "Sirius Finance",
-    "description": "Sirius Finance is a cross-chain stablecoin AMM, attracting and locking tremendous value with low-slippage trading costs, attractive APY for LPs on Astar Network, allowing for more financial innovations & yield enhancements for Astar users.",
-    "url": "https://app.sirius.finance/#/swap",
-    "subtitle": "Cross-chain stablecoin AMM",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/sirius_finance_53dd368822.png",
-    "preview_image": null,
-    "chains": [
-      "astarEvm"
-    ],
-    "categories": [
-      "dex",
-      "evm"
-    ]
-  },
-  {
-    "id": 23,
-    "title": "Solarbeam",
-    "description": "Solarbeam is a decentralized exchange, providing liquidity and enabling peer-to-peer transactions on the Moonriver Network. \nThe goal is to provide a comprehensive and convenient, one-stop platform for the cryptocurrency community.",
-    "url": "https://app.solarbeam.io/exchange/swap",
-    "subtitle": "Decentralized Exchange on Moonriver Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/solarbeam_1130ef70f1.png",
-    "preview_image": null,
-    "chains": [
-      "moonriver"
-    ],
-    "categories": [
-      "dex",
-      "evm",
-      "staking"
-    ]
-  },
-  {
-    "id": 24,
-    "title": "Solarflare",
-    "description": "Solarflare is a decentralized exchange, providing liquidity and enabling peer-to-peer transactions on the Moonbeam Network. \nThe goal is to provide a comprehensive and convenient, one-stop platform for the cryptocurrency community.",
-    "url": "https://app.solarflare.io/exchange/swap",
-    "subtitle": "Decentralized exchange on Moonbeam Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/solarflare_47b792ed4c.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam"
-    ],
-    "categories": [
-      "dex",
-      "evm",
-      "staking"
-    ]
-  },
-  {
-    "id": 25,
-    "title": "Stellaswap",
-    "description": "StellaSwap is one of the first automated market-making (AMM), decentralized exchange (DEX) for the Moonbeam parachain network. Their main objective is to create a broader range of network effects to address the issues of liquidity in the DeFi space.",
-    "url": "https://app.stellaswap.com/exchange/swap",
-    "subtitle": "Automated market-making, decentralized exchange on Moonbeam",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/stellaswap_68aa6c5c5a.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam"
-    ],
-    "categories": [
-      "dex",
-      "evm",
-      "staking"
-    ]
-  },
-  {
-    "id": 27,
-    "title": "TAIGA",
-    "description": "Taiga is a synthetic asset protocol designed to unify different formats of staking and crowdloan derivatives into a highly efficient standard.",
-    "url": "https://app.taigaprotocol.io/assets",
-    "subtitle": "Asset protocol on Karura",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/taiga_c899f8fc63.png",
-    "preview_image": null,
-    "chains": [
-      "karura"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 28,
-    "title": "Uniswap",
-    "description": "Uniswap is a protocol that facilitates peer-to-peer market making and swapping of ERC-20 tokens on the Ethereum blockchain. The Uniswap dApp allows for easy interaction with the Uniswap protocol.",
-    "url": "https://app.uniswap.org/",
-    "subtitle": "Peer-to-peer system designed for exchanging cryptocurrencies on Ethereum",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/uniswap_3e3c190a2d.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum",
-      "arbitrum_one",
-      "optimism",
-      "polygon",
-      "base_mainnet",
-      "binance"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 29,
-    "title": "Zeitgeist",
-    "description": "Zeitgeist is a new innovative platform for predicting future events.",
-    "url": "https://app.zeitgeist.pm/",
-    "subtitle": "Prediction Markets Protocol",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/zeitgeist_a72652f11c.png",
-    "preview_image": null,
-    "chains": [
-      "zeitgeist"
-    ],
-    "categories": [
-      "nft",
-      "utilities",
-      "socialfi"
-    ]
-  },
-  {
-    "id": 31,
-    "title": "Darwinia DApps",
-    "description": "Explore DApps building on Darwinia ecosystem. Darwinia is a cross-chain messaging infrastructure, which provides a light client-based, programmable, universal cross-chain messaging network for decentralized applications.",
-    "url": "https://apps.darwinia.network/",
-    "subtitle": "Darwinia dApps ecosystem",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/darwinia_42cb919d98.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "staking"
-    ]
-  },
-  {
-    "id": 32,
-    "title": "Karura Platform",
-    "description": "Founded by the Acala Foundation, Karura is a scalable, EVM-compatible network optimized for DeFi. The platform offers a suite of financial applications including: a trustless liquid staking token protocol (liquid KSM), an AMM DEX and an app platform that is EVM-compatible and highly customizable (based on Substrate) – all with micro gas fees that can be paid in any token.",
-    "url": "https://apps.karura.network/",
-    "subtitle": "Karura’s all-in-one DeFi platform",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/karura_f0db29b6d2.png",
-    "preview_image": null,
-    "chains": [
-      "karura",
-      "karura_evm"
-    ],
-    "categories": [
-      "crowdloans",
-      "staking"
-    ]
-  },
-  {
-    "id": 33,
-    "title": "Litmus App",
-    "description": "Litmus is a companion canary network to Litentry and connects to the Kusama ecosystem as parachain. Litmus is expected to be fast-paced and integrated with cutting-edge technology, molding itself into a perfect field to experiment with new ideas and products before they finally land on Litentry parachain.",
-    "url": "https://apps.litentry.com/",
-    "subtitle": "The platform for Litmus Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/litmus_2e86f51933.png",
-    "preview_image": null,
-    "chains": [
-      "litmus"
-    ],
-    "categories": [
-      "utilities"
-    ]
-  },
-  {
-    "id": 37,
-    "title": "Astar Web3 Domains",
-    "description": "Journey into the world of Web3 - the next era of the internet. Common usernames across apps and websites, payment addresses for wallets and more. Manage all your distributed services easily and securely.",
-    "url": "https://astr.domains/buy",
-    "subtitle": "Your Perfect NFT Domains",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/astar_web3_domains_e8bcab148c.png",
-    "preview_image": null,
-    "chains": [
-      "astarEvm"
-    ],
-    "categories": [
-      "community"
-    ]
-  },
-  {
-    "id": 38,
-    "title": "Bifrost App",
-    "description": "Bifrost is a modular, scalable, non-custodial omni-chain LSD parachain based on Polkadot. It provides standardized, high-yield, safe, and reliable underlying interest-bearing assets for Web3 through XCM, and is realizing the omni-chain vision of using any LSD on any chain.",
-    "url": "https://bifrost.app/",
-    "subtitle": "Cross-chain Liquid Staking",
-    "is_substrate": true,
-    "is_evm": true,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/bifrost_7bc34a05fc.png",
-    "preview_image": null,
-    "chains": [
-      "bifrost",
-      "bifrost_dot",
-      "bifrost_testnet"
-    ],
-    "categories": [
-      "dex",
-      "crowdloans",
-      "staking"
-    ]
-  },
-  {
-    "id": 39,
-    "title": "Bluez",
-    "description": "Bluez is the first community-driven NFT marketplace built on the Astar Network. It utilizes XVM (Cross Virtual Machine) for enhanced flexibility and convenience, enabling users to create, purchase, and sell NFTs while supporting multi-asset payment and streamlined transactions. Bluez is dedicated to providing the Astar & Polkadot community with a top-tier user experience, easy-to-use features, and transparent governance.",
-    "url": "https://bluez.app/",
-    "subtitle": "The community driven NFT marketplace for Astar Network",
-    "is_substrate": null,
-    "is_evm": true,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/bluez_d46453790c.png",
-    "preview_image": null,
-    "chains": [
-      "astarEvm"
-    ],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 41,
-    "title": "cBridge",
-    "description": "Celer cBridge is a decentralized and non-custodial asset bridge that supports 170+ tokens across 40+ blockchains and layer-2 rollups. Built on top of the Celer Inter-chain Message Framework, cBridge has processed ~$14B cross-chain asset transfer volume on 40+ blockchains for more than 530K unique users, and is quickly growing and expanding into more blockchains and layer-2s.",
-    "url": "https://cbridge.celer.network/#/transfer",
-    "subtitle": "Multi-blockchain asset bridge, instant transfer, zero trust",
-    "is_substrate": null,
-    "is_evm": true,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/celer_cbridge_7529e5082b.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum",
-      "astarEvm",
-      "binance",
-      "avalanche_c",
-      "polygon",
-      "arbitrum_one",
-      "optimism",
-      "fantom",
-      "moonbeam",
-      "moonriver",
-      "boba",
-      "shidenEvm",
-      "base_mainnet"
-    ],
-    "categories": [
-      "dex",
-      "evm"
-    ]
-  },
-  {
-    "id": 42,
-    "title": "Centrifuge App",
-    "description": "The Centrifuge Protocol includes all the features needed to finance real world assets on a blockchain, from tokenization, securitization, up to liquidity integrations, all built on each other and transparently governed by token holders.",
-    "url": "https://app.centrifuge.io/pools",
-    "subtitle": "The platform for on-chain credit",
-    "is_substrate": true,
-    "is_evm": true,
-    "is_featured": true,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/centrifuge_7293c743a5.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/Centrifuge_Preview_072dcd8a82.png",
-    "chains": [
-      "ethereum",
-      "centrifuge"
-    ],
-    "categories": [
-      "rwa"
-    ]
-  },
-  {
-    "id": 43,
-    "title": "Chainlist",
-    "description": "Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain.",
-    "url": "https://chainlist.org/",
-    "subtitle": "RPCs list for EVM networks",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/chainlist_org_1d6bae934a.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "data"
-    ]
-  },
-  {
-    "id": 48,
-    "title": "Curve",
-    "description": "Curve is an exchange liquidity pool on Ethereum (like Uniswap) designed for (1) extremely efficient stablecoin trading (2) low risk, supplemental fee income for liquidity providers, without an opportunity cost.",
-    "url": "https://curve.fi/",
-    "subtitle": "Creating deep on-chain liquidity using advanced bonding curves",
-    "is_substrate": null,
-    "is_evm": true,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/curve_51fe10f007.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum",
-      "arbitrum_one",
-      "avalanche_c",
-      "base_mainnet",
-      "fantom",
-      "moonbeam",
-      "optimism",
-      "polygon"
-    ],
-    "categories": [
-      "dex",
-      "evm"
-    ]
-  },
-  {
-    "id": 49,
-    "title": "Damned Pirates Society",
-    "description": "The first iteration of The Damned Pirates Society is focused on building a fair and sustainable in-game economy and getting the core ‘gameplay’ loop balanced, whilst working to increase future value for Pirate and TMAP holders.",
-    "url": "https://damnedpiratessociety.io/",
-    "subtitle": "Welcome To The PirateVerse",
-    "is_substrate": null,
-    "is_evm": true,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/the_damned_pirates_society_049a768053.png",
-    "preview_image": null,
-    "chains": [
-      "moonriver",
-      "moonbeam"
-    ],
-    "categories": [
-      "nft",
-      "evm"
-    ]
-  },
-  {
-    "id": 50,
-    "title": "Robonomics",
-    "description": "Robonomics platform provides tools for working with the robot economy network. Robonomics allow designers of smart cities and industry 4.0 zones to build trust among the autonomous robots services, provide direct user access via dapp for ordering products from autonomous factories and services of urban sensor networks. This in turn will allow us to put in place a decentralized system that globally monitors the activities of cyber physical systems.",
-    "url": "https://dapp.robonomics.network/#/staking/",
-    "subtitle": "Robonomics",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/robonomics_efe081dce3.png",
-    "preview_image": null,
-    "chains": [
-      "robonomics"
-    ],
-    "categories": [
-      "utilities"
-    ]
-  },
-  {
-    "id": 51,
-    "title": "DappRadar",
-    "description": "DappRadar wants to make exploring, tracking & managing dapps, insightful, convenient and rewarding for all. Effectively manage your digital assets, swap, buy, sell, (even take a little inspiration from the famous) all from within your DappRadar Portfolio.",
-    "url": "https://dappradar.com/",
-    "subtitle": "Discover, Track & Trade Everything DeFi, NFT and Gaming",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/dappradar_6941f41339.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum",
-      "binance",
-      "polygon"
-    ],
-    "categories": [
-      "evm",
-      "utilities"
-    ]
-  },
-  {
-    "id": 52,
-    "title": "Zenlink",
-    "description": "Zenlink is the one-stop-shop for trading Polkadot assets, the DEX Composable Hub between all parachains",
-    "url": "https://dex.zenlink.pro/",
-    "subtitle": "Cross-chain DEX protocol for building DEX on Polkadot",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/zenlink_8d9b45ebb4.png",
-    "preview_image": null,
-    "chains": [
-      "bifrost",
-      "bifrost_dot",
-      "moonbeam",
-      "moonriver",
-      "astar",
-      "astarEvm"
-    ],
-    "categories": [
-      "dex",
-      "evm"
-    ]
-  },
-  {
-    "id": 53,
-    "title": "Euphrates dApp",
-    "description": "Euphrates allows stakers and liquidity providers of LSTs (liquid staking tokens) to earn boosted rewards in ACA as well as participating project tokens with minimum effort.",
-    "url": "https://farm.acala.network/",
-    "subtitle": "Boosted Liquid Staking",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/euphrates_48be47211d.png",
-    "preview_image": null,
-    "chains": [
-      "acala",
-      "acala_evm"
-    ],
-    "categories": [
-      "dex",
-      "staking"
-    ]
-  },
-  {
-    "id": 55,
-    "title": "Dotmarketcap",
-    "description": "Dotmarketcap is a website where you can find data of prices, charts, capitalization as well as the news and analysis of entire projects on the Polkadot ecosystem.",
-    "url": "https://dotmarketcap.com/",
-    "subtitle": "Polkadot Projects, Price & Market Capitalization",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/dotmarketcap_006c7e43bd.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "data"
-    ]
-  },
-  {
-    "id": 56,
-    "title": "Mandala Clan App",
-    "description": "Mandala is the world's first Enlightenment Simulator: a cross-media, cross-media Metaverse combining Avatar NFTs with a geolocation-based AR mobile game + AAA Unreal Engine MMORPG, TV series, and graphic novels (Dark Horse Comics).",
-    "url": "https://enterthemandala.app/HomePage",
-    "subtitle": "Cross-media, cross-media Metaverse combining Avatar NFTs",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/mandala_metaverse_e6338b8629.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum",
-      "astarEvm"
-    ],
-    "categories": [
-      "evm",
-      "nft"
-    ]
-  },
-  {
-    "id": 57,
-    "title": "TF Alpha Raffle & Claim Rewards",
-    "description": "The process of selecting winners involves a random selection of 100 individuals from a pool of tickets earned through various staking mechanisms of GLMR and MOVR, as well as MoonPets NFT.",
-    "url": "https://event.tfalpha.xyz/",
-    "subtitle": "The Platform for TF Alpha Raffle weekly raffle",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/utopia_tf_alpha_f2ab2dce9d.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam",
-      "moonriver"
-    ],
-    "categories": [
-      "community"
-    ]
-  },
-  {
-    "id": 58,
-    "title": "EVRLOOT",
-    "description": "Evrloot is an immersive experience, packaged into a low-touch game with composable RMRK NFTs at its core. Unique gameplay and true ownership meet the classic RPG you love.",
-    "url": "https://game.evrloot.com/game",
-    "subtitle": "RPG Gaming",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/evrloot_cc25e6e2bb.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam"
-    ],
-    "categories": [
-      "utilities"
-    ]
-  },
-  {
-    "id": 59,
-    "title": "HydraDX",
-    "description": "The HydraDX Omnipool - an innovative Automated Market Maker (AMM) unlocks unparalleled efficiencies by combining all assets in a single trading pool.",
-    "url": "https://hydradx.io",
-    "subtitle": "DeFi Protocol designed to bring liquidity to Polkadot",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": true,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/hydradx_a80c4584de.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/meta_image_9cb0150494.png",
-    "chains": [
-      "hydradx_main"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 60,
-    "title": "Ink Whale",
-    "description": "Ink Whale lets you earn fixed interest and other rewards for locking up your tokens or NFT on Aleph Zero Network.",
-    "url": "https://inkwhale.net",
-    "subtitle": "DeFi Platform on Aleph Zero",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/inw_de8d41eedc.png",
-    "preview_image": null,
-    "chains": [
-      "aleph"
-    ],
-    "categories": [
-      "tooling",
-      "staking"
-    ]
-  },
-  {
-    "id": 62,
-    "title": "Kanaria",
-    "description": "Kanaria is a collection of Kusama-native cheap and eco-friendly NFTs, all without smart contracts! ",
-    "url": "https://kanaria.rmrk.app/",
-    "subtitle": "NFT Launchpad framework",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/kanaria_ef0758bdb2.png",
-    "preview_image": null,
-    "chains": [
-      "kusama"
-    ],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 63,
-    "title": "Kintsugi Hub",
-    "description": "Kintsugi is Interlay’s canary network, an experiment with real economic value deployed on Kusama.",
-    "url": "https://kintsugi.interlay.io/",
-    "subtitle": "Bitcoin Defi on Kintsugi Network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/kintsugi_7940790264.png",
-    "preview_image": null,
-    "chains": [
-      "kintsugi",
-      "kintsugi_test"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 68,
-    "title": "YieldBay",
-    "description": "Discover and earn yield from polkadot and kusama paraverse",
-    "url": "https://list.yieldbay.io/",
-    "subtitle": "YieldBay",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/yieldbay_206e2a41b8.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 69,
-    "title": "Moonsama",
-    "description": "Moonsama, the first NFT marketplace on Moonriver",
-    "url": "https://marketplace.moonsama.com/",
-    "subtitle": null,
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/moonsama_2feb69f976.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "nft",
-      "evm"
-    ]
-  },
-  {
-    "id": 70,
-    "title": "AzeroPunks",
-    "description": "With over 100 Traits, 5 different clans and 30 unique one of ones AzeroPunks brings a fresh look to the CryptoPunks genre. ",
-    "url": "https://mint.azeropunks.com/#/welcome",
-    "subtitle": "AzeroPunks Mint Page",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/azeropunks_d0a5d6332f.png",
-    "preview_image": null,
-    "chains": [
-      "aleph"
-    ],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 72,
-    "title": "Huckleberry Finance",
-    "description": "Huckleberry is a community-driven AMM cross-chain DEX and lending platform built on Moonriver and CLV. All users to have a say in the future direction of the DEX and lending platform.\nHuckleberry makes use of Wanchain’s decentralized cross-chain bridges.",
-    "url": "https://moonriver.huckleberry.finance/#/swap",
-    "subtitle": "AMM cross-chain DEX and lending platform",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/huckleberry_66822bf53d.png",
-    "preview_image": null,
-    "chains": [
-      "moonriver"
-    ],
-    "categories": [
-      "dex",
-      "evm",
-      "staking"
-    ]
-  },
-  {
-    "id": 73,
-    "title": "Moon Web3 identity",
-    "description": "Moon is a self-sovereign data container.\nWith Moon account, you can not only read and write the information, but also can read, write, and own it. We aim to give you more control over your own data.",
-    "url": "https://moons.money/app",
-    "subtitle": "Web3 Identity for you and your Web3 apps",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/moons_money_c4789ec6ae.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam",
-      "moonriver",
-      "bobabeam"
-    ],
-    "categories": [
-      "evm",
-      "data"
-    ]
-  },
-  {
-    "id": 74,
-    "title": "Moonwell",
-    "description": "Moonwell is an open and decentralized lending and borrowing protocol built on Base, Moonbeam, and Moonriver. The app's intuitive design ensures a seamless user experience, enabling users to easily do more with their digital assets. ",
-    "url": "https://moonwell.fi/discover",
-    "subtitle": "Lending and borrowing protocol",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/moonwell_728c173d60.png",
-    "preview_image": null,
-    "chains": [
-      "base_mainnet",
-      "moonbeam",
-      "moonriver"
-    ],
-    "categories": [
-      "dex",
-      "evm"
-    ]
-  },
-  {
-    "id": 75,
-    "title": "Notifi",
-    "description": "Notifi Network is building the future of cross-chain communications. Embed notifications & messaging into your dApps spanning across 9 different blockchains.",
-    "url": "https://notifi.network/dashboard",
-    "subtitle": "Cross-chain communications",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/notifi_network_6b1c1ddb14.png",
-    "preview_image": null,
-    "chains": [
-      "acala"
-    ],
-    "categories": [
-      "tooling"
-    ]
-  },
-  {
-    "id": 76,
-    "title": "Panorama Swap",
-    "description": "Panorama Swap allows for on-chain asset swaps without the complexity of an order book. Swap any two PSP22 assets that exist on Aleph Zero network, create permissionless liquidity pools, engage in yield farming, stake the native PANX token and much more to be announced soon!",
-    "url": "https://panoramaswap.app/",
-    "subtitle": "AMM built on Aleph Zero network",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/panorama_swap_9722c877f4.png",
-    "preview_image": null,
-    "chains": [
-      "aleph"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 77,
-    "title": "Bit.Country",
-    "description": "Bit.Country & Metaverse.Network is a platform & blockchain ecosystem for user-created metaverses, games, and dApps",
-    "url": "https://pioneer.bit.country/",
-    "subtitle": "Start your own metaverse for your community",
-    "is_substrate": true,
-    "is_evm": null,
-    "is_featured": false,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/bit_country_continuum_119cfcfbe1.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/bc_social_704220e373.png",
-    "chains": [
-      "pioneer"
-    ],
-    "categories": [
-      "nft",
-      "staking"
-    ]
-  },
-  {
-    "id": 78,
-    "title": "Spacers NFT",
-    "description": "Spacers is an advanced NFT collection of 10,000 equippable robots from outer space that can be edited through RMRK’s flagship NFT equipping technology. The Spacers NFT sale is in collaboration with the Subsocial team.",
-    "url": "https://pods.spacers.app/",
-    "subtitle": "Spacers NFT Pods Sale",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/spacer_nft_41e3fa4a61.png",
-    "preview_image": null,
-    "chains": [
-      "moonriver"
-    ],
-    "categories": [
-      "nft"
     ]
   },
   {
@@ -1717,14 +68,13 @@
     "subtitle": "Open-source Governance Platform",
     "is_substrate": null,
     "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/polkassembly_f3f87c02b4.png",
-    "preview_image": null,
+    "is_featured": true,
+    "ordinal": 60,
+    "desktop_mode": null,
+    "icon": "/uploads/polkassembly_f3f87c02b4.png",
+    "preview_image": "/uploads/polkassembly_d_App_preview_f4d0722fdd.png",
     "chains": [
-      "polkadot",
       "acala",
-      "astar",
       "centrifuge",
       "composableFinance",
       "equilibrium_parachain",
@@ -1763,354 +113,23 @@
     ]
   },
   {
-    "id": 82,
-    "title": "Polkaswap",
-    "description": "Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens based on Polkadot and Kusama relay chains, Polkadot and Kusama parachains, and blockchains directly connected via bridges.",
-    "url": "https://polkaswap.io/",
-    "subtitle": "AMM DEX protocol for swapping tokens based on Polkadot and Kusama",
+    "id": 202,
+    "title": "Moondrop",
+    "description": "Drop tokens, match them, and compete in the ultimate blockchain puzzle game. Connect your wallet to start playing!",
+    "url": "https://hub.n3mus.com/?referral_code=subwallet",
+    "subtitle": "The ultimate blockchain gaming experience on Moonbeam",
     "is_substrate": null,
     "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/polkaswap_1140fc2be0.png",
-    "preview_image": null,
-    "chains": [
-      "sora_ksm"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 83,
-    "title": "Polkaverse",
-    "description": "PolkaVerse is the first social network built on Subsocial, created by the Subsocial team. It enables you to use all the major functionalities of the Subsocial network, such as creating spaces and posts, generating energy, etc.",
-    "url": "https://polkaverse.com/",
-    "subtitle": "Decentralized social network for Polkadot and Kusama",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/polkaverse_249947ef39.png",
-    "preview_image": null,
-    "chains": [
-      "subsocial_x"
-    ],
-    "categories": [
-      "socialfi"
-    ]
-  },
-  {
-    "id": 84,
-    "title": "Polkawatch",
-    "description": "Polkawatch is an analytic tool designed to measure effective decentralization of Polkadot’s Validation process.",
-    "url": "https://polkawatch.app/",
-    "subtitle": "Decentralization analytics for Polkadot",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/polkawatch_dcb0750aaf.png",
-    "preview_image": null,
-    "chains": [
-      "polkadot",
-      "kusama",
-      "statemine"
-    ],
-    "categories": [
-      "data"
-    ]
-  },
-  {
-    "id": 87,
-    "title": "Secret Stash",
-    "description": "The first digital marketplace for Ternoa's crypto collectibles, art and non-fungible tokens (NFT). Buy, sell and discover exclusive digital items.",
-    "url": "https://secret-stash.io",
-    "subtitle": "Ternoa Marketplace",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/secret_stash_c170acdef5.png",
-    "preview_image": null,
-    "chains": [
-      "ternoa"
-    ],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 89,
-    "title": "Singular 2.0",
-    "description": "Discover the future of NFTs on Singular - the NFT 2.0 marketplace. Mint, trade, & experience advanced NFTs with unique capabilities.",
-    "url": "https://singular.app/",
-    "subtitle": "the NFT 2.0 Marketplace - the future of NFTs starts here",
-    "is_substrate": true,
-    "is_evm": true,
-    "is_featured": false,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/singular_e657ed912b.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/singular_989e984522.jpg",
-    "chains": [
-      "kusama",
-      "statemine",
-      "statemint",
-      "moonbeam"
-    ],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 91,
-    "title": "Kanaria Skybreach",
-    "description": "Skybreach is a metaverse project by the RMRK team, demonstrating and fully utilising the 5 elementary NFT 2.0 legos to create a truly decentralized and permissionless metaverse.",
-    "url": "https://skybreach.app/",
-    "subtitle": "Decentralized metaverse",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/skybreach_e861461186.png",
-    "preview_image": null,
-    "chains": [
-      "moonriver"
-    ],
-    "categories": [
-      "nft"
-    ]
-  },
-  {
-    "id": 93,
-    "title": "Sub ID",
-    "description": "Sub.ID allows you to track all your wallet balances across different Substrate Chain in an easy way.",
-    "url": "https://sub.id/",
-    "subtitle": "Substrate Addresses, Balances, Crowdloans, and NFTs",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/sub_id_0d08db4a7f.png",
-    "preview_image": null,
-    "chains": [
-      "subsocial_x"
-    ],
-    "categories": [
-      "utilities"
-    ]
-  },
-  {
-    "id": 94,
-    "title": "Utopia & TF Alpha",
-    "description": "A community collator funded by Utopia. Take Flight(TF) Alpha is an exclusive community for GLMR Holders formed by Take Flight Event participants. It was started around the TGE of Moonbeam, initially for all the Take Flight participants and subsequently opened to all Moonbeam holders and Dotsama ecosystem enthusiasts.",
-    "url": "https://tfalpha.xyz/",
-    "subtitle": "An exclusive community for GLMR Holders ",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/utopia_tf_alpha_8ba6049451.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam",
-      "moonriver"
-    ],
-    "categories": [
-      "community"
-    ]
-  },
-  {
-    "id": 95,
-    "title": "TofuNFT",
-    "description": "tofuNFT is designed to be easy to use, yet highly optimized for efficient trading. It is a successor of SCV’s NFT Marketplace, which started as a side project of SCV.Finance to serve SCV NFT holders as a place to exchange rare NFTs from blindboxes, and then grew rapidly into one of the top NFT marketplaces on Binance Smart Chain with the highest trading volume.",
-    "url": "https://tofunft.com/",
-    "subtitle": "NFT Marketplace",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/tofunft_9299f7a8d8.png",
-    "preview_image": null,
-    "chains": [
-      "binance",
-      "ethereum",
-      "arbitrum_one",
-      "polygon",
-      "astarEvm",
-      "shidenEvm",
-      "fantom",
-      "optimism",
-      "moonbeam"
-    ],
-    "categories": [
-      "nft",
-      "evm"
-    ]
-  },
-  {
-    "id": 96,
-    "title": "Verse DEX",
-    "description": "Verse DEX is a key component of the Bitcoin.com/Verse ecosystem, providing anyone in the world with a secure way to permissionlessly swap cryptocurrencies without having to rely on third-party custodians.",
-    "url": "https://verse.bitcoin.com/#/",
-    "subtitle": "Bitcoin.com's decentralized exchange",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/verse_0dba4f32d5.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum"
-    ],
-    "categories": [
-      "dex",
-      "evm"
-    ]
-  },
-  {
-    "id": 97,
-    "title": "Avault",
-    "description": "Avault is a disruptive way to interact with an array of web3 Defi dApps. As the first one-stop omnichain yield platform on the market, Avault’s users can use any asset on any chain supported by Avault to do Omni staking, Omni copy-trading, etc on one click, so they can forget about the unwieldy cross chain experience and focus on speed, usability and what truly matters in their trade.",
-    "url": "https://www.avault.network/vault",
-    "subtitle": "Omnichainyield Platform",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/avault_2a1efa87b6.png",
-    "preview_image": null,
-    "chains": [
-      "astarEvm"
-    ],
-    "categories": [
-      "evm"
-    ]
-  },
-  {
-    "id": 98,
-    "title": "Bananaswap",
-    "description": "The whole system is based on having people depositing both currencies ($GLMR and $BANANAS) in a GLMR-BANANA LP pool in order to benefit from LP rewards (paid in $BANANAS token).",
-    "url": "https://www.bananaswap.app/#/swap",
-    "subtitle": "DEX built by GLMR APES DAO",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/bananaswap_27422d000b.png",
-    "preview_image": null,
+    "is_featured": true,
+    "ordinal": 70,
+    "desktop_mode": null,
+    "icon": "/uploads/glmillionaire_6d0c198359.png",
+    "preview_image": "/uploads/image_1686a865b2.png",
     "chains": [
       "moonbeam"
     ],
     "categories": [
-      "dex",
-      "evm"
-    ]
-  },
-  {
-    "id": 99,
-    "title": "Braindex",
-    "description": "BrainDex is a decentralized exchange aggregator and trade optimizer. BrainDex brings together all of the liquidity on integrated networks into a single interface and provides highly optimized swaps using all underlying protocols simultaneously.",
-    "url": "https://www.braindex.io/swap",
-    "subtitle": "Smart Dex Aggregator",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/braindex_d7a0a1bb85.png",
-    "preview_image": null,
-    "chains": [
-      "moonbeam",
-      "moonriver"
-    ],
-    "categories": [
-      "dex"
-    ]
-  },
-  {
-    "id": 100,
-    "title": "Gear Technologies",
-    "description": "Gear protocol, supported by the Gear Foundation, unlocks Web3 capabilities while ensuring a user experience similar to Web2. It introduces improved speed, security, and automation, bringing significant advancements to smart contract development.",
-    "url": "https://www.gear-tech.io/",
-    "subtitle": "Developing solutions for Web3 infrastructure",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/gear_f9c46a093c.png",
-    "preview_image": null,
-    "chains": [],
-    "categories": [
-      "tooling",
-      "smart contract"
-    ]
-  },
-  {
-    "id": 101,
-    "title": "HashKey DID",
-    "description": "It is an NFT-based decentralized identity with features of decentralized storage and privacy. \nThe system provides some basic functions: Registration, Authorization, KYC Service and Credential Issuance.",
-    "url": "https://www.hashkey.id/home",
-    "subtitle": "Decentralized identity project in Web3",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/hashkey_did_38af5f7622.png",
-    "preview_image": null,
-    "chains": [
-      "ethereum",
-      "polygon",
-      "moonbeam"
-    ],
-    "categories": [
-      "utilities"
-    ]
-  },
-  {
-    "id": 102,
-    "title": "Mangata",
-    "description": "Mangata is an easy and secure DEX for Ethereum and Polkadot. It's an application-specific DEX chain without miner extractable value (MEV) that will be connected to Polkadot as a parachain.",
-    "url": "https://www.mangata.finance/",
-    "subtitle": "DEX for Ethereum and Polkadot",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/mangata_961f9e10f8.png",
-    "preview_image": null,
-    "chains": [
-      "mangatax"
-    ],
-    "categories": [
-      "dex",
-      "evm"
-    ]
-  },
-  {
-    "id": 103,
-    "title": "Portal Bridge",
-    "description": "The Portal is an application built on top of Wormhole. When you bridge tokens through Portal, the origin token gets locked in a smart contract, and a new Portal wrapped token gets minted on the target chain.",
-    "url": "https://www.portalbridge.com/",
-    "subtitle": "Token Bridge built on top of Wormhole",
-    "is_substrate": null,
-    "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/portalbridge_c36a3d4540.png",
-    "preview_image": null,
-    "chains": [
-      "acala_evm",
-      "base_mainnet",
-      "binance",
-      "ethereum",
-      "fantom",
-      "karura",
-      "moonbeam",
-      "optimism",
-      "polygon"
-    ],
-    "categories": [
-      "bridge"
+      "gaming"
     ]
   },
   {
@@ -2122,113 +141,2037 @@
     "is_substrate": null,
     "is_evm": null,
     "is_featured": true,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/subsquare_4cdf1d9498.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/bafybeigdvohyozmu76ttwoae6rfx4rkvspspj3xqfv7ogz2ncmj4ub2y7y_6583a1ad07.png",
+    "ordinal": 80,
+    "desktop_mode": null,
+    "icon": "/uploads/subsquare_4cdf1d9498.png",
+    "preview_image": "/uploads/Subsquare_9c0305db99.png",
     "chains": [],
     "categories": [
       "governance"
     ]
   },
   {
-    "id": 105,
-    "title": "XDAO",
-    "description": "XDAO​ is a tool for creating Decentralized Autonomous Organizations (DAOs) and jointly managing crypto assets in just a few clicks.",
-    "url": "https://www.xdao.app/137",
-    "subtitle": "DAO Management Platform",
+    "id": 128,
+    "title": "Bittensor TAO Staking dApp",
+    "description": "Delegate Tao, the native Bittensor token, to any validator on the network. View and manage your existing delegations.",
+    "url": "https://delegate.taostats.io/",
+    "subtitle": "Bittensor TAO Delegation and Staking",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": true,
+    "ordinal": 90,
+    "desktop_mode": null,
+    "icon": "/uploads/bittensor_7ebbcae9d6.png",
+    "preview_image": "/uploads/Bittensor_Staking_Featured_banner_3f4bee1fef.png",
+    "chains": [
+      "bittensor"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 179,
+    "title": "Turtle",
+    "description": "Built by Velocity Labs, powered by Snowbridge, Turtle facilitates frictionless and cross-chain token transfers, with the smoothest UX in the Polkadot ecosystem.",
+    "url": "https://app.turtle.cool/",
+    "subtitle": "Cross-chain asset transfer dApp",
     "is_substrate": null,
     "is_evm": null,
-    "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/xdao_0f4ec16256.png",
+    "is_featured": true,
+    "ordinal": 100,
+    "desktop_mode": null,
+    "icon": "/uploads/turtle_cd48530254.png",
+    "preview_image": "/uploads/Turtle_Featured_banner_f5b51deb25.png",
+    "chains": [
+      "ethereum",
+      "statemint",
+      "bifrost_dot",
+      "mythos",
+      "phala",
+      "moonbeam",
+      "centrifuge",
+      "acala",
+      "hydradx_main"
+    ],
+    "categories": [
+      "bridge"
+    ]
+  },
+  {
+    "id": 191,
+    "title": "Hyperbridge",
+    "description": "Hyperbridge is a fully chain-agnostic interoperability protocol that enables developers to build applications that can securely interoperate with any blockchain. The Hyperbridge protocol presents developers with a unified interface for the multi-chain that allows for the secure and trust-free transfer of assets and data between different blockchains.",
+    "url": "https://app.hyperbridge.network/",
+    "subtitle": "A fully chain-agnostic interoperability protocol",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": true,
+    "ordinal": 110,
+    "desktop_mode": null,
+    "icon": "/uploads/hyperbridge_dcdd354226.png",
+    "preview_image": "/uploads/Hypebridge_Featured_banner_6f11f716aa.png",
+    "chains": [
+      "ethereum",
+      "bifrost_dot",
+      "binance",
+      "base_mainnet",
+      "optimism",
+      "arbitrum_one",
+      "gnosis",
+      "cere"
+    ],
+    "categories": [
+      "bridge"
+    ]
+  },
+  {
+    "id": 196,
+    "title": "Mythical Marketplace",
+    "description": "Welcome to Mythical Marketplace! Here you can buy and sell NFL Rivals NFTs. Improve your team’s stats and get amazing digital collectibles.",
+    "url": "https://mythical.market/",
+    "subtitle": "Buy and Sell NFTs on Mythical Market",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": true,
+    "ordinal": 120,
+    "desktop_mode": null,
+    "icon": "/uploads/mythical_fe01c4b893.png",
+    "preview_image": "/uploads/Mythical_Gaming_Featured_banner_8b26e98b18.png",
+    "chains": [
+      "mythos"
+    ],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Avail Bridge",
+    "description": "The Avail team partnered with Succinct Labs to develop a trust-minimized bridge between Avail DA and Ethereum. The Avail bridge currently supports bridging AVAIL tokens between Avail DA and Ethereum.",
+    "url": "https://bridge.availproject.org/",
+    "subtitle": "Bridge AVAIL token between Avail and Ethereum",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 130,
+    "desktop_mode": null,
+    "icon": "/uploads/avail_3e7774cff6.png",
+    "preview_image": null,
+    "chains": [
+      "avail_mainnet",
+      "ethereum"
+    ],
+    "categories": [
+      "bridge"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Omni Liquid Staking",
+    "description": "Omni Liquid Staking is the first omni-chain liquid staking protocol developed based on Bifrost SLPx, cross-chain interoperability and consensus security provided by Polkadot XCM, realizing the vision of minting, using, and aggregating the liquidity across chains.",
+    "url": "https://omni.ls",
+    "subtitle": "Omni-chain liquid staking protocol",
+    "is_substrate": true,
+    "is_evm": true,
+    "is_featured": false,
+    "ordinal": 140,
+    "desktop_mode": null,
+    "icon": "/uploads/bifrost_omni_liquid_staking_d2327ebe60.png",
     "preview_image": null,
     "chains": [
       "ethereum",
-      "binance",
-      "polygon"
+      "astarZkEvm",
+      "manta_network_evm",
+      "soneium",
+      "moonriver",
+      "moonbeam"
     ],
     "categories": [
-      "dex",
-      "evm"
+      "staking"
     ]
   },
   {
-    "id": 106,
-    "title": "HEAL-Ⅲ",
-    "description": "HEAL-Ⅲ is a healthcare app with game-fi features.\nUsers can get the original token 'UHT(Utility Heal-three Token)' by doing health-related activities in the real-verse with NFT clothes.\nUHT gained from activities can be used in the App in order for NFTs to be leveled up or cleaned. ",
-    "url": "https://heal3.com",
-    "subtitle": "Health to Earn",
+    "id": 34,
+    "title": "Moonbeam dApp",
+    "description": "Moonbeam delivers complete Ethereum compatibility within a Polkadot parachain environment. It is also compatible with the Substrate and Polkadot ecosystem, including block explorers, wallets, parachains, and more, allowing users the flexibility to choose the right tools and services for the job.",
+    "url": "https://apps.moonbeam.network/moonbeam",
+    "subtitle": "The ultimate platform for Moonbeam Network",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 150,
+    "desktop_mode": null,
+    "icon": "/uploads/moonbeam_5d6a1dcacc.png",
+    "preview_image": "/uploads/Moonbeam_screen_255932dc3b.png",
+    "chains": [
+      "moonbeam"
+    ],
+    "categories": [
+      "staking",
+      "smart contract",
+      "governance"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Bifrost App",
+    "description": "Bifrost is a modular, scalable, non-custodial omni-chain LSD parachain based on Polkadot. It provides standardized, high-yield, safe, and reliable underlying interest-bearing assets for Web3 through XCM, and is realizing the omni-chain vision of using any LSD on any chain.",
+    "url": "https://app.bifrost.io/",
+    "subtitle": "Cross-chain Liquid Staking",
+    "is_substrate": true,
+    "is_evm": true,
+    "is_featured": null,
+    "ordinal": 160,
+    "desktop_mode": null,
+    "icon": "/uploads/bifrost_7bc34a05fc.png",
+    "preview_image": null,
+    "chains": [
+      "bifrost",
+      "bifrost_dot",
+      "bifrost_testnet"
+    ],
+    "categories": [
+      "defi",
+      "staking"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Unique Marketplace",
+    "description": "The Unique marketplace supports next-generation NFT Utility tools for creators. Enjoy a truly seamless experience by creating and trading the most advanced NFTs on the Unique and Quartz Networks.",
+    "url": "https://unqnft.io/",
+    "subtitle": "NFT Marketplace",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 170,
+    "desktop_mode": null,
+    "icon": "/uploads/unique_network_b207ab1ac7.png",
+    "preview_image": null,
+    "chains": [
+      "unique_network",
+      "quartz"
+    ],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Polimec",
+    "description": "Polimec enables fundraising in a decentralized, transparent, and regulatory compliant manner, aligning stakeholder incentives during and beyond the fundraise.",
+    "url": "https://app.polimec.org/",
+    "subtitle": "Decentralized Fundraising platform",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 190,
+    "desktop_mode": null,
+    "icon": "/uploads/polimec_487d8ec1e2.png",
+    "preview_image": null,
+    "chains": [
+      "polimec"
+    ],
+    "categories": [
+      "utilities"
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Tanssi - Let's Forkin Dance",
+    "description": "'Let's Forkin Dance'—the Tanssi Incentivized TestNet Campaign is a mix of on-chain and off-chain quests designed for the Tanssi community. Whether you're a developer, a casual user, or a key network supporter, there's something for you.",
+    "url": "https://lfd.tanssi.network/",
+    "subtitle": "Tanssi Incentivized TestNet Campaign",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 195,
+    "desktop_mode": null,
+    "icon": "/uploads/tanssi_2e13dc9c66.png",
+    "preview_image": null,
+    "chains": [
+      "dancebox"
+    ],
+    "categories": [
+      "community",
+      "utilities",
+      "gaming"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Astar Portal",
+    "description": "Astar Portal is the hub of a multi-chain, one-stop platform for managing assets and dApp Staking - build2earn protocol.",
+    "url": "https://portal.astar.network/",
+    "subtitle": "Astar & Shiden Network",
+    "is_substrate": true,
+    "is_evm": true,
+    "is_featured": false,
+    "ordinal": 200,
+    "desktop_mode": null,
+    "icon": "/uploads/astar_network_e410f4950e.png",
+    "preview_image": "/uploads/astart_portal_83d70dbf1b.jpg",
+    "chains": [
+      "shiden",
+      "shibuya"
+    ],
+    "categories": [
+      "staking",
+      "smart contract",
+      "bridge"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Phala App",
+    "description": "Phala Network is revolutionizing Web3 by providing dApp developers with an off-chain compute infrastructure that is truly decentralized and trustless. By connecting Smart Contracts to our off-chain programs called Phat Contracts, developers can supercharge their dApps with seamless cross-chain integrations, connectivity to the internet, and heavy computation.",
+    "url": "https://app.phala.network/",
+    "subtitle": "Privacy-preserving cloud computing service",
     "is_substrate": null,
     "is_evm": null,
     "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/heal3_25b4fd9ed8.png",
+    "ordinal": 205,
+    "desktop_mode": null,
+    "icon": "/uploads/phala_network_84a301ea7e.png",
     "preview_image": null,
     "chains": [
+      "phala"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Avail Space",
+    "description": "The unified dApp for Avail ecosystem",
+    "url": "https://www.availspace.app/",
+    "subtitle": "Everything Avail. In one space.",
+    "is_substrate": true,
+    "is_evm": false,
+    "is_featured": false,
+    "ordinal": 225,
+    "desktop_mode": null,
+    "icon": "/uploads/AS_Icon_Logo_36dbcc4c10.png",
+    "preview_image": null,
+    "chains": [
+      "avail_mainnet"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "SubConnect",
+    "description": "SubConnect is a single Web3 provider solution for all Polkadot-based wallets, EVM wallets, and Cold Wallets. This is a simple Demo DApp to test it out.",
+    "url": "https://w3o-demo.subwallet.app/",
+    "subtitle": "The Demo DApp for Substrate Wallet Connect",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 230,
+    "desktop_mode": null,
+    "icon": "/uploads/wallet_connect_9ed43a1b95.png",
+    "preview_image": null,
+    "chains": [],
+    "categories": [
+      "tooling"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Polkasafe",
+    "description": "PolkaSafe is a cross-chain, non-custodial, enterprise-grade multisig platform specifically designed to catalyze the efficiency, security, and ease of digital transactions across the blockchain ecosystem.",
+    "url": "https://app.polkasafe.xyz/",
+    "subtitle": "Multisig Wallet & SDK, empowering businesses and dApps",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 235,
+    "desktop_mode": null,
+    "icon": "/uploads/polkasafe_2ed7baa407.png",
+    "preview_image": "/uploads/d_App_preview_46d6534502.png",
+    "chains": [
+      "aleph",
+      "kusama",
+      "rococo",
+      "statemint",
+      "statemine",
+      "westend"
+    ],
+    "categories": [
+      "tooling"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Polkadot.js",
+    "description": "Polkadot-JS is a collection of tools, utilities, and libraries that interface with the Polkadot blockchain in a granular way.",
+    "url": "https://polkadot.js.org/apps/#",
+    "subtitle": "Tool collection for interacting with the Polkadot Network",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 250,
+    "desktop_mode": null,
+    "icon": "/uploads/polkadot_js_8bc6183004.png",
+    "preview_image": null,
+    "chains": [
+      "kusama"
+    ],
+    "categories": [
+      "tooling"
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Avail Staking Dashboard",
+    "description": "Avail Staking Dashboard is the easiest way to stake AVAIL, check validator stats, manage your nominations and join nomination pools.",
+    "url": "https://staking.avail.tools/#/overview",
+    "subtitle": "Staking Dashboard on Avail",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 255,
+    "desktop_mode": null,
+    "icon": "/uploads/avail_159b28d79b.png",
+    "preview_image": null,
+    "chains": [
+      "avail_mainnet",
+      "availTuringTest"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Aleph Zero Dashboard",
+    "description": "Aleph Zero Dashboard is the easiest way to stake AZERO, check validator stats, manage your nominations and join nomination pools.",
+    "url": "https://dashboard.alephzero.org/",
+    "subtitle": "Staking Dashboard on Aleph Zero",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 260,
+    "desktop_mode": null,
+    "icon": "/uploads/aleph_zero_3a3d7fa6bb.png",
+    "preview_image": null,
+    "chains": [
+      "aleph"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Manta Pacific Bridge",
+    "description": "Bridge funds from Ethereum to Manta Pacific to start exploring Manta Pacific - the first EVM-native modular execution layer for wide ZK applications adoption, with Manta’s universal circuit and zk interface.",
+    "url": "https://pacific-bridge.manta.network/",
+    "subtitle": "The Bridge to Manta Pacific",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 270,
+    "desktop_mode": null,
+    "icon": "/uploads/Property_1_Light_35bb12c305.png",
+    "preview_image": null,
+    "chains": [
+      "manta_network_evm",
+      "ethereum"
+    ],
+    "categories": [
+      "bridge"
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Vara Staking Dashboard",
+    "description": "Vara Staking Dashboard is the easiest way to stake Vara, check validator stats, manage your nominations, and join nomination pools. ",
+    "url": "https://staking.vara.network/",
+    "subtitle": "Staking Dashboard on Vara Network",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 280,
+    "desktop_mode": null,
+    "icon": "/uploads/vara_6238a8a42c.png",
+    "preview_image": null,
+    "chains": [
+      "vara_network"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Manta dApp",
+    "description": "Manta Atlantic is the ZK L1 chain on Polkadot. With Manta dApp, you can bridge to Manta Atlantic, or stake MANTA on Manta Atlantic to secure the network and earn rewards!",
+    "url": "https://app.manta.network/",
+    "subtitle": "Bridge and Stake MANTA on Manta Atlantic",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 295,
+    "desktop_mode": true,
+    "icon": "/uploads/Property_1_Light_35bb12c305.png",
+    "preview_image": null,
+    "chains": [
+      "manta_network",
+      "manta_network_evm",
+      "calamari"
+    ],
+    "categories": [
+      "bridge",
+      "staking"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Zeitgeist",
+    "description": "Zeitgeist is a new innovative platform for predicting future events.",
+    "url": "https://app.zeitgeist.pm/",
+    "subtitle": "Prediction Markets Protocol",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 330,
+    "desktop_mode": null,
+    "icon": "/uploads/zeitgeist_a72652f11c.png",
+    "preview_image": null,
+    "chains": [
+      "zeitgeist"
+    ],
+    "categories": [
+      "utilities"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Acala Platform",
+    "description": "Acala is a specialized stablecoin and liquidity blockchain that is decentralized, cross-chain by design, and future-proof with forkless upgradability. ",
+    "url": "https://apps.acala.network/",
+    "subtitle": "The Acala's DeFi platform",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 340,
+    "desktop_mode": true,
+    "icon": "/uploads/acala_81b1f3f72b.png",
+    "preview_image": null,
+    "chains": [
+      "acala",
+      "acala_evm"
+    ],
+    "categories": [
+      "defi",
+      "staking"
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Creditcoin Staking Dashboard",
+    "description": "Stake on Creditcoin to secure the network powering real-world assets and earn rewards.",
+    "url": "https://staking.creditcoin.org",
+    "subtitle": "Staking platform for CTC (Creditcoin)",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 350,
+    "desktop_mode": null,
+    "icon": "/uploads/creditcoin_448a940bb0.png",
+    "preview_image": null,
+    "chains": [
+      "creditcoin_native",
+      "creditcoinTest"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 124,
+    "title": "NFT.io",
+    "description": "NFT.io is the latest innovation from the Enjin team, a global NFT Marketplace fully integrated with the Enjin Blockchain.",
+    "url": "https://nft.io/",
+    "subtitle": "Enjin NFT Marketplace",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 360,
+    "desktop_mode": null,
+    "icon": "/uploads/nft_io_838ae7c63a.png",
+    "preview_image": null,
+    "chains": [
+      "enjin_matrixchain"
+    ],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Ternoa Hub",
+    "description": "Gain great rewards and participate in unique opportunities just by holding CAPS.",
+    "url": "https://hub.ternoa.network/",
+    "subtitle": "Stake CAPS, earn rewards and get airdrops",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 370,
+    "desktop_mode": null,
+    "icon": "/uploads/ternoa_6f70875743.png",
+    "preview_image": null,
+    "chains": [
+      "ternoa"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 189,
+    "title": "Unleash",
+    "description": "Unleash is dedicated to revolutionizing the way Intellectual Property (IP) is managed, addressing longstanding challenges through innovative solutions. Our aim is to create a more efficient, transparent, and secure system that protects creators and fosters economic growth. ",
+    "url": "https://app.unleashprotocol.xyz/",
+    "subtitle": "IP Operating System on Story",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 371,
+    "desktop_mode": null,
+    "icon": "/uploads/unleash_96a1173f64.png",
+    "preview_image": null,
+    "chains": [
+      "story_protocol"
+    ],
+    "categories": [
+      "defi"
+    ]
+  },
+  {
+    "id": 185,
+    "title": "Stargate",
+    "description": "Stargate is a fully composable liquidity transport protocol that lives at the heart of Omnichain DeFi.\nWith Stargate, users & dApps can transfer native assets cross-chain while accessing the protocol’s unified liquidity pools with instant guaranteed finality. The universe is infinite with Stargate.",
+    "url": "https://stargate.finance/",
+    "subtitle": "Liquidity transport protocol",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 372,
+    "desktop_mode": null,
+    "icon": "/uploads/stargate_d9ab9358b3.png",
+    "preview_image": null,
+    "chains": [
+      "story_protocol"
+    ],
+    "categories": [
+      "bridge"
+    ]
+  },
+  {
+    "id": 186,
+    "title": "PiperX",
+    "description": "PiperX is the next-generation IPFi platform, aiming to serve as the ultimate liquidity layer for $61T IP assets on Story.",
+    "url": "https://app.piperx.xyz/",
+    "subtitle": "DEX and Liquidity Layer",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 374,
+    "desktop_mode": null,
+    "icon": "/uploads/piperx_a399accd85.png",
+    "preview_image": null,
+    "chains": [
+      "story_protocol"
+    ],
+    "categories": [
+      "defi"
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Verio",
+    "description": "Unlock IP liquidity with Verio vIP through Asset Staking and Liquid Staking",
+    "url": "https://www.verio.network/staking",
+    "subtitle": "IP Trust Engine on Story",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 376,
+    "desktop_mode": null,
+    "icon": "/uploads/verio_24709ffb12.png",
+    "preview_image": null,
+    "chains": [
+      "story_protocol"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Story Hunt",
+    "description": "The Story Native DEX, unlocking $61T IP market liquidity and yields, powering IPFi.",
+    "url": "https://app.storyhunt.xyz/",
+    "subtitle": "IPFi DEX on Story",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 378,
+    "desktop_mode": null,
+    "icon": "/uploads/storyhunt_fe3d3b83bf.png",
+    "preview_image": null,
+    "chains": [
+      "story_protocol"
+    ],
+    "categories": [
+      "defi"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Moonwell App",
+    "description": "Moonwell is an open and decentralized lending and borrowing protocol built on Base, Moonbeam, and Moonriver. The app's intuitive design ensures a seamless user experience, enabling users to easily do more with their digital assets. ",
+    "url": "https://moonwell.fi/discover",
+    "subtitle": "Lending and borrowing protocol",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 390,
+    "desktop_mode": null,
+    "icon": "/uploads/moonwell_728c173d60.png",
+    "preview_image": null,
+    "chains": [
+      "base_mainnet",
+      "moonbeam",
+      "moonriver",
+      "optimism"
+    ],
+    "categories": [
+      "staking",
+      "defi",
+      "governance"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Euphrates dApp",
+    "description": "Euphrates allows stakers and liquidity providers of LSTs (liquid staking tokens) to earn boosted rewards in ACA as well as participating project tokens with minimum effort.",
+    "url": "https://farm.acala.network/",
+    "subtitle": "Boosted Liquid Staking",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 410,
+    "desktop_mode": null,
+    "icon": "/uploads/euphrates_48be47211d.png",
+    "preview_image": null,
+    "chains": [
+      "acala",
+      "acala_evm"
+    ],
+    "categories": [
+      "defi",
+      "staking"
+    ]
+  },
+  {
+    "id": 183,
+    "title": "Incognitee - Privacy Sidechains",
+    "description": "Welcome to Incognitee - an exclusive and discreet hub in the heart of Web3. We enable private transfers and unlinkable voting, so you can play away from the crowd's eyes. Your transactions? Secret handshakes between you and your chosen peers.",
+    "url": "https://app.incognitee.io/",
+    "subtitle": "Exclusive and discreet hub",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 425,
+    "desktop_mode": null,
+    "icon": "/uploads/incognitee_40fef23621.png",
+    "preview_image": null,
+    "chains": [
+      "integritee"
+    ],
+    "categories": [
+      "utilities",
+      "staking"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Chainviz",
+    "description": "Chainviz is a real-time 3D visualization of the Polkadot machine.\nChainviz is a Helikon Labs project, envisioned and developed by Kutsal Kaan Bilgin and designed by Klad.",
+    "url": "https://chainviz.app/",
+    "subtitle": "Real-time 3D visualization of the Polkadot machine.",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 430,
+    "desktop_mode": null,
+    "icon": "/uploads/chainviz_9cb286e02f.png",
+    "preview_image": null,
+    "chains": [
+      "kusama"
+    ],
+    "categories": [
+      "data",
+      "tooling"
+    ]
+  },
+  {
+    "id": 193,
+    "title": "PolkaIdentity",
+    "description": "PolkaIdentity revolutionizes digital identity with self-sovereign, fraud-proof credentials anchored to Polkadot’s blockchain. Own your data, share selectively, and unlock seamless access to DeFi, DAOs, and Web3.",
+    "url": "https://app.polkaidentity.com/",
+    "subtitle": "Decentralized IDs Registration on Polkadot",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 435,
+    "desktop_mode": null,
+    "icon": "/uploads/polkaidentity_6b29a71144.png",
+    "preview_image": null,
+    "chains": [
+      "kusama"
+    ],
+    "categories": [
+      "utilities"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "AirLyft",
+    "description": "Discover Thriving Communities, Participate in Engaging Campaigns and Win Irresistible Rewards like NFTS, Tokens and Whitelists.",
+    "url": "https://airlyft.one/",
+    "subtitle": "Multichain & Decentralized Quest Platform",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 440,
+    "desktop_mode": null,
+    "icon": "/uploads/airlyft_f23e57e74e.png",
+    "preview_image": null,
+    "chains": [],
+    "categories": [
+      "community",
+      "utilities"
+    ]
+  },
+  {
+    "id": 146,
+    "title": "The Kus dApp",
+    "description": "Stake your DOT and KSM with The Kusamarian, or delegate DOT votes!",
+    "url": "https://thekus.xyz/",
+    "subtitle": "The Kusamarian Staking and Delegating App",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 460,
+    "desktop_mode": null,
+    "icon": "/uploads/the_kus_8d9ad1d00a.png",
+    "preview_image": null,
+    "chains": [
+      "kusama"
+    ],
+    "categories": [
+      "staking",
+      "governance"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Singular",
+    "description": "Discover the future of NFTs on Singular - the NFT 2.0 marketplace. Mint, trade, & experience advanced NFTs with unique capabilities.",
+    "url": "https://singular.app/",
+    "subtitle": "the NFT 2.0 Marketplace - the future of NFTs starts here",
+    "is_substrate": true,
+    "is_evm": true,
+    "is_featured": false,
+    "ordinal": 470,
+    "desktop_mode": null,
+    "icon": "/uploads/singular_e657ed912b.png",
+    "preview_image": "/uploads/singular_989e984522.jpg",
+    "chains": [
+      "moonbeam",
+      "base_mainnet",
+      "ethereum",
+      "polygon",
+      "binance",
+      "bobMainnet"
+    ],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Common",
+    "description": "Common is a multichain set of tools that bring innovation to on-chain trading. Make your trades fast and efficient. ",
+    "url": "https://app.common.fi/",
+    "subtitle": "Aleph Zero's unique DeFi solution",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 480,
+    "desktop_mode": null,
+    "icon": "/uploads/common_da3bacbe30.png",
+    "preview_image": null,
+    "chains": [
+      "aleph",
+      "ethereum",
+      "aleph_evm"
+    ],
+    "categories": [
+      "defi",
+      "bridge"
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Deq",
+    "description": "Deq is a native liquid staking platform for Avail tokens on Ethereum. Get rewarded for staking AVAIL with Deq!",
+    "url": "https://app.deq.fi/",
+    "subtitle": "Native liquid staking for Avail",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 485,
+    "desktop_mode": null,
+    "icon": "/uploads/deq_1abfddd63a.png",
+    "preview_image": null,
+    "chains": [
+      "avail_mainnet",
+      "ethereum"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Kanaria Skybreach",
+    "description": "Skybreach is a metaverse project by the RMRK team, demonstrating and fully utilising the 5 elementary NFT 2.0 legos to create a truly decentralized and permissionless metaverse.",
+    "url": "https://skybreach.app/",
+    "subtitle": "Decentralized metaverse",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 510,
+    "desktop_mode": null,
+    "icon": "/uploads/skybreach_e861461186.png",
+    "preview_image": null,
+    "chains": [
+      "moonriver"
+    ],
+    "categories": [
+      "nft",
+      "gaming"
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Mintaur App",
+    "description": "Launch your RMRK Modular NFTs fast with Mintaur. RMRK Modular NFTs are ERC standards that allow NFTs to be multi-asset, nested, soulbound, composable, and emotable.",
+    "url": "https://www.mintaur.app/",
+    "subtitle": "Mint modern modular NFTs on demand",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 530,
+    "desktop_mode": null,
+    "icon": "/uploads/mintaur_c03735b1c2.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "polygon",
+      "moonbeam",
+      "base_mainnet",
+      "astarZkEvm",
+      "binance"
+    ],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Polkaswap",
+    "description": "Polkaswap is a non-custodial, cross-chain AMM DEX protocol for swapping tokens based on Polkadot and Kusama relay chains, Polkadot and Kusama parachains, and blockchains directly connected via bridges.",
+    "url": "https://polkaswap.io/",
+    "subtitle": "AMM DEX protocol for swapping tokens based on Polkadot and Kusama",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 570,
+    "desktop_mode": null,
+    "icon": "/uploads/polkaswap_1140fc2be0.png",
+    "preview_image": null,
+    "chains": [
+      "sora_ksm",
+      "sora_substrate",
+      "acala",
+      "curio",
+      "ethereum",
+      "liberland"
+    ],
+    "categories": [
+      "defi",
+      "bridge",
+      "staking"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Mandala Clan App",
+    "description": "Mandala is the world's first Enlightenment Simulator: a cross-media, cross-media Metaverse combining Avatar NFTs with a geolocation-based AR mobile game + AAA Unreal Engine MMORPG, TV series, and graphic novels (Dark Horse Comics).",
+    "url": "https://enterthemandala.app/HomePage",
+    "subtitle": "Cross-media, cross-media Metaverse combining Avatar NFTs",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 600,
+    "desktop_mode": null,
+    "icon": "/uploads/mandala_metaverse_e6338b8629.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "cardano"
+    ],
+    "categories": [
+      "nft",
+      "gaming"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Beamswap",
+    "description": "Beamswap is a decentralized exchange (DEX) with an automated market maker (AMM), providing liquidity and peer-to-peer transactions. The DeFi hub provides an array of services and features supporting the DeFi and Web3 spaces, including crypto swaps, staking, and yield farming, and serves as a launch platform for new and exciting projects built on the Moonbeam Network.",
+    "url": "https://app.beamswap.io/exchange/swap",
+    "subtitle": "DeFi hub on Moonbeam Network",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 630,
+    "desktop_mode": null,
+    "icon": "/uploads/beamswap_4f441f15a9.png",
+    "preview_image": null,
+    "chains": [
+      "moonbeam"
+    ],
+    "categories": [
+      "defi",
+      "bridge"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Polkawatch",
+    "description": "Polkawatch is an analytic tool designed to measure effective decentralization of Polkadot’s Validation process.",
+    "url": "https://polkawatch.app/",
+    "subtitle": "Decentralization analytics for Polkadot",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 640,
+    "desktop_mode": null,
+    "icon": "/uploads/polkawatch_dcb0750aaf.png",
+    "preview_image": null,
+    "chains": [
+      "kusama"
+    ],
+    "categories": [
+      "data"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Moonsama",
+    "description": "Moonsama, the first NFT marketplace on Moonriver",
+    "url": "https://marketplace.moonsama.com/",
+    "subtitle": null,
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 690,
+    "desktop_mode": null,
+    "icon": "/uploads/moonsama_2feb69f976.png",
+    "preview_image": null,
+    "chains": [],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 111,
+    "title": "doTreasury",
+    "description": "dotreasury.com aim to introduce remarks from councilors and communities to improve current kusama treasury with a retrospect mechanism.",
+    "url": "https://www.dotreasury.com/",
+    "subtitle": "doTreasury | Empower treasury with credit building",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 700,
+    "desktop_mode": null,
+    "icon": "/uploads/do_Treasury_8f44be68e2.png",
+    "preview_image": null,
+    "chains": [
+      "kusama",
+      "centrifuge"
+    ],
+    "categories": [
+      "governance",
+      "data"
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Emotes App",
+    "description": "RMRK’s NFT smart contract allows anyone to react to any NFT. Reactions are expressed in Unicode standardized emojis.",
+    "url": "https://emotes.app/",
+    "subtitle": "React to any NFTs using the RMRK NFT Emotes Standard",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 720,
+    "desktop_mode": null,
+    "icon": "/uploads/emotes_2501d01fc2.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "base_mainnet",
+      "polygon",
+      "moonbeam",
+      "sepolia_ethereum"
+    ],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Mimir dApp",
+    "description": "Mimir supports advanced multisig account composition and nesting. Mimir supports flexible member and threshold management, and direct interaction with third-party applications.",
+    "url": "https://app.mimir.global/",
+    "subtitle": "Multisig Account Management Tool for Polkadot and Substrate",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 730,
+    "desktop_mode": null,
+    "icon": "/uploads/mimir_bb3a6835d9.png",
+    "preview_image": null,
+    "chains": [
+      "kusama",
+      "paseoTest",
+      "westend"
+    ],
+    "categories": [
+      "tooling"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Tanssi dApp",
+    "description": "Tanssi's Appchain Infrastructure Protocol simplifies appchain deployment. Explore the Dancebox Testnet and Tanssi mainnet.",
+    "url": "https://apps.tanssi.network",
+    "subtitle": "Launch your decentralized appchain",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 760,
+    "desktop_mode": null,
+    "icon": "/uploads/tanssi_2e13dc9c66.png",
+    "preview_image": null,
+    "chains": [
+      "dancebox",
+      "tanssi"
+    ],
+    "categories": [
+      "tooling",
+      "staking",
+      "bridge"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Centrifuge App",
+    "description": "The Centrifuge Protocol includes all the features needed to finance real world assets on a blockchain, from tokenization, securitization, up to liquidity integrations, all built on each other and transparently governed by token holders.",
+    "url": "https://app.centrifuge.io/pools",
+    "subtitle": "The platform for on-chain credit",
+    "is_substrate": true,
+    "is_evm": true,
+    "is_featured": false,
+    "ordinal": 765,
+    "desktop_mode": null,
+    "icon": "/uploads/centrifuge_7293c743a5.png",
+    "preview_image": "/uploads/Centrifuge_c1a847d712.png",
+    "chains": [
+      "ethereum",
+      "centrifuge",
+      "celo",
+      "base_mainnet",
+      "arbitrum_one"
+    ],
+    "categories": [
+      "rwa"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Karura Platform",
+    "description": "Founded by the Acala Foundation, Karura is a scalable, EVM-compatible network optimized for DeFi. The platform offers a suite of financial applications including: a trustless liquid staking token protocol (liquid KSM), an AMM DEX and an app platform that is EVM-compatible and highly customizable (based on Substrate) – all with micro gas fees that can be paid in any token.",
+    "url": "https://apps.karura.network/",
+    "subtitle": "Karura’s all-in-one DeFi platform",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 770,
+    "desktop_mode": true,
+    "icon": "/uploads/karura_f0db29b6d2.png",
+    "preview_image": null,
+    "chains": [
+      "karura",
+      "karura_evm",
+      "altair",
+      "basilisk",
+      "statemint",
+      "bifrost",
+      "calamari",
+      "crabParachain",
+      "ethereum",
+      "integritee",
+      "kintsugi",
+      "moonriver",
+      "quartz",
+      "shadow",
+      "shiden",
+      "phala"
+    ],
+    "categories": [
+      "staking",
+      "defi"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Moonriver dApp",
+    "description": "Moonriver is a companion network to Moonbeam and provides a permanently incentivized canary network.",
+    "url": "https://apps.moonbeam.network/moonriver",
+    "subtitle": "The platform for Moonriver Network",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 780,
+    "desktop_mode": null,
+    "icon": "/uploads/moonriver_06b4e41abc.png",
+    "preview_image": null,
+    "chains": [
+      "moonriver"
+    ],
+    "categories": [
+      "staking",
+      "smart contract",
+      "governance"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Heima Dashboard",
+    "description": "Heima Network is a cutting-edge Layer 1 blockchain designed to enable seamless multi-chain and cross-chain interoperability. Evolved from the Litentry Network, Heima integrates all the advanced components of its predecessor, including:\n- Identity Management Module: A robust framework for managing decentralized identities.\n= Security and Privacy Module: Powered by Trusted Execution Environments (TEE) to safeguard sensitive data and transactions.",
+    "url": "https://apps.heima.network/",
+    "subtitle": "The platform for Heima Network",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 800,
+    "desktop_mode": null,
+    "icon": "/uploads/heima_9721f3204f.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "binance"
+    ],
+    "categories": [
+      "bridge",
+      "staking",
+      "defi"
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Upgradooor App",
+    "description": "Amplify your regular ERC-721 NFTs by converting them into supercharged RMRK NFTs. Upgrading your ERC-721 NFT allows you to unlock the capabilities of Modular NFTs. You'll gain immediate access to nesting capabilities, enabling you to either send your NFT into others or receive NFTs. ",
+    "url": "https://upgradooor.app/",
+    "subtitle": "Supercharge your ERC721 NFTs with powers of RMRK's Modular NFTs",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 820,
+    "desktop_mode": true,
+    "icon": "/uploads/upgardooor_336e5c5057.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "moonbeam",
+      "polygon",
+      "base_mainnet",
       "astarEvm"
     ],
     "categories": [
-      "dex",
-      "evm"
+      "nft"
     ]
   },
   {
-    "id": 107,
-    "title": "Oxalus",
-    "description": "Oxalus is an advanced NFT social commerce platform combined with marketplace elements",
-    "url": "https://oxalus.io",
-    "subtitle": "NFT Social Commerce Platform",
+    "id": 156,
+    "title": "Täniko",
+    "description": "Create assets, edit metadata, update admin accounts and revoke root privileges. It also allows you to pay tx fees in any asset that has a pool!",
+    "url": "https://taniko.soda.zone/",
+    "subtitle": "Create and manage assets on Asset Hub",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 840,
+    "desktop_mode": null,
+    "icon": "/uploads/taniko_ea796d7559.png",
+    "preview_image": null,
+    "chains": [
+      "statemint",
+      "paseoTest",
+      "westend"
+    ],
+    "categories": [
+      "utilities"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "Birdeye",
+    "description": "Birdeye's core objective is to assist traders in their investment deliberations through the provisioning of data-centric market analysis tools sourced from Birdeye and its affiliated partners.",
+    "url": "https://birdeye.so",
+    "subtitle": "Blockchain Data Aggregator tailored for Traders",
     "is_substrate": null,
     "is_evm": null,
     "is_featured": null,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/oxalus_c754647674.png",
+    "ordinal": 890,
+    "desktop_mode": null,
+    "icon": "/uploads/Theme_light_986801254d.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "arbitrum_one",
+      "optimism",
+      "polygon",
+      "avalanche_c",
+      "binance"
+    ],
+    "categories": [
+      "data"
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Flappy Wud",
+    "description": "Tap to jump and dodge the wood! The more $WUD in your connected wallet, the higher your multiplier.\nThere are some powerful items floating around so try not to miss them!",
+    "url": "https://flappywud.lol/",
+    "subtitle": "Gavun Wud's first game",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 910,
+    "desktop_mode": null,
+    "icon": "/uploads/flappy_wud_9de06577de.png",
+    "preview_image": null,
+    "chains": [
+      "statemint",
+      "hydradx_main"
+    ],
+    "categories": [
+      "gaming"
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Battleship",
+    "description": "Battleship is a strategic board game in which two players compete to sink an opponent's fleet hidden from their view.",
+    "url": "https://battleship.vara.network/",
+    "subtitle": "Vara Battleship Game",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 960,
+    "desktop_mode": null,
+    "icon": "/uploads/battleship_c12eb01f42.png",
+    "preview_image": null,
+    "chains": [
+      "vara_network"
+    ],
+    "categories": [
+      "gaming"
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Vara-man",
+    "description": "Welcome, treasure hunter! In this game, you can test your strength in the quest for treasures. The game offers various difficulty levels and game modes. Connect your wallet.",
+    "url": "https://vara-man.vara.network/",
+    "subtitle": "A blockchain implementation of the game Pac-Man",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 970,
+    "desktop_mode": null,
+    "icon": "/uploads/vara_man_a280f2545e.png",
+    "preview_image": null,
+    "chains": [
+      "vara_network"
+    ],
+    "categories": [
+      "gaming"
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Racing Cars",
+    "description": "A racing car game in which you compete not against a human, but against a smart contract. You will be given the choice to either accelerate or shoot at the nearest car to slow it down.",
+    "url": "https://racing.vara.network/",
+    "subtitle": "Vara Car Racing game",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 980,
+    "desktop_mode": null,
+    "icon": "/uploads/vara_racing_cars_4286b5853c.png",
+    "preview_image": null,
+    "chains": [
+      "vara_network"
+    ],
+    "categories": [
+      "gaming"
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Tic-Tac-Toe",
+    "description": "A classic game of tic-tac-toe in which you compete not against a human, but against a smart contract.",
+    "url": "https://tictactoe.vara.network/",
+    "subtitle": "Vara Tic-Tac-Toe game",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 990,
+    "desktop_mode": null,
+    "icon": "/uploads/vara_tic_tac_toe_82f652f871.png",
+    "preview_image": null,
+    "chains": [
+      "vara_network"
+    ],
+    "categories": [
+      "gaming"
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Liberland App",
+    "description": "Liberland is a sovereign nation state located on the Danube with governance, business and legal system running on-chain.",
+    "url": "https://blockchain.liberland.org/",
+    "subtitle": "The freest country on Earth",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1000,
+    "desktop_mode": null,
+    "icon": "/uploads/llm_1ed5455cb6.png",
+    "preview_image": null,
+    "chains": [
+      "liberland",
+      "liberlandTest"
+    ],
+    "categories": [
+      "community"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "1inch",
+    "description": "1inch aims to be One-stop access\nto decentralized finance. 1inch analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.",
+    "url": "https://app.1inch.io/",
+    "subtitle": "DeFi / DEX aggregator on Ethereum, Binance Smart Chain, Optimism, Polygon, Arbitrum",
+    "is_substrate": null,
+    "is_evm": true,
+    "is_featured": null,
+    "ordinal": 1030,
+    "desktop_mode": null,
+    "icon": "/uploads/1inch_689ac3fdae.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "optimism",
+      "arbitrum_one",
+      "base_mainnet",
+      "lineaZkEvm",
+      "binance",
+      "polygon",
+      "avalanche_c",
+      "gnosis"
+    ],
+    "categories": [
+      "defi",
+      "staking"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Portal Bridge Wormhole",
+    "description": "The Portal is an application built on top of Wormhole. When you bridge tokens through Portal, the origin token gets locked in a smart contract, and a new Portal wrapped token gets minted on the target chain.",
+    "url": "https://www.portalbridge.com/",
+    "subtitle": "Token Bridge built on top of Wormhole",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 1040,
+    "desktop_mode": null,
+    "icon": "/uploads/portalbridge_c36a3d4540.png",
+    "preview_image": null,
+    "chains": [
+      "base_mainnet",
+      "binance",
+      "ethereum",
+      "fantom",
+      "moonbeam",
+      "optimism",
+      "polygon",
+      "arbitrum_one",
+      "unichain",
+      "avalanche_c",
+      "celo",
+      "scroll",
+      "mantle",
+      "berachain_testnet",
+      "world_chain",
+      "xlayer"
+    ],
+    "categories": [
+      "bridge"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Aave",
+    "description": "Aave is a decentralised non-custodial liquidity market protocol where users can participate as suppliers or borrowers. Suppliers provide liquidity to the market to earn a passive income, while borrowers are able to borrow in an overcollateralised (perpetually) or undercollateralised (one-block liquidity) fashion.",
+    "url": "https://app.aave.com/",
+    "subtitle": "Open Source Liquidity Protocol",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 1050,
+    "desktop_mode": null,
+    "icon": "/uploads/aave_28364b7b66.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "sonic",
+      "arbitrum_one",
+      "base_mainnet",
+      "avalanche_c",
+      "optimism",
+      "polygon",
+      "gnosis",
+      "binance",
+      "zksync_era",
+      "scroll",
+      "lineaZkEvm"
+    ],
+    "categories": [
+      "defi",
+      "staking",
+      "governance"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Uniswap",
+    "description": "Uniswap is a protocol that facilitates peer-to-peer market making and swapping of ERC-20 tokens on the Ethereum blockchain. The Uniswap dApp allows for easy interaction with the Uniswap protocol.",
+    "url": "https://app.uniswap.org/",
+    "subtitle": "Peer-to-peer system designed for exchanging cryptocurrencies on Ethereum",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 1060,
+    "desktop_mode": null,
+    "icon": "/uploads/uniswap_3e3c190a2d.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "arbitrum_one",
+      "optimism",
+      "polygon",
+      "base_mainnet",
+      "binance",
+      "unichain",
+      "blast_mainnet",
+      "avalanche_c",
+      "celo",
+      "world_chain",
+      "zksync_era",
+      "monad_testnet"
+    ],
+    "categories": [
+      "defi"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Chainlist",
+    "description": "Chainlist is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain.",
+    "url": "https://chainlist.org/",
+    "subtitle": "RPCs list for EVM networks",
+    "is_substrate": null,
+    "is_evm": true,
+    "is_featured": null,
+    "ordinal": 1070,
+    "desktop_mode": null,
+    "icon": "/uploads/chainlist_org_1d6bae934a.png",
     "preview_image": null,
     "chains": [
       "ethereum"
     ],
     "categories": [
-      "nft",
-      "socialfi"
+      "data"
     ]
   },
   {
-    "id": 109,
-    "title": "AZERO.ID",
-    "description": "With AZERO.ID, you can create & own your on-chain identity on a single platform. Start your journey in the Aleph Zero & Substrate ecosystem by registering your first domain now.",
-    "url": "https://azero.id",
-    "subtitle": "Domain Service on Aleph Zero",
+    "id": 48,
+    "title": "Curve",
+    "description": "Curve is an exchange liquidity pool on Ethereum (like Uniswap) designed for (1) extremely efficient stablecoin trading (2) low risk, supplemental fee income for liquidity providers, without an opportunity cost.",
+    "url": "https://curve.fi/",
+    "subtitle": "Creating deep on-chain liquidity using advanced bonding curves",
     "is_substrate": null,
-    "is_evm": null,
-    "is_featured": true,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/azero_domain_e77986a5c1.png",
-    "preview_image": "https://static-data.subwallet.app/dapps/images/preview_image/og_2f6b43a755.jpg",
+    "is_evm": true,
+    "is_featured": null,
+    "ordinal": 1090,
+    "desktop_mode": null,
+    "icon": "/uploads/curve_51fe10f007.png",
+    "preview_image": null,
     "chains": [
-      "aleph"
+      "ethereum",
+      "arbitrum_one",
+      "avalanche_c",
+      "base_mainnet",
+      "fantom",
+      "moonbeam",
+      "optimism",
+      "polygon",
+      "sonic",
+      "xlayer",
+      "binance",
+      "celo",
+      "fraxtal",
+      "gnosis",
+      "ink",
+      "mantle"
     ],
     "categories": [
-      "nft",
+      "defi"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "OpenSea",
+    "description": "The world’s first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.",
+    "url": "https://opensea.io/",
+    "subtitle": "Marketplace for crypto collectibles and NFTs",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1100,
+    "desktop_mode": null,
+    "icon": "/uploads/opensea_1688cddd62.png",
+    "preview_image": null,
+    "chains": [],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Robonomics",
+    "description": "Robonomics platform provides tools for working with the robot economy network. Robonomics allow designers of smart cities and industry 4.0 zones to build trust among the autonomous robots services, provide direct user access via dapp for ordering products from autonomous factories and services of urban sensor networks. This in turn will allow us to put in place a decentralized system that globally monitors the activities of cyber physical systems.",
+    "url": "https://v0.dapp.robonomics.network/#/staking/",
+    "subtitle": "Robonomics",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": null,
+    "ordinal": 1120,
+    "desktop_mode": null,
+    "icon": "/uploads/robonomics_efe081dce3.png",
+    "preview_image": null,
+    "chains": [
+      "robonomics",
+      "kusama"
+    ],
+    "categories": [
       "utilities"
     ]
   },
   {
-    "id": 127,
-    "title": "Interlay",
-    "description": "Interlay is a one-stop shop for Bitcoin DeFi: swaps, lending, staking, and 1-click strategies. IBTC is trustless multi-chain Bitcoin, secured by collateral, cryptography, and a decentralized vault network.",
-    "url": "https://app.interlay.io/",
-    "subtitle": "Bitcoin DeFi on Interlay Network",
+    "id": 41,
+    "title": "cBridge",
+    "description": "Celer cBridge is a decentralized and non-custodial asset bridge that supports 170+ tokens across 40+ blockchains and layer-2 rollups. Built on top of the Celer Inter-chain Message Framework, cBridge has processed ~$14B cross-chain asset transfer volume on 40+ blockchains for more than 530K unique users, and is quickly growing and expanding into more blockchains and layer-2s.",
+    "url": "https://cbridge.celer.network/#/transfer",
+    "subtitle": "Multi-blockchain asset bridge, instant transfer, zero trust",
+    "is_substrate": null,
+    "is_evm": true,
+    "is_featured": null,
+    "ordinal": 1140,
+    "desktop_mode": null,
+    "icon": "/uploads/celer_cbridge_7529e5082b.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "astarEvm",
+      "binance",
+      "avalanche_c",
+      "polygon",
+      "arbitrum_one",
+      "optimism",
+      "fantom",
+      "moonbeam",
+      "moonriver",
+      "boba",
+      "shidenEvm",
+      "base_mainnet"
+    ],
+    "categories": [
+      "bridge"
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Cointelegraph Decentralization Guardians",
+    "description": "Support decentralization and earn staking rewards by nominating your DOT to Cointelegraph's validator to secure the network and contribute to a more open and resilient blockchain ecosystem.",
+    "url": "https://cointelegraph.com/decentralization-guardians/polkadot/",
+    "subtitle": "Decentralization Guardians by Cointelegraph",
     "is_substrate": null,
     "is_evm": null,
     "is_featured": false,
-    "ordinal": null,
-    "icon": "https://static-data.subwallet.app/dapps/images/icon/interlay_909455ece5.png",
+    "ordinal": 1150,
+    "desktop_mode": null,
+    "icon": "/uploads/cointelegraph_decentralization_guardians_5d7251c19d.png",
+    "preview_image": null,
+    "chains": [],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 200,
+    "title": "TaoFi",
+    "description": "TaoFi is a suite of foundational DeFi products on Bittensor, the home of decentralized AI. These products will serve agents and human users alike, with a focus on unlocking new, crypto-enabled AI use cases, while increasing liquidity across Bittensor. ",
+    "url": "https://www.taofi.com/",
+    "subtitle": "DeFi products on Bittensor",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1180,
+    "desktop_mode": null,
+    "icon": "/uploads/taofi_afb5fca984.png",
     "preview_image": null,
     "chains": [
-      "interlay"
+      "bittensor"
     ],
     "categories": [
-      "dex"
+      "bridge",
+      "defi"
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Polkadot Bounties",
+    "description": "Manage bounties with PAPI’s bounties app",
+    "url": "https://bounties.usepapi.app/",
+    "subtitle": "Manage bounties with PAPI’s bounties app",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1190,
+    "desktop_mode": null,
+    "icon": "/uploads/polkadot_bounties_b71ac482b0.png",
+    "preview_image": null,
+    "chains": [
+      "kusama"
+    ],
+    "categories": [
+      "governance"
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Chaotic (beta)",
+    "description": "Create, Collect, Sell NFTs",
+    "url": "https://beta.chaotic.art/",
+    "subtitle": "Polkadot NFT Marketplace",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1200,
+    "desktop_mode": null,
+    "icon": "/uploads/image_08895d2d32.png",
+    "preview_image": null,
+    "chains": [
+      "statemine",
+      "statemint"
+    ],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "Unique Staking Hub",
+    "description": "Unique Staking Hub enables users to stake their ecosystem tokens to support the development of the Unique Network blockchain.",
+    "url": "https://unique.network/staking/",
+    "subtitle": "Stake your UNQ and QTZ tokens to earn APY",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1210,
+    "desktop_mode": null,
+    "icon": "/uploads/unique_network_b207ab1ac7.png",
+    "preview_image": null,
+    "chains": [
+      "unique_network",
+      "quartz"
+    ],
+    "categories": [
+      "staking"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Dotmemo",
+    "description": "Capture your unforgettable moments as digital badges on the Polkadot network.",
+    "url": "https://dotmemo.xyz/",
+    "subtitle": "Create and Claim NFTs on Polkadot",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1300,
+    "desktop_mode": null,
+    "icon": "/uploads/dotmemo_e4ceec29c6.png",
+    "preview_image": null,
+    "chains": [
+      "statemint"
+    ],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Get Real",
+    "description": "Seize your chance for rewards from PEAQ’s reward pool by connecting, contributing, and climbing the leaderboard.",
+    "url": "https://www.get-real.peaq.xyz/",
+    "subtitle": "Join peaq’s Get Real campaign",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1310,
+    "desktop_mode": null,
+    "icon": "/uploads/Color_light_a60969392d.png",
+    "preview_image": null,
+    "chains": [
+      "peaq_evm"
+    ],
+    "categories": [
+      "community"
+    ]
+  },
+  {
+    "id": 208,
+    "title": "Aradia",
+    "description": "The ultimate launchpad for Astar Network. Mint NFTs and tokens, discover collections, and earn rewards in the Astar ecosystem.",
+    "url": "https://aradia.app/",
+    "subtitle": "NFT Launchpad on Astar Network",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1330,
+    "desktop_mode": null,
+    "icon": "/uploads/aradia_584dfeb6d8.png",
+    "preview_image": null,
+    "chains": [],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 209,
+    "title": "Gen6 dApp",
+    "description": "A digital ecosystem built for truth. Not trends. Host and attend at verifiable events, build human-first communities, and store truth on-chain, all in one connected space.",
+    "url": "https://gen6.life/",
+    "subtitle": "Building what blockchain was meant for",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1340,
+    "desktop_mode": null,
+    "icon": "/uploads/g6_network_255a776289.png",
+    "preview_image": null,
+    "chains": [
+      "gen6_public"
+    ],
+    "categories": [
+      "utilities",
+      "data",
+      "community"
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Energy Web Bridge",
+    "description": "Seamlessly transfer EWT between Energy Web Chain, Energy Web X, and Ethereum networks using our secure, trustless bridge protocol.",
+    "url": "https://bridging.energywebx.com/bridge",
+    "subtitle": "Energy Web’s secure, trustless bridge protocol",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1350,
+    "desktop_mode": null,
+    "icon": "/uploads/energy_web_x_testnet_89fd545f06.png",
+    "preview_image": null,
+    "chains": [
+      "energy_web_x",
+      "energy_web_chain",
+      "ethereum"
+    ],
+    "categories": [
+      "bridge"
+    ]
+  },
+  {
+    "id": 210,
+    "title": "WUD Universe",
+    "description": "Build and upgrade your on-chain cabin. Equip dynamic NFTs, open Mystery Boxes, and collect limited drops. ",
+    "url": "https://wuduniverse.xyz/cabin",
+    "subtitle": "Build your on-chain cabin with dynamic NFTs",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1430,
+    "desktop_mode": null,
+    "icon": "/uploads/wud_universe_2c1affbd7d.png",
+    "preview_image": null,
+    "chains": [
+      "unique_network"
+    ],
+    "categories": [
+      "nft"
+    ]
+  },
+  {
+    "id": 211,
+    "title": "DotJobs",
+    "description": "Dotjobs is an open-source job and talent platform built for the Polkadot and Kusama ecosystem. Our mission is simple: to connect projects, teams, and initiatives across the ecosystem with the right talent, while amplifying careers, opportunities, and the future of work in Web3.",
+    "url": "https://dotjobs.online/",
+    "subtitle": "Job and talent platform for Polkadot and Kusama ecosystem",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 1440,
+    "desktop_mode": null,
+    "icon": "/uploads/dot_jobs_0b0a4191ad.png",
+    "preview_image": null,
+    "chains": [
+      "kusama"
+    ],
+    "categories": [
+      "utilities"
+    ]
+  },
+  {
+    "id": 195,
+    "title": "DotYappers",
+    "description": "Join the Polkadot ecosystem and\nmake valuable contributions on X",
+    "url": "https://www.dotyappers.com/",
+    "subtitle": "Start yapping about Polkadot",
+    "is_substrate": true,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 3457,
+    "desktop_mode": false,
+    "icon": "/uploads/image_ea5690a05a.png",
+    "preview_image": null,
+    "chains": [],
+    "categories": [
+      "community"
+    ]
+  },
+  {
+    "id": 169,
+    "title": "UQUID",
+    "description": "UQUID is an E-commerce platform with a Shop-to-Earn experience.\nVerified merchants, exclusive deals, cashback and Payin3 with Crypto on 167M+ physical products, 468k+ digital products & NFTs.",
+    "url": "https://shop.uquid.com/",
+    "subtitle": "Web3 Shopping Infrastructure",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 9999,
+    "desktop_mode": null,
+    "icon": "/uploads/uquid_7131bf05bb.png",
+    "preview_image": null,
+    "chains": [],
+    "categories": [
+      "utilities"
+    ]
+  },
+  {
+    "id": 184,
+    "title": "ChessOnChain",
+    "description": "ChessOnchain is a play-to-earn digital chess game where players can collect NFTs and compete in multichain/interchain chess competitions and 1v1 matches.",
+    "url": "https://play.chessonchain.io/",
+    "subtitle": "Multi-chain chess game",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 9999,
+    "desktop_mode": null,
+    "icon": "/uploads/chessonchain_a6efe75999.png",
+    "preview_image": null,
+    "chains": [
+      "ton_testnet",
+      "avalanche_c"
+    ],
+    "categories": [
+      "gaming"
+    ]
+  },
+  {
+    "id": 192,
+    "title": "Snowbridge",
+    "description": "Snowbridge is a general-purpose, trustless, and decentralized bridge between Polkadot and Ethereum. It is part of the Polkadot SDK and exists as a common-good bridge on BridgeHub. ",
+    "url": "https://app.snowbridge.network/",
+    "subtitle": "General-purpose, trustless, and decentralized bridge between Polkadot and Ethereum",
+    "is_substrate": null,
+    "is_evm": null,
+    "is_featured": false,
+    "ordinal": 9999,
+    "desktop_mode": null,
+    "icon": "/uploads/snowfork_769edfeb67.png",
+    "preview_image": null,
+    "chains": [
+      "ethereum",
+      "statemint",
+      "moonbeam",
+      "bifrost_dot",
+      "mythos",
+      "hydradx_main"
+    ],
+    "categories": [
+      "bridge"
     ]
   }
 ]
