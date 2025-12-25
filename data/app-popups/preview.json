@@ -1,76 +1,1541 @@
 [
   {
-    "id": 1,
-    "priority": 999,
-    "position": "earning",
+    "id": 24,
+    "priority": 1,
+    "position": "token",
     "repeat": "once",
-    "content": "s",
-    "repeat_every_x_days": 2,
-    "media": "https://static-data.subwallet.app/app-popups/images/media/GFL_7p1d_WUA_Eschq_f6004397f2.jpeg",
+    "content": "#### ![New Currencies.png](https://media-resources.subwallet.app//6/New_Currencies_f827749bdf.png) \n\n&nbsp;\n\n#### **Version 1.1.56(375)**\n- 9 new currencies supported!\n- Go to Settings/General settings/Currency and choose among USD, BRL, CNY, EUR, GBP, HKD, JPY, RUB  and VND to display your portfolio value.",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
     "position_params": [],
     "info": {
-      "id": 2,
-      "name": "Popup",
-      "description": "description popup",
-      "start_time": "2024-03-05T17:00:00.000Z",
-      "stop_time": "2024-03-22T17:00:00.000Z",
-      "platforms": null
+      "id": 45,
+      "name": "What's new?",
+      "description": "Currency",
+      "start_time": "2024-05-24T03:00:00.000Z",
+      "stop_time": "2024-05-31T03:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
     },
     "buttons": [
       {
-        "id": 2,
-        "label": "OK",
-        "color": "warning",
+        "id": 36,
+        "label": "Got it!",
+        "color": "primary",
+        "instruction": null,
+        "action": null
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 25,
+    "priority": 2,
+    "position": "token",
+    "repeat": "once",
+    "content": "![A0-Common Drops.png](https://media-resources.subwallet.app//6/A0_Common_Drops_5a0d80d63a.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 48,
+      "name": null,
+      "description": "Stake AZERO. Get Your Common Drops!",
+      "start_time": "2024-06-05T14:00:00.000Z",
+      "stop_time": "2024-06-19T14:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 38,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 39,
+        "label": "See more",
+        "color": "primary",
         "instruction": {
-          "id": 3,
-          "confirm_label": "Pool",
-          "cancel_label": "cancel",
-          "instruction_id": 111,
-          "group": "earning",
-          "slug": "NOMINATION_POOL"
+          "id": 21,
+          "confirm_label": "Stake AZERO",
+          "cancel_label": "Dismiss",
+          "instruction": null
         },
         "action": {
-          "id": 3,
-          "url": "/Home",
-          "screen": "Home",
+          "id": 42,
+          "url": "subwallet://home/main/earning/earning-pool-list?group=aleph-NATIVE-AZERO&symbol=AZERO",
+          "screen": null,
           "params": null,
-          "is_cancel": true
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 26,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": ">![Update your iOS version.png](https://media-resources.subwallet.app//6/Update_your_i_OS_version_3cb5c8b03c.png)\n>\n> &ensp;\n> \n>#### **Update to iOS 16.4 or above**\n>**(Safely dismiss this message if your iOS version is above 16.4)**\n>- Your iOS version might be too low for SubWallet new versions to be compatible with. \n>- Update to continue enjoying new features in SubWallet.\n  \n>\n> &ensp;\n> \n>#### **Reminder to back up your accounts**\n>- If you lose your back up files, such as seed phrases, private keys, JSON files, QR code backups, you will lose access to your funds. \n>- Go to the account tab, select your account, click on the pen icon and choose to export and back up!",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 49,
+      "name": "Pay attention!",
+      "description": "Update Your iOS Version v1.1.62(388)",
+      "start_time": "2024-06-03T12:00:00.000Z",
+      "stop_time": "2024-06-11T12:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": "iOS",
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 40,
+        "label": "I understand",
+        "color": "primary",
+        "instruction": null,
+        "action": null
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 50,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![Extension.png](https://media-resources.subwallet.app/6/Extension_f44922cd1a.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 101,
+      "name": null,
+      "description": "Sync desktop to mobile",
+      "start_time": "2024-07-04T17:00:00.000Z",
+      "stop_time": "2024-08-03T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 83,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 82,
+        "label": "Learn more",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 88,
+          "url": "https://docs.subwallet.app/main/extension-user-guide/faqs#how-do-i-sync-my-account-on-the-extension-to-the-mobile-app-using-the-qr-code",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 52,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![MOBILE.png](https://media-resources.subwallet.app/6/MOBILE_07293aca2a.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 103,
+      "name": null,
+      "description": "Sync mobile",
+      "start_time": "2024-07-04T17:00:00.000Z",
+      "stop_time": "2024-08-03T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 86,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 87,
+        "label": "Learn more",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 90,
+          "url": "https://docs.subwallet.app/main/mobile-app-user-guide/faqs#how-do-i-sync-my-account-on-the-mobile-app-to-the-extension-using-the-qr-code",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 54,
+    "priority": 2,
+    "position": "token",
+    "repeat": "once",
+    "content": "![358 x 144.png](https://media-resources.subwallet.app/6/358_x_144_5aa4f4d375.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 109,
+      "name": null,
+      "description": "$9,500 pool prize in VARA with Vara Kick-to-Airdrop campaign - Mobile",
+      "start_time": "2024-07-11T13:00:00.000Z",
+      "stop_time": "2024-07-24T13:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 89,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 90,
+        "label": "Explore",
+        "color": "primary",
+        "instruction": {
+          "id": 70,
+          "confirm_label": "Play",
+          "cancel_label": "Cancel",
+          "instruction_id": 40,
+          "group": null,
+          "slug": "Vara_Campaign_Mobile"
+        },
+        "action": {
+          "id": 96,
+          "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
         }
       }
     ],
     "conditions": {
       "condition-balance": [
         {
-          "comparison": "lt",
-          "value": 1,
-          "chain_asset": "acala-LOCAL-DOT"
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "vara_network-NATIVE-VARA"
         }
+      ]
+    }
+  },
+  {
+    "id": 55,
+    "priority": 2,
+    "position": "token",
+    "repeat": "once",
+    "content": "![358 x 144.png](https://media-resources.subwallet.app/6/358_x_144_5aa4f4d375.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 110,
+      "name": null,
+      "description": "$9,500 pool prize in VARA with Vara Kick-to-Airdrop campaign",
+      "start_time": "2024-07-11T13:00:00.000Z",
+      "stop_time": "2024-07-24T13:00:00.000Z",
+      "platforms": [
+        "extension"
       ],
-      "condition-crowdloan": [
-        {
-          "chain": "acala_testnet"
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 91,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 92,
+        "label": "Explore",
+        "color": "primary",
+        "instruction": {
+          "id": 71,
+          "confirm_label": "Play",
+          "cancel_label": "Cancel",
+          "instruction_id": 39,
+          "group": null,
+          "slug": "Vara_Campaign"
+        },
+        "action": {
+          "id": 97,
+          "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
         }
-      ],
-      "condition-earning": [
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
         {
-          "pool_slug": "GLMR___native_staking___moonbeam",
-          "comparison": "lt",
-          "value": 1
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "vara_network-NATIVE-VARA"
         }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "priority": 2,
+    "position": "token",
+    "repeat": "once",
+    "content": "![Stake to earn up to 29.95% APY.png](https://media-resources.subwallet.app/6/Stake_to_earn_up_to_29_95_APY_d6d15c2e24.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 119,
+      "name": null,
+      "description": "Avail Staking Campaign",
+      "start_time": "2024-07-22T17:00:00.000Z",
+      "stop_time": "2024-08-14T17:00:00.000Z",
+      "platforms": [
+        "extension",
+        "mobile"
       ],
-      "condition-has-money": [
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 93,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 94,
+        "label": "Stake now",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 106,
+          "url": "subwallet://home/main/earning/earning-pool-list?group=avail_mainnet-NATIVE-AVAIL&symbol=AVAIL",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
         {
-          "has_money": [
-            "balance"
-          ]
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "avail_mainnet-NATIVE-AVAIL"
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "> <div style=\"flex: 1; justify-content: space-between; flex-direction: row; padding-top: 4px; display: flex;\"><div style=\"color: white; font-weight: 600;\">Release version</div><div style=\"color: rgba(255, 255, 255, 0.65); font-weight: 500; font-size: 12px;\">New networks</div></div>\n> \n>###### **Change log:**\n>- New networks added: Acurast Canary, Humanode Substrate, Humanode EVM\n>- New assets supported: BEEFY on AssetHub and HydraDX, xcDED on Moonbeam",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 120,
+      "name": "New version available",
+      "description": "Change log test",
+      "start_time": "2024-08-14T17:00:00.000Z",
+      "stop_time": "2025-01-06T17:00:00.000Z",
+      "platforms": [
+        "extension",
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": false
+    },
+    "buttons": [
+      {
+        "id": 95,
+        "label": "Cancel",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 96,
+        "label": "Update",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 110,
+          "url": "https://chromewebstore.google.com/detail/subwallet-polkadot-wallet/onhogfjeacnfoofkfgppdlbmlmnplgbn",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 59,
+    "priority": 3,
+    "position": "token",
+    "repeat": "once",
+    "content": "![358 x 148 (1).png](https://media-resources.subwallet.app/6/358_x_148_1_ee1b69c096.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 126,
+      "name": null,
+      "description": "$9,500 pool prize in VARA with Vara Kick-to-Airdrop campaign - Mobile",
+      "start_time": "2024-07-29T17:00:00.000Z",
+      "stop_time": "2024-08-04T22:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 99,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 100,
+        "label": "Explore",
+        "color": "primary",
+        "instruction": {
+          "id": 85,
+          "confirm_label": "Play",
+          "cancel_label": "Cancel",
+          "instruction_id": 41,
+          "group": null,
+          "slug": "Vara_Campaign_Mobile - 3"
+        },
+        "action": {
+          "id": 114,
+          "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "vara_network-NATIVE-VARA"
         }
       ],
       "condition-nft": [
         {
-          "collection_id": "1",
-          "chain": "acala_testnet"
+          "collection_id": null,
+          "chain": "vara_network"
+        }
+      ],
+      "condition-earning": [
+        {
+          "pool_slug": "VARA___nomination_pool___vara_network",
+          "comparison": "gt",
+          "value": 0
+        },
+        {
+          "pool_slug": "VARA___native_staking___vara_network",
+          "comparison": "gt",
+          "value": 0
         }
       ]
     }
+  },
+  {
+    "id": 60,
+    "priority": 3,
+    "position": "token",
+    "repeat": "once",
+    "content": "![358 x 148 (1).png](https://media-resources.subwallet.app/6/358_x_148_1_ee1b69c096.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 127,
+      "name": null,
+      "description": "$9,500 pool prize in VARA with Vara Kick-to-Airdrop campaign - Extension 2",
+      "start_time": "2024-07-29T17:00:00.000Z",
+      "stop_time": "2024-08-04T22:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 101,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 102,
+        "label": "Explore",
+        "color": "primary",
+        "instruction": {
+          "id": 86,
+          "confirm_label": "Play",
+          "cancel_label": "Cancel",
+          "instruction_id": 42,
+          "group": null,
+          "slug": "Vara_Campaign Extension 2"
+        },
+        "action": {
+          "id": 115,
+          "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "vara_network-NATIVE-VARA"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "priority": 2,
+    "position": "token",
+    "repeat": "once",
+    "content": "![A0-Common Drops.png](https://media-resources.subwallet.app//6/A0_Common_Drops_5a0d80d63a.png)\n>![Update your iOS version.png](https://media-resources.subwallet.app//6/Update_your_i_OS_version_3cb5c8b03c.png)\n>#### **Update to iOS 16.4 or above**\n>**(Safely dismiss this message if your iOS version is above 16.4)**\n>- Your iOS version might be too low for SubWallet new versions to be compatible with. \n>- Update to continue enjoying new features in SubWallet.\n\n>\n>#### **Reminder to back up your accounts**\n> If you lose your back up files, such as seed phrases, private keys, JSON files, QR code backups, you will lose access to your funds. \n>New network added: \n> - Go to the account tab, select your account, click on the pen icon and choose to export and back up!\n> \n>New network added: \n> - Go to the account tab, select your account, click on the pen icon and choose to export and back up!",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 130,
+      "name": "Webapp - Test AZERO",
+      "description": "Stake AZERO. Get Your Common Drops!",
+      "start_time": "2024-06-18T14:00:00.000Z",
+      "stop_time": "2024-10-03T17:00:00.000Z",
+      "platforms": [
+        "web",
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 103,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 104,
+        "label": "Stake",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 118,
+          "url": "https://github.com/Koniverse/SubWallet-Mobile/releases",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 66,
+    "priority": 1,
+    "position": "crowdloan",
+    "repeat": "once",
+    "content": "![MOBILE.png](https://media-resources.subwallet.app/6/MOBILE_07293aca2a.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 141,
+      "name": "Crowdloan",
+      "description": null,
+      "start_time": "2024-08-07T17:00:00.000Z",
+      "stop_time": "2024-09-27T17:00:00.000Z",
+      "platforms": [
+        "mobile",
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 110,
+        "label": "I understand",
+        "color": "primary",
+        "instruction": null,
+        "action": null
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 67,
+    "priority": 2,
+    "position": "nft",
+    "repeat": "once",
+    "content": "![358 x 144.png](https://media-resources.subwallet.app/6/358_x_144_5aa4f4d375.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": "=1.2.32",
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 150,
+      "name": "NFT",
+      "description": "$9,500 pool prize in VARA with Vara Kick-to-Airdrop campaign - Mobile",
+      "start_time": "2024-09-29T17:00:00.000Z",
+      "stop_time": "2024-10-03T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 111,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 112,
+        "label": "Explore",
+        "color": "primary",
+        "instruction": {
+          "id": 92,
+          "confirm_label": "Play",
+          "cancel_label": "Cancel",
+          "instruction_id": 40,
+          "group": null,
+          "slug": "Vara_Campaign_Mobile"
+        },
+        "action": {
+          "id": 131,
+          "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 68,
+    "priority": 1,
+    "position": "earning",
+    "repeat": "once",
+    "content": "![1432✕480.png](https://media-resources.subwallet.app/6/1432_480_b162ce7765.png)\n\nCập nhật thông tin...",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 151,
+      "name": "Earning",
+      "description": "$9,500 pool prize in VARA with Vara Kick-to-Airdrop campaign - Mobile",
+      "start_time": "2024-09-29T17:00:00.000Z",
+      "stop_time": "2024-10-02T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 113,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 114,
+        "label": "Explore",
+        "color": "primary",
+        "instruction": {
+          "id": 93,
+          "confirm_label": "Play",
+          "cancel_label": "Cancel",
+          "instruction_id": 40,
+          "group": null,
+          "slug": "Vara_Campaign_Mobile"
+        },
+        "action": {
+          "id": 132,
+          "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 70,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![358 x 144.png](https://media-resources.subwallet.app/6/358_x_144_5aa4f4d375.png)\n>- New networks added: Acurast Canary, Humanode Substrate, Humanode EVM\n>- New assets supported: BEEFY on AssetHub and HydraDX, xcDED on Moonbeam\n>![A0_1.png](https://media-resources.subwallet.app//6/A0_1_c671ff3eec.png)\n",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 161,
+      "name": "Test",
+      "description": "$9,500 pool prize in VARA with Vara Kick-to-Airdrop campaign - Mobile",
+      "start_time": "2024-07-11T13:00:00.000Z",
+      "stop_time": "2024-10-18T13:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 117,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 118,
+        "label": "Explore",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 142,
+          "url": "/index.html#/accounts/new-seed-phrase",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 71,
+    "priority": 1,
+    "position": "earning",
+    "repeat": "once",
+    "content": "![358 x 144.png](https://media-resources.subwallet.app/6/358_x_144_5aa4f4d375.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": "OR",
+    "app_version_range": "=1.2.29",
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 165,
+      "name": "Test",
+      "description": "$9,500 pool prize in VARA with Vara Kick-to-Airdrop campaign - Mobile",
+      "start_time": "2024-07-11T13:00:00.000Z",
+      "stop_time": "2024-09-30T13:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 119,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 120,
+        "label": "Explore",
+        "color": "primary",
+        "instruction": {
+          "id": 95,
+          "confirm_label": "Play",
+          "cancel_label": "Cancel",
+          "instruction_id": 40,
+          "group": null,
+          "slug": "Vara_Campaign_Mobile"
+        },
+        "action": {
+          "id": 144,
+          "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 72,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": ">**Introducing Unified Account**\n>![TAO token supported in SubWallet - 358x144-1.png](https://media-resources.subwallet.app/6/TAO_token_supported_in_Sub_Wallet_358x144_1_3815c8e871.png)\n > With only one unified account, you can keep track of all your tokens and NFTs on 200+ networks across Ethereum, Polkadot and TON ecosystems. No more account-switching hassle. **[Create an unified account now!](index.html#/accounts/new-seed-phrase)**\n\n>**SubWallet now supports TON network**\n>![TON support - 358x144.png](https://media-resources.subwallet.app/6/TON_support_358x144_8534bdee93.png)\n > Send & receive TON and USD₮; plus create, import, or export TON accounts — you can do it all in SubWallet.\n\n>**TAO is fully supported in SubWallet**\n>![TAO token supported in SubWallet - 358x144.png](https://media-resources.subwallet.app/6/TAO_token_supported_in_Sub_Wallet_358x144_2c5b12b4fd.png)\n > - Send and receive TAO tokens\n > - Connect with Ledger account\n > - Native in-app TAO staking\n\n>**1 click swap among Polkadot, Ethereum and Arbitrum**\n>![1 click Cross-chain swap between Polkadot and Ethereum ecosystem - 258x144.png](https://media-resources.subwallet.app/6/1_click_Cross_chain_swap_between_Polkadot_and_Ethereum_ecosystem_258x144_a4b9523381.png)\nThanks to our integration with Chainflip, you can now easily swap among Polkadot, Ethereum and Arbitrum in one cheap transaction. \n > - DOT on Polkadot ↔ ETH, USDC, USDT on Ethereum\n > - DOT on Polkadot ↔ ETH, USDC on Arbitrum\n > - ETH on Arbitrum ↔ USDC, USDT on Ethereum\n > - ETH on Ethereum ↔ USDC on Arbitrum",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.1.30",
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 176,
+      "name": "What’s new in SubWallet",
+      "description": null,
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 124,
+        "label": "I understand",
+        "color": "primary",
+        "instruction": null,
+        "action": null
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 73,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": ">**TAO is fully supported in SubWallet**\n>\n>![TAO token supported in SubWallet - 358x144.png](https://media-resources.subwallet.app/6/TAO_token_supported_in_Sub_Wallet_358x144_2c5b12b4fd.png)\n > - Send and receive TAO tokens\n > - Native in-app TAO staking\n\n>**1 click swap among Polkadot, Ethereum and Arbitrum**\n>\n>![1 click Cross-chain swap between Polkadot and Ethereum ecosystem - 258x144.png](https://media-resources.subwallet.app/6/1_click_Cross_chain_swap_between_Polkadot_and_Ethereum_ecosystem_258x144_a4b9523381.png)\n>\n>  Thanks to our integration with Chainflip, you can now easily swap among Polkadot, Ethereum and Arbitrum in one cheap transaction. \n > - DOT on Polkadot ↔ ETH, USDC, USDT on Ethereum\n > - DOT on Polkadot ↔ ETH, USDC on Arbitrum",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">1.1.29",
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 177,
+      "name": "What’s new in SubWallet",
+      "description": "Mobile",
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 121,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 122,
+        "label": "Swap",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 153,
+          "url": "subwallet://drawer/transaction-action/swap",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 75,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": ">**Unified account now LIVE on mobile app!** \n>\n>![Unified account.png](https://media-resources.subwallet.app/6/Unified_account_ac0f330372.png)\n>\n > With only one unified account, you can keep track of all your tokens and NFTs on 200+ networks across Ethereum, Polkadot and TON ecosystems. No more account-switching hassle.\n\n>**SubWallet now supports TON network** \n>\n>![TON support - 358x144.png](https://media-resources.subwallet.app/6/TON_support_358x144_3c0105280e.png)\n>\n> Send & receive TON and USD₮; plus create, import, or export TON accounts — you can do it all in SubWallet.",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.2.2",
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 183,
+      "name": "What’s new in SubWallet",
+      "description": null,
+      "start_time": "2025-02-09T17:00:00.000Z",
+      "stop_time": "2025-02-23T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 127,
+        "label": "I understand",
+        "color": "primary",
+        "instruction": null,
+        "action": null
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 77,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![MYTH popup.png](https://media-resources.subwallet.app/6/MYTH_popup_7e5a2e583f.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 187,
+      "name": "MYTH Staking is Live",
+      "description": null,
+      "start_time": "2025-03-13T17:00:00.000Z",
+      "stop_time": "2025-03-29T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 129,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 130,
+        "label": "Stake",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 162,
+          "url": "index.html#/home/earning",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 78,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![MYTH staking at tokens home screen - Extension.png](https://media-resources.subwallet.app/MYTH_staking_at_tokens_home_screen_Extension_b6017fa4c5.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.2.7",
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 190,
+      "name": "MYTH Staking is Live",
+      "description": null,
+      "start_time": "2025-03-19T17:00:00.000Z",
+      "stop_time": "2025-04-02T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 131,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 132,
+        "label": "Stake",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 165,
+          "url": "subwallet://home/main/earning/earning-pool-list?group=MYTH-Mythos&symbol=MYTH",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 80,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![MYTH popup.png](https://media-resources.subwallet.app/6/MYTH_popup_7e5a2e583f.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 194,
+      "name": "MYTH Staking is Live",
+      "description": null,
+      "start_time": "2025-03-13T17:00:00.000Z",
+      "stop_time": "2025-06-07T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 134,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 135,
+        "label": "Stake",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 168,
+          "url": "index.html#/transaction/swap",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 81,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![MYTH popup.png](https://media-resources.subwallet.app/6/MYTH_popup_7e5a2e583f.png)",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 196,
+      "name": "MYTH Staking is Live",
+      "description": null,
+      "start_time": "2025-07-08T17:00:00.000Z",
+      "stop_time": "2025-07-09T17:00:00.000Z",
+      "platforms": [
+        "web"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 136,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 137,
+        "label": "Stake",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 170,
+          "url": "https://335d19ea.subwallet-webapp.pages.dev/home/earning",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 82,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "\n> - #### The Kusama Asset Hub migration will begin at around **13:30 UTC on October 7, 2025**, and will take about **6 hours** to complete.<br/>\n> - #### Once completed, **your KSM balances and most features (staking, governance, proxies, etc.) will be migrated from Kusama to Kusama Asset Hub**.<br/>\n> - #### The process is automatic, and **your funds will remain safe**. <br/>\n\n--- \n\n#### Click “Learn more” to view full migration details.",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 203,
+      "name": "KSM migration alert!",
+      "description": null,
+      "start_time": "2025-10-07T12:30:00.000Z",
+      "stop_time": "2025-10-07T20:30:00.000Z",
+      "platforms": [
+        "mobile",
+        "web"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 138,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 139,
+        "label": "Learn more",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 177,
+          "url": "https://support.polkadot.network/support/solutions/articles/65000190561#:~:text=be%20migrated%20automatically.-,What%20would%20happen%20during%20the%20migration%3F,-%E2%84%B9%EF%B8%8F%20GOOD%20TO%20KNOW",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 83,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "> <br/>\n> \n> - #### The Kusama Asset Hub migration will begin at around **13:30 UTC on October 7, 2025**, and will take about **6 hours** to complete.<br/>\n> - #### Once completed, **your KSM balances and most features (staking, governance, proxies, etc.) will be migrated from Kusama to Kusama Asset Hub**.<br/>\n> - #### The process is automatic, and **your funds will remain safe**. <br/>\n\n-----\n#### Click “Learn more” to view full migration details.",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 204,
+      "name": "KSM migration alert!",
+      "description": null,
+      "start_time": "2025-10-07T12:30:00.000Z",
+      "stop_time": "2025-10-07T20:30:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 140,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 141,
+        "label": "Learn more",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 178,
+          "url": "https://support.polkadot.network/support/solutions/articles/65000190561#:~:text=be%20migrated%20automatically.-,What%20would%20happen%20during%20the%20migration%3F,-%E2%84%B9%EF%B8%8F%20GOOD%20TO%20KNOW",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 84,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![In-App Banner – Polkadot Asset Hub Migration (mobile).png](https://content.subwallet.app/uploads/In_App_Banner_Polkadot_Asset_Hub_Migration_mobile_93f5153897.png)\n> - #### The Polkadot Asset Hub migration will begin at around **07:00 UTC on November 4, 2025**, and will take about **8-10 hours** to complete. <br/> &ensp;\n> - #### Once completed, **your DOT balances and most features (staking, governance, etc.) will be migrated from Polkadot to Polkadot Asset Hub**.<br/> &ensp;\n> - #### The process is automatic, and **your funds will remain safe**. <br/>\n\n--- \n&ensp;\n#### Click “Learn more” to view full migration details.",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 208,
+      "name": "DOT migration alert!",
+      "description": null,
+      "start_time": "2025-11-04T05:00:00.000Z",
+      "stop_time": "2025-11-04T18:00:00.000Z",
+      "platforms": [
+        "mobile",
+        "web"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 142,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 143,
+        "label": "Learn more",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 182,
+          "url": "https://support.polkadot.network/support/solutions/articles/65000190561#:~:text=be%20migrated%20automatically.-,What%20would%20happen%20during%20the%20migration%3F,-%E2%84%B9%EF%B8%8F%20GOOD%20TO%20KNOW",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 85,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![In-App Banner – Polkadot Asset Hub Migration (mobile).png](https://content.subwallet.app/uploads/In_App_Banner_Polkadot_Asset_Hub_Migration_mobile_93f5153897.png)\n> - #### The Polkadot Asset Hub migration will begin at around **07:00 UTC on November 4, 2025**, and will take about **8-10 hours** to complete. <br/>\n> - #### Once completed, **your DOT balances and most features (staking, governance, etc.) will be migrated from Polkadot to Polkadot Asset Hub**.<br/>\n> - #### The process is automatic, and **your funds will remain safe**. <br/>\n\n--- \n#### Click “Learn more” to view full migration details.",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 209,
+      "name": "DOT migration alert!",
+      "description": null,
+      "start_time": "2025-11-04T05:00:00.000Z",
+      "stop_time": "2025-11-04T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 144,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 145,
+        "label": "Learn more",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 183,
+          "url": "https://support.polkadot.network/support/solutions/articles/65000190561#:~:text=be%20migrated%20automatically.-,What%20would%20happen%20during%20the%20migration%3F,-%E2%84%B9%EF%B8%8F%20GOOD%20TO%20KNOW",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 86,
+    "priority": 2,
+    "position": "token",
+    "repeat": "once",
+    "content": "![In-App Banner – Asset Hub Migration (extension) (2).png](https://content.subwallet.app/uploads/In_App_Banner_Asset_Hub_Migration_extension_2_165c155f92.png)\n\nStarting from November 4, 2025, your DOT balances, governance, and staking migrate from Polkadot to Polkadot Asset Hub. Following the migration, you will get these benefits:\n\n> - **100x lower existential deposit**: from 1 DOT to 0.01 DOT. <br/> &ensp;\n> - Fees and deposits are **10x cheaper, payable in any token**. <br/> &ensp;\n> - **Expanded asset support**: stablecoins (USDT, USDC) and other ecosystem tokens. <br/> &ensp;\n> - Direct access to trustless Ethereum bridges. <br/> &ensp;\n\n--------\n&ensp;\n#### Click “Learn more” to view full migration details.",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 210,
+      "name": "Polkadot Asset Hub upgrades",
+      "description": null,
+      "start_time": "2025-10-27T17:00:00.000Z",
+      "stop_time": "2025-10-31T17:00:00.000Z",
+      "platforms": [
+        "web",
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 146,
+        "label": "Dismiss",
+        "color": "secondary",
+        "instruction": null,
+        "action": null
+      },
+      {
+        "id": 147,
+        "label": "Learn more",
+        "color": "primary",
+        "instruction": null,
+        "action": {
+          "id": 184,
+          "url": "https://support.polkadot.network/support/solutions/articles/65000190561",
+          "screen": null,
+          "params": null,
+          "is_cancel": null
+        }
+      }
+    ],
+    "conditions": {}
+  },
+  {
+    "id": 87,
+    "priority": 1,
+    "position": null,
+    "repeat": "once",
+    "content": null,
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 214,
+      "name": "Test app popup",
+      "description": "Click ",
+      "start_time": "2025-12-24T05:00:00.000Z",
+      "stop_time": "2025-12-24T09:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": "Android",
+      "is_changelog_popup": null
+    },
+    "buttons": [],
+    "conditions": {}
+  },
+  {
+    "id": 88,
+    "priority": 1,
+    "position": "token",
+    "repeat": "once",
+    "content": "![Swap is live.png](https://media-resources.subwallet.app/Swap_is_live_2d8184d2c3.png)\n\n**Version 1.1.50(364)**\n&ensp;\n- New networks added: Acurast Canary, Humanode Substrate, Humanode EVM\n&ensp;\n- New assets supported: BEEFY on AssetHub and HydraDX, xcDED on Moonbeam \n&ensp;\n- Warning added: Do not transfer cross-chain to an exchange!",
+    "repeat_every_x_days": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "position_params": [],
+    "info": {
+      "id": 219,
+      "name": "What's new?",
+      "description": "Update Version v1.1.50(364)",
+      "start_time": "2024-04-20T17:00:00.000Z",
+      "stop_time": "2024-04-28T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "buttons": [
+      {
+        "id": 152,
+        "label": "I understand",
+        "color": "primary",
+        "instruction": null,
+        "action": null
+      }
+    ],
+    "conditions": {}
   }
 ]
