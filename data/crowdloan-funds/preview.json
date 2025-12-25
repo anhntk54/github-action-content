@@ -9160,5 +9160,18 @@
     "startTime": "2025-08-26T01:48:00.000Z",
     "endTime": "2027-06-29T01:48:00.000Z",
     "chain": null
+  },
+  {
+    "paraId": null,
+    "fundId": null,
+    "status": "won",
+    "metadata": null,
+    "relayChain": "kusama",
+    "auctionIndex": null,
+    "firstPeriod": null,
+    "lastPeriod": null,
+    "startTime": null,
+    "endTime": null,
+    "chain": null
   }
 ]
