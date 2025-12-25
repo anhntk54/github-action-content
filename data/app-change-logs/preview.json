@@ -1,30 +1,64 @@
 [
   {
     "id": 1,
-    "title": "Version 1",
+    "title": "test change log",
     "platform": "extension",
-    "version": "1.3.6",
-    "content": "1",
+    "version": "SubWallet v 1.3.70",
+    "content": "Test app change log",
     "buttons": [
       {
-        "id": 1,
-        "label": "OK",
+        "id": 148,
+        "label": "Now",
         "color": "primary",
         "instruction": {
-          "id": 2,
-          "confirm_label": "Hello",
-          "cancel_label": "Bye",
-          "instruction_id": 2,
-          "group": "earning",
-          "slug": "NATIVE_STAKING"
+          "id": 103,
+          "confirm_label": null,
+          "cancel_label": null,
+          "instruction": null
         },
-        "action": {
-          "id": 2,
-          "url": "/home",
-          "screen": "Home",
-          "params": null,
-          "is_cancel": true
-        }
+        "action": null
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "test change log",
+    "platform": "extension",
+    "version": "SubWallet v 1.3.70",
+    "content": "Test app change log",
+    "buttons": [
+      {
+        "id": 150,
+        "label": "Now",
+        "color": "primary",
+        "instruction": {
+          "id": 106,
+          "confirm_label": null,
+          "cancel_label": null,
+          "instruction": null
+        },
+        "action": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "test change log",
+    "platform": "extension",
+    "version": "SubWallet v 1.3.70",
+    "content": "Test app change log",
+    "buttons": [
+      {
+        "id": 151,
+        "label": "Now",
+        "color": "primary",
+        "instruction": {
+          "id": 108,
+          "confirm_label": null,
+          "cancel_label": null,
+          "instruction": null
+        },
+        "action": null
       }
     ]
   }
