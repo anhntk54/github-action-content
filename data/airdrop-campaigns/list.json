@@ -1,79 +1,1489 @@
 [
   {
-    "id": 10,
-    "name": "$DED is LIVE1",
+    "id": 100,
+    "name": "Test airdrop campaign 22",
     "status": "live",
     "ordinal": 1,
-    "description": "Hop in to explore DOT Is $DED Zealy community, and pledge yourself to $DED!\n\nOver 4000 DOT in rewards across 3 stages!\n\nPhase $DED is LIVE - Reward Pool: 1.400 DOT\n\n📅 Duration: 02/12 - 02/26 (3pm CET)\n",
-    "start_time": "2024-02-11T17:00:00.000Z",
-    "end_time": "2024-02-26T14:00:00.000Z",
-    "url": "https://bit.ly/zealyded",
-    "twitter_url": "https://twitter.com/dotisded",
-    "reward": "1,400 DOT",
+    "description": "Testing here here",
+    "start_time": "2025-12-24T04:00:00.000Z",
+    "end_time": "2025-12-24T07:00:00.000Z",
+    "url": "https://airlyft.one/polimec/april-2025",
+    "twitter_url": "https://x.com/polimecprotocol",
+    "reward": "100",
+    "total_winner": "10",
+    "total_supply": "20000",
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://app.polimec.org/",
+    "project_id": [
+      "subwallet_extension"
+    ],
+    "logo": "/uploads/polimec_308c6e9fbc_7889426102.png",
+    "backdrop_image": "/uploads/polimec_308c6e9fbc_7889426102.png",
+    "chains": [
+      "acala_evm"
+    ],
+    "categories": [
+      {
+        "color": "green",
+        "name": "Data",
+        "slug": "data"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Test airdrop campaign ",
+    "status": "live",
+    "ordinal": 1,
+    "description": "testing here",
+    "start_time": "2025-12-24T04:00:00.000Z",
+    "end_time": "2025-12-24T07:00:00.000Z",
+    "url": "https://airlyft.one/polimec/april-2025",
+    "twitter_url": "https://x.com/polimecprotocol",
+    "reward": "100",
+    "total_winner": "10",
+    "total_supply": "20000",
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://app.polimec.org/",
+    "project_id": [
+      "subwallet_extension"
+    ],
+    "logo": "/uploads/polimec_308c6e9fbc_7889426102.png",
+    "backdrop_image": "/uploads/polimec_308c6e9fbc_7889426102.png",
+    "chains": [
+      "acala_evm"
+    ],
+    "categories": [
+      {
+        "color": "green",
+        "name": "Data",
+        "slug": "data"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Join Tanssi Let’s Forkin’ Dance Season 3 campaign",
+    "status": "live",
+    "ordinal": 36,
+    "description": "Season 3 marks a new phase for Tanssi: the network is live, mainnet is running, and every interaction now carries on-chain weight. What began as a campaign to test and expand the Tanssi ecosystem has now become a system of measurable traction, connecting community, builders, and creators in a live, verifiable growth loop.\n\nThe campaign officially starts on Wednesday, December 3, with early access opening on Tuesday, November 25, for participants holding an Early Bird or OG Pass role on Discord.\n\nEverything in Let’s Forkin’ Dance Season 3 runs through the LFD dashboard, a live on-chain map that connects all parts of the campaign. Participants can see their quests, progress, points, and collectibles in one place, with each area representing a core layer of the Tanssi ecosystem.",
+    "start_time": "2025-11-24T17:00:00.000Z",
+    "end_time": null,
+    "url": "https://lfd.tanssi.network/",
+    "twitter_url": "https://twitter.com/TanssiNetwork",
+    "reward": null,
+    "total_winner": null,
+    "total_supply": null,
+    "tags": [
+      "manual_selection"
+    ],
+    "campaign_url": "https://www.tanssi.network/",
+    "project_id": null,
+    "logo": "/uploads/tanssi_2e13dc9c66.png",
+    "backdrop_image": "/uploads/image_827c07f0c8.png",
+    "chains": [
+      "dancelight",
+      "tanssi"
+    ],
+    "categories": [
+      {
+        "color": "cyan",
+        "name": "DeFi",
+        "slug": "defi"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Earn from 210M PEAQ pool with peaq’s Get Real Season 2",
+    "status": "archived",
+    "ordinal": 37,
+    "description": "Get Real Season 2 is here\nGet rewarded for creating real-world value by using apps on peaq\nTotal campaign reward pool: 210,000,000 $PEAQ\nBegin → https://get-real.peaq.xyz",
+    "start_time": "2025-09-16T06:00:00.000Z",
+    "end_time": "2025-10-16T06:00:00.000Z",
+    "url": "https://portal.peaq.xyz/?ref=ulG4rYVZG",
+    "twitter_url": "https://x.com/peaq",
+    "reward": "210M PEAQ",
+    "total_winner": null,
+    "total_supply": null,
+    "tags": [
+      "manual_selection"
+    ],
+    "campaign_url": "https://www.get-real.peaq.xyz/",
+    "project_id": null,
+    "logo": "/uploads/Color_light_a60969392d.png",
+    "backdrop_image": "/uploads/I4e_UXAGS_294e05135f.jpg",
+    "chains": [
+      "peaq_evm"
+    ],
+    "categories": [
+      {
+        "color": "purple",
+        "name": "RWA",
+        "slug": "rwa"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Earn from 1M GLMR with Moonbeam’s GLMillionaire campaign",
+    "status": "live",
+    "ordinal": 38,
+    "description": "1 million GLMR. One week. Endless bragging rights.\nGLMillionaire is the on-chain tournament where skill meets opportunity. Built to bring Web3 gaming into the spotlight, this weekly competition turns every match into a chance to win serious rewards.\nWhether you're here to dominate the leaderboards or just take your shot at glory, this is where the next generation of Web3 champions rise.\n\nHow It Works\n• Entry Fee: 10 GLMR per game\n• Daily Cap: Max 5 games/day count toward your score\n• Eligibility: Open to anyone (except users in restricted regions, see rules tab)\n• Tournament Cycle: Each tournament runs for 1 week\n• Prize Pool: Week 1 starts with 1,000,000 GLMR. Future pools come from entry fees.\n\nAll entry fees are reinvested into upcoming tournaments. A final “championship round” will close the series, redistributing any remaining funds as rewards.\n\nHow to Win\nWe track two leaderboards:\n🥇 Highest Score – wins 45% of the prize pool\n🥇 Total Score – wins another 45%\n🥉 Next Top 10 Players (by total score) – split the remaining 10%\n• If there’s a tie for highest score or total score, a streamed playoff match will decide the winner.\n• No double-dipping: If a player wins both Highest Score and Total Score, they only receive the Highest Score prize. They are removed from the Total Score leaderboard and all lower positions move up accordingly (prizes shift up).\n• Winners of the top prize tiers become ineligible for those same spots in future tournaments (to keep things fresh and fair).\nPayouts\n• All prizes are paid in GLMR\n• Winners receive 10% within 30 days of being confirmed, then monthly payouts for the remaining 90%\n• KYC is required to claim prizes\n• Failure to complete KYC within 30 days = disqualification\n\nBuilt for Fair Play\nWe don’t just reward talent, we protect the game:\n• On-chain score verification\n• Multi-account detection\n• Manual and behavioral review\n• Anti-cheat tech baked into the Moondrop platform\n• Publicly streamed tie-breakers\n\nOne account per player. One winner per household. Break the rules? You're out, for good.",
+    "start_time": "2025-08-21T13:00:00.000Z",
+    "end_time": "2025-08-28T12:59:00.000Z",
+    "url": "https://hub.n3mus.com/?referral_code=subwallet",
+    "twitter_url": "https://x.com/MoonbeamNetwork",
+    "reward": "1M GLMR",
+    "total_winner": null,
+    "total_supply": null,
+    "tags": [
+      "manual_selection"
+    ],
+    "campaign_url": "https://moonbeam.network/",
+    "project_id": [
+      "subwallet_webapp",
+      "subwallet_mobile",
+      "subwallet_extension"
+    ],
+    "logo": "/uploads/glmillionaire_6d0c198359.png",
+    "backdrop_image": "/uploads/main_banner_full_size_c4234a1461.webp",
+    "chains": [
+      "moonbeam"
+    ],
+    "categories": [
+      {
+        "color": "magenta",
+        "name": "Gaming",
+        "slug": "gaming"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Join the Soneium Sprint Campaign 25 and get a share of 300 USDT prize pool",
+    "status": "live",
+    "ordinal": 39,
+    "description": "Campaigns got you yawning? 😴\n\nBOOM! Soneium Sprint Campaign 25 is HERE to ignite your engagement! 🔥\n\nThink fun challenges + awesome rewards. ✨\n\nDive into Soneium and:\n\n🧩 Smash quests: Unlock next-level perks!\n💎 Snag SAT NFTs: Real value just for playing.\n🎁 Score exclusive drops: Our partners are showering you with gifts!\n\nDon't just join, dominate the Soneium experience!\n\nSPRINT STARTING NOW! 🗓️\n\n💰 MEGA PERK! RANDOM RAFFLE! 🎲 300 USDT prize pool – up to 30 winners! 🎁",
+    "start_time": "2025-04-25T12:00:00.000Z",
+    "end_time": "2025-05-24T12:00:00.000Z",
+    "url": "https://airlyft.one/community/soneium-sprint-campaign-25",
+    "twitter_url": "https://x.com/soneium",
+    "reward": "300 USDT",
+    "total_winner": "30",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://soneium.org/",
+    "project_id": null,
+    "logo": "/uploads/soneium_580d7b8428.png",
+    "backdrop_image": "/uploads/Soneium_df37e2447c.jpg",
+    "chains": [
+      "soneium"
+    ],
+    "categories": [
+      {
+        "color": "primary",
+        "name": "NFT",
+        "slug": "nft"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Split the pool prize of 1,000 USDT with Polimec May AirLyft Campaign",
+    "status": "live",
+    "ordinal": 40,
+    "description": "The Polimec May AirLyft Campaign is here!\n\nMore inclusive. More opportunities. More impact.\n\nComplete tasks, earn rewards, and play a key role in shaping on-chain fundraising.\n\nTop 20 participants will win → 50 USDT.\n\nJoin today → http://polimec.link/communityhub",
+    "start_time": "2025-05-01T03:00:00.000Z",
+    "end_time": "2025-06-01T02:59:00.000Z",
+    "url": "https://airlyft.one/polimec/april-2025",
+    "twitter_url": "https://x.com/polimecprotocol",
+    "reward": "1,000 USDT",
+    "total_winner": "20",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://app.polimec.org/",
+    "project_id": null,
+    "logo": "/uploads/polimec_308c6e9fbc.png",
+    "backdrop_image": "/uploads/Polimec_Camp_08fad9ec47.png",
+    "chains": [
+      "polimec"
+    ],
+    "categories": []
+  },
+  {
+    "id": 94,
+    "name": "Split the pool prize of 300,000 AVAIL with Avail Odyssey May Campaign",
+    "status": "live",
+    "ordinal": 41,
+    "description": "🚨 A New Sprint Has Begun!\n\nThe latest phase of the Avail Odyssey Campaign is now live on Zealy — and it's packed with fresh quests for our most ambitious community members.\n\n⚔️ New tasks to conquer\n📈 New chances to climb the leaderboard\n🏆 New opportunities to prove you're an Avail champion\n\nThis is your moment to rise. The sprint has started — will you lead the charge?",
+    "start_time": "2025-05-01T10:00:00.000Z",
+    "end_time": "2025-05-31T11:00:00.000Z",
+    "url": "https://zealy.io/cw/availproject/invite/QmtEWn-eUhNRh4SD2tW4e",
+    "twitter_url": "https://x.com/AvailProject",
+    "reward": "300,000 AVAIL",
+    "total_winner": "20",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.availproject.org/",
+    "project_id": null,
+    "logo": "/uploads/avail_16bb040742.png",
+    "backdrop_image": "/uploads/Screenshot_35_c8b36861b1.png",
+    "chains": [
+      "avail_mainnet"
+    ],
+    "categories": []
+  },
+  {
+    "id": 93,
+    "name": "Split the pool prize of 1,000 USDT with Polimec April AirLyft Campaign",
+    "status": "live",
+    "ordinal": 42,
+    "description": "The Polimec April AirLyft Campaign is here!\n\nMore inclusive. More opportunities. More impact.\n\nComplete tasks, earn rewards, and play a key role in shaping on-chain fundraising.\n\nTop 20 participants will win → 50 USDT.\n\nJoin today → http://polimec.link/communityhub",
+    "start_time": "2025-04-01T03:00:00.000Z",
+    "end_time": "2025-05-01T02:59:00.000Z",
+    "url": "https://airlyft.one/polimec/april-2025",
+    "twitter_url": "https://x.com/polimecprotocol",
+    "reward": "1,000 USDT",
+    "total_winner": "20",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://app.polimec.org/",
+    "project_id": null,
+    "logo": "/uploads/polimec_308c6e9fbc.png",
+    "backdrop_image": "/uploads/Polimec_Camp_08fad9ec47.png",
+    "chains": [
+      "polimec"
+    ],
+    "categories": []
+  },
+  {
+    "id": 92,
+    "name": "Be the FIRST and win a share of 50,000 AZERO in prizes with Common Web App waitlist campaign",
+    "status": "archived",
+    "ordinal": 43,
+    "description": "🙀 Another waitlist, another 50,000 AZERO in prizes! 🙀 \n\nThe moment is finally here. We’re excited to announce that the waitlist for the Common Web App is already live! Join in to get early access to the application and an opportunity to win a share of 50,000 AZERO in rewards.\n\nHow to participate: To join the waitlist and compete for early prizes, follow these steps:\n1. Login with your email on Megaphone\n2. Connect your crypto wallet\n3. Follow and engage with Common on X\n4. Generate and share your referral link\n5. Climb the leaderboard\n\nBy getting others to link through your ref link, you’ll get points and climb the leaderboard. \n\nHere's what it looks like at the top:\n🥇 1x10,000 AZERO\n🥈 1x5,000 AZERO\n🥉 1x2,000 AZERO\n🏅 66 winners of 500 AZERO each\n\nThe waitlist signups close before the Mainnet release, so be quick! If there are winners with the same number of points, we'll look at who reached the high score first.\n\nHave fun, and let's make privacy Common!",
+    "start_time": "2025-04-09T14:00:00.000Z",
+    "end_time": "2025-06-08T17:00:00.000Z",
+    "url": "https://common.deform.cc/webapp?referral=Ed1qFXTtIdQc",
+    "twitter_url": "https://x.com/Common__App",
+    "reward": "50,000 AZERO",
+    "total_winner": "69",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://common.fi/",
+    "project_id": [
+      "subwallet_extension",
+      "subwallet_mobile",
+      "subwallet_webapp"
+    ],
+    "logo": "/uploads/common_da3bacbe30.png",
+    "backdrop_image": "/uploads/Common_Camp_9d0c5244ed.jpg",
+    "chains": [
+      "aleph_evm",
+      "aleph"
+    ],
+    "categories": [
+      {
+        "color": "cyan",
+        "name": "DeFi",
+        "slug": "defi"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Share the pool of 10M Tanssi tokens with Tanssi's Let's Forkin' Dance Season 2 campaign",
+    "status": "archived",
+    "ordinal": 44,
+    "description": "Tanssi's Flagship Incentivized Testnet Campaign is Back!\n\nSeason 2 takes you on an exciting journey through Tanssiland—a vibrant gamified world. Guided by Forkie and Coco, you’ll tackle challenges across three unique islands, protecting the Beat that powers it all. Compete for a share of the 10,000,000 Tanssi tokens incentive pool, distributed after the mainnet launch.\n\nHere’s how to get started:\n1️⃣ Log in here: https://lfd.tanssi.network \n2️⃣ Start at LFDegen District and let the groove guide you.\n\nTanssiland is calling—and the Tanssi Mini App is your backstage pass.\n✺ Take on creative, interactive quests.\n✺ Climb the leaderboard—every point matters.\n✺ Join Forkie, Coco, and the community to protect The Beat.\n\nThe allocation is divided across the campaign’s key audiences:\n- Tanssians (General Users): 70% of the pool (7M tokens) is set aside for top-performing general users who engage with the campaign and climb the leaderboard.\n- Network Operators: 30% of the pool (3M tokens) will be distributed to high-performing operators based on a detailed technical evaluation of their contributions.\n\nThe Beat is live, the rhythm is strong, and the clock is ticking. 🕰 Don’t get left behind—join Forkie and Coco in Tanssiland today. Let’s. Forkin’. Dance.",
+    "start_time": "2025-01-22T17:00:00.000Z",
+    "end_time": "2025-05-07T17:00:00.000Z",
+    "url": "https://lfd.tanssi.network/",
+    "twitter_url": "https://twitter.com/TanssiNetwork",
+    "reward": "10M Tanssi",
+    "total_winner": "5625",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.tanssi.network/",
+    "project_id": null,
+    "logo": "/uploads/tanssi_2e13dc9c66.png",
+    "backdrop_image": "/uploads/G_Lcw6_IUXEA_Atbgm_e959660251.jpg",
+    "chains": [
+      "dancebox"
+    ],
+    "categories": [
+      {
+        "color": "magenta",
+        "name": "Gaming",
+        "slug": "gaming"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Split the pool prize of 300,000 AVAIL with Avail Odyssey Campaign",
+    "status": "live",
+    "ordinal": 45,
+    "description": "Avail Odyssey isn’t just another rewards program—it’s a movement for builders, contributors, and leaders. Earn exclusive perks, real recognition, and VIP access while shaping the future of Avail.\n\nWhat is Avail Odyssey?\nAvail Odyssey is a community-driven initiative where engagement, collaboration, and innovation are rewarded. We’ve allocated 300,000 AVAIL tokens to recognize top contributors who help grow the Avail ecosystem.\n\nBeyond tokens, top participants unlock:\n- Early access to product updates, Alphas, and exclusive perks.\n- Whitelist spots for NFT drops, airdrops, and ecosystem rewards.\n- Merch, badges, and bragging rights to showcase your status.\n- Exclusive invites to Avail team discussions, AMAs, and events.\n- Inner circle access with visibility, networking, and potential moderator roles.\nYour contributions—onboarding, content creation, tech engagement—shape Avail’s future and earn real rewards.\n\nHow to Join Avail Odyssey\nEngage, contribute, and be rewarded for growing the Avail community:\n1. Complete Missions on Zealy – Tackle tasks, support members, and earn rewards.\n2. Join Community Events – Participate in AMAs, game nights, and interactive sessions.\n3. Support & Engage – Welcome newcomers, answer questions, and contribute to discussions.\n\nClimb the Ranks & Unlock Rewards\nYour rank in Avail Odyssey determines your influence, rewards, and recognition:\n- Stardust (Explorer-in-Training) – Your starting point in the Avail universe.\n- Space Wanderer (Trailblazer) – Earn 2,500 XP/quarter to qualify for the monthly AVAIL prize pool and perks.\n- Moonwalker (Elite Contributor) – Reach 5,000 XP/quarter to unlock exclusive benefits and greater influence.\n- Availian (The Chosen Few) – The ultimate status for top contributors, granting direct access to the Avail team, a separate AVAIL prize pool, and high-level opportunities.\nThe higher you climb, the greater the rewards!\n\nClaim Your Share of the AVAIL Prize Pool\nEach month, the top 20 participants and those ranked Space Wanderer and Moonwalker earn a share of the AVAIL prize pool. Availians unlock additional exclusive rewards and team access.\n\nBonus Challenges & Hidden Rewards\nExpect mystery flash challenges—high-stakes, surprise tasks that test your creativity, knowledge, and engagement. Exclusive bonus AVAIL rewards await those who rise to the occasion. Stay active and be ready!\n\nThe journey starts now. Are you ready to make your mark in the Avail ecosystem? 🚀",
+    "start_time": "2025-03-03T13:30:00.000Z",
+    "end_time": "2025-03-31T14:30:00.000Z",
+    "url": "https://zealy.io/cw/availproject/invite/QmtEWn-eUhNRh4SD2tW4e",
+    "twitter_url": "https://x.com/AvailProject",
+    "reward": "300,000 AVAIL",
     "total_winner": null,
     "total_supply": null,
     "tags": [
       "points"
     ],
-    "campaign_url": "https://www.dotisded.io/",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/ded_277c75073c.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/GGJJW_63_Ws_AER_Hdh_fef9a37345.jpeg",
+    "campaign_url": "https://www.availproject.org/",
+    "project_id": null,
+    "logo": "/uploads/avail_16bb040742.png",
+    "backdrop_image": "/uploads/Screenshot_35_c8b36861b1.png",
     "chains": [
-      "polkadot"
+      "avail_mainnet"
+    ],
+    "categories": []
+  },
+  {
+    "id": 89,
+    "name": "Get a share of 2 BILLION WUD rewards with WUD Airlyft Campaign - Into the WUD 🪵",
+    "status": "live",
+    "ordinal": 46,
+    "description": "WUD Airlyft Campaign - Into the WUDs 🪵\n\nStep Into the WUDs — a campaign designed to onboard new users into the Polkadot ecosystem while rewarding those who engage with WUD and its partners.\n\nComplete quests to earn XP by:\n\n🪙 Buying WUD with your connected wallet\n🪙 Holding WUD on Hydration\n🪙 Joining community chats\n🪙 Following socials\n🪙 Participating in fun quizzes\n\nThe more XP you earn, the higher your chance of winning! 100 winners will share the 2 BILLION WUD prize pool at the end of the campaign.\n\nMore quests will be added along the way, so be sure to follow our Airlyft page and check daily to stay ahead!",
+    "start_time": "2025-03-02T17:00:00.000Z",
+    "end_time": "2025-04-03T04:00:00.000Z",
+    "url": "https://airlyft.one/gavunwud/into-the-wuds",
+    "twitter_url": "https://x.com/gavunwud",
+    "reward": "2B WUD",
+    "total_winner": "100",
+    "total_supply": null,
+    "tags": [
+      "manual_selection"
+    ],
+    "campaign_url": "https://www.gavunwud.lol/",
+    "project_id": null,
+    "logo": "/uploads/wud_4aa551727c.png",
+    "backdrop_image": "/uploads/Gl_DEK_Fi_Xg_AA_gto_c421254d37.jpg",
+    "chains": [
+      "hydradx_main"
+    ],
+    "categories": []
+  },
+  {
+    "id": 88,
+    "name": "Earn WAVE points and share 40,000 BNC pool prize with Bifrost BNC Explorers Campaign",
+    "status": "live",
+    "ordinal": 47,
+    "description": "Following vBNC’s successful migration from Bifrost-Kusama to Bifrost-Polkadot, we proudly unveil BNC Explorers—the second phase of the Liquid Wave campaign.\n\nThis stage empowers users to mint vBNC, engage with the ecosystem, and prepare for Bifrost Tokenomics 2.0 and step into the new era of Fee Switch.\n\nEarn WAVE points through the following tasks to claim BNC rewards, convertible to bbBNC post-event:\n1. Mint vBNC\n- Earn 5 WAVE per 1 vBNC minted.\n- 10% bonus WAVE for minting during Week 1.\n- Redeeming vBNC during the event deducts corresponding WAVE points.\n\n2. Invite & Earn\n- Inviters receive 10% of their invitees’ minted WAVE points.\n- Example: If Alice invites Bob, and Bob earns 150 WAVE, Alice gains 15 WAVE.\n\n3. Convert Raindrops: Exchange legacy Raindrops points for WAVE at 100:1 during the event.\n\n4. Governance Participation: Voting on designated OpenGov proposals with vBNC unlocks an additional 10% minting bonus.\n\nThe sooner and more WAVE points you earn, the bigger your farmed BNC rewards will be!",
+    "start_time": "2025-02-27T12:00:00.000Z",
+    "end_time": "2025-03-27T12:00:00.000Z",
+    "url": "https://wave.bifrost.io/?inviter=16V5YQ989Ch4fNhvFUaBAd4aXvd2DAkLzRyrNo5g1FGJHZgJ",
+    "twitter_url": "https://x.com/Bifrost",
+    "reward": "40,000 BNC",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://bifrost.io/",
+    "project_id": null,
+    "logo": "/uploads/bifrost_7bc34a05fc.png",
+    "backdrop_image": "/uploads/Frame_1171275226_7958bce4aa_c89d078e75.png",
+    "chains": [
+      "bifrost_dot"
+    ],
+    "categories": [
+      {
+        "color": "cyan",
+        "name": "DeFi",
+        "slug": "defi"
+      },
+      {
+        "color": "geekblue",
+        "name": "Staking",
+        "slug": "staking"
+      }
     ]
   },
   {
-    "id": 11,
-    "name": "PLOT the vDOT with Zeitgeist",
+    "id": 87,
+    "name": "100M ASTR up for grabs with ACS Campaign",
     "status": "live",
-    "ordinal": 2,
-    "description": "Mint vDOT and predict Markets on Zeitgeist !\n20 random winners will share 500 $BNC and 2000 $ZTG.",
-    "start_time": "2024-01-31T17:00:00.000Z",
-    "end_time": "2024-03-01T11:00:00.000Z",
-    "url": "https://bit.ly/airlyft_bifrost_zei",
-    "twitter_url": "https://twitter.com/BifrostFinance",
-    "reward": "500 $BNC and 2000 $ZTG",
+    "ordinal": 48,
+    "description": "The Astar Contribution Score (ACS) campaign is launching on Soneium to drive user adoption, incentivize on-chain activity, and expand the utility of ASTR. Starting on February 20 and running until May 30, ACS will reward users for engaging with the ecosystem—whether through gaming, consumer apps, or liquidity provision.\n\nACS utilizes a score-based model to measure and reward contributions across the Soneium ecosystem. Here’s how it works:\n\n- Users earn ACS points based on their interactions within Soneium, from gaming and consumer applications to liquidity provision.\n- Liquidity providers receive multipliers on their contributions, with ASTR-based liquidity enjoying the highest multiplier to reinforce its role as the ecosystem’s primary asset.\n- Gaming and consumer application users accumulate points based on their engagement, driving real utility across web3 experiences.\n- Projects integrating ASTR play a key role in the campaign, distributing ACS rewards to their users and strengthening the token’s adoption.\n\nOnce the campaign concludes, ACS points will be redeemable for ASTR tokens at a fixed rate of 1 ACS = 0.1 ASTR, directly rewarding users based on their engagement and contributions throughout the event.",
+    "start_time": "2025-02-20T00:00:00.000Z",
+    "end_time": "2025-05-30T00:00:00.000Z",
+    "url": "https://acs.astar.network/",
+    "twitter_url": "https://x.com/AstarNetwork",
+    "reward": "100M ASTR",
+    "total_winner": null,
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://astar.network/",
+    "project_id": null,
+    "logo": "/uploads/astr_eb0e51ec62.png",
+    "backdrop_image": "/uploads/Blog_Header_a317d10366_931fcfe05f.jpg",
+    "chains": [
+      "soneium"
+    ],
+    "categories": []
+  },
+  {
+    "id": 86,
+    "name": "Earn Points with Soneium Conquest on Galxe",
+    "status": "live",
+    "ordinal": 49,
+    "description": "Embark on a new web3 adventure with Soneium Conquest.\n\nDive into a 4-week journey through the heart of the Soneium ecosystem.\n\nCreators, developers, and web3 explorers: this is your moment to connect, learn, and shape the future of Soneium.",
+    "start_time": "2025-01-28T23:00:00.000Z",
+    "end_time": "2025-02-25T23:00:00.000Z",
+    "url": "https://app.galxe.com/quest/Soneium/GC2UgtpsP7",
+    "twitter_url": "https://x.com/soneium",
+    "reward": null,
+    "total_winner": null,
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://soneium.org/en/",
+    "project_id": null,
+    "logo": "/uploads/soneium_580d7b8428.png",
+    "backdrop_image": "/uploads/Giakca_MW_8_A_Ap_V_7b419fe2f2.jpeg",
+    "chains": [
+      "soneium"
+    ],
+    "categories": []
+  },
+  {
+    "id": 82,
+    "name": "Share up to $75,000 in RARI rewards with DeFi Days campaign",
+    "status": "live",
+    "ordinal": 50,
+    "description": "DeFi Days by RARI is an 8 week-long campaign, aimed at introducing earning opportunities for creators and collectors through DeFi partnerships on RARI Chain.\n\nRewards: ~$75,000 in RARI & partner tokens\n\nRules:\n- Complete Tasks and Collect NFTs: Engage in various activities to earn NFTs PLUS returns from DeFi.\n- Climb the Leaderboard: Move up the leaderboard based on the number of DeFi Days NFT rewards you've collected and your total transactions.\n- Earn Additional Prizes: Top performers will receive extra rewards based on their leaderboard status.",
+    "start_time": "2024-10-23T17:00:00.000Z",
+    "end_time": "2024-12-11T17:00:00.000Z",
+    "url": "https://superboard.xyz/campaign/defi-days-by-rari",
+    "twitter_url": "https://x.com/RariChain",
+    "reward": "$75,000 in RARI & partner tokens",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://rarichain.org/",
+    "project_id": null,
+    "logo": "/uploads/rari_chain_c5c9b0b514.png",
+    "backdrop_image": "/uploads/De_Fi_Days_by_RARI_db069018f7.jpg",
+    "chains": [
+      "rari"
+    ],
+    "categories": [
+      {
+        "color": "cyan",
+        "name": "DeFi",
+        "slug": "defi"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Earn WAVE points and share 150,000 BNC pool prize with Bifrost Liquid Wave Campaign",
+    "status": "live",
+    "ordinal": 51,
+    "description": "Bifrost Liquid Wave - LST Campers is NOW LIVE!\n\nJump into liquid staking tasks on Liquid Wave to earn WAVE points and unlock your share of a massive 150,000 BNC Prize Pool!\n\nWays to earn include:\n• Liquid stake your $DOT, $MANTA, $GLMR or $ASTR\n• Exchange old Raindrop points at 100:1\n• Invite friends: earn 10% of their WAVE points by minting LSTs\n• WAVE Airdrop: earn 300 extra after reaching 1000 WAVE points\n\nThe sooner and more WAVE points you earn, the bigger your farmed BNC rewards will be!",
+    "start_time": "2024-11-07T17:00:00.000Z",
+    "end_time": "2024-11-29T16:59:00.000Z",
+    "url": "https://wave.bifrost.io/?inviter=14PvQKuKXx3nyGkkca5ZSEDKhqbykJfnqTMLxTr7vdLSEbSZ",
+    "twitter_url": "https://x.com/Bifrost",
+    "reward": "150,000 BNC",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://bifrost.io/",
+    "project_id": null,
+    "logo": "/uploads/bifrost_7bc34a05fc.png",
+    "backdrop_image": "/uploads/Bifrost_Liquid_Wave_general_b9bae0863b.jpg",
+    "chains": [
+      "bifrost_dot"
+    ],
+    "categories": [
+      {
+        "color": "cyan",
+        "name": "DeFi",
+        "slug": "defi"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Jump into peaq's Get Real preseason campaign on Galxe and earn XP rewards",
+    "status": "archived",
+    "ordinal": 52,
+    "description": "📆 Get Real preseason is LIVE!\n\n🚀 Web3 is getting real — on peaq\nSomething huge is happening in crypto, and it's all about rewarding real people creating real value in the real world. Get ready for peaq's groundbreaking Get Real campaign, where you'll discover how Web3 and DePINs are reshaping the world. Complete quests, get to know revolutionary projects, and be part of something unprecedented in crypto.\n\n🏆 Preseason perks\nWe promised otherworldly rewards — and we meant it! Start earning XP now and get a massive 50% XP boost when Season 1 kicks off in December. Early peaqonauts don't just get ahead — they get a supercharge.\n\n🌟 Join the Revolution\nThe future of Web3 isn't just on-chain — it's in the real world, and it starts right here, right now. Don't miss your chance to be part of this infrastructure revolution. Jump into the Get Real preseason on Galxe today and get ready for the out-of-this-world rewards.",
+    "start_time": "2024-11-05T17:00:00.000Z",
+    "end_time": "2025-02-20T17:00:00.000Z",
+    "url": "https://app.galxe.com/quest/peaq/GCug8tVVJL",
+    "twitter_url": "https://x.com/peaq",
+    "reward": "XP",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.peaq.network/",
+    "project_id": [
+      "subwallet_extension",
+      "subwallet_mobile",
+      "subwallet_webapp"
+    ],
+    "logo": "/uploads/peaq_31a6e2dff3.png",
+    "backdrop_image": "/uploads/peaq_s_Get_Real_preseason_b960af979f.jpg",
+    "chains": [
+      "peaq"
+    ],
+    "categories": [
+      {
+        "color": "purple",
+        "name": "RWA",
+        "slug": "rwa"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Split the pool prize of $500 in DOT with Archisinal November Zealy campaign",
+    "status": "live",
+    "ordinal": 53,
+    "description": "Join the Archisinal Zealy Sprint and compete for fantastic rewards!\n\nDon't miss the chance to showcase your skills and contribute to the Archisinal community.\n\nJoin now and take your experience to the next level!\n\nDon't miss the opportunity to compete, learn, and share the Archisinal love! ❤️‍🔥\n\nStarts: 1 November🚦\n\nEnds: 30 November 🏁\n\nTop 40 sprinters are eligible for prizes 👀 Plus, one lucky winner from the top 40 will receive an extra $100",
+    "start_time": "2024-11-01T06:00:00.000Z",
+    "end_time": "2024-11-30T06:00:00.000Z",
+    "url": "https://zealy.io/cw/archisinal/invite/DFANbKcx0OM_q-MYXeasB",
+    "twitter_url": "https://x.com/archisinal",
+    "reward": "$500 in DOT",
+    "total_winner": "40",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.archisinal.io/",
+    "project_id": null,
+    "logo": "/uploads/archisinal_73157c2479.png",
+    "backdrop_image": "/uploads/Archisinal_November_Zealy_campaign_e3b3648dc8.jpg",
+    "chains": [],
+    "categories": [
+      {
+        "color": "purple",
+        "name": "RWA",
+        "slug": "rwa"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Split the pool prize of $400 in DOT with Archisinal October Zealy campaign",
+    "status": "archived",
+    "ordinal": 57,
+    "description": "Join the Archisinal Zealy Sprint and compete for fantastic rewards!\n\nDon't miss the chance to showcase your skills and contribute to the Archisinal community.\n\nJoin now and take your experience to the next level!\n\nDon't miss the opportunity to compete, learn, and share the Archisinal love! ❤️‍🔥\n\nStarts: 1 October 🚦\n\nEnds: 31 October 🏁\n\nTop 20 sprinters are eligible for prizes 👀",
+    "start_time": "2024-10-01T07:00:00.000Z",
+    "end_time": "2024-10-31T06:00:00.000Z",
+    "url": "https://zealy.io/cw/archisinal/invite/DFANbKcx0OM_q-MYXeasB",
+    "twitter_url": "https://x.com/archisinal",
+    "reward": "$400 in DOT",
+    "total_winner": "20",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.archisinal.io/",
+    "project_id": null,
+    "logo": "/uploads/archisinal_73157c2479.png",
+    "backdrop_image": "/uploads/October_Zealy_Sprint_278949b249.jpg",
+    "chains": [],
+    "categories": [
+      {
+        "color": "purple",
+        "name": "RWA",
+        "slug": "rwa"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "2M MYTH up for grabs with Mythical Forest",
+    "status": "archived",
+    "ordinal": 59,
+    "description": "Journey deep into the forest 🌳\n\nGet involved in the ecosystem, complete tasks, and collect crystals for up to 2 Million MYTH.\n\nGet ranked on the leaderboard and win BIG!\n\nEnds 13th October.",
+    "start_time": "2024-09-03T17:00:00.000Z",
+    "end_time": "2024-10-13T16:59:00.000Z",
+    "url": "https://quests.mythical.games/?invite=w-gD8W1W",
+    "twitter_url": "https://x.com/playmythical",
+    "reward": "2M MYTH",
+    "total_winner": "4,000",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://quests.mythical.games/",
+    "project_id": null,
+    "logo": "/uploads/mythos_chain_430c6d1b1e.png",
+    "backdrop_image": "/uploads/Mythical_Forest_Quest_c7a538b384.jpg",
+    "chains": [
+      "mythos"
+    ],
+    "categories": [
+      {
+        "color": "magenta",
+        "name": "Gaming",
+        "slug": "gaming"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Get a share of $200 in USDT rewards with Polimec Zealy Sprint",
+    "status": "archived",
+    "ordinal": 60,
+    "description": "Legend, welcome to the Polimec community! This community page allows you to interact with Polimec-related activities by completing tasks to become your own VC. \n\nLet's start with the basics - You can find a set of tasks in our Welcome Sprint. \n\nPlease complete all tasks as a first step and have the chance to win some stables in our lottery!",
+    "start_time": "2024-09-06T07:00:00.000Z",
+    "end_time": "2024-09-20T07:00:00.000Z",
+    "url": "https://zealy.io/cw/polimec/invite/lQA1Q4vKGuuYuYdXvRym9",
+    "twitter_url": "https://x.com/PolimecProtocol",
+    "reward": "200 USDT",
+    "total_winner": "20",
+    "total_supply": null,
+    "tags": [
+      "manual_selection"
+    ],
+    "campaign_url": "https://www.polimec.org/",
+    "project_id": null,
+    "logo": "/uploads/polimec_ddd1a7c51d.png",
+    "backdrop_image": "/uploads/Polimec_Zealy_campaign_6422ae7916.png",
+    "chains": [
+      "polimec"
+    ],
+    "categories": []
+  },
+  {
+    "id": 75,
+    "name": "Win a share of $100,000 in GLMR with Moonrise Points",
+    "status": "archived",
+    "ordinal": 61,
+    "description": "As a refresher, we’re talking about $100,000 in prizes for exploring the Moonbeam DeFi ecosystem.\n\nAs you complete Moonrise quests, you’ll interact with projects both on-chain and on X, earning Points along the way. The more Points you collect, the higher you’ll climb on the leaderboard.\n\nThe top 100 leaderboard participants will receive USD or GLMR prizes as follows:\n\nTop 1: $10,000 in GLMR\n\nTop 2 - 10: $3,000 in GLMR\n\nTop 11 - 30: $1,500 in GLMR\n\nTop 31 - 50: $750 in GLMR\n\nTop 51 - 100: $360 in GLMR",
+    "start_time": "2024-08-05T17:00:00.000Z",
+    "end_time": "2024-09-30T16:59:00.000Z",
+    "url": "https://quests.moonbeam.network/",
+    "twitter_url": "https://x.com/MoonbeamNetwork",
+    "reward": "$100,000 in GLMR",
+    "total_winner": "100",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://moonbeam.network/",
+    "project_id": null,
+    "logo": "/uploads/moonbeam_fe54e27668.png",
+    "backdrop_image": "/uploads/Moonrise_Points_5e33863236.jpg",
+    "chains": [
+      "moonbeam"
+    ],
+    "categories": [
+      {
+        "color": "cyan",
+        "name": "DeFi",
+        "slug": "defi"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Share $1,000 pool prize in DOT with Sparkfest Summer With MultiMedia NFTs contest",
+    "status": "archived",
+    "ordinal": 62,
+    "description": "🌞 Sparkfest Summer With MultiMedia NFTs is here! Join Our Campaign and Ignite Your NFT Journey! \n\n🌟 Get ready to dive into the latest innovations in the NFT space with our four-week Sparkfest Summer campaign! Whether you’re a creator, developer, or NFT enthusiast, this is your chance to learn, mint, and interact with NFTs in groundbreaking ways while climbing the Zealy leaderboard and earning exciting rewards! \n\n📌 Campaign Overview: \n\n• Duration: 4 Weeks of Non-Stop NFT Action \n\n• Rewards pool: $1,000 in DOT",
+    "start_time": "2024-08-27T09:30:00.000Z",
+    "end_time": "2024-09-24T10:00:00.000Z",
+    "url": "https://zealy.io/cw/unique/invite/wgV1vdPIgQN3G0fq3vXJ9",
+    "twitter_url": "https://twitter.com/Unique_NFTchain",
+    "reward": "$1,000 in DOT",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://unique.network/",
+    "project_id": null,
+    "logo": "/uploads/unique_network_b207ab1ac7.png",
+    "backdrop_image": "/uploads/f6036ba9_2397_4fc3_adb4_3f6aadd158b9_2024_08_27163422_271bbb9156.jpg",
+    "chains": [
+      "unique_network"
+    ],
+    "categories": [
+      {
+        "color": "primary",
+        "name": "NFT",
+        "slug": "nft"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Split the pool prize of $400 in DOT with Archisinal September Zealy campaign",
+    "status": "archived",
+    "ordinal": 63,
+    "description": "Join the Archisinal Zealy Sprint and compete for fantastic rewards!\n\nDon't miss the chance to showcase your skills and contribute to the Archisinal community.\n\nJoin now and take your experience to the next level!\n\nDon't miss the opportunity to compete, learn, and share the Archisinal love! ❤️‍🔥\n\nStarts: 2 September 🚦\n\nEnds: 30 September 🏁\n\nTop 20 sprinters are eligible for prizes 👀",
+    "start_time": "2024-09-02T08:00:00.000Z",
+    "end_time": "2024-09-30T08:00:00.000Z",
+    "url": "https://zealy.io/cw/archisinal/invite/DFANbKcx0OM_q-MYXeasB",
+    "twitter_url": "https://x.com/archisinal",
+    "reward": "$400 in DOT",
+    "total_winner": "20",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.archisinal.io/",
+    "project_id": null,
+    "logo": "/uploads/archisinal_73157c2479.png",
+    "backdrop_image": "/uploads/G_Wi_NGH_Ws_AE_0sgj_4d9887767f.jpg",
+    "chains": [],
+    "categories": [
+      {
+        "color": "purple",
+        "name": "RWA",
+        "slug": "rwa"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Grab 2,500 PLMC prize pool with Polimec Polkadot Achievers Campaign",
+    "status": "archived",
+    "ordinal": 65,
+    "description": "Welcome to the Polimec PolkAchievers Campaign!\n\nPolimec Protocol, in collaboration with Airlyft, is launching a campaign called Polkadot Achievers Campaign. Participate, get your Polimec NFT, and be one of ten lucky winners who have the opportunity to win 250 PLMC by completing all Campaign Tasks.",
+    "start_time": "2024-08-19T09:00:00.000Z",
+    "end_time": "2024-09-19T09:00:00.000Z",
+    "url": "https://polkadot.airlyft.one/polimec/polkachievers-polimec-season-1-kick-off",
+    "twitter_url": "https://x.com/PolimecProtocol",
+    "reward": "2,500 PLMC",
+    "total_winner": "10",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw",
+      "fcfs"
+    ],
+    "campaign_url": "https://www.polimec.org/",
+    "project_id": null,
+    "logo": "/uploads/polimec_9b0493a626.png",
+    "backdrop_image": "/uploads/2024_08_19_10_21_44_de4e5b321a.jpg",
+    "chains": [
+      "polimec"
+    ],
+    "categories": [
+      {
+        "color": "primary",
+        "name": "NFT",
+        "slug": "nft"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Share 10M AJUN pool prize with BBB campaign - use the code 2758",
+    "status": "archived",
+    "ordinal": 66,
+    "description": "USE CODE: 2758\n\n10M AJUN are up for grabs for those who create Legendary Ballz, an additional 50 prizes of 1,000 AJUN are being sent out amongst those who complete the AirLyft Onboarding Campaign!\n\nBBB is Ajuna Network's second collective-based game, similar to AAA gameplay, but with some twists. BBB is our first game to test a free-2-play model, affiliate system, and incentivized tournaments. Furthermore, it’s an explorative game to enter the mobile market and prepare for the adoption of more complex titles. \n\nMost importantly, it's being used to transition from Bajun Network to Ajuna Network and reward those who participate in the game over the next couple months, with our mainnet token.",
+    "start_time": "2024-07-14T17:00:00.000Z",
+    "end_time": "2024-09-21T17:00:00.000Z",
+    "url": "https://airlyft.one/ajuna/bbbonboard",
+    "twitter_url": "https://x.com/AjunaNetwork",
+    "reward": "10M AJUN",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://bbb.ajuna.io/",
+    "project_id": null,
+    "logo": "/uploads/awesome_ajuna_avatars_815d036a61.png",
+    "backdrop_image": "/uploads/BBB_55e52d8f50.jpeg",
+    "chains": [
+      "bajun"
+    ],
+    "categories": [
+      {
+        "color": "magenta",
+        "name": "Gaming",
+        "slug": "gaming"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Split the pool prize of $400 in DOT with Archisinal August Zealy campaign",
+    "status": "archived",
+    "ordinal": 67,
+    "description": "Join the Archisinal Zealy Sprint and compete for fantastic rewards!\n\nDon't miss the chance to showcase your skills and contribute to the Archisinal community.\n\nJoin now and take your experience to the next level!\n\nDon't miss the opportunity to compete, learn and share the Archisinal love! ❤️‍🔥\n\nStarts: 1 August 🚦\nEnds: 31 August 🏁\n\nTop 20 sprinters are eligible for prizes 👀",
+    "start_time": "2024-08-01T12:00:00.000Z",
+    "end_time": "2024-08-31T12:00:00.000Z",
+    "url": "https://zealy.io/cw/archisinal/invite/DFANbKcx0OM_q-MYXeasB",
+    "twitter_url": "https://x.com/archisinal",
+    "reward": "$400 in DOT",
+    "total_winner": "20",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.archisinal.io/",
+    "project_id": null,
+    "logo": "/uploads/archisinal_73157c2479.png",
+    "backdrop_image": "/uploads/Archisinal_August_Zealy_campaign_ddfa0b623d.jpg",
+    "chains": [],
+    "categories": [
+      {
+        "color": "purple",
+        "name": "RWA",
+        "slug": "rwa"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Win $3,000 prize pool with Credit Farm campaign on Playnation",
+    "status": "archived",
+    "ordinal": 67,
+    "description": "Rise to the challenge and become a Penguin farmer who makes a real-world impact! \n\nAirdrops are distributed via raffles. \n\nHow to earn raffles:\n1. Top 250 on Credit Farm leaderboard:\nLeaderboard rankings are based on your Earn Speed (blue coin-per-second) in the game. Top 250 players are eligible for raffles. 1st rank has up to 5 raffles allocated!\n\n2. Weekly top inviters:\nEach week during the four weeks of the campaign, top 10 inviters on the Weekly Top Inviters leaderboard are rewarded with raffles. \n\n3. Weekly top new farmers:\nNewbie farmers can compete in the new Weekly New Farmer Leaderboard. Each week, from Monday 0:00 UTC to Sunday 23:59 UTC, a new farmer is defined as playing Credit Farm for the first time within that week.\n\n4. Social event winners:\nWinners in social events during the campaign time can earn additional raffles.",
+    "start_time": "2024-08-07T12:30:00.000Z",
+    "end_time": "2024-08-23T16:59:00.000Z",
+    "url": "https://t.me/Playnation_bot/app",
+    "twitter_url": "https://x.com/playnationapp",
+    "reward": "$3,000",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw",
+      "points"
+    ],
+    "campaign_url": "https://t.me/Playnation_bot",
+    "project_id": null,
+    "logo": "/uploads/creditcoin_448a940bb0.png",
+    "backdrop_image": "/uploads/Creditcoin_x_Playnation_airdrop_campaign_9ec0520629.jpg",
+    "chains": [
+      "creditcoin",
+      "creditcoinTest"
+    ],
+    "categories": [
+      {
+        "color": "magenta",
+        "name": "Gaming",
+        "slug": "gaming"
+      },
+      {
+        "color": "purple",
+        "name": "RWA",
+        "slug": "rwa"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Grab your share of $9,500 pool prize in VARA with Vara Kick-to-Airdrop campaign",
+    "status": "archived",
+    "ordinal": 68,
+    "description": "Participants can receive airdrops through a raffle system. Raffle entries can be purchased using NPS at an exchange rate of 10,000 NPS for 1 raffle entry.\n\nAfter a snapshot, the system will calculate and allocate the number of raffle entries purchased with NPS for each participant.\n\nThe detailed mechanism is as follows:\n\n1. Based on Vara Football Leaderboard: The top 400 players on the leaderboard will have the right to purchase raffle entries with NPS. Higher rankings will allow for more raffle entries.\n2. Based on Vara Onchain Check-In Leaderboard: The top 50 participants will have the right to purchase raffle entries with NPS.\n3. Based on Invite Leaderboard: The top 50 participants will have the right to purchase raffle entries with NPS. The more friends invited, the more raffle entries can be purchased.\n4. Social Event Activities: Participate in social activities to earn additional raffle entries with NPS.\n\nNote: Each raffle entry guarantees a 100% chance of winning VARA tokens with a minimum value of $5. The number of raffle entries a player can obtain is unlimited.",
+    "start_time": "2024-07-10T10:00:00.000Z",
+    "end_time": "2024-08-05T03:00:00.000Z",
+    "url": "https://t.me/Playnation_bot/app",
+    "twitter_url": "https://x.com/playnationapp",
+    "reward": "$9,500 in VARA",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://t.me/Playnation_bot",
+    "project_id": null,
+    "logo": "/uploads/vara_f9bf9c78f7.png",
+    "backdrop_image": "/uploads/photo_2025_10_08_18_42_39_e530f492d9.jpg",
+    "chains": [
+      "vara_network"
+    ],
+    "categories": [
+      {
+        "color": "magenta",
+        "name": "Gaming",
+        "slug": "gaming"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Split the pool prize of $400 in DOT with Archisinal July Zealy campaign",
+    "status": "archived",
+    "ordinal": 70,
+    "description": "Join the Archisinal Zealy Sprint and compete for fantastic rewards!\n\nDon't miss the chance to showcase your skills and contribute to the Archisinal community.\n\nJoin now and take your experience to the next level!\n\nDon't miss the opportunity to compete, learn and share the Archisinal love! ❤️‍🔥\n\nStarts: 1 July 🚦\nEnds: 31 July 🏁\n\nTop 20 sprinters are eligible for prizes 👀",
+    "start_time": "2024-07-01T11:00:00.000Z",
+    "end_time": "2024-07-31T02:00:00.000Z",
+    "url": "https://zealy.io/cw/archisinal/invite/DFANbKcx0OM_q-MYXeasB",
+    "twitter_url": "https://x.com/archisinal",
+    "reward": "$400 in DOT",
+    "total_winner": "20",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.archisinal.io/",
+    "project_id": null,
+    "logo": "/uploads/archisinal_73157c2479.png",
+    "backdrop_image": "/uploads/G_Rafii0bs_AAOGSB_11d8cce4c0.jpg",
+    "chains": [],
+    "categories": [
+      {
+        "color": "purple",
+        "name": "RWA",
+        "slug": "rwa"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Join Tanssi's Let's Forkin' Dance incentivized testnet campaign to share the pool of 4M tokens",
+    "status": "archived",
+    "ordinal": 71,
+    "description": "Let's Forkin' Dance Is Here!\n\n'Let's Forkin' Dance' - Tanssi's incentivized testnet campaign is a mix of on-chain and off-chain quests designed for the Tanssi community. Whether you're a developer, a casual user, or a key network supporter, there's something for you.\n\n1% of the Tanssi Network is reserved for this campaign - which is the first campaign ever hosted by the Tanssi Foundation. 40% of the incentives pool, which amounts to 4M tokens, will be allocated to the Tanssians track with only the top 4000 participants receiving it. Stay tuned that more is coming up!\n\nThe campaign launches on April 30, 2024. To stay ahead, set an alert or join the Tanssi communities, ensuring you're one of the first to access the LFD campaign portal.\n\nLFD plays a critical role in the upcoming launch of the Tanssi Network. Engaged participants not only earn incentives but also get to significantly contribute to the network's live environment.",
+    "start_time": "2024-04-29T17:00:00.000Z",
+    "end_time": "2024-08-28T16:59:00.000Z",
+    "url": "https://lfd.tanssi.network/",
+    "twitter_url": "https://twitter.com/TanssiNetwork",
+    "reward": "4M Tanssi tokens",
+    "total_winner": "4000",
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.tanssi.network/",
+    "project_id": null,
+    "logo": "/uploads/tanssi_2e13dc9c66.png",
+    "backdrop_image": "/uploads/Tanssi_Network_Let_s_Forkin_Dance_ebcf7a8a63.jpg",
+    "chains": [
+      "dancebox"
+    ],
+    "categories": []
+  },
+  {
+    "id": 50,
+    "name": "Win ASTR token with Astar Stake campaign on AirLyft",
+    "status": "archived",
+    "ordinal": 71,
+    "description": "Stake ASTR tokens on the AirLyft dApp, and stand a chance to win more ASTR tokens!\n\n🤯 Rewards:\n- Winners will share 50% of the amount received from dApp staking to the AirLyft Dapp in 4 weeks. We don't know the final amount, that's up to you\n\n🏆 How To Win:\n- Score more XP by proving your stake.\n- Refer friends and perform the bonus tasks for EVEN more XP.\n- Climb the leaderboard for a Ranked Random Raffle at the end of the campaign to choose the winners. The pool will be equally divided amongst all of the 50 drawn winners.\n- Winners will be drawn after a few days of the campaign. \n- Remember to come back when we announce the winners to claim your reward!",
+    "start_time": "2024-06-18T19:55:00.000Z",
+    "end_time": "2024-07-19T18:29:00.000Z",
+    "url": "https://airlyft.one/community/astar-stake-on-airlyft",
+    "twitter_url": "https://x.com/airlyftone",
+    "reward": "N/A",
+    "total_winner": "50",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://airlyft.one/",
+    "project_id": null,
+    "logo": "/uploads/airlyft_f23e57e74e.png",
+    "backdrop_image": "/uploads/Astar_Stake_on_Airlyft_campaign_1d91ee54fd.png",
+    "chains": [
+      "astarZkEvm",
+      "astarEvm"
+    ],
+    "categories": [
+      {
+        "color": "geekblue",
+        "name": "Staking",
+        "slug": "staking"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Share $4,750 pool prize in DED with $DED Egg Hunt Airdrop campaign",
+    "status": "archived",
+    "ordinal": 73,
+    "description": "✈️ The '$DED Egg Hunt Airdrop' campaign is now live! ✈️\n\nDon't let our beloved users wait anymore! We're pleased to announce - The DED Airdrop event has officially started with a prize pool of $4,750 (distributed in $DED token).\n\nDuration: June 26 - July 10\n\nWhy you shouldn't miss it?\n🔥 Guaranteed 100% TOKEN Wins.\n🔥 Each raffle now ranges from $2.5 to $10. \n🔥 A completely new mechanism: Raffle Purchase  \n\nWho's eligible to get Airdrop?\n1. Top DED Huntdrop Leaderboard\n- Time: 26 June - 10 July\n- Top 265 NPS holders can purchase raffles with $NPS. Higher ranks get more raffles.\n\n2. Early Adopter Leaderboard\n- Time: 15 Apr - 14 June\n- Top 150 (Apr 15 - May 15) and Top 100 (June 1 - 14) NPS holders can purchase up to 3 raffles. \n\n3. Social Event Winners\n- Time: 26 June - 10 July\n- Participate in events on Playnation's channels to earn raffles.\n\n4. Top Inviters\n- Time: 15 Apr - 10 July\n- Top inviters will receive raffle gifts from Playnation.\n\n‼️ NOTE: \n- For Top Leaderboards who are eligible for Raffle Purchase, you can buy with 30,000 NPS/ raffle, which will be open for sale from July 12 - July 19.\n- You can win multiple types of raffle, depending on your efforts.",
+    "start_time": "2024-06-26T03:00:00.000Z",
+    "end_time": "2024-07-10T16:59:00.000Z",
+    "url": "https://t.me/Playnation_bot/app?startapp=9PC9uVeRx",
+    "twitter_url": "https://x.com/playnationapp",
+    "reward": "$4,750 in DED",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://t.me/Playnation_bot",
+    "project_id": null,
+    "logo": "/uploads/ded_277c75073c.png",
+    "backdrop_image": "/uploads/DED_x_Playnation_Airdrop_2f3db3294a.png",
+    "chains": [
+      "statemint",
+      "moonbeam"
+    ],
+    "categories": [
+      {
+        "color": "magenta",
+        "name": "Gaming",
+        "slug": "gaming"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Share the pool of $2,000 in PEN with Break testnet on Pendulum's Forex AMM campaign on Airlyft",
+    "status": "archived",
+    "ordinal": 74,
+    "description": "Welcome to the Break testnet on Pendulum for testing the Forex AMM powered by Nabla tech. \n\nJoin in testing the Forex AMM powered by Nabla and provide valuable feedback.\n\nJoining in is easy, just grab a wallet and you are good to go!\n\nHow to Participate:\n1. Setup a wallet (suggested wallet: SubWallet)\n2. Start testing! \n\nReward Structure:\nTotal Pool: $2,000 in PEN\n\nTwo Ways to Win:\n- $1,500 Raffle:\nComplete all tasks to enter.\nAll participants who complete the tasks will be entered into a raffle.\n5 winners will be randomly selected, each receiving $300 worth of PEN.\n- $500 Best Feedback:\nThe final task is to provide feedback.\nThe top 5 most detailed feedback submissions will each win $100 worth of PEN.",
+    "start_time": "2024-07-01T14:00:00.000Z",
+    "end_time": "2024-07-10T16:00:00.000Z",
+    "url": "https://airlyft.one/pendulum/spacewalk-product-pioneers-1706078974093",
+    "twitter_url": "https://x.com/pendulum_chain",
+    "reward": "$2,000 in PEN",
+    "total_winner": "10",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw",
+      "manual_selection"
+    ],
+    "campaign_url": "https://pendulumchain.org/",
+    "project_id": null,
+    "logo": "/uploads/pendulum_a813a4cfd4.png",
+    "backdrop_image": "/uploads/GR_8_Lcw0b_YA_Abl_HN_031a9bcb0d.jpg",
+    "chains": [
+      "pendulum"
+    ],
+    "categories": [
+      {
+        "color": "cyan",
+        "name": "DeFi",
+        "slug": "defi"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Win 697,000 PINK prize pool with The Sky is $PINK 🎀 (Moonrise Edition) campaign by Airlyft",
+    "status": "archived",
+    "ordinal": 75,
+    "description": "The excitement continues! Moonbeam and Airlyft are back with part 2 of the PINK token giveaway. This time, the prize pool explodes to a whopping 697,000 PINK tokens 🎀 Participate Now!\n\nRewards:\n15 winners selected manually will receive 13,133 PINK each.\n100 winners from the random raffle will be eligible for a 500,000 PINK pool.\nDon't miss this chance to score big on PINK! The more you participate, the better your odds. Let's make this the PINKest part of the frenzy yet!\n\nP.S. Remember, consistency is key! Make those transactions a daily ritual to maximize your chances of winning.",
+    "start_time": "2024-06-13T18:30:00.000Z",
+    "end_time": "2024-07-04T18:29:00.000Z",
+    "url": "https://airlyft.one/community/the-sky-is-pink-moonrise-edition",
+    "twitter_url": "https://x.com/airlyftone",
+    "reward": "697,000 PINK",
+    "total_winner": "115",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw",
+      "manual_selection"
+    ],
+    "campaign_url": "https://airlyft.one/",
+    "project_id": null,
+    "logo": "/uploads/airlyft_f23e57e74e.png",
+    "backdrop_image": "/uploads/The_Sky_is_PINK_Moonrise_Edition_Airlyft_campaign_dda775e072.png",
+    "chains": [
+      "moonbeam"
+    ],
+    "categories": []
+  },
+  {
+    "id": 27,
+    "name": "Follow StellaSwap on Twitter and win $1000 in GLMR",
+    "status": "archived",
+    "ordinal": 79,
+    "description": "StellaSwap is Polkadot’s EVM super-DEX that facilitates low-slippage trading & real yields.\n\nWith over $1.6B in volume and a 15,000-strong userbase, StellaSwap is the gateway to all things Polkadot.\n\nJoin the StellaSwap Mission and stand a chance to win big! This is your opportunity to dive into the Polkadot ecosystem, be part of our community, and earn rewards.\n\nComplete the tasks to be eligible to win $1,000 in GLMR.",
+    "start_time": "2024-05-05T16:00:00.000Z",
+    "end_time": "2024-06-29T16:00:00.000Z",
+    "url": "https://app.galxe.com/quest/StellaSwap/GCUomtzk4M",
+    "twitter_url": "https://twitter.com/StellaSwap",
+    "reward": "2999 GLMR",
+    "total_winner": "1",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://stellaswap.com/",
+    "project_id": null,
+    "logo": "/uploads/stellaswap_5112d4145b.png",
+    "backdrop_image": null,
+    "chains": [
+      "moonbeam"
+    ],
+    "categories": [
+      {
+        "color": "cyan",
+        "name": "DeFi",
+        "slug": "defi"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Win $2000 in USDT Prize Pool with Creditcoin's Real-World EVM Gamified Testnet campaign",
+    "status": "archived",
+    "ordinal": 81,
+    "description": "The moment you’ve been waiting for! It’s time to showcase your Testnet credentials for a chance to win from the bonus $2,000 in USDT prize pool!\n\nSimply grab Testnet tokens from the Discord Testnet Faucet and start exploring the protocol's and Testnet's main features. Validators and nominators should complete on-chain tasks with your Substrate wallet, while developers can start executing smart contracts using their submitted EVM wallet. Tasks include:\n\n- Using the faucets on Discord to receive Testnet tokens.\n- Completing a range of on-chain activities (e.g. validating, staking, transferring, etc.)\n- Executing smart contracts (developers)\n\nAs you dive deeper into Testnet, write a post or thread on X about Creditcoin with the required tags: $CTC #RWA #Layer1\n\nThen earn bonus points by referring your friends to maximize your chances of winning from the $2000 in USDT prize pool.\n\nParticipate and win by completing the quest now!",
+    "start_time": "2024-04-01T12:00:00.000Z",
+    "end_time": "2024-06-01T04:00:00.000Z",
+    "url": "https://bit.ly/ctc_questn",
+    "twitter_url": "https://twitter.com/Creditcoin",
+    "reward": "50 USDT each",
+    "total_winner": "40",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://creditcoin.org/",
+    "project_id": null,
+    "logo": "/uploads/creditcoin_448a940bb0.png",
+    "backdrop_image": "/uploads/Creditcoin_Quest_N_campaign_328d460006.png",
+    "chains": [
+      "creditcoinTest",
+      "creditcoinTestEvm"
+    ],
+    "categories": []
+  },
+  {
+    "id": 31,
+    "name": "Grab 10M DED reward with Zealy is $DED campaign",
+    "status": "archived",
+    "ordinal": 81,
+    "description": "Zealy is $DED once again!\n\nThe community spoke, and their voices have been heard - join the second Zealy campaign, where 10,000,000 DED is up for grabs.\n\n📅  24/05 5 PM CEST - 25/06 5 PM CEST\n\nJoin now at: https://zealy.io/cw/dotisded",
+    "start_time": "2024-05-24T15:00:00.000Z",
+    "end_time": "2024-06-25T15:00:00.000Z",
+    "url": "https://zealy.io/cw/dotisded",
+    "twitter_url": "https://x.com/dotisded",
+    "reward": "10M DED",
+    "total_winner": "400",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw",
+      "points"
+    ],
+    "campaign_url": "https://bit.ly/dotisded_zealy",
+    "project_id": null,
+    "logo": "/uploads/ded_277c75073c.png",
+    "backdrop_image": "/uploads/Zealy_is_DED_campaign_0b01e26a45.jpg",
+    "chains": [
+      "statemint"
+    ],
+    "categories": []
+  },
+  {
+    "id": 39,
+    "name": "Share 42,000 KAR pool prize with Skyball Game Challenge by Playnation x Karura",
+    "status": "archived",
+    "ordinal": 81,
+    "description": "Karura Token Playdrop: Eligibility & Allocation Rules \n\nIt's your time to shine as we reward your contributions and achievements with Airdrop Raffles. Each raffle is your ticket to winning big rewards from this campaign!\n\n🎁 KAR Airdrop Pool: 42,000 KAR\n\n🔈 AIRDROP MECHANISM:\n⭐️ Top 1500 NPS Holders\n- Snapshot: June 1 -  June 14\n- Raffle Entries: 3 each\n\n⭐️ Top 500 NPS Holders\n- Snapshot: April 15 - May 15\n- Raffle Entries: 3 each\n\n⭐️ Top 100 Inviters\n- Snapshot: April 15 - June 14\n- Raffle Entries: 2 each\n\n⭐️ Social Event Winners\n- Event Period: June 1 - June 14\n- Raffle Entries: 1 each\n\n📆 Time to Claim Your Airdrop Rewards: June 19 - June 25\n\nThe fun doesn't stop. Mark your calendar, get ready to climb up the ranks, and invite more friends for more raffles  - don't miss out!",
+    "start_time": "2024-05-31T17:00:00.000Z",
+    "end_time": "2024-06-24T17:00:00.000Z",
+    "url": "https://x.playnation.app/playnation-share-karura",
+    "twitter_url": "https://x.com/KaruraNetwork",
+    "reward": "42,000 KAR",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://acala.network/karura",
+    "project_id": null,
+    "logo": "/uploads/karura_f0db29b6d2.png",
+    "backdrop_image": "/uploads/Karura_x_Playnation_Airdrop_8ed0ca6108.jpg",
+    "chains": [
+      "karura"
+    ],
+    "categories": [
+      {
+        "color": "magenta",
+        "name": "Gaming",
+        "slug": "gaming"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Get $100 in ACA rewards with Mimir x Acala Multisig Contest",
+    "status": "archived",
+    "ordinal": 81,
+    "description": "🔒Acala x Mimir Multisig Contest🎆\n\n👨🏻💻Complete Galxe tasks and enter Mimir through the exclusive Acala link to create a multisig account, and you can share 100 USD in ACA rewards!\n\n🔐Multisig is a safer account structure!",
+    "start_time": "2024-06-17T16:00:00.000Z",
+    "end_time": "2024-06-24T16:00:00.000Z",
+    "url": "https://app.galxe.com/quest/amn47k6L8KDbFMQpKhsMDx/GCrxwtgiz4",
+    "twitter_url": "https://x.com/Mimir_global",
+    "reward": "$100 in ACA",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "fcfs"
+    ],
+    "campaign_url": "https://app.mimir.global/",
+    "project_id": null,
+    "logo": "/uploads/mimir_bb3a6835d9.png",
+    "backdrop_image": "/uploads/Mimir_x_Acala_Multisig_Contest_6c66a58ca6.png",
+    "chains": [
+      "acala"
+    ],
+    "categories": []
+  },
+  {
+    "id": 29,
+    "name": "Share 400 BNC rewards with Bifrost x Mimir campaign on Airlyft",
+    "status": "archived",
+    "ordinal": 84,
+    "description": "vDOT x Multisig event on Airlyft is live!\n\nCreate a Multisig account on Mimir\nStart Multisig transactions\n\nComplete the assigned tasks and get a chance to share 400 BNC rewards!",
+    "start_time": "2024-05-16T08:00:00.000Z",
+    "end_time": "2024-05-23T08:00:00.000Z",
+    "url": "https://airlyft.one/bifrost/mimir-multisig",
+    "twitter_url": "https://twitter.com/Bifrost",
+    "reward": "400 BNC",
     "total_winner": "20",
     "total_supply": null,
     "tags": [
       "lucky_draw"
     ],
-    "campaign_url": "https://bifrost.app/",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/bifrost_polkadot_b85046fb9e.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/GFL_7p1d_WUA_Eschq_f6004397f2.jpeg",
+    "campaign_url": "https://bifrost.finance/",
+    "project_id": null,
+    "logo": "/uploads/bifrost_44b3c3fd65.png",
+    "backdrop_image": "/uploads/Bifrost_x_Mimir_Airlyft_campaign_1969d67dbd.jpg",
     "chains": [
-      "bifrost_dot",
-      "zeitgeist"
-    ]
+      "bifrost_dot"
+    ],
+    "categories": []
   },
   {
-    "id": 4,
-    "name": "Omni LS - Ecosystem Wallets campaign",
+    "id": 20,
+    "name": "250K STELLA + 1.19M PINK rewards + exclusive OG NFTs with stDOT Boost Campaign",
     "status": "archived",
-    "ordinal": 3,
-    "description": "One of three events leading up to the Unlock of +100 Million $DOT from the first parachain crowdloans, on Polkadot.",
-    "start_time": "2023-10-19T11:00:00.000Z",
-    "end_time": "2023-11-22T12:00:00.000Z",
-    "url": "https://airlyft.one/bifrost-finance/omni-ls-polkadot-wallets",
-    "twitter_url": "https://twitter.com/BifrostFinance",
-    "reward": "1 LS_WALLETS",
+    "ordinal": 85,
+    "description": "A dedicated campaign to spearhead growth for one of the leading DOT LSDs on Polkadot: stDOT!\n\nHere’s what you can earn;\n💰 STELLA & PINK Airdrop\n✅ stDOT Staking Rewards (18.4%)\n👨‍🌾 stDOT Farm Rewards\n🌟 Exclusive OG NFT\n\nAre you ready? 🚀",
+    "start_time": "2024-03-27T16:00:00.000Z",
+    "end_time": "2024-04-27T00:00:00.000Z",
+    "url": "https://bit.ly/stdot_stellaswap",
+    "twitter_url": "https://twitter.com/StellaSwap",
+    "reward": "250K STELLA & 1.19M PINK",
     "total_winner": "N/A",
-    "total_supply": "80,000,000 BNC",
+    "total_supply": null,
+    "tags": [
+      "fcfs",
+      "points"
+    ],
+    "campaign_url": "https://stellaswap.com/",
+    "project_id": null,
+    "logo": "/uploads/stellaswap_5112d4145b.png",
+    "backdrop_image": "/uploads/st_DOT_BOOST_campaign_09a8bcbce9.png",
+    "chains": [
+      "moonbeam",
+      "polkadot"
+    ],
+    "categories": []
+  },
+  {
+    "id": 22,
+    "name": "Win a share of 10,000 USD prize pool with with Avail's debut campaign on Galxe",
+    "status": "archived",
+    "ordinal": 85,
+    "description": "Accelerate the Unification of Web3 with Avail's Debut Campaign!\n\nHurry and participate in Avail's debut quest to claim your point reward.\n\nBy participating, you’ll have the chance to be one of the few lucky winners to share a grand prize pool of $10,000 via raffle!\n\nStay connected with the updates, and unlock special bonus points with different tasks to increase your chances.\n\nStart your Avail quest journey now.",
+    "start_time": "2024-03-31T18:30:00.000Z",
+    "end_time": "2024-04-14T18:30:00.000Z",
+    "url": "https://bit.ly/avail_galxe",
+    "twitter_url": "https://twitter.com/AvailProject",
+    "reward": "10,000 USD",
+    "total_winner": "N/A",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://www.availproject.org/",
+    "project_id": null,
+    "logo": "/uploads/avail_16bb040742.png",
+    "backdrop_image": "/uploads/Avail_Galxe_campaign_ca74389678.jpg",
+    "chains": [
+      "goldberg_testnet"
+    ],
+    "categories": []
+  },
+  {
+    "id": 23,
+    "name": "Split the pool of 1.1M PINK with Moonwell is PINK campaign",
+    "status": "archived",
+    "ordinal": 86,
+    "description": "Moonwell is PINK!\n\nSupply $25 worth of xcDOT liquidity\nSupply $25 worth of GLMR liquidity\nStake $25 worth of WELL liquidity\nVote on a governance proposal\nLike & retweet the campaign announcement\n\nComplete all tasks to win an equal share of Moonwell's PINK token allocation.",
+    "start_time": "2024-04-06T04:00:00.000Z",
+    "end_time": "2024-05-07T04:00:00.000Z",
+    "url": "https://bit.ly/pink_well_galxe",
+    "twitter_url": "https://twitter.com/MoonwellDeFi",
+    "reward": "1.1M PINK",
+    "total_winner": "N/A",
+    "total_supply": null,
     "tags": [
       "fcfs"
     ],
-    "campaign_url": "https://airlyft.one/bifrost-finance/omni-ls-polkadot-wallets",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/bifrost_polkadot_b85046fb9e.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/bifrost_moonbeam_a82f6c23ef.webp",
+    "campaign_url": "https://moonwell.fi/",
+    "project_id": null,
+    "logo": "/uploads/moonwell_728c173d60.png",
+    "backdrop_image": "/uploads/Moonwell_is_PINK_Galxe_campaign_98368861cd.png",
+    "chains": [
+      "moonbeam"
+    ],
+    "categories": []
+  },
+  {
+    "id": 24,
+    "name": "Join Airlyft is $PINK campaign to share a 430,000 PINK prize pool",
+    "status": "archived",
+    "ordinal": 86,
+    "description": "Get ready for an out-of-this-world opportunity to win big in the PINK campaign. In this collaboration between Moonbeam and Airlyft, we're launching a massive $PINK token pool that could shower you with up to 500,000 PINK tokens!\n\nTo increase your chances of winning, you'll need to perform on-chain transactions every single day. Consistency is key to unlocking the ultimate PINK treasure trove. Mark your calendars and get ready for a daily ritual of transactions that will make your odds of winning soar higher! 🌌\n\nRewards\n1. 10 winners with the best Meme on Twitter will be eligible for a 70,000 PINK pool\n2. 200 winners from random raffle will be eligible for a 430,000 PINK pool\n\nDon't miss this stellar opportunity to join the $PINK token craze 🎀. The countdown has begun. Strap in, crypto explorers, and let the PINK Token commence! 🚀",
+    "start_time": "2024-04-05T12:30:00.000Z",
+    "end_time": "2024-04-18T12:30:00.000Z",
+    "url": "https://bit.ly/pink_airlyft",
+    "twitter_url": "https://twitter.com/airlyftone",
+    "reward": "430,000 PINK",
+    "total_winner": "200",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://airlyft.one/",
+    "project_id": null,
+    "logo": "/uploads/airlyft_f23e57e74e.png",
+    "backdrop_image": "/uploads/Airlyft_is_PINK_campaign_8ca0addbbd.png",
+    "chains": [
+      "moonbeam"
+    ],
+    "categories": []
+  },
+  {
+    "id": 19,
+    "name": "Share 2500 ASTR prize pool + FREE NFT with Airlyft Campaign: zkEVM by Astar ",
+    "status": "archived",
+    "ordinal": 89,
+    "description": "Astar's zkEVM mainnet is LIVE!  Be among the first to explore.\n\nLevel up your Web3 game with Airlyft's zkEVM event!  Complete the challenges and score awesome prizes:\n- Every winner gets a limited-edition Astar NFT\n- 50 lucky explorers will share a 2500 ASTR prize pool!\n\nThink you've got what it takes to build the future of Web3?  Prove it, and the rewards are yours!",
+    "start_time": "2024-03-11T04:30:00.000Z",
+    "end_time": "2024-04-11T04:30:00.000Z",
+    "url": "https://bit.ly/zkevmastar_airlyft",
+    "twitter_url": "https://twitter.com/AstarNetwork",
+    "reward": "2500 ASTR and Astar NFT",
+    "total_winner": "50",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://astar.network/",
+    "project_id": null,
+    "logo": "/uploads/astar_zkevm_e3c6c227da.png",
+    "backdrop_image": "/uploads/Airlyft_zk_EVM_by_Astar_c1b35d5416.png",
+    "chains": [
+      "astarZkEvm"
+    ],
+    "categories": []
+  },
+  {
+    "id": 13,
+    "name": "vDOT is DED",
+    "status": "archived",
+    "ordinal": 90,
+    "description": "Mint vDOT to show how DED it is!\nThe more vDOT the more DED for the incoming airdrop.\n\nSnapshot to be executed soon...",
+    "start_time": "2024-02-27T09:00:00.000Z",
+    "end_time": "2024-03-10T12:00:00.000Z",
+    "url": "https://bit.ly/vdotisded",
+    "twitter_url": null,
+    "reward": "10 BNC",
+    "total_winner": "100",
+    "total_supply": "1,000 BNC",
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://bifrost.app/",
+    "project_id": null,
+    "logo": "/uploads/bifrost_polkadot_b85046fb9e.png",
+    "backdrop_image": "/uploads/vdotisded_e4faf83730.webp",
     "chains": [
       "bifrost_dot"
-    ]
+    ],
+    "categories": []
+  },
+  {
+    "id": 15,
+    "name": "Galxe Campaign: $10,000 USDT + AiPixel Land Reward to 10,000 Participants",
+    "status": "archived",
+    "ordinal": 91,
+    "description": "👀 What’s in it for you?🎁\n\n- 1 Million NUUM Treasury: 1 Million NUUM Treasury: I’ll distribute rewards from our massive treasury to brilliant minds that help me to shape the future. Ask your first question wisely… 😘\n- Land for 10,000 participants: Secure your digital territory as one of the first 10,000 campaigners. 🏞️\n$10,000 USDT Giveaway: 20 lucky participants will win a share of this bounty! 💰\n- Join our quest to shape this universe 🌐. Your ideas can earn you land, NUUM, and USDT!",
+    "start_time": "2024-02-22T23:00:00.000Z",
+    "end_time": "2024-03-07T23:00:00.000Z",
+    "url": "https://galxe.com/bitcountry/campaign/GCym8t4A89",
+    "twitter_url": null,
+    "reward": "500 USDT",
+    "total_winner": "200",
+    "total_supply": "10,000 USDT",
+    "tags": [
+      "lucky_draw",
+      "points"
+    ],
+    "campaign_url": "https://mnet.io/",
+    "project_id": null,
+    "logo": "/uploads/bit_country_continuum_5f92dd7fcc.png",
+    "backdrop_image": "/uploads/mnet_campaign_d269d1136a.png",
+    "chains": [
+      "continuum_network"
+    ],
+    "categories": []
+  },
+  {
+    "id": 16,
+    "name": "Zealy Campaign: $10,000 USDT + AiPixel Land Reward to 10,000 Participants",
+    "status": "archived",
+    "ordinal": 92,
+    "description": "👀 What’s in it for you?🎁\n\n- 1 Million NUUM Treasury: 1 Million NUUM Treasury: I’ll distribute rewards from our massive treasury to brilliant minds that help me to shape the future. Ask your first question wisely… 😘\n- Land for 10,000 participants: Secure your digital territory as one of the first 10,000 campaigners. 🏞️\n$10,000 USDT Giveaway: 20 lucky participants will win a share of this bounty! 💰\n- Join our quest to shape this universe 🌐. Your ideas can earn you land, NUUM, and USDT!",
+    "start_time": "2024-02-22T23:00:00.000Z",
+    "end_time": "2024-03-07T23:00:00.000Z",
+    "url": "https://bit.ly/mnetaipixel",
+    "twitter_url": null,
+    "reward": "500 USDT",
+    "total_winner": "200",
+    "total_supply": "10,000 USDT",
+    "tags": [
+      "lucky_draw",
+      "points"
+    ],
+    "campaign_url": "https://mnet.io/",
+    "project_id": null,
+    "logo": "/uploads/bit_country_continuum_5f92dd7fcc.png",
+    "backdrop_image": "/uploads/mnet_zealy_campaign_1e2101ab35.jpeg",
+    "chains": [
+      "continuum_network"
+    ],
+    "categories": []
   },
   {
     "id": 3,
     "name": "Omni LS - Moonbeam campaign",
     "status": "archived",
-    "ordinal": 4,
+    "ordinal": 93,
     "description": "The Moonbeam x Omni LS dApp Campaign is the first in a series of events that will also involve Polkadot ecosystem Wallets, as well as Polkadot itself.",
     "start_time": "2023-10-13T11:00:00.000Z",
     "end_time": "2023-11-22T00:00:00.000Z",
@@ -86,18 +1496,45 @@
       "fcfs"
     ],
     "campaign_url": "https://airlyft.one/bifrost-finance/omni-ls-moonbeam",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/bifrost_polkadot_b85046fb9e.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/bifrost_moonbeam_a82f6c23ef.webp",
+    "project_id": null,
+    "logo": "/uploads/bifrost_polkadot_b85046fb9e.png",
+    "backdrop_image": "/uploads/bifrost_moonbeam_a82f6c23ef.webp",
     "chains": [
       "bifrost_dot",
       "moonbeam"
-    ]
+    ],
+    "categories": []
+  },
+  {
+    "id": 6,
+    "name": "Road To The Unlock!",
+    "status": "archived",
+    "ordinal": 94,
+    "description": "By following the whole campaign and testing the new Omni LS & partners dapps, you will be able to collect several NFTs along the road. By collecting all NFTs you will be eligible for the final NFT and a 20,000 $BNC tokens airdrop to share!",
+    "start_time": "2023-10-11T11:00:00.000Z",
+    "end_time": "2023-10-24T11:00:00.000Z",
+    "url": "https://airlyft.one/bifrost-finance/road-to-the-unlock",
+    "twitter_url": "https://twitter.com/BifrostFinance",
+    "reward": "5 XP & 13 Fuel",
+    "total_winner": "N/A",
+    "total_supply": "80,000,000 BNC",
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://airlyft.one/bifrost-finance/road-to-the-unlock",
+    "project_id": null,
+    "logo": "/uploads/bifrost_polkadot_b85046fb9e.png",
+    "backdrop_image": "/uploads/bifrost_moonbeam_a82f6c23ef.webp",
+    "chains": [
+      "bifrost_dot"
+    ],
+    "categories": []
   },
   {
     "id": 8,
     "name": "Stake DOT Earn Many",
     "status": "archived",
-    "ordinal": 5,
+    "ordinal": 95,
     "description": "From Oct 24 to Nov 07, take part in the most comprehensive staking campaign ever in the Polkadot ecosystem with Polkadot nomination pools, Acala, Bifrost, and Parallel liquid staking, and Interlay and Moonwell lending is happening at SubWallet Web Dashboard!\n\nUsers who have staked and earned a DOT Power Staker NFT are eligible to participate in this Airlyft campaign and share a reward pool of $1,000.\n\nNote: 100 winners are selected based on a combination of points, content quality, and social media engagement. Each winner will receive 10 USDT on Polkadot Asset Hub.\n\nAdditional information: Users who stake with Acala, Bifrost, and Parallel from Oct 24 to Nov 07 have the chance to share exclusive reward pools, including 80K ACA, 5K BNC, and 1M PARA. More details are available in SubWallet Earning FAQs.",
     "start_time": "2023-10-24T12:00:00.000Z",
     "end_time": "2023-11-08T00:00:00.000Z",
@@ -110,8 +1547,9 @@
       "manual_selection"
     ],
     "campaign_url": "https://web.subwallet.app/home/earning/overview",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/wallet_connect_9ed43a1b95.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/image_2_2e3a8054b5.png",
+    "project_id": null,
+    "logo": "/uploads/wallet_connect_9ed43a1b95.png",
+    "backdrop_image": "/uploads/image_2_2e3a8054b5.png",
     "chains": [
       "polkadot",
       "bifrost_dot",
@@ -119,36 +1557,14 @@
       "parallel",
       "interlay",
       "moonbeam"
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Road To The Unlock",
-    "status": "live",
-    "ordinal": 6,
-    "description": "By following the whole campaign and testing the new Omni LS & partners dapps, you will be able to collect several NFTs along the road. By collecting all NFTs you will be eligible for the final NFT and a 20,000 $BNC tokens airdrop to share",
-    "start_time": "2023-11-11T11:00:00.000Z",
-    "end_time": "2023-12-24T11:00:00.000Z",
-    "url": "https://airlyft.one/bifrost-finance/road-to-the-unlock",
-    "twitter_url": "https://twitter.com/BifrostFinance",
-    "reward": "5 XP & 13 Fuel",
-    "total_winner": "N/A",
-    "total_supply": "80,000,000 BNC",
-    "tags": [
-      "points"
     ],
-    "campaign_url": "https://airlyft.one/bifrost-finance/road-to-the-unlock",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/bifrost_polkadot_b85046fb9e.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/GGJJW_63_Ws_AER_Hdh_fef9a37345.jpeg",
-    "chains": [
-      "bifrost_dot"
-    ]
+    "categories": []
   },
   {
     "id": 7,
     "name": "Zeitgeist x CoinDesk Indices",
     "status": "archived",
-    "ordinal": 6,
+    "ordinal": 96,
     "description": "Zeitgeist is partnering with CoinDesk Indices to create a unique trading experience to give traders an edge in the broader market. By participating in Zeitgeist prediction markets surrounding specific CoinDesk Indices, traders are able to capitalize on their crypto knowledge, while other users can view the prediction market data and gain an informational edge on the direction of crypto prices in general!",
     "start_time": "2023-10-04T14:30:00.000Z",
     "end_time": "2023-11-01T04:00:00.000Z",
@@ -161,17 +1577,19 @@
       "manual_selection"
     ],
     "campaign_url": "https://airlyft.one/zeitgeist/coindesk-index",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/zeitgeist_a72652f11c.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/zeitgeist_6ca1f96bd6.webp",
+    "project_id": null,
+    "logo": "/uploads/zeitgeist_a72652f11c.png",
+    "backdrop_image": "/uploads/zeitgeist_6ca1f96bd6.webp",
     "chains": [
       "zeitgeist"
-    ]
+    ],
+    "categories": []
   },
   {
     "id": 5,
     "name": "Polkadot Unlock Harvest",
     "status": "archived",
-    "ordinal": 7,
+    "ordinal": 97,
     "description": "The goal of the event is to pave the road for the DOT unlock event on October 24th. Introducing users to the dApp and familiarizing you with its mechanics and the assets within, you will be allowed to take advantage of the benefits of Bifrost Liquid Staking. The Moonbeam x Omni LS dApp Campaign is the first in a series of events that will also involve Polkadot ecosystem Wallets, as well as Polkadot itself.",
     "start_time": "2023-10-24T11:00:00.000Z",
     "end_time": "2023-11-22T12:00:00.000Z",
@@ -184,10 +1602,114 @@
       "fcfs"
     ],
     "campaign_url": "https://airlyft.one/bifrost-finance/polkadot-unlock-harvest",
-    "logo": "https://static-data.subwallet.app/airdrop-campaigns/images/logo/bifrost_polkadot_b85046fb9e.png",
-    "backdrop_image": "https://static-data.subwallet.app/airdrop-campaigns/images/backdrop_image/bifrost_moonbeam_a82f6c23ef.webp",
+    "project_id": null,
+    "logo": "/uploads/bifrost_polkadot_b85046fb9e.png",
+    "backdrop_image": "/uploads/bifrost_moonbeam_a82f6c23ef.webp",
     "chains": [
       "bifrost_dot"
-    ]
+    ],
+    "categories": []
+  },
+  {
+    "id": 4,
+    "name": "Omni LS - Ecosystem Wallets campaign",
+    "status": "archived",
+    "ordinal": 98,
+    "description": "One of three events leading up to the Unlock of +100 Million $DOT from the first parachain crowdloans, on Polkadot.",
+    "start_time": "2023-10-19T11:00:00.000Z",
+    "end_time": "2023-11-22T12:00:00.000Z",
+    "url": "https://airlyft.one/bifrost-finance/omni-ls-polkadot-wallets",
+    "twitter_url": "https://twitter.com/BifrostFinance",
+    "reward": "1 LS_WALLETS",
+    "total_winner": "N/A",
+    "total_supply": "80,000,000 BNC",
+    "tags": [
+      "fcfs"
+    ],
+    "campaign_url": "https://airlyft.one/bifrost-finance/omni-ls-polkadot-wallets",
+    "project_id": null,
+    "logo": "/uploads/bifrost_polkadot_b85046fb9e.png",
+    "backdrop_image": "/uploads/bifrost_moonbeam_a82f6c23ef.webp",
+    "chains": [
+      "bifrost_dot"
+    ],
+    "categories": []
+  },
+  {
+    "id": 10,
+    "name": "$DED is LIVE",
+    "status": "archived",
+    "ordinal": 99,
+    "description": "Hop in to explore DOT Is $DED Zealy community, and pledge yourself to $DED!\n\nOver 4000 DOT in rewards across 3 stages!\n\nPhase $DED is LIVE - Reward Pool: 1.400 DOT\n\n📅 Duration: 02/12 - 02/26 (3pm CET)\n",
+    "start_time": "2024-02-11T17:00:00.000Z",
+    "end_time": "2024-02-26T14:00:00.000Z",
+    "url": "https://bit.ly/zealyded",
+    "twitter_url": "https://twitter.com/dotisded",
+    "reward": "1,400 DOT",
+    "total_winner": null,
+    "total_supply": null,
+    "tags": [
+      "points"
+    ],
+    "campaign_url": "https://www.dotisded.io/",
+    "project_id": null,
+    "logo": "/uploads/ded_277c75073c.png",
+    "backdrop_image": "/uploads/GGJJW_63_Ws_AER_Hdh_fef9a37345.jpeg",
+    "chains": [
+      "polkadot"
+    ],
+    "categories": []
+  },
+  {
+    "id": 11,
+    "name": "PLOT the vDOT with Zeitgeist",
+    "status": "archived",
+    "ordinal": 99,
+    "description": "Mint vDOT and predict Markets on Zeitgeist!\n20 random winners will share 500 BNC and 2000 $ZTG.",
+    "start_time": "2024-01-31T17:00:00.000Z",
+    "end_time": "2024-03-01T11:00:00.000Z",
+    "url": "https://bit.ly/airlyft_bifrost_zei",
+    "twitter_url": "https://twitter.com/BifrostFinance",
+    "reward": "500 BNC and 2000 ZTG",
+    "total_winner": "20",
+    "total_supply": null,
+    "tags": [
+      "lucky_draw"
+    ],
+    "campaign_url": "https://bifrost.app/",
+    "project_id": null,
+    "logo": "/uploads/bifrost_polkadot_b85046fb9e.png",
+    "backdrop_image": "/uploads/GFL_7p1d_WUA_Eschq_f6004397f2.jpeg",
+    "chains": [
+      "bifrost_dot",
+      "zeitgeist"
+    ],
+    "categories": []
+  },
+  {
+    "id": 18,
+    "name": "80,000 SUB up for grabs: Join Grill x SubWallet content contest now!",
+    "status": "archived",
+    "ordinal": 100,
+    "description": "Hey fam!\n\nParticipate in Grill’s Grand Content Contest in collaboration with SubWallet and share a 80,000 SUB tokens prize pool!\n\nDuration: March 11-17\n\n",
+    "start_time": "2024-03-11T16:45:00.000Z",
+    "end_time": "2024-03-17T16:45:00.000Z",
+    "url": "https://grillapp.net/6479/80-000-sub-up-for-grabs-join-grill-x-sub-wallet-content-91982?ref=6479",
+    "twitter_url": "https://twitter.com/subwalletapp",
+    "reward": "80,000 SUB",
+    "total_winner": "35",
+    "total_supply": null,
+    "tags": [
+      "manual_selection",
+      "lucky_draw"
+    ],
+    "campaign_url": "https://grillapp.net/6479?ref=6479",
+    "project_id": null,
+    "logo": "/uploads/Logo_Gradient_Background_Black_cbf44085a7.png",
+    "backdrop_image": "/uploads/Revised_641a84b12b.png",
+    "chains": [
+      "subsocial_x"
+    ],
+    "categories": []
   }
 ]
