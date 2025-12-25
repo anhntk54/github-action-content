@@ -21,6 +21,20 @@
     "ordinal": 2
   },
   {
+    "slug": "Test test ",
+    "name": "test test",
+    "color": "error",
+    "description": "Error meassage",
+    "ordinal": 2
+  },
+  {
+    "slug": "Test test test",
+    "name": "test test",
+    "color": "error",
+    "description": "Error meassage",
+    "ordinal": 2
+  },
+  {
     "slug": "bridge",
     "name": "Bridge",
     "color": "warning",
