@@ -1,46 +1,1211 @@
 [
   {
-    "id": 1,
-    "position": "dapp",
+    "id": 55,
+    "position": "token_detail",
     "priority": 1,
-    "media": "https://static-data.subwallet.app/app-banners/images/media/GGJJW_63_Ws_AER_Hdh_fef9a37345.jpeg",
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/358_x_88_0ed0cd9efb.png",
     "info": {
-      "id": 1,
-      "name": "Test app-banner",
+      "id": 108,
+      "name": "Testing VARA Campaign - Mobile",
       "description": null,
-      "start_time": "2024-03-03T17:00:00.000Z",
-      "stop_time": "2024-03-08T17:00:00.000Z",
+      "start_time": "2024-07-11T13:00:00.000Z",
+      "stop_time": "2024-07-24T13:00:00.000Z",
       "platforms": [
         "mobile"
-      ]
+      ],
+      "os": null,
+      "is_changelog_popup": null
     },
     "action": {
-      "id": 1,
-      "url": "Helo",
-      "screen": "Home",
+      "id": 94,
+      "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+      "screen": null,
       "params": null,
-      "is_cancel": false
+      "is_cancel": null
     },
     "position_params": [
       {
-        "property": "property",
-        "value": "value"
+        "property": "tokenSlug",
+        "value": "vara_network-NATIVE-VARA"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "vara_network-NATIVE-VARA"
+        }
+      ]
+    },
+    "instruction": {
+      "id": 68,
+      "confirm_label": "Play",
+      "cancel_label": "Cancel",
+      "instruction_id": 40,
+      "group": null,
+      "slug": "Vara_Campaign_Mobile"
+    }
+  },
+  {
+    "id": 56,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/358_x_88_0ed0cd9efb.png",
+    "info": {
+      "id": 111,
+      "name": "VARA Campaign ",
+      "description": null,
+      "start_time": "2024-07-10T17:00:00.000Z",
+      "stop_time": "2024-07-23T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 98,
+      "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "vara_network-NATIVE-VARA"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "vara_network-NATIVE-VARA"
+        }
+      ]
+    },
+    "instruction": {
+      "id": 72,
+      "confirm_label": "Play",
+      "cancel_label": "Cancel",
+      "instruction_id": 39,
+      "group": null,
+      "slug": "Vara_Campaign"
+    }
+  },
+  {
+    "id": 63,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/Banne2_0a46b9143b.png",
+    "info": {
+      "id": 118,
+      "name": "Mobile - Avail Staking Campaign",
+      "description": null,
+      "start_time": "2024-07-22T17:00:00.000Z",
+      "stop_time": "2024-08-14T17:00:00.000Z",
+      "platforms": [
+        "extension",
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 105,
+      "url": "subwallet://home/main/earning/earning-pool-list?group=avail_mainnet-NATIVE-AVAIL&symbol=AVAIL",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "avail_mainnet-NATIVE-AVAIL"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "avail_mainnet-NATIVE-AVAIL"
+        }
+      ]
+    },
+    "instruction": null
+  },
+  {
+    "id": 66,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": null,
+    "info": {
+      "id": 124,
+      "name": "VARA Campaign 2 - Extension",
+      "description": null,
+      "start_time": "2024-07-30T05:00:00.000Z",
+      "stop_time": "2024-08-04T22:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 112,
+      "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "vara_network-NATIVE-VARA"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "vara_network-NATIVE-VARA"
+        }
+      ]
+    },
+    "instruction": {
+      "id": 83,
+      "confirm_label": "Play",
+      "cancel_label": "Cancel",
+      "instruction_id": 42,
+      "group": null,
+      "slug": "Vara_Campaign Extension 2"
+    }
+  },
+  {
+    "id": 98,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": "OR",
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/1_click_Cross_chain_swap_between_Polkadot_and_Ethereum_ecosystem_1432x272_2be38a1360.png",
+    "info": {
+      "id": 169,
+      "name": "Extension - token detail",
+      "description": "Cross-chain swap banner at tokens home screen",
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 147,
+      "url": "index.html#/transaction/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "DOT-Polkadot"
       },
       {
-        "property": "property",
-        "value": "value1"
+        "property": "tokenSlug",
+        "value": "USDT-Tether"
       },
       {
-        "property": null,
+        "property": "tokenSlug",
+        "value": "USDC-USDCoin"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ETH-Ethereum"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": null
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-NATIVE-ETH"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "arbitrum_one-NATIVE-ETH"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+        }
+      ]
+    },
+    "instruction": null
+  },
+  {
+    "id": 100,
+    "position": "token",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/2420_88_8ebde70924.png",
+    "info": {
+      "id": 171,
+      "name": "WebApp Token Home",
+      "description": "WebApp",
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "web"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 158,
+      "url": "https://web.subwallet.app/transaction/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 102,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": "OR",
+    "app_version_range": ">=1.1.36",
+    "os_version_range": null,
+    "media": "/uploads/1_click_Cross_chain_swap_between_Polkadot_and_Ethereum_ecosystem_1432x272_2be38a1360.png",
+    "info": {
+      "id": 173,
+      "name": "Mobile token detail",
+      "description": "Cross-chain swap banner at tokens home screen",
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 150,
+      "url": "subwallet://drawer/transaction-action/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "DOT-Polkadot"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "USDT-Tether"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "USDC-USDCoin"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ETH-Ethereum"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": null
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-NATIVE-ETH"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "arbitrum_one-NATIVE-ETH"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+        }
+      ]
+    },
+    "instruction": null
+  },
+  {
+    "id": 103,
+    "position": "token_detail",
+    "priority": 2,
+    "locations": null,
+    "comparison_operator": "OR",
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/1_click_cross_chain_swap_across_Ethereum_networks_1432x272_51e8693e1d.png",
+    "info": {
+      "id": 174,
+      "name": "Extension token detail ETH",
+      "description": "Cross-chain swap banner at tokens home screen",
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 151,
+      "url": "index.html#/transaction/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "USDT-Tether"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "USDC-USDCoin"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ETH-Ethereum"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-NATIVE-ETH"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "arbitrum_one-NATIVE-ETH"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+        }
+      ]
+    },
+    "instruction": null
+  },
+  {
+    "id": 104,
+    "position": "token",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.1.20",
+    "os_version_range": null,
+    "media": "/uploads/1_click_Cross_chain_swap_between_Polkadot_and_Ethereum_ecosystem_1432x272_2be38a1360.png",
+    "info": {
+      "id": 175,
+      "name": "Mobile - Token",
+      "description": null,
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 152,
+      "url": "subwallet://drawer/transaction-action/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 105,
+    "position": "token_detail",
+    "priority": 2,
+    "locations": null,
+    "comparison_operator": "OR",
+    "app_version_range": ">=1.1.36",
+    "os_version_range": ">13",
+    "media": "/uploads/1_click_cross_chain_swap_across_Ethereum_networks_1432x272_51e8693e1d.png",
+    "info": {
+      "id": 178,
+      "name": "Mobile Token detail 2",
+      "description": "Cross-chain swap banner at tokens home screen",
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 155,
+      "url": "subwallet://drawer/transaction-action/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "USDT-Tether"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "USDC-USDCoin"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ETH-Ethereum"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-USDT-0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-USDC-0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "arbitrum_one-ERC20-USDC-0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-NATIVE-ETH"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "arbitrum_one-NATIVE-ETH"
+        },
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+        }
+      ]
+    },
+    "instruction": null
+  },
+  {
+    "id": 107,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/2420_88_8ebde70924.png",
+    "info": {
+      "id": 180,
+      "name": "Webapp Token detail",
+      "description": "Cross-chain swap banner at tokens home screen",
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "web"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 156,
+      "url": "https://web.subwallet.app/transaction/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "DOT-Polkadot"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "USDT-Tether"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "USDC-USDCoin"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ETH-Ethereum"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+      }
+    ],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 108,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/1_click_cross_chain_swap_across_Ethereum_networks_1600x88_10b653f601.png",
+    "info": {
+      "id": 181,
+      "name": "Webapp Token detail ETH",
+      "description": "Cross-chain swap banner at tokens home screen",
+      "start_time": "2024-10-24T17:00:00.000Z",
+      "stop_time": "2024-11-09T17:00:00.000Z",
+      "platforms": [
+        "web"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 157,
+      "url": "https://web.subwallet.app/transaction/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "USDT-Tether"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "USDC-USDCoin"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ETH-Ethereum"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ethereum-ERC20-FLIP-0x826180541412D574cf1336d22c0C0a287822678A"
+      }
+    ],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 109,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/MYTH_staking_at_tokens_home_screen_9416590604.png",
+    "info": {
+      "id": 185,
+      "name": "Extension - Stake MYTH Today",
+      "description": null,
+      "start_time": "2025-03-13T17:00:00.000Z",
+      "stop_time": "2025-03-29T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 160,
+      "url": "index.html#/home/earning",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "mythos-NATIVE-MYTH"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003"
+      }
+    ],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 110,
+    "position": "token",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/MYTH_staking_at_tokens_home_screen_9416590604.png",
+    "info": {
+      "id": 186,
+      "name": "Extension - Home - Stake MYTH Today",
+      "description": null,
+      "start_time": "2025-03-13T17:00:00.000Z",
+      "stop_time": "2025-03-29T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 161,
+      "url": "index.html#/home/earning",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 111,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.2.7",
+    "os_version_range": null,
+    "media": "/uploads/MYTH_staking_at_tokens_home_screen_Android_2ea5b202fb.png",
+    "info": {
+      "id": 188,
+      "name": "Mobile - Stake MYTH Today",
+      "description": null,
+      "start_time": "2025-03-19T17:00:00.000Z",
+      "stop_time": "2025-04-02T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 163,
+      "url": "subwallet://home/main/earning/earning-pool-list?group=MYTH-Mythos&symbol=MYTH",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "mythos-NATIVE-MYTH"
+      },
+      {
+        "property": "tokenSlug",
+        "value": "ethereum-ERC20-MYTH-0xBA41Ddf06B7fFD89D1267b5A93BFeF2424eb2003"
+      }
+    ],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 112,
+    "position": "token",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.2.7",
+    "os_version_range": null,
+    "media": "/uploads/MYTH_staking_at_tokens_home_screen_Android_2ea5b202fb.png",
+    "info": {
+      "id": 189,
+      "name": "Mobile - Home - Stake MYTH Today",
+      "description": null,
+      "start_time": "2025-03-19T17:00:00.000Z",
+      "stop_time": "2025-04-02T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 164,
+      "url": "subwallet://home/main/earning/earning-pool-list?group=MYTH-Mythos&symbol=MYTH",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 114,
+    "position": "token",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.3.41",
+    "os_version_range": null,
+    "media": "/uploads/Across_Bridge_ef599a7626.png",
+    "info": {
+      "id": 192,
+      "name": "Extension - Home -Across Bridge",
+      "description": null,
+      "start_time": "2025-06-18T17:00:00.000Z",
+      "stop_time": "2025-06-25T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 167,
+      "url": "index.html#/transaction/send-fund",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 117,
+    "position": "token",
+    "priority": 2,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.3.41",
+    "os_version_range": null,
+    "media": "/uploads/Uniswap_2edd0e8e76.png",
+    "info": {
+      "id": 198,
+      "name": "Extension - Home - Uniswap",
+      "description": null,
+      "start_time": "2025-06-18T17:00:00.000Z",
+      "stop_time": "2025-06-25T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 172,
+      "url": "index.html#/transaction/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 118,
+    "position": "token",
+    "priority": 3,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.3.41",
+    "os_version_range": null,
+    "media": "/uploads/Kyber_d26e571f1c.png",
+    "info": {
+      "id": 199,
+      "name": "Extension - Home - Kyber Swap",
+      "description": null,
+      "start_time": "2025-06-18T17:00:00.000Z",
+      "stop_time": "2025-06-25T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 173,
+      "url": "index.html#/transaction/swap",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 121,
+    "position": "token",
+    "priority": 3,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/Kyber_d26e571f1c.png",
+    "info": {
+      "id": 202,
+      "name": "Extension - Home - Kyber Swap",
+      "description": null,
+      "start_time": "2025-06-18T17:00:00.000Z",
+      "stop_time": "2025-09-30T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 176,
+      "url": "subwallet://drawer/transaction-action/send-funds",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 122,
+    "position": "token",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/In_App_Banner_Asset_Hub_Migration_extension_1_7bdca0e351.png",
+    "info": {
+      "id": 205,
+      "name": "Extension - Asset Hub Migration",
+      "description": null,
+      "start_time": "2025-10-06T17:00:00.000Z",
+      "stop_time": "2025-11-03T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 179,
+      "url": "https://support.polkadot.network/support/solutions/articles/65000190561",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "statemine-NATIVE-KSM"
+      }
+    ],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 123,
+    "position": "token",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/In_App_Banner_Asset_Hub_Migration_extension_2_165c155f92.png",
+    "info": {
+      "id": 206,
+      "name": "Mobile - Asset Hub Migration",
+      "description": null,
+      "start_time": "2025-10-06T17:00:00.000Z",
+      "stop_time": "2025-11-03T17:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 180,
+      "url": "https://support.polkadot.network/support/solutions/articles/65000190561",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "statemine-NATIVE-KSM"
+      }
+    ],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 124,
+    "position": "token",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": ">=1.3.41",
+    "os_version_range": null,
+    "media": "/uploads/In_App_Banner_Asset_Hub_Migration_webapp_dd453c8402.png",
+    "info": {
+      "id": 207,
+      "name": "WebApp - Asset Hub Migration",
+      "description": "WebApp",
+      "start_time": "2025-10-06T17:00:00.000Z",
+      "stop_time": "2025-11-03T17:00:00.000Z",
+      "platforms": [
+        "web"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 181,
+      "url": "https://support.polkadot.network/support/solutions/articles/65000190561",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [],
+    "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 127,
+    "position": "token_detail",
+    "priority": null,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": " aleph-NATIVE-AZERO",
+    "os_version_range": null,
+    "media": "/uploads/polimec_308c6e9fbc_7889426102.png",
+    "info": {
+      "id": 213,
+      "name": "Test banner ",
+      "description": "Get Common Drop airdrop! ",
+      "start_time": "2025-12-24T04:00:00.000Z",
+      "stop_time": "2025-12-24T09:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": "Android",
+      "is_changelog_popup": true
+    },
+    "action": null,
+    "position_params": [
+      {
+        "property": "tokenslug",
         "value": null
       }
     ],
     "conditions": {},
+    "instruction": null
+  },
+  {
+    "id": 132,
+    "position": "token_detail",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/358_x_88_0ed0cd9efb.png",
+    "info": {
+      "id": 220,
+      "name": "Testing VARA Campaign - Mobile",
+      "description": null,
+      "start_time": "2024-07-11T13:00:00.000Z",
+      "stop_time": "2024-07-24T13:00:00.000Z",
+      "platforms": [
+        "mobile"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": {
+      "id": 191,
+      "url": "https://t.me/Playnation_bot/app?startapp=Z4QZc2zjw",
+      "screen": null,
+      "params": null,
+      "is_cancel": null
+    },
+    "position_params": [
+      {
+        "property": "tokenSlug",
+        "value": "vara_network-NATIVE-VARA"
+      }
+    ],
+    "conditions": {
+      "condition-balance": [
+        {
+          "comparison": "gt",
+          "value": 0,
+          "chain_asset": "vara_network-NATIVE-VARA"
+        }
+      ]
+    },
     "instruction": {
-      "id": 1,
-      "confirm_label": "Start",
-      "cancel_label": "Delete",
-      "instruction": null
+      "id": 109,
+      "confirm_label": "Play",
+      "cancel_label": "Cancel",
+      "instruction_id": 40,
+      "group": null,
+      "slug": "Vara_Campaign_Mobile"
     }
+  },
+  {
+    "id": 134,
+    "position": "crowdloan",
+    "priority": 1,
+    "locations": null,
+    "comparison_operator": null,
+    "app_version_range": null,
+    "os_version_range": null,
+    "media": "/uploads/1432x272_1_b87940846b.png",
+    "info": {
+      "id": 222,
+      "name": "Test banner4",
+      "description": null,
+      "start_time": "2024-09-22T17:00:00.000Z",
+      "stop_time": "2024-09-27T17:00:00.000Z",
+      "platforms": [
+        "extension"
+      ],
+      "os": null,
+      "is_changelog_popup": null
+    },
+    "action": null,
+    "position_params": [],
+    "conditions": {
+      "condition-crowdloan": [
+        {
+          "chain": "invarch"
+        }
+      ]
+    },
+    "instruction": null
   }
 ]

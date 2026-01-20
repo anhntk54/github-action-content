@@ -61,5 +61,23 @@
     "termUrl": "https://coinbase.com/legal/user_agreement/united_states",
     "policyUrl": "https://coinbase.com/legal/privacy",
     "url": "https://coinbase.com"
+  },
+  {
+    "id": 9,
+    "slug": "Test test",
+    "name": "Test ",
+    "contactUrl": "https://help.coinbase.com/en/contact-us",
+    "termUrl": "https://coinbase.com/legal/user_agreement/united_states",
+    "policyUrl": "https://coinbase.com/legal/privacy",
+    "url": "https://coinbase.com"
+  },
+  {
+    "id": 10,
+    "slug": "Test 1",
+    "name": "Test ",
+    "contactUrl": "https://help.coinbase.com/en/contact-us",
+    "termUrl": "https://coinbase.com/legal/user_agreement/united_states",
+    "policyUrl": "https://coinbase.com/legal/privacy",
+    "url": "https://coinbase.com"
   }
 ]

@@ -8220,55 +8220,6 @@
     "chain": "shiden"
   },
   {
-    "paraId": 3341,
-    "fundId": "3341-74",
-    "status": "failed",
-    "metadata": {
-      "cap": "3000000000000000",
-      "owner": "16iP1dKTnkny2uzSvqVBwzFCxgEShZHAarnpcXj99H3gsW65",
-      "bid_id": "",
-      "raised": "90793000000000",
-      "status": 4,
-      "balance": "0",
-      "fund_id": "3341-74",
-      "para_id": 3341,
-      "end_block": 19059600,
-      "in_auctions": null,
-      "last_period": 29,
-      "start_block": 17848325,
-      "contributors": 120,
-      "first_period": 22,
-      "auction_index": 0,
-      "owner_display": {
-        "people": {
-          "display": "logion network",
-          "identity": true,
-          "judgements": [
-            {
-              "index": 0,
-              "judgement": "Reasonable"
-            }
-          ]
-        },
-        "address": "16iP1dKTnkny2uzSvqVBwzFCxgEShZHAarnpcXj99H3gsW65"
-      },
-      "start_block_at": 1698067830,
-      "end_lease_block": 28736400,
-      "extrinsic_index": "17848325-2",
-      "last_change_block": 19063028,
-      "fund_auction_status": 3,
-      "last_change_event_idx": 54,
-      "last_change_timestamp": 1705385886
-    },
-    "relayChain": "polkadot",
-    "auctionIndex": 0,
-    "firstPeriod": 22,
-    "lastPeriod": 29,
-    "startTime": "2025-08-26T01:48:00.000Z",
-    "endTime": "2027-06-29T01:48:00.000Z",
-    "chain": null
-  },
-  {
     "paraId": 3354,
     "fundId": "3354-77",
     "status": "won",
@@ -9097,6 +9048,19 @@
     "lastPeriod": 24,
     "startTime": "2024-07-02T01:48:00.000Z",
     "endTime": "2026-05-05T01:48:00.000Z",
+    "chain": null
+  },
+  {
+    "paraId": null,
+    "fundId": "TTTTTTTTTT",
+    "status": "won",
+    "metadata": null,
+    "relayChain": "kusama",
+    "auctionIndex": null,
+    "firstPeriod": null,
+    "lastPeriod": null,
+    "startTime": null,
+    "endTime": null,
     "chain": null
   }
 ]

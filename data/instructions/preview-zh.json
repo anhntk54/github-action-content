@@ -5,6 +5,7 @@
     "slug": "DAPP_STAKING",
     "locale": "zh",
     "title": null,
+    "faq_url": null,
     "instructions": [
       {
         "id": 151,
@@ -41,7 +42,8 @@
         "title": "Track your stake",
         "description": "Keep an eye on your stake periodically, as rewards and staking status can fluctuate over time"
       }
-    ]
+    ],
+    "media": null
   },
   {
     "id": 25,
@@ -49,6 +51,7 @@
     "slug": "LENDING",
     "locale": "zh",
     "title": null,
+    "faq_url": null,
     "instructions": [
       {
         "id": 119,
@@ -85,7 +88,8 @@
         "title": "Track your APY",
         "description": "Keep an eye on your supply as APY can fluctuate over time. APY fluctuation is determined by the protocol beyond SubWallet’s control"
       }
-    ]
+    ],
+    "media": null
   },
   {
     "id": 21,
@@ -93,6 +97,7 @@
     "slug": "LIQUID_STAKING",
     "locale": "zh",
     "title": null,
+    "faq_url": null,
     "instructions": [
       {
         "id": 99,
@@ -129,7 +134,8 @@
         "title": "Track your APY",
         "description": "Keep an eye on your stake as APY can fluctuate over time. APY fluctuation is determined by the protocol beyond SubWallet’s control"
       }
-    ]
+    ],
+    "media": null
   },
   {
     "id": 17,
@@ -137,6 +143,7 @@
     "slug": "NATIVE_STAKING",
     "locale": "zh",
     "title": null,
+    "faq_url": null,
     "instructions": [
       {
         "id": 79,
@@ -173,7 +180,8 @@
         "title": "Manage your stake",
         "description": "You need to monitor your stake constantly and change {validatorType} when needed as staking status can fluctuate over time"
       }
-    ]
+    ],
+    "media": null
   },
   {
     "id": 13,
@@ -181,6 +189,7 @@
     "slug": "NOMINATION_POOL",
     "locale": "zh",
     "title": null,
+    "faq_url": null,
     "instructions": [
       {
         "id": 59,
@@ -217,7 +226,8 @@
         "title": "Track your stake",
         "description": "Keep an eye on your stake periodically, as rewards and staking status can fluctuate over time"
       }
-    ]
+    ],
+    "media": null
   },
   {
     "id": 29,
@@ -225,6 +235,7 @@
     "slug": "UNSTAKE_INFO",
     "locale": "zh",
     "title": null,
+    "faq_url": null,
     "instructions": [
       {
         "id": 137,
@@ -247,6 +258,7 @@
         "title": "Manual withdrawal",
         "description": "Keep in mind that you need to withdraw manually after the wait time is over"
       }
-    ]
+    ],
+    "media": null
   }
 ]
